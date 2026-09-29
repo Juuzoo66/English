@@ -260,7 +260,26 @@
   }
   LE.itemCard = itemCard;
 
+  V.memo = async function (root) {
+    root.innerHTML = '<div class="loading">Chargement des fiches…</div>';
+    const list = cat().grammar.concat(cat().pron);
+    const lessons = await LE.loadMany(list.map((e) => e.id));
+    root.innerHTML = `
+      <div class="breadcrumb"><a href="#/cours">Cours</a> › Fiches « À retenir »</div>
+      <h1>📌 Fiches « À retenir »</h1>
+      <p>L’essentiel de chaque leçon sur une seule page : idéal pour réviser en 20 minutes avant un TOEIC blanc ou le jour J. Clique sur un titre pour revoir la leçon complète.</p>
+      <div class="btn-row" style="margin-top:0;margin-bottom:16px"><button class="btn secondary small" type="button" onclick="window.print()">🖨️ Imprimer</button></div>
+      ${lessons.map((L, k) => {
+        if (!L) return '';
+        const keys = L.blocks.filter((b) => b.type === 'box' && b.style === 'key');
+        if (!keys.length) return '';
+        return `<div class="card"><div class="row between"><h3 class="mt0" style="margin:0"><a href="#/lecon/${L.id}">${esc(L.title)}</a></h3><span class="badge ${L.level}">${L.level}</span></div>
+          <div class="mt">${keys.map((b) => `<div class="box-body">${rich(b.html)}</div>`).join('<hr>')}</div></div>`;
+      }).join('')}`;
+  };
+
   V.cours = function (root, tab) {
+    if (tab === 'fiches') return V.memo(root);
     tab = tab || 'grammaire';
     const S = LE.state;
     const g = cat().grammar;
@@ -290,6 +309,7 @@
         <a href="#/cours/grammaire" class="${tab === 'grammaire' ? 'active' : ''}">Grammaire (${done(g)}/${g.length})</a>
         <a href="#/cours/prononciation" class="${tab === 'prononciation' ? 'active' : ''}">Prononciation (${done(cat().pron)}/${cat().pron.length})</a>
         <a href="#/cours/outils" class="${tab === 'outils' ? 'active' : ''}">Guides et verbes irréguliers</a>
+        <a href="#/cours/fiches">📌 Fiches « À retenir »</a>
       </div>
       ${body}`;
   };

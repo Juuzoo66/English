@@ -14,7 +14,7 @@ const shots = process.argv.includes('--shots');
 const cat = loadCatalog();
 const exists = (f) => fs.existsSync(path.join(ROOT, f));
 
-const routes = ['#/', '#/plan', '#/cours', '#/cours/prononciation', '#/cours/outils', '#/vocab', '#/toeic', '#/progres', '#/revisions'];
+const routes = ['#/', '#/plan', '#/cours', '#/cours/fiches', '#/cours/prononciation', '#/cours/outils', '#/vocab', '#/toeic', '#/progres', '#/revisions'];
 for (const e of [...cat.guide, ...cat.grammar, ...cat.pron]) if (exists(e.file)) { routes.push(`#/lecon/${e.id}`); routes.push(`#/lecon/${e.id}/exercices`); }
 for (const e of cat.vocab) if (exists(e.file)) { routes.push(`#/vocab/${e.id}`); routes.push(`#/vocab/${e.id}/cartes`); routes.push(`#/vocab/${e.id}/quiz/en-fr`); routes.push(`#/vocab/${e.id}/quiz/ecrire`); }
 if (exists('data/ref/r01.js')) routes.push('#/verbes/1', '#/verbes/all', '#/verbes/1/quiz', '#/verbes/1/cartes');
