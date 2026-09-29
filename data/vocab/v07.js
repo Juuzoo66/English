@@ -1,0 +1,70 @@
+LE.register({
+  id: 'v07',
+  kind: 'vocab',
+  title: 'Le corps et la santé',
+  subtitle: 'Parler de son corps, de ses symptômes et des arrêts maladie',
+  level: 'A2',
+  intro: 'Au travail aussi, on tombe malade : prévenir qu’on ne viendra pas, prendre rendez-vous chez le médecin, parler de sa mutuelle… Au TOEIC, ces mots apparaissent dans les messages téléphoniques (Partie 4), les e-mails des ressources humaines (Partie 7) et les consignes de sécurité.',
+  groups: [
+    { title: 'Les parties du corps', words: [
+      { en: 'head', fr: 'tête', pos: 'n', ex: 'Wear a hard hat to protect your head on the construction site.', exfr: 'Porte un casque pour protéger ta tête sur le chantier.', note: 'au travail : <i>the head of sales</i> = le ou la responsable des ventes' },
+      { en: 'eye', fr: 'œil', pos: 'n', ex: 'Looking at a screen all day is bad for your eyes.', exfr: 'Regarder un écran toute la journée, c’est mauvais pour les yeux.', note: 'se prononce comme la lettre <b>I</b> (« aï »). Pluriel régulier : <i>eyes</i>' },
+      { en: 'ear', fr: 'oreille', pos: 'n', ex: 'Workers must protect their ears from the noise.', exfr: 'Les ouvriers doivent protéger leurs oreilles du bruit.', note: 'ne confonds pas <i>ear</i> avec <i>year</i> (année) ni avec <i>hair</i> (cheveux)' },
+      { en: 'tooth', fr: 'dent', pos: 'n', ex: 'I broke a tooth, so I need to see a dentist.', exfr: 'Je me suis cassé une dent, je dois voir un dentiste.', note: 'pluriel irrégulier : <b>teeth</b> (<i>brush your teeth</i> = se brosser les dents)' },
+      { en: 'throat', fr: 'gorge', pos: 'n', ex: 'After the long presentation, her throat was dry.', exfr: 'Après la longue présentation, elle avait la gorge sèche.', note: 'le <b>th</b> se prononce comme dans <i>think</i>' },
+      { en: 'back', fr: 'dos', pos: 'n', ex: 'Sitting all day can cause back pain.', exfr: 'Rester assis toute la journée peut provoquer des douleurs au dos.', note: '<i>back pain</i> ou <i>backache</i> = le mal de dos' },
+      { en: 'arm', fr: 'bras', pos: 'n', ex: "He broke his arm and can't type this week.", exfr: 'Il s’est cassé le bras et ne peut pas taper à l’ordinateur cette semaine.' },
+      { en: 'hand', fr: 'main', pos: 'n', ex: 'Please wash your hands before you enter the kitchen.', exfr: 'Merci de vous laver les mains avant d’entrer dans la cuisine.', note: '<i>on the other hand</i> = d’un autre côté, en revanche (très fréquent au TOEIC)' },
+      { en: 'leg', fr: 'jambe', pos: 'n', ex: 'After the long flight, my legs were tired.', exfr: 'Après ce long vol, j’avais les jambes fatiguées.' },
+      { en: 'foot', fr: 'pied', pos: 'n', ex: "I hurt my foot, so I'm taking a taxi to work.", exfr: 'Je me suis fait mal au pied, alors je prends un taxi pour aller au travail.', note: 'pluriel irrégulier : <b>feet</b>. Aussi une unité de longueur : 1 foot ≈ 30 cm' },
+      { en: 'stomach', fr: 'ventre ; estomac', pos: 'n', ex: "Don't take this medicine on an empty stomach.", exfr: 'Ne prends pas ce médicament à jeun.', note: 'se prononce « STEU-meuk » (<b>ch</b> = k)' }
+    ] },
+    { title: 'Symptômes et maladies', words: [
+      { en: 'feel', fr: 'se sentir', pos: 'v', ex: 'How do you feel today? — Much better, thanks.', exfr: 'Comment te sens-tu aujourd’hui ? — Beaucoup mieux, merci.', note: "irrégulier : feel – felt – felt. <i>I don't feel well.</i> = Je ne me sens pas bien." },
+      { en: 'sick', fr: 'malade', pos: 'adj', ex: "Kenji is sick today, so he isn't coming to the meeting.", exfr: 'Kenji est malade aujourd’hui, il ne vient pas à la réunion.', note: 'synonyme : <b>ill</b> (plus formel, surtout après le verbe : <i>She is ill.</i>). En anglais britannique, <i>be sick</i> peut aussi vouloir dire « vomir »' },
+      { en: 'tired', fr: 'fatigué, fatiguée', pos: 'adj', ex: "I'm tired because I worked late last night.", exfr: 'Je suis fatiguée parce que j’ai travaillé tard hier soir.' },
+      { en: 'headache', fr: 'mal de tête', pos: 'n', ex: "I have a headache, so I'm going home early.", exfr: 'J’ai mal à la tête, alors je rentre plus tôt.', note: 'avec l’article : <b>a</b> headache ! Se prononce « HÈD-èïk » (<b>ch</b> = k)' },
+      { en: 'stomachache', fr: 'mal de ventre', pos: 'n', ex: 'I ate too fast, and now I have a stomachache.', exfr: 'J’ai mangé trop vite et maintenant j’ai mal au ventre.', note: 'aussi écrit <i>stomach ache</i>. Même modèle : <i>toothache</i> (mal de dents), <i>backache</i>, <i>earache</i>' },
+      { en: 'fever', fr: 'fièvre', pos: 'n', ex: 'Stay home if you have a fever.', exfr: 'Reste chez toi si tu as de la fièvre.', note: 'avec l’article : <i>have <b>a</b> fever</i>. En anglais britannique, on dit souvent <i>have a temperature</i>' },
+      { en: 'cold', fr: 'rhume', pos: 'n', ex: "I have a cold, so I'll work from home today.", exfr: 'J’ai un rhume, donc je vais télétravailler aujourd’hui.', note: '<i>catch a cold</i> = attraper un rhume. Adjectif : <i>cold</i> = froid' },
+      { en: 'flu', fr: 'grippe', pos: 'n', ex: 'Half the team is out with the flu this week.', exfr: 'La moitié de l’équipe est absente à cause de la grippe cette semaine.', note: 'souvent avec <b>the</b> : <i>have the flu</i>. <i>flu shot</i> (US) = vaccin contre la grippe' },
+      { en: 'cough', fr: 'toux ; tousser', pos: 'n', ex: 'Take this syrup for your cough.', exfr: 'Prends ce sirop pour ta toux.', note: 'se prononce « kof » (<b>gh</b> = f). Aussi un verbe : <i>cough</i> = tousser' },
+      { en: 'sore throat', fr: 'mal de gorge', pos: 'n', ex: "I have a sore throat and can't talk much today.", exfr: 'J’ai mal à la gorge et je ne peux pas beaucoup parler aujourd’hui.', note: '<i>sore</i> = douloureux : <i>sore eyes</i>, <i>sore muscles</i>' },
+      { en: 'pain', fr: 'douleur', pos: 'n', ex: 'Tell the doctor where you feel the pain.', exfr: 'Dis au médecin où tu as mal.', note: 'faux ami : <i>pain</i> = douleur ; le pain = <i>bread</i>. <i>painful</i> = douloureux' },
+      { en: 'hurt', fr: 'faire mal ; (se) blesser', pos: 'v', ex: 'My back hurts when I sit for too long.', exfr: 'J’ai mal au dos quand je reste assise trop longtemps.', note: 'irrégulier : hurt – hurt – hurt. <i>I hurt my leg.</i> = Je me suis blessée à la jambe.' },
+      { en: 'injury', fr: 'blessure', pos: 'n', ex: 'Report any injury to your manager right away.', exfr: 'Signale toute blessure à ton responsable immédiatement.', note: 'adjectif : <i>injured</i> (blessé). Faux ami : une « injure » = <i>an insult</i>' },
+      { en: 'allergy', fr: 'allergie', pos: 'n', ex: 'Do you have any food allergies?', exfr: 'As-tu des allergies alimentaires ?', note: 'accent sur la 1ʳᵉ syllabe : <b>AL</b>-ler-gy. <i>be allergic to</i> = être allergique à' }
+    ] },
+    { title: 'Chez le médecin', words: [
+      { en: 'doctor', fr: 'médecin, docteur', pos: 'n', ex: 'You should see a doctor about that cough.', exfr: 'Tu devrais consulter un médecin pour cette toux.', note: 'plus formel : <b>physician</b>. Abréviation : <i>Dr.</i>' },
+      { en: 'appointment', fr: 'rendez-vous', pos: 'n', ex: "I have a doctor's appointment at 3 p.m.", exfr: 'J’ai rendez-vous chez le médecin à 15 h.', note: '<i>make an appointment</i> = prendre rendez-vous ; <i>reschedule an appointment</i> = déplacer un rendez-vous' },
+      { en: 'nurse', fr: 'infirmier, infirmière', pos: 'n', ex: 'The nurse will take your temperature first.', exfr: 'L’infirmière va d’abord prendre ta température.' },
+      { en: 'dentist', fr: 'dentiste', pos: 'n', ex: 'I go to the dentist twice a year.', exfr: 'Je vais chez le dentiste deux fois par an.' },
+      { en: 'clinic', fr: 'centre médical, cabinet médical ; clinique', pos: 'n', ex: 'The company has a small clinic on site.', exfr: 'L’entreprise a un petit centre médical sur place.', note: 'souvent un simple centre de soins, pas forcément un établissement privé' },
+      { en: 'hospital', fr: 'hôpital', pos: 'n', ex: 'She stayed in the hospital for two nights.', exfr: 'Elle est restée deux nuits à l’hôpital.', note: 'US : <i>in the hospital</i> ; UK : <i>in hospital</i> (sans <i>the</i>)' },
+      { en: 'patient', fr: 'patient, patiente', pos: 'n', ex: 'The doctor sees about twenty patients a day.', exfr: 'Le médecin reçoit une vingtaine de patients par jour.', note: 'se prononce « PÉÏ-cheunt ». Aussi un adjectif : patient' },
+      { en: 'symptom', fr: 'symptôme', pos: 'n', ex: 'Fever and cough are common symptoms of the flu.', exfr: 'La fièvre et la toux sont des symptômes courants de la grippe.' },
+      { en: 'check-up', fr: 'bilan de santé, visite de contrôle', pos: 'n', ex: 'All employees get a free check-up every year.', exfr: 'Tous les employés ont droit à un bilan de santé gratuit chaque année.', note: 'aussi écrit <i>checkup</i> (US)' },
+      { en: 'prescription', fr: 'ordonnance', pos: 'n', ex: 'You need a prescription for this medicine.', exfr: 'Il te faut une ordonnance pour ce médicament.', note: 'verbe : <i>prescribe</i> (prescrire)' },
+      { en: 'medicine', fr: 'médicament ; médecine', pos: 'n', ex: 'Take this medicine three times a day.', exfr: 'Prends ce médicament trois fois par jour.', note: 'synonyme : <i>medication</i>. Accent sur la 1ʳᵉ syllabe : <b>ME</b>-di-cine' },
+      { en: 'pharmacy', fr: 'pharmacie', pos: 'n', ex: 'You can pick up your medicine at the pharmacy downstairs.', exfr: 'Tu peux récupérer ton médicament à la pharmacie en bas.', note: 'US : aussi <i>drugstore</i>. Le pharmacien : <i>pharmacist</i>' },
+      { en: 'treatment', fr: 'traitement', pos: 'n', ex: 'The treatment usually takes two weeks.', exfr: 'Le traitement dure en général deux semaines.', note: 'verbe : <i>treat</i> (soigner ; traiter)' }
+    ] },
+    { title: 'La santé au travail', words: [
+      { en: 'sick leave', fr: 'arrêt maladie, congé maladie', pos: 'n', ex: "She's on sick leave until next Monday.", exfr: 'Elle est en arrêt maladie jusqu’à lundi prochain.', note: '<i>be on sick leave</i> = être en arrêt maladie ; <i>sick days</i> = jours de congé maladie' },
+      { en: 'call in sick', fr: 'appeler pour dire qu’on est malade (et absent)', pos: 'expr', ex: 'If you need to call in sick, phone your manager before 9 a.m.', exfr: 'Si tu dois te déclarer malade, appelle ton responsable avant 9 h.', note: "très fréquent au TOEIC : <i>Ms. Chen called in sick today.</i>" },
+      { en: 'day off', fr: 'jour de congé', pos: 'n', ex: "I'm taking a day off to see a specialist.", exfr: 'Je prends un jour de congé pour voir un spécialiste.', note: 'pluriel : <i>days off</i>' },
+      { en: "doctor's note", fr: 'certificat médical', pos: 'n', ex: "If you miss more than two days, bring a doctor's note.", exfr: 'Si tu es absente plus de deux jours, apporte un certificat médical.', note: 'plus formel : <i>medical certificate</i>' },
+      { en: 'recover', fr: 'se rétablir, guérir', pos: 'v', ex: 'It takes about a week to recover from the flu.', exfr: 'Il faut environ une semaine pour se remettre de la grippe.', note: '<i>recover <b>from</b></i>. Nom : <i>recovery</i> (guérison ; aussi reprise économique)' },
+      { en: 'get better', fr: 'aller mieux', pos: 'expr', ex: 'I hope you get better soon!', exfr: 'J’espère que tu iras vite mieux !', note: 'sur une carte : <i>Get well soon!</i> = Bon rétablissement !' },
+      { en: 'health insurance', fr: 'assurance maladie, mutuelle', pos: 'n', ex: 'The company offers health insurance to all employees.', exfr: 'L’entreprise propose une mutuelle à tous les employés.', note: 'aux États-Unis, c’est un avantage (<i>benefit</i>) offert par l’employeur, très cité au TOEIC' },
+      { en: 'first aid', fr: 'premiers secours', pos: 'n', ex: 'Every floor has a first aid kit near the elevator.', exfr: 'Chaque étage a une trousse de premiers secours près de l’ascenseur.', note: '<i>first aid kit</i> = trousse de secours ; <i>first aid training</i> = formation aux premiers secours' },
+      { en: 'healthy', fr: 'en bonne santé ; sain', pos: 'adj', ex: 'Eating well helps you stay healthy.', exfr: 'Bien manger aide à rester en bonne santé.', note: 'nom : <i>health</i> (la santé) ; contraire : <i>unhealthy</i>' }
+    ] }
+  ],
+  tips: [
+    { style: 'warn', title: 'Avoir mal : headache, pain ou hurt ?', html: '• <b>-ache</b> (douleur sourde qui dure) : <i>headache, stomachache, toothache, backache</i> → <i>I have <b>a</b> headache.</i> (J’ai mal à la tête.) N’oublie pas <b>a</b> !<br>• <b>pain</b> (nom : une douleur, souvent plus vive) : <i>I have a pain in my leg.</i> <i>back pain</i><br>• <b>hurt</b> (verbe : faire mal) : <i>My back hurts.</i> (J’ai mal au dos.) <i>It hurts!</i> (Ça fait mal !)<br>À ne pas dire : <span class="ko">I have headache.</span> → <span class="ok">I have a headache.</span>' },
+    { style: 'info', title: 'Médecin = doctor', html: 'Le mot courant est <b>doctor</b> (abrégé <b>Dr.</b>). Dans les textes plus formels du TOEIC, tu verras aussi <b>physician</b> : c’est un médecin, pas un physicien (= <i>physicist</i>) ! Le médecin généraliste : <i>family doctor</i> (US) ou <i>GP</i> (UK) ; un spécialiste : <i>specialist</i> ; un chirurgien : <i>surgeon</i> ; le pharmacien : <i>pharmacist</i>.' },
+    { style: 'info', title: 'Et au TOEIC ?', html: 'Les absences et les rendez-vous reviennent souvent : un collègue qui <i>called in sick</i> (Parties 2 et 3), un message du cabinet médical qui confirme ou déplace un rendez-vous (Partie 4), un e-mail des RH sur l’assurance santé (<i>health insurance</i>) ou les jours de congé maladie (Partie 7).' }
+  ]
+});
