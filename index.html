@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Learn English — Objectif TOEIC</title>
+  <meta name="description" content="Apprendre l'anglais de A à Z et viser B1/B2 au TOEIC en 7 mois : programme semaine par semaine, leçons, vocabulaire, écoute, entraînement et TOEIC blancs.">
+  <meta name="theme-color" content="#4338ca">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Thème appliqué avant le rendu pour éviter un flash.
+    try {
+      var s = JSON.parse(localStorage.getItem('le-toeic-v1') || '{}');
+      var t = s.settings && s.settings.theme;
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="Accueil">
+      <span class="brand-logo" aria-hidden="true">EN</span>
+      <span class="brand-text">Learn English <small>objectif TOEIC</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#/" data-nav="home"><span class="ico" aria-hidden="true">🏠</span><span>Accueil</span></a>
+      <a href="#/plan" data-nav="plan"><span class="ico" aria-hidden="true">🗓️</span><span>Programme</span></a>
+      <a href="#/cours" data-nav="cours"><span class="ico" aria-hidden="true">📘</span><span>Cours</span></a>
+      <a href="#/vocab" data-nav="vocab"><span class="ico" aria-hidden="true">🧠</span><span>Vocabulaire</span></a>
+      <a href="#/toeic" data-nav="toeic"><span class="ico" aria-hidden="true">🎯</span><span>TOEIC</span></a>
+      <a href="#/progres" data-nav="progres"><span class="ico" aria-hidden="true">📈</span><span>Progrès</span></a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="loading">Chargement…</div>
+  </main>
+
+  <footer class="footer">
+    <p>Learn English — objectif TOEIC · Ta progression est enregistrée dans ce navigateur (pense à l’exporter depuis <a href="#/progres">Progrès</a>).</p>
+    <p class="muted">TOEIC® est une marque d’ETS. Ce site indépendant n’est ni affilié à ETS ni approuvé par ETS.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">Ce site a besoin de JavaScript pour fonctionner.</p></noscript>
+
+  <script src="data/catalog.js"></script>
+  <script src="data/plan.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/speech.js"></script>
+  <script src="assets/js/exercises.js"></script>
+  <script src="assets/js/toeic.js"></script>
+  <script src="assets/js/vocab.js"></script>
+  <script src="assets/js/views.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
