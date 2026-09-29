@@ -3,6 +3,7 @@ LE.register({
   kind: 'mock-section',
   mock: 'm01',
   section: 'listening',
+  title: 'TOEIC blanc n°1 — Listening',
   parts: [
     /* ---------------- Partie 1 — Photographies (3 items) ---------------- */
     { part: 1, items: [
@@ -222,7 +223,7 @@ LE.register({
         ],
         questions: [
           { q: 'Who most likely is the man?', options: ['A building maintenance employee', 'A lawyer', 'A hotel receptionist', 'A delivery driver'], answer: 0,
-            explain: 'Il décroche en disant « <i>Facilities department</i> » (le service des services généraux, qui gère l’entretien du bâtiment), il est au courant de la panne et envoie un technicien : il travaille à <b>l’entretien de l’immeuble</b>. (B) Piège : c’est la <b>femme</b> qui travaille au service juridique (<i>legal department</i>).' },
+            explain: 'Il décroche en disant « <i>Facilities department</i> » (les services généraux, chargés de l’entretien du bâtiment), il est au courant de la panne et envoie un technicien : il travaille à <b>l’entretien de l’immeuble</b>. (B) Piège : c’est la <b>femme</b> qui travaille au service juridique (<i>legal department</i>).' },
           { q: 'According to the man, what is causing the problem?', options: ['A window has been left open.', 'The power is out in the building.', "The thermostat in the woman's office is broken.", 'Some equipment on the roof is not working properly.'], answer: 3,
             explain: '« <i>We think it’s the main cooling unit on the roof</i> » (nous pensons que c’est le groupe de climatisation principal, sur le toit) → un <b>équipement sur le toit</b> fonctionne mal. (C) Faux : plusieurs bureaux ont le même problème, ce n’est donc pas le thermostat de son bureau.' },
           { q: "What will the woman most likely do at three o'clock?", options: ['Meet with the technician', 'Meet clients in another room', 'Leave the office early', 'Go up to the roof'], answer: 1,
