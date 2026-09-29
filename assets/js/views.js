@@ -374,12 +374,28 @@
         <div class="row between"><div><b>🃏 Révisions du jour</b><div class="muted">${due ? `${due} carte${due > 1 ? 's' : ''} à revoir aujourd’hui` : 'Aucune carte à revoir pour l’instant'}</div></div>
         <a class="btn" href="#/revisions">${due ? 'Réviser maintenant' : 'Ouvrir'}</a></div>
       </div>
-      <div class="item-list">${list.map((e, k) => {
+      <input type="search" placeholder="🔎 Chercher un mot (anglais ou français)…" data-act="vsearch" aria-label="Chercher un mot" style="margin-bottom:12px">
+      <div data-role="vresults"></div>
+      <div class="item-list" data-role="vthemes">${list.map((e, k) => {
         const t = themes[k];
         if (!t) return `<div class="item missing"><span class="num">${k + 1}</span><span class="it-main"><span class="it-title">${esc(e.title)}</span><span class="it-sub">Bientôt disponible</span></span></div>`;
         const st = LE.themeStats(t);
         return itemCard(e, `#/vocab/${e.id}`, `<span>${st.mastered}/${st.total} maîtrisés</span>${st.due ? `<span class="badge">🃏 ${st.due}</span>` : ''}`);
       }).join('')}</div>`;
+    // Recherche dans tous les thèmes (sans accents ni majuscules).
+    const fold = (x) => String(x).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const index = themes.filter(Boolean).flatMap((t) => LE.allWords(t).map((w) => ({ w, t, key: fold(w.en + ' | ' + w.fr) })));
+    const input = root.querySelector('[data-act="vsearch"]');
+    const out = root.querySelector('[data-role="vresults"]');
+    input.oninput = () => {
+      const q = fold(input.value.trim());
+      root.querySelector('[data-role="vthemes"]').classList.toggle('hidden', q.length >= 2);
+      if (q.length < 2) { out.innerHTML = ''; return; }
+      const hits = index.filter((x) => x.key.includes(q)).slice(0, 40);
+      out.innerHTML = hits.length
+        ? `<ul class="word-list">${hits.map(({ w, t }) => `<li>${LE.speakBtn(w.en)}<div class="w-main"><div><span class="w-en">${esc(w.en)}</span><span class="w-pos">${LE.POS[w.pos] || ''}</span></div><div class="w-fr">${esc(w.fr)}</div><div class="w-ex">${esc(w.ex)}</div><div class="w-ex"><a href="#/vocab/${t.id}">${esc(t.title)}</a></div></div></li>`).join('')}</ul>`
+        : '<p class="muted">Aucun mot trouvé.</p>';
+    };
   };
 
   V.vocabTheme = async function (root, id, sub, mode) {
