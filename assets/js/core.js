@@ -220,7 +220,7 @@
       .replace(/\s+/g, ' ')
       .trim()
       .replace(/[.!?…]+$/g, '')
-      .replace(/^["']+|["']+$/g, '')
+      .replace(/^"+|"+$/g, '')
       .trim();
   };
   // Développe les contractions pour que « doesn't » = « does not ».
@@ -241,11 +241,19 @@
       .trim();
   };
   LE.loose = (s) => LE.expand(s).replace(/[,;:"()\-–—]/g, ' ').replace(/[.!?]/g, '').replace(/\s+/g, ' ').trim();
+  // « she's » peut valoir « she is » ou « she has » : on compare toutes les lectures possibles.
+  const S_CONTRACTION = /\b(he|she|it|that|there|here|what|where|who|how|when|why|everyone|everybody|someone|somebody|no one|nobody|everything|something|nothing)'s\b/g;
+  const HAS_S = new RegExp(S_CONTRACTION.source);
+  const readings = (s) => (HAS_S.test(s) ? [s.replace(S_CONTRACTION, '$1 is'), s.replace(S_CONTRACTION, '$1 has')] : [s]);
   LE.matches = function (given, accepted, loose) {
     const f = loose ? LE.loose : LE.expand;
     const g = f(given);
     if (!g) return false;
-    return accepted.some((a) => f(a) === g);
+    const gs = readings(g);
+    return accepted.some((a) => {
+      const as = readings(f(a));
+      return gs.some((x) => as.includes(x));
+    });
   };
 
   /* ---------- Plan / semaines ---------- */
