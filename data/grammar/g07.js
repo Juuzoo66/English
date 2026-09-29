@@ -13,7 +13,7 @@ LE.register({
   ],
   blocks: [
     { type: 'h', text: 'À quoi sert « have » ?' },
-    { type: 'p', html: 'Le verbe <b>have</b> veut dire <b>avoir</b>. On l’utilise pour parler de ce qu’on <b>possède</b>, de sa <b>famille</b>, de son <b>apparence</b> (les yeux, les cheveux) et des <b>petits problèmes de santé</b>. Il existe aussi une variante, <b>have got</b>, qui a le même sens : elle est très courante en anglais britannique. Au TOEIC, où l’anglais américain domine, tu rencontreras surtout <b>have</b>… mais tu entendras aussi <b>have got</b> avec les voix britanniques et australiennes.' },
+    { type: 'p', html: 'Le verbe <b>have</b> veut dire <b>avoir</b>. On l’utilise pour parler de ce qu’on <b>possède</b>, de sa <b>famille</b>, de son <b>apparence</b> (les yeux, les cheveux) et des <b>petits problèmes de santé</b>. Il existe aussi une variante, <b>have got</b>, qui a le même sens : elle est très courante en anglais britannique (et les Américains l’emploient aussi à l’oral, dans la conversation familière). Au TOEIC, où l’anglais américain domine, tu rencontreras surtout <b>have</b>… mais tu entendras aussi <b>have got</b> avec les voix britanniques et australiennes.' },
     { type: 'examples', items: [
       { en: 'I have a car.', fr: 'J’ai une voiture.' },
       { en: 'She has two children.', fr: 'Elle a deux enfants.' },
@@ -77,7 +77,7 @@ LE.register({
       ['have a good time', 'passer un bon moment, bien s’amuser'],
       ['have a look (at)', 'jeter un coup d’œil (à)'],
       ['Have a nice day!', 'Bonne journée !']
-    ], caption: 'On dit <i>have breakfast</i> (sans article), mais <i>have <b>a</b> shower</i>. En anglais américain, on dit aussi <i>take a shower</i>.' },
+    ], caption: 'On dit <i>have breakfast</i> (sans article), mais <i>have <b>a</b> shower</i>. En anglais américain, on dit plus souvent <i>take a shower</i>.' },
     { type: 'examples', items: [
       { en: 'I have breakfast at seven.', fr: 'Je prends mon petit-déjeuner à sept heures.' },
       { en: 'We have a meeting every Monday.', fr: 'Nous avons une réunion tous les lundis.' },
@@ -89,7 +89,7 @@ LE.register({
 
     { type: 'h', text: '« J’ai 30 ans », « j’ai faim » : c’est be !' },
     { type: 'p', html: 'Attention : le français utilise « avoir » dans des cas où l’anglais utilise <b>be</b> (tu l’as vu dans la leçon <i>Le verbe « be » au présent</i>). En revanche, pour les maladies et les douleurs, l’anglais utilise bien <b>have</b> : <i>I have a cold</i> (j’ai un rhume).' },
-    { type: 'box', style: 'warn', title: 'Rappel : le piège n°1 des francophones', html: '<span class="ko">I have 30 years.</span> → <span class="ok">I am 30.</span> / <span class="ok">I’m 30 years old.</span><br><span class="ko">I have hungry.</span> → <span class="ok">I’m hungry.</span><br><span class="ko">I have cold.</span> → <span class="ok">I’m cold.</span><br><span class="ko">You have right.</span> → <span class="ok">You’re right.</span>' },
+    { type: 'box', style: 'warn', title: 'Rappel : le piège n°1 des francophones', html: '<span class="ko">I have 30 years.</span> → <span class="ok">I am 30.</span> / <span class="ok">I’m 30 years old.</span><br><span class="ko">I have hungry.</span> → <span class="ok">I’m hungry.</span><br><span class="ko">I have cold.</span> → <span class="ok">I’m cold.</span><br><span class="ko">You have right.</span> → <span class="ok">You’re right.</span><br><small>Ne confonds pas : <i>I’m cold.</i> = j’ai froid, mais <i>I have <b>a</b> cold.</i> = j’ai un rhume.</small>' },
     { type: 'examples', items: [
       { en: 'I have a headache.', fr: 'J’ai mal à la tête.' },
       { en: 'She has a cold.', fr: 'Elle a un rhume.' },

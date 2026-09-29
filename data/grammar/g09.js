@@ -13,7 +13,7 @@ LE.register({
   ],
   blocks: [
     { type: 'h', text: 'Un petit mot indispensable : do' },
-    { type: 'p', html: 'Avec le verbe <b>be</b>, c’était simple : on ajoute <i>not</i> (<i>I’m not tired</i>) ou on inverse (<i>Are you ready?</i>). Mais <b>tous les autres verbes</b> (<i>work, live, like, have…</i>) ont besoin d’un assistant au présent simple : <b>do</b>, qui devient <b>does</b> avec <i>he, she, it</i>.' },
+    { type: 'p', html: 'Avec le verbe <b>be</b>, c’était simple : on ajoute <i>not</i> (<i>I’m not tired</i>) ou on inverse (<i>Are you ready?</i>). Mais <b>presque tous les autres verbes</b> (<i>work, live, like, have…</i>) ont besoin d’un assistant au présent simple : <b>do</b>, qui devient <b>does</b> avec <i>he, she, it</i>.' },
     { type: 'p', html: 'Ici, <b>do</b> ne veut pas dire « faire » : c’est un <b>auxiliaire</b>, un « verbe d’aide » qui ne se traduit pas. Il sert uniquement à construire la négation et la question. C’est un peu comme « est-ce que » en français : on ne le traduit pas mot à mot, il indique juste qu’on pose une question.' },
     { type: 'examples', items: [
       { en: "I don't work on Fridays.", fr: 'Je ne travaille pas le vendredi.' },
@@ -28,7 +28,7 @@ LE.register({
       ['I / you / we / they', 'I <b>do not</b> work', 'I <b>don’t</b> work', 'je ne travaille pas'],
       ['he / she / it', 'she <b>does not</b> work', 'she <b>doesn’t</b> work', 'elle ne travaille pas']
     ], caption: 'Le verbe principal (<i>work</i>) ne change jamais : c’est <b>do</b> qui devient <b>does</b>.' },
-    { type: 'box', style: 'tip', title: 'Le -s change de place', html: 'À la forme affirmative, le -s de la 3ᵉ personne est sur le verbe : <i>she work<b>s</b></i>. À la forme négative, il « saute » sur l’auxiliaire : <i>she doe<b>s</b>n’t work</i>. Une phrase = <b>un seul</b> -s !' },
+    { type: 'box', style: 'tip', title: 'Le -s change de place', html: 'À la forme affirmative, le -s de la 3ᵉ personne est sur le verbe : <i>she work<b>s</b></i>. À la forme négative, il « saute » sur l’auxiliaire : <i>she doe<b>s</b>n’t work</i>. Le -s ne se met <b>qu’une fois</b> : sur <i>does</i>, jamais aussi sur le verbe !' },
     { type: 'box', style: 'warn', title: 'Piège n°1 : pas de -s après doesn’t', html: '<span class="ko">She doesn’t works here.</span> → <span class="ok">She doesn’t work here.</span><br><span class="ko">He doesn’t has a car.</span> → <span class="ok">He doesn’t have a car.</span><br><span class="ko">My boss don’t like meetings.</span> → <span class="ok">My boss doesn’t like meetings.</span>' },
     { type: 'examples', items: [
       { en: "We don't open on Sundays.", fr: 'Nous n’ouvrons pas le dimanche.' },
@@ -67,7 +67,8 @@ LE.register({
       { en: 'Where do you work? — In a bank.', fr: 'Où travailles-tu ? — Dans une banque.' },
       { en: 'What time does the store open? — At nine.', fr: 'À quelle heure le magasin ouvre-t-il ? — À neuf heures.' },
       { en: 'What does your company make? — Car parts.', fr: 'Que fabrique ton entreprise ? — Des pièces automobiles.' },
-      { en: "Why does he take the train? — Because it's fast.", fr: 'Pourquoi prend-il le train ? — Parce que c’est rapide.' }
+      { en: "Why does he take the train? — Because it's fast.", fr: 'Pourquoi prend-il le train ? — Parce que c’est rapide.' },
+      { en: "What do you do? — I'm an accountant.", fr: 'Qu’est-ce que tu fais dans la vie ? — Je suis comptable.', note: 'Le premier <i>do</i> est l’auxiliaire, le second est le verbe « faire ». C’est LA question pour demander le métier de quelqu’un.' }
     ] },
     { type: 'box', style: 'warn', title: 'Piège : l’ordre des mots', html: 'En français parlé, on dit souvent « Tu travailles où ? » ou « La réunion commence à quelle heure ? ». En anglais, c’est impossible : le mot interrogatif vient <b>en premier</b>, et on n’oublie pas <b>do / does</b>.<br><span class="ko">Where you work?</span> → <span class="ok">Where do you work?</span><br><span class="ko">What time the meeting starts?</span> → <span class="ok">What time does the meeting start?</span>' },
 
@@ -95,7 +96,7 @@ LE.register({
   exercises: [
     { type: 'mcq', q: 'She ___ work on Mondays.', options: ["don't", "doesn't", "isn't"], answer: 1, explain: '<b>She</b> = 3ᵉ personne du singulier → <b>doesn’t</b>. <i>isn’t</i> est impossible devant un verbe comme <i>work</i> : <i>be</i> ne sert pas à faire la négation des autres verbes.' },
     { type: 'mcq', q: 'I ___ like tea.', options: ["don't", "doesn't", 'am not'], answer: 0, explain: 'Avec <b>I</b>, la négation d’un verbe normal se fait avec <b>don’t</b>. <i>am not</i> va avec un adjectif ou un nom (<i>I’m not tired</i>), pas devant un verbe comme <i>like</i>.' },
-    { type: 'gap', q: 'We ___ (not / open) on Sundays.', answers: ["don't open", 'do not open'], explain: '<b>We</b> → <b>don’t</b> + base verbale : <i>we don’t open</i>.' },
+    { type: 'gap', q: 'We ___ (not / work) on Sundays.', answers: ["don't work", 'do not work'], explain: '<b>We</b> → <b>don’t</b> + base verbale : <i>we don’t work</i>.' },
     { type: 'gap', q: 'My boss ___ (not / drink) coffee.', answers: ["doesn't drink", 'does not drink'], explain: '<i>My boss</i> = he / she → <b>doesn’t</b> + base verbale <i>drink</i> (sans -s).' },
     { type: 'mcq', q: 'Choisis la phrase correcte.', options: ["He doesn't works here.", "He don't work here.", "He doesn't work here.", 'He not work here.'], answer: 2, explain: 'Avec <b>he</b> → <b>doesn’t</b>, et après <i>doesn’t</i> le verbe reste à la base verbale : <i>work</i>, sans -s.' },
     { type: 'mcq', q: '___ your sister live in Montreal?', options: ['Do', 'Does', 'Is', 'Are'], answer: 1, explain: '<i>Your sister</i> = she → <b>Does</b>. <i>Is</i> est impossible : <i>live</i> est un verbe normal, il faut l’auxiliaire <i>do / does</i>.' },

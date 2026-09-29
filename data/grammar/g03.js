@@ -38,7 +38,8 @@ LE.register({
       { en: "He's an HR manager.", fr: 'Il est responsable RH.' },
       { en: "It's a European company.", fr: 'C’est une entreprise européenne.' },
       { en: 'She has an MBA from a university in Montreal.', fr: 'Elle a un MBA d’une université de Montréal.' },
-      { en: 'Is this an email or a letter?', fr: 'C’est un e-mail ou une lettre ?' }
+      { en: 'Is this an email or a letter?', fr: 'C’est un e-mail ou une lettre ?' },
+      { en: 'We meet twice a week.', fr: 'Nous nous réunissons deux fois par semaine.', note: '<b>a / an</b> veut aussi dire « par » : <i>twice a week</i>, <i>$20 an hour</i> (20 dollars de l’heure). Très fréquent au TOEIC.' }
     ] },
 
     { type: 'h', text: 'A / an devant un métier' },
@@ -81,7 +82,7 @@ LE.register({
       { en: 'I love coffee.', fr: 'J’adore le café.' },
       { en: 'Meetings are often long.', fr: 'Les réunions sont souvent longues.' },
       { en: "Money isn't everything.", fr: 'L’argent ne fait pas tout.' },
-      { en: 'Is English difficult?', fr: 'L’anglais, c’est difficile ?', note: 'Les langues ne prennent jamais d’article : <i>English, French, Spanish</i>.' }
+      { en: 'Is English difficult?', fr: 'L’anglais, c’est difficile ?', note: 'Les noms de langues s’emploient sans article : <i>English, French, Spanish</i>.' }
     ] },
 
     { type: 'h', text: 'Noms propres et pays' },
@@ -118,7 +119,7 @@ LE.register({
       { en: "It's late. Time to go to bed!", fr: 'Il est tard. C’est l’heure d’aller au lit !' }
     ] },
     { type: 'dialog', title: 'À la machine à café', lines: [
-      { speaker: 'M', en: 'Hi! Are you the new accountant?', fr: 'Salut ! Tu es la nouvelle comptable ?' },
+      { speaker: 'M', en: 'Hi! Are you new here?', fr: 'Salut ! Tu es nouvelle ici ?' },
       { speaker: 'W', en: "Yes, I am. I'm Leila. I'm an accountant from the Lyon office.", fr: 'Oui. Je m’appelle Leila. Je suis comptable, je viens du bureau de Lyon.' },
       { speaker: 'M', en: 'Welcome! Coffee or tea?', fr: 'Bienvenue ! Café ou thé ?' },
       { speaker: 'W', en: 'Coffee, please. I love coffee!', fr: 'Un café, s’il te plaît. J’adore le café !' },
@@ -131,7 +132,7 @@ LE.register({
   exercises: [
     { type: 'mcq', q: 'Our company has ___ office in Toronto.', options: ['a', 'an'], answer: 1, explain: '<i>Office</i> commence par un son de voyelle → <b>an</b> office.' },
     { type: 'mcq', q: 'Quel groupe est correct ?', options: ['a hour / a university', 'an hour / a university', 'an hour / an university', 'a hour / an university'], answer: 1, explain: 'C’est le <b>son</b> qui compte : le h de <i>hour</i> est muet → <b>an</b> hour ; <i>university</i> commence par le son « you » (une consonne) → <b>a</b> university.' },
-    { type: 'gap', q: 'He is ___ engineer. (Il est ingénieur.)', answers: ['an'], explain: 'Devant un métier, l’anglais met toujours <b>a / an</b>. <i>Engineer</i> commence par un son de voyelle → <b>an</b>.' },
+    { type: 'gap', q: 'He is ___ engineer. (Il est ingénieur.)', answers: ['an'], explain: 'Devant un métier au singulier, l’anglais met toujours <b>a / an</b>. <i>Engineer</i> commence par un son de voyelle → <b>an</b>.' },
     { type: 'mcq', q: 'Comment dit-on « Elle est avocate » ?', options: ['She is lawyer.', 'She is a lawyer.', 'She is an lawyer.'], answer: 1, explain: 'Métier au singulier → <b>a / an</b> obligatoire ; <i>lawyer</i> commence par une consonne → <b>a</b> lawyer.' },
     { type: 'mcq', q: 'Comment dit-on « J’aime le café » (le café en général) ?', options: ['I like the coffee.', 'I like coffee.', 'I like the coffees.'], answer: 1, explain: 'En général → <b>aucun article</b> : <i>I like coffee.</i> <i>I like the coffee</i> voudrait dire « j’aime ce café-là ».' },
     { type: 'gap', q: 'I love ___. (la musique, en général)', answers: ['music'], explain: '« La musique » au sens général → <b>music</b>, sans <i>the</i>.' },

@@ -41,7 +41,7 @@ LE.register({
       ['Verbe terminé par <b>-ie</b> : <b>ie</b> devient <b>y</b>', 'lie → l<b>y</b>ing, die → d<b>y</b>ing, tie → t<b>y</b>ing'],
       ['Verbe d’une syllabe terminé par consonne + <b>une seule</b> voyelle + consonne : on <b>double</b> la dernière consonne', 'run → ru<b>nn</b>ing, stop → sto<b>pp</b>ing, sit → si<b>tt</b>ing, get → ge<b>tt</b>ing, plan → pla<b>nn</b>ing'],
       ['… sauf <b>w, x, y</b>, qui ne se doublent jamais', 'show → showing, fix → fixing, stay → staying'],
-      ['Verbe de deux syllabes accentué sur la <b>dernière</b> : on double aussi', 'begin → begi<b>nn</b>ing, prefer → prefe<b>rr</b>ing (mais <i>visit → visiting</i>, <i>open → opening</i> : accent sur la 1ʳᵉ syllabe)'],
+      ['Verbe de deux syllabes accentué sur la <b>dernière</b> : on double aussi', 'begin → begi<b>nn</b>ing, forget → forge<b>tt</b>ing (mais <i>visit → visiting</i>, <i>open → opening</i> : accent sur la 1ʳᵉ syllabe)'],
       ['Verbe en <b>-el</b> accentué au début (<i>TRAvel</i>) : un seul <b>l</b> en anglais américain', 'travel → traveling, cancel → canceling (en anglais britannique : <i>travelling, cancelling</i>)']
     ], caption: 'Pas de panique : les cas particuliers concernent peu de verbes, et ce sont des verbes très fréquents que tu retiendras vite.' },
     { type: 'examples', items: [
@@ -89,6 +89,7 @@ LE.register({
       ['<b>this week</b> / <b>this month</b>', 'cette semaine / ce mois-ci', 'I’m taking a Spanish class <b>this month</b>.'],
       ['<b>Look!</b> / <b>Listen!</b>', 'Regarde ! / Écoute !', '<b>Look!</b> The bus is coming.']
     ], caption: '<b>Currently</b> est un faux ami : il veut dire « actuellement », pas « couramment » (qui se dit <i>fluently</i>). Et « actuellement » ne se dit pas <i>actually</i>, qui veut dire « en fait ».' },
+    { type: 'box', style: 'tip', title: 'Pas avec tous les verbes', html: 'Quelques verbes très courants ne se mettent (presque) jamais au présent continu, même pour parler de maintenant : ce sont les <b>verbes d’état</b>, comme <b>know</b> (savoir), <b>want</b> (vouloir), <b>need</b> (avoir besoin), <b>like</b> (aimer), <b>understand</b> (comprendre).<br><span class="ko">I’m knowing the answer.</span> → <span class="ok">I know the answer.</span><br><span class="ko">I’m wanting a coffee.</span> → <span class="ok">I want a coffee.</span><br>Tu verras tout ça en détail dans la leçon « Présent simple ou présent continu ? ».' },
 
     { type: 'h', text: 'Négation, questions et réponses courtes' },
     { type: 'p', html: 'Bonne nouvelle : c’est <b>be</b> qui fait tout le travail, exactement comme dans la leçon « Le verbe « be » au présent ». Négation : <b>not</b> après <i>am / is / are</i>. Question : on <b>inverse</b> <i>be</i> et le sujet. Réponse courte : on reprend seulement <i>be</i>.' },
@@ -116,7 +117,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'Le présent continu au TOEIC' },
-    { type: 'box', style: 'info', title: 'Partie 1 : décrire une photo', html: 'En <b>Partie 1</b>, tu regardes une photo et tu entends quatre phrases. La plupart sont au <b>présent continu</b>, parce qu’elles décrivent ce que les personnes <b>sont en train de faire</b> : <i>The woman <b>is typing</b> on a keyboard.</i> (La femme tape sur un clavier.) Écoute surtout le <b>verbe</b> : si la femme tape mais que tu entends <i>is fixing</i> (répare) ou <i>is buying</i> (achète), la phrase est fausse.' },
+    { type: 'box', style: 'info', title: 'Partie 1 : décrire une photo', html: 'En <b>Partie 1</b>, tu regardes une photo et tu entends quatre phrases. Quand la photo montre des personnes, la plupart de ces phrases sont au <b>présent continu</b>, parce qu’elles décrivent ce que les personnes <b>sont en train de faire</b> : <i>The woman <b>is typing</b> on a keyboard.</i> (La femme tape sur un clavier.) Écoute surtout le <b>verbe</b> : si la femme tape mais que tu entends <i>is fixing</i> (répare) ou <i>is buying</i> (achète), la phrase est fausse.' },
     { type: 'examples', items: [
       { en: 'The woman is typing on a keyboard.', fr: 'La femme tape sur un clavier.' },
       { en: 'Two men are shaking hands.', fr: 'Deux hommes se serrent la main.', accent: 'en-GB' },

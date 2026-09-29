@@ -26,11 +26,11 @@ LE.register({
     { type: 'table', head: ['Adjectif', 'Comparatif (+ than)', 'Superlatif (the…)', 'Règle'], rows: [
       ['cheap (bon marché)', 'cheap<b>er</b>', 'the cheap<b>est</b>', '1 syllabe → <b>-er / -est</b>'],
       ['nice (agréable)', 'nice<b>r</b>', 'the nice<b>st</b>', '1 syllabe en <b>-e</b> → <b>-r / -st</b>'],
-      ['big (grand)', 'bi<b>gger</b>', 'the bi<b>ggest</b>', '1 syllabe, voyelle + consonne → on double la consonne'],
+      ['big (grand)', 'bi<b>gger</b>', 'the bi<b>ggest</b>', '1 syllabe, 1 voyelle + 1 consonne → on double la consonne'],
       ['easy (facile)', 'eas<b>ier</b>', 'the eas<b>iest</b>', '2 syllabes en <b>-y</b> → <b>-ier / -iest</b>'],
       ['modern (moderne)', '<b>more</b> modern', 'the <b>most</b> modern', '2 syllabes (pas en -y) → <b>more / most</b>'],
       ['expensive (cher)', '<b>more</b> expensive', 'the <b>most</b> expensive', '3 syllabes ou plus → <b>more / most</b>']
-    ], caption: 'Quelques adjectifs de 2 syllabes acceptent les deux formes (<i>quieter</i> ou <i>more quiet</i>). Pour le TOEIC, la règle du tableau suffit.' },
+    ], caption: 'Quelques adjectifs de 2 syllabes (surtout en <i>-le, -ow, -er</i>, et <i>quiet</i>) prennent aussi <b>-er</b> : <i>simpler, narrower, quieter</i> ; souvent, les deux formes sont possibles (<i>quieter</i> ou <i>more quiet</i>). Pour le TOEIC, la règle du tableau suffit dans la grande majorité des cas.' },
     { type: 'box', style: 'tip', title: 'L’orthographe en détail', html: '• Adjectif terminé par <b>-e</b> : on ajoute seulement <b>-r / -st</b> : <i>large → larger</i>, <i>safe → the safest</i>.<br>• Mot d’une syllabe terminé par <b>une seule voyelle + une consonne</b> : on double la consonne : <i>big → bigger</i>, <i>hot → the hottest</i>, <i>thin → thinner</i>. Mais <i>cheap → cheaper</i> (deux voyelles) et <i>new → newer</i> (on ne double jamais le <b>w</b>).<br>• <b>Consonne + y</b> : le <b>y</b> devient <b>i</b> : <i>happy → happier</i>, <i>busy → the busiest</i>, <i>early → earlier</i>, <i>heavy → heavier</i>.' },
     { type: 'examples', items: [
       { en: 'This laptop is cheaper than the old one.', fr: 'Cet ordinateur portable est moins cher que l’ancien.', note: 'L’anglais préfère souvent <i>cheaper</i> (« plus bon marché ») là où le français dit « moins cher ».' },
@@ -47,12 +47,13 @@ LE.register({
       ['bad (mauvais)', '<b>worse</b>', 'the <b>worst</b>', 'pire → le pire'],
       ['far (loin)', '<b>farther / further</b>', 'the <b>farthest / furthest</b>', 'plus loin → le plus loin'],
       ['many / much (beaucoup de)', '<b>more</b>', 'the <b>most</b>', 'plus de → le plus de'],
-      ['little (peu de)', '<b>less</b>', 'the <b>least</b>', 'moins de → le moins de']
-    ], caption: '<i>many</i> s’emploie avec les noms dénombrables (<i>many clients</i>), <i>much</i> avec les indénombrables (<i>much time</i>) : voir la leçon « Les quantifieurs : some, any, much, many, few, little… ».' },
+      ['few (peu de + nom pluriel)', '<b>fewer</b>', 'the <b>fewest</b>', 'moins de → le moins de'],
+      ['little (peu de + indénombrable)', '<b>less</b>', 'the <b>least</b>', 'moins de → le moins de']
+    ], caption: '<i>many</i> s’emploie avec les noms dénombrables (<i>many clients</i>), <i>much</i> avec les indénombrables (<i>much time</i>). De même, « moins de » se dit <b>fewer</b> devant un nom pluriel (<i>fewer clients</i>) et <b>less</b> devant un indénombrable (<i>less time</i>) : voir la leçon « Les quantifieurs : some, any, much, many, few, little… ».' },
     { type: 'box', style: 'tip', title: 'Farther ou further ?', html: 'Pour une <b>distance</b>, les deux sont corrects (<i>farther</i> est plus fréquent en américain). Mais seul <b>further</b> veut aussi dire « supplémentaire » : <i>For <b>further</b> information, please contact our office.</i> (Pour plus d’informations, contactez notre bureau.) Une expression très fréquente au TOEIC.' },
     { type: 'examples', items: [
       { en: 'Our sales are better this year than last year.', fr: 'Nos ventes sont meilleures cette année que l’année dernière.' },
-      { en: 'She speaks English better than her manager.', fr: 'Elle parle anglais mieux que sa responsable.' },
+      { en: 'She speaks English better than her manager.', fr: 'Elle parle mieux anglais que sa responsable.' },
       { en: 'The traffic was worse than we expected.', fr: 'La circulation était pire que prévu.' },
       { en: 'This is the best offer we have received.', fr: 'C’est la meilleure offre que nous ayons reçue.' },
       { en: 'We need more time and less paperwork.', fr: 'Il nous faut plus de temps et moins de paperasse.' }
@@ -63,7 +64,7 @@ LE.register({
     { type: 'p', html: 'Le superlatif sert à dire qu’une chose est « la plus… » ou « le plus… » dans un groupe. On met <b>the</b> devant (ou un possessif : <i>our biggest client</i>, notre plus gros client). Après le superlatif, on trouve souvent <b>in</b> + un lieu ou un groupe (<i>in the company, in the city</i>) ou <b>of</b> + une période ou un nombre (<i>of the year, of the three</i>).' },
     { type: 'examples', items: [
       { en: 'This is the most expensive hotel in the city.', fr: 'C’est l’hôtel le plus cher de la ville.' },
-      { en: 'Ms. Adeyemi is the most experienced manager in our team.', fr: 'Mme Adeyemi est la responsable la plus expérimentée de notre équipe.' },
+      { en: 'Ms. Adeyemi is the most experienced manager in the department.', fr: 'Mme Adeyemi est la responsable la plus expérimentée du service.' },
       { en: 'December is the busiest month of the year.', fr: 'Décembre est le mois le plus chargé de l’année.' },
       { en: 'Our biggest client is based in Brazil.', fr: 'Notre plus gros client est basé au Brésil.' }
     ] },
@@ -87,8 +88,8 @@ LE.register({
       { en: "Our results are similar to last year's.", fr: 'Nos résultats sont semblables à ceux de l’an dernier.' }
     ] },
 
-    { type: 'h', text: 'Nuancer : much, far, a lot, a bit + comparatif' },
-    { type: 'p', html: 'Pour dire « <b>beaucoup</b> plus » ou « <b>bien</b> plus », on met <b>much</b>, <b>far</b> ou <b>a lot</b> devant le comparatif (jamais <i>very</i>). Pour « un peu plus », on dit <b>a bit</b>, <b>a little</b> ou <b>slightly</b> (légèrement).<br><span class="ko">very cheaper</span> → <span class="ok">much cheaper</span>' },
+    { type: 'h', text: 'Nuancer : much, far, a lot, even, a bit + comparatif' },
+    { type: 'p', html: 'Pour dire « <b>beaucoup</b> plus » ou « <b>bien</b> plus », on met <b>much</b>, <b>far</b> ou <b>a lot</b> devant le comparatif (jamais <i>very</i>). <b>Even</b> veut dire « encore » : <i>even better</i> (encore mieux), <i>even cheaper</i> (encore moins cher). Pour « un peu plus », on dit <b>a bit</b>, <b>a little</b> ou <b>slightly</b> (légèrement).<br><span class="ko">very cheaper</span> → <span class="ok">much cheaper</span>' },
     { type: 'examples', items: [
       { en: 'The new software is much faster.', fr: 'Le nouveau logiciel est beaucoup plus rapide.' },
       { en: 'This option is far more expensive.', fr: 'Cette option est bien plus chère.' },
@@ -117,11 +118,12 @@ LE.register({
       ['moins… que', 'not as + adj. + as / less + adj. + than', 'not as cheap as / less useful than'],
       ['le plus…', 'the -est / the most + adj.', 'the cheapest / the most useful'],
       ['le moins…', 'the least + adj.', 'the least useful'],
-      ['beaucoup plus…', 'much / far / a lot + comparatif', 'much cheaper / far more useful']
+      ['beaucoup plus…', 'much / far / a lot + comparatif', 'much cheaper / far more useful'],
+      ['plus… plus…', 'the + comparatif, the + comparatif', 'the sooner, the better']
     ] },
 
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, les questions de comparaison se repèrent facilement :<br>• <b>than</b> dans la phrase → il faut un <b>comparatif</b> : <i>Shipping by sea is ------- than shipping by air.</i> → <b>cheaper</b> ;<br>• <b>the</b> ------- … <b>in / of</b> → il faut un <b>superlatif</b> : <i>the ------- hotel in the city</i> → <b>most expensive</b> ;<br>• <b>as</b> ------- <b>as</b> → forme de base : <i>as reliable as the old model</i> ;<br>• <b>much, far, even</b> juste avant le trou → comparatif : <i>much ------- than expected</i> → <b>higher</b>.<br>Méfie-toi aussi des pièges <b>than / then</b> et <b>as / than</b>.' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• 1 syllabe → <b>-er / the -est</b> (<i>cheaper, the cheapest</i>) ; 2 syllabes en -y → <b>-ier / the -iest</b> (<i>easier</i>) ; 2 syllabes ou plus → <b>more / the most</b> (<i>more expensive</i>).<br>• Irréguliers : <b>good / well → better → the best</b> ; <b>bad → worse → the worst</b> ; <b>far → farther / further</b> ; <b>much / many → more → the most</b> ; <b>little → less → the least</b>.<br>• « que » = <b>than</b> après un comparatif, mais <b>as</b> dans <i>as … as</i> et <i>the same as</i>.<br>• Superlatif + <b>in</b> (lieu, groupe) ou <b>of</b> (période) ; <b>one of the</b> + superlatif + nom <b>pluriel</b>.<br>• <b>much / far / a lot</b> + comparatif = beaucoup plus (jamais <i>very</i>).' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• 1 syllabe → <b>-er / the -est</b> (<i>cheaper, the cheapest</i>) ; 2 syllabes en -y → <b>-ier / the -iest</b> (<i>easier</i>) ; 2 syllabes ou plus → <b>more / the most</b> (<i>more expensive</i>).<br>• Irréguliers : <b>good / well → better → the best</b> ; <b>bad → worse → the worst</b> ; <b>far → farther / further</b> ; <b>much / many → more → the most</b> ; <b>little → less → the least</b> ; <b>few → fewer → the fewest</b>.<br>• « que » = <b>than</b> après un comparatif, mais <b>as</b> dans <i>as … as</i> et <i>the same as</i>.<br>• Superlatif + <b>in</b> (lieu, groupe) ou <b>of</b> (période) ; <b>one of the</b> + superlatif + nom <b>pluriel</b>.<br>• <b>much / far / a lot</b> + comparatif = beaucoup plus (jamais <i>very</i>).' }
   ],
   exercises: [
     { type: 'mcq', q: 'My new office is ___ than my old one.', options: ['bigger', 'more big', 'biggest', 'more bigger'], answer: 0, explain: '<i>big</i> = 1 syllabe → <b>-er</b>, avec doublement du <b>g</b> : <b>bigger</b>. Jamais <i>more</i> + -er en même temps.' },

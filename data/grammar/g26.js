@@ -47,7 +47,7 @@ LE.register({
       ['Présent (he, she, it)', 'She <b>has to</b> work.', 'She <b>doesn’t have to</b> work.', '<b>Does</b> she <b>have to</b> work?'],
       ['Passé', 'We <b>had to</b> wait.', 'We <b>didn’t have to</b> wait.', '<b>Did</b> we <b>have to</b> wait?'],
       ['Futur', 'You’<b>ll have to</b> wait.', 'You <b>won’t have to</b> wait.', '<b>Will</b> you <b>have to</b> wait?']
-    ], caption: '<b>Must</b> n’a pas de passé : « j’ai dû » se dit <b>I had to</b>. Pas de futur non plus : « je devrai » se dit <b>I will have to</b> (<span class="ko">I will must</span> n’existe pas).' },
+    ], caption: '<b>Must</b> n’a pas de passé : « j’ai dû partir » (obligation) se dit <b>I had to leave</b>. Pas de futur non plus : « je devrai » se dit <b>I will have to</b> (<span class="ko">I will must</span> n’existe pas).' },
     { type: 'examples', items: [
       { en: 'I have to work late tonight.', fr: 'Je dois travailler tard ce soir.', note: 'À l’oral, <b>have to</b> se prononce presque « <b>haf-teu</b> », et <b>has to</b> « <b>has-teu</b> ».' },
       { en: 'Ms. Okafor has to be at the airport at six.', fr: 'Mme Okafor doit être à l’aéroport à six heures.' },
@@ -80,7 +80,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'Should, shouldn’t et ought to : le conseil' },
-    { type: 'p', html: '<b>Should</b> = « tu devrais », « il faudrait ». C’est un <b>conseil</b> ou une recommandation, pas une obligation. <b>Shouldn’t</b> = « tu ne devrais pas ». <b>Ought to</b> a le même sens que <i>should</i>, en un peu plus formel et plus rare ; c’est le seul de ces mots qui contient <b>to</b>. Pour demander conseil : <i><b>Should I</b>…?</i> (Est-ce que je devrais… ?) Plus fort encore : <b>had better</b> (souvent contracté en <b>’d better</b>) + base verbale = « tu ferais mieux de », avec l’idée qu’il y aura un problème sinon. Malgré <i>had</i>, le sens est présent ou futur.' },
+    { type: 'p', html: '<b>Should</b> = « tu devrais », « il faudrait ». C’est un <b>conseil</b> ou une recommandation, pas une obligation. <b>Shouldn’t</b> = « tu ne devrais pas ». <b>Ought to</b> a le même sens que <i>should</i>, en un peu plus formel et plus rare ; attention, lui s’écrit avec <b>to</b> : <i>We ought <b>to</b> leave.</i> Pour demander conseil : <i><b>Should I</b>…?</i> (Est-ce que je devrais… ?) Plus fort encore : <b>had better</b> (souvent contracté en <b>’d better</b>) + base verbale = « tu ferais mieux de », avec l’idée qu’il y aura un problème sinon. Malgré <i>had</i>, le sens est présent ou futur. À la forme négative : <i>You’d better <b>not</b> be late.</i> (Tu ferais mieux de ne pas être en retard.)' },
     { type: 'examples', items: [
       { en: 'You should rest. You look tired.', fr: 'Tu devrais te reposer. Tu as l’air fatiguée.' },
       { en: "You shouldn't drink coffee so late.", fr: 'Tu ne devrais pas boire de café si tard.' },
@@ -91,7 +91,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'Les formules des règlements : required, allowed, supposed' },
-    { type: 'p', html: 'Dans les notes de service, les règlements et les annonces du TOEIC, on trouve très souvent des expressions construites avec <b>be</b> (conjugué) + un participe passé (la 3ᵉ colonne des verbes) + <b>to</b> + base verbale.' },
+    { type: 'p', html: 'Dans les notes de service, les règlements et les annonces du TOEIC, on trouve très souvent des expressions construites avec <b>be</b> (conjugué) + un participe passé (ici, la forme en <i>-ed</i> : <i>required, allowed, permitted, supposed</i>) + <b>to</b> + base verbale.' },
     { type: 'table', head: ['Expression', 'Sens', 'Exemple'], rows: [
       ['<b>be required to</b>', 'être tenu(e) de, devoir (obligation officielle)', '<i>Employees <b>are required to</b> wear badges.</i>'],
       ['<b>be allowed to</b> / <b>be permitted to</b>', 'avoir le droit de, être autorisé(e) à', '<i>Visitors <b>are allowed to</b> take photos in the lobby.</i>'],
@@ -142,7 +142,7 @@ LE.register({
     { type: 'mcq', q: 'What time ___ supposed to start work?', options: ['we are', 'are we', 'do we', 'we'], answer: 1, explain: '<b>Be supposed to</b> se construit avec <b>be</b> : pour la question, on inverse <b>be</b> et le sujet → <i>What time <b>are we</b> supposed to start?</i>' },
     { type: 'mcq', q: 'Employees ___ required to wear safety glasses in the factory.', options: ['is', 'are', 'have', 'must'], answer: 1, explain: '<b>Be required to</b> : il faut le verbe <b>be</b>. <i>Employees</i> est pluriel → <b>are</b> required to.' },
     { type: 'order', answer: "You don't have to bring your laptop.", fr: 'Tu n’es pas obligée d’apporter ton ordinateur portable.', explain: 'Absence d’obligation : sujet + <b>don’t have to</b> + base verbale (<i>bring</i>) + complément.' },
-    { type: 'order', answer: 'Visitors must sign in at the front desk.', fr: 'Les visiteurs doivent s’enregistrer à l’accueil.', explain: 'Règle écrite → <b>must</b> + base verbale (<i>sign in</i>), puis le lieu (<i>at the front desk</i>).' },
+    { type: 'order', answer: 'Visitors must sign in at the front desk.', alts: ['At the front desk visitors must sign in.'], fr: 'Les visiteurs doivent s’enregistrer à l’accueil.', explain: 'Règle écrite → <b>must</b> + base verbale (<i>sign in</i>), puis le lieu (<i>at the front desk</i>).' },
     { type: 'listen', say: "Hi Karen, it's Paul. Just a reminder: you don't have to come to the office tomorrow, but you must send me the budget by noon.", accent: 'en-GB', q: 'Que doit faire Karen demain ?', options: ['Venir au bureau avant midi.', 'Envoyer le budget avant midi.', 'Appeler Paul avant midi.', 'Venir au bureau et envoyer le budget.'], answer: 1, explain: '<i>You <b>don’t have to</b> come to the office</i> = elle n’est pas obligée de venir. <i>You <b>must</b> send me the budget by noon</i> = elle doit envoyer le budget avant midi.' },
     { type: 'dictation', say: "You shouldn't leave your bag here.", answers: ["You shouldn't leave your bag here", 'You should not leave your bag here'], explain: '<i>shouldn’t</i> = <i>should not</i> : « Tu ne devrais pas laisser ton sac ici. » C’est un conseil (ou un avertissement poli).' },
     { type: 'mcq', q: 'The dress code is casual on Fridays, so employees ------- wear a suit. <small>(style TOEIC)</small>', options: ["mustn't", "don't have to", 'have to', 'must'], answer: 1, explain: 'La tenue est décontractée le vendredi : le costume n’est <b>pas obligatoire</b> → <b>don’t have to</b>. <i>Mustn’t</i> voudrait dire que le costume est interdit, ce qui n’est pas logique.' },

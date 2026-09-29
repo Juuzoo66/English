@@ -15,11 +15,12 @@ LE.register({
     { type: 'h', text: 'À quoi sert le prétérit ?' },
     { type: 'p', html: 'Le <b>prétérit</b> (en anglais <i>simple past</i>) sert à parler d’une action <b>terminée</b>, qui s’est passée à un <b>moment précis du passé</b> : hier, la semaine dernière, en 2019… En français, on le traduit le plus souvent par le <b>passé composé</b> (« j’ai envoyé », « elle est arrivée »).' },
     { type: 'examples', items: [
-      { en: 'I emailed the client yesterday.', fr: 'J’ai envoyé un e-mail au client hier.', note: '<i>Yesterday</i> = un moment passé précis → prétérit.' },
+      { en: 'I emailed the client yesterday.', fr: 'J’ai envoyé un e-mail au client hier.', note: '<i>Yesterday</i> = un moment passé précis → prétérit. On peut aussi dire <i>I sent the client an email</i> : <i>send → sent</i> est un verbe irrégulier (voir la leçon « Les verbes irréguliers essentiels »).' },
       { en: 'We started the project in March.', fr: 'Nous avons commencé le projet en mars.' },
       { en: 'The meeting ended at five.', fr: 'La réunion s’est terminée à cinq heures.' },
       { en: 'She worked in Tokyo for two years.', fr: 'Elle a travaillé à Tokyo pendant deux ans.', note: 'L’action est terminée : elle ne travaille plus à Tokyo.' }
     ] },
+    { type: 'box', style: 'warn', title: 'Piège : « j’ai appelé » ne se dit pas « I have called »', html: 'Le passé composé français a deux mots (« j’<b>ai</b> appelé », « elle <b>est</b> arrivée »). Ne le traduis pas mot à mot : avec un moment passé précis, l’anglais utilise le prétérit, en <b>un seul mot</b>.<br><span class="ko">I have called him yesterday.</span> → <span class="ok">I called him yesterday.</span><br><span class="ko">She is arrived this morning.</span> → <span class="ok">She arrived this morning.</span>' },
     { type: 'p', html: 'Tu connais déjà un prétérit : celui de <b>be</b> (<i>was / were</i>), vu dans la leçon « Le prétérit de « be » : was et were ». Ici, on s’occupe des verbes <b>réguliers</b>, c’est-à-dire de la grande majorité des verbes anglais.' },
 
     { type: 'h', text: 'La formation : base verbale + -ed' },
@@ -46,8 +47,8 @@ LE.register({
       ['<b>-e</b>', '+ <b>-d</b> seulement', 'arrive → arrive<b>d</b>, hire → hire<b>d</b>, change → change<b>d</b>'],
       ['consonne + <b>y</b>', 'y → <b>-ied</b>', 'study → stud<b>ied</b>, try → tr<b>ied</b>, apply → appl<b>ied</b>'],
       ['voyelle + <b>y</b>', 'on garde le y : + <b>-ed</b>', 'stay → stay<b>ed</b>, play → play<b>ed</b>, enjoy → enjoy<b>ed</b>'],
-      ['1 voyelle + 1 consonne, avec l’<b>accent</b> sur la dernière syllabe', 'on <b>double</b> la consonne, puis + <b>-ed</b>', 'stop → sto<b>pp</b>ed, plan → pla<b>nn</b>ed, prefer → prefe<b>rr</b>ed']
-    ], caption: 'Pas de doublement quand l’accent est sur une autre syllabe (<i><u>o</u>pen → opened, <u>vis</u>it → visited, <u>hap</u>pen → happened</i>), ni après w ou x (<i>allow → allowed, fix → fixed</i>).' },
+      ['<b>une seule</b> voyelle + 1 consonne à la fin, avec l’<b>accent</b> sur la dernière syllabe (ou verbe d’une seule syllabe)', 'on <b>double</b> la consonne, puis + <b>-ed</b>', 'stop → sto<b>pp</b>ed, plan → pla<b>nn</b>ed, prefer → prefe<b>rr</b>ed']
+    ], caption: 'Pas de doublement quand l’accent est sur une autre syllabe (<i><u>o</u>pen → opened, <u>vis</u>it → visited, <u>hap</u>pen → happened</i>), ni quand il y a deux voyelles avant la consonne (<i>need → needed, wait → waited</i>), ni après w ou x (<i>allow → allowed, fix → fixed</i>).' },
     { type: 'box', style: 'warn', title: 'Piège : travel, cancel… l’orthographe américaine', html: 'En anglais <b>américain</b>, on applique la règle : dans <i><u>trav</u>el</i> et <i><u>can</u>cel</i>, l’accent est sur la 1ʳᵉ syllabe, donc <b>pas de doublement</b> : <span class="ok">traveled, canceled, labeled</span>. L’anglais <b>britannique</b>, lui, double le <b>l</b> : <i>travelled, cancelled</i>. Les deux sont corrects ; sur ce site, on écrit à l’américaine, comme la plupart des textes du TOEIC.' },
     { type: 'examples', items: [
       { en: 'The train arrived ten minutes late.', fr: 'Le train est arrivé avec dix minutes de retard.', note: 'arrive + <b>d</b>' },
@@ -58,10 +59,10 @@ LE.register({
     ] },
 
     { type: 'h', text: 'La prononciation de -ed : trois sons' },
-    { type: 'p', html: 'Bonne nouvelle : la terminaison <b>-ed</b> ne se prononce presque jamais « èd ». Il y a trois possibilités, selon le dernier son du verbe. Les détails et l’entraînement sont dans la leçon « Les terminaisons -s et -ed à l’oral ».' },
+    { type: 'p', html: 'Attention : la terminaison <b>-ed</b> ne se prononce jamais « èd » comme on pourrait le croire, et le plus souvent elle n’ajoute même <b>pas de syllabe</b>. Il y a trois possibilités, selon le dernier son du verbe. Les détails et l’entraînement sont dans la leçon « Les terminaisons -s et -ed à l’oral ».' },
     { type: 'table', head: ['Son', 'Quand ?', 'Exemples'], rows: [
       ['/ɪd/ — « id », une syllabe en plus', 'après les sons <b>t</b> et <b>d</b>', 'want<b>ed</b>, need<b>ed</b>, start<b>ed</b>, decid<b>ed</b>'],
-      ['/t/ — pas de syllabe en plus', 'après un son « sourd » (la gorge ne vibre pas) : <b>p, k, s, f, ch, sh</b>', 'work<b>ed</b> (« workt »), stopp<b>ed</b>, fix<b>ed</b>, finish<b>ed</b>'],
+      ['/t/ — pas de syllabe en plus', 'après un son « sourd » (la gorge ne vibre pas) : <b>p, k, s, x, f, ch, sh</b>', 'work<b>ed</b> (« workt »), stopp<b>ed</b>, fix<b>ed</b>, finish<b>ed</b>'],
       ['/d/ — pas de syllabe en plus', 'après tous les autres sons (voyelles, <b>l, m, n, r, v</b>…)', 'call<b>ed</b> (« calld »), play<b>ed</b>, open<b>ed</b>, arriv<b>ed</b>']
     ] },
     { type: 'p', html: 'Écoute et compare : au TOEIC, ce petit <b>-ed</b> est souvent la seule chose qui distingue le présent du passé.' },
@@ -90,7 +91,7 @@ LE.register({
       { en: 'We launched the new app in 2021.', fr: 'Nous avons lancé la nouvelle application en 2021.' },
       { en: 'When I was a student, I worked in a hotel.', fr: 'Quand j’étais étudiante, je travaillais dans un hôtel.', note: 'Le prétérit traduit aussi l’<b>imparfait</b> quand il s’agit d’une situation ou d’une habitude passée.' }
     ] },
-    { type: 'box', style: 'tip', title: 'Passé composé, imparfait… un seul temps en anglais', html: 'Le prétérit anglais correspond à <b>plusieurs</b> temps français : <i>She lived in Nairobi.</i> = « Elle a vécu à Nairobi. » ou « Elle vivait à Nairobi. » Retiens la règle simple : <b>action ou situation terminée + moment passé</b> → prétérit. (Sans moment précis, l’anglais utilise parfois un autre temps, le <i>present perfect</i> : tu le verras plus tard.)' },
+    { type: 'box', style: 'tip', title: 'Passé composé, imparfait… un seul temps en anglais', html: 'Le prétérit anglais correspond à <b>plusieurs</b> temps français : <i>She lived in Nairobi.</i> = « Elle a vécu à Nairobi. » ou « Elle vivait à Nairobi. » Retiens la règle simple : <b>action ou situation terminée + moment passé</b> → prétérit. (Deux autres cas, que tu verras plus tard : pour une action <b>en cours</b> à un moment du passé — « je travaillais quand il a appelé » —, l’anglais utilise le <i>past continuous</i> ; et sans moment précis, il utilise parfois le <i>present perfect</i>.)' },
     { type: 'dialog', title: 'Lundi matin au bureau', lines: [
       { speaker: 'M', en: 'Good morning, Priya! How was your weekend?', fr: 'Bonjour, Priya ! C’était comment, ton week-end ?' },
       { speaker: 'W', en: 'It was great, thanks. I visited my sister in Boston.', fr: 'Super, merci. Je suis allée voir ma sœur à Boston.' },
@@ -105,7 +106,7 @@ LE.register({
   ],
   exercises: [
     { type: 'mcq', q: 'Yesterday, I ___ my manager.', options: ['call', 'called', 'calls', 'calling'], answer: 1, explain: '<i>Yesterday</i> (hier) → action terminée dans le passé → prétérit : <b>called</b> (call + -ed).' },
-    { type: 'mcq', q: 'Quelle phrase est correcte ?', options: ['She work in Lagos last year.', 'She worked in Lagos last year.', 'She works in Lagos last year.'], answer: 1, explain: '<i>Last year</i> → prétérit. Au prétérit, la forme est la même à toutes les personnes : <b>she worked</b>, sans -s.' },
+    { type: 'mcq', q: 'Quelle phrase est correcte ?', options: ['She work in Lagos last year.', 'She worked in Lagos last year.', 'She works in Lagos last year.', 'She has worked in Lagos last year.'], answer: 1, explain: '<i>Last year</i> → prétérit, la même forme à toutes les personnes : <b>she worked</b>, sans -s. <i>Has worked</i> est un calque du passé composé, impossible avec un moment passé précis comme <i>last year</i>.' },
     { type: 'gap', q: 'We ___ (finish) the training last Monday.', answers: ['finished'], explain: '<i>Last Monday</i> (lundi dernier) → prétérit : finish + -ed = <b>finished</b> (prononcé « finisht », sans syllabe en plus).' },
     { type: 'gap', q: 'The delivery truck ___ (arrive) an hour ago.', answers: ['arrived'], explain: '<i>An hour ago</i> (il y a une heure) → prétérit. <i>Arrive</i> se termine par <b>-e</b> : on ajoute seulement <b>-d</b> → <b>arrived</b>.' },
     { type: 'mcq', q: 'Last year, Ms. Novak ___ Spanish at night school.', options: ['studyed', 'studied', 'studies', 'studed'], answer: 1, explain: 'Consonne + <b>y</b> → <b>-ied</b> : <i>study → studied</i>. <i>Studies</i> est au présent, impossible avec <i>last year</i>.' },

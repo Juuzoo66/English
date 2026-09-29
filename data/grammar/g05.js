@@ -18,7 +18,8 @@ LE.register({
       { en: 'There is a printer in the office.', fr: 'Il y a une imprimante dans le bureau.' },
       { en: 'There are two meeting rooms on this floor.', fr: 'Il y a deux salles de réunion à cet étage.' },
       { en: "There's a café near the hotel.", fr: 'Il y a un café près de l’hôtel.', note: '<i>There’s</i> = <i>there is</i> : c’est la forme la plus courante à l’oral.' },
-      { en: 'There are twenty people in my team.', fr: 'Il y a vingt personnes dans mon équipe.' }
+      { en: 'There are twenty people in my team.', fr: 'Il y a vingt personnes dans mon équipe.' },
+      { en: 'There are two train stations in my town.', fr: 'Il y a deux gares dans ma ville.' }
     ] },
 
     { type: 'h', text: 'La formation' },
@@ -58,7 +59,7 @@ LE.register({
       ['<b>Are there</b> any shops near here?', 'Yes, there are. / No, there aren’t.', 'Est-ce qu’il y a des magasins près d’ici ?'],
       ['<b>Is there</b> any milk?', 'Yes, there is. / No, there isn’t.', 'Est-ce qu’il y a du lait ?'],
       ['<b>How many</b> rooms <b>are there</b>?', 'There are fifty. / Fifty.', 'Combien de chambres y a-t-il ?']
-    ], caption: 'Ordre de la question : <b>How many + nom au pluriel + are there</b> ?' },
+    ], caption: 'Ordre de la question : <b>How many + nom au pluriel + are there</b> ? Avec un nom indénombrable, on dit <b>How much</b> : <i>How much coffee is there?</i> (Combien de café y a-t-il ?)' },
     { type: 'examples', items: [
       { en: 'Is there a bus to the airport? — Yes, there is.', fr: 'Est-ce qu’il y a un bus pour l’aéroport ? — Oui.' },
       { en: "Are there any questions? — No, there aren't.", fr: 'Est-ce qu’il y a des questions ? — Non.' },
@@ -92,7 +93,7 @@ LE.register({
     { type: 'box', style: 'warn', title: 'Piège : « il y a » + une durée', html: 'Quand « il y a » parle du passé (« il y a deux ans »), l’anglais n’utilise pas <i>there is</i>, mais <b>ago</b>, placé après la durée :<br><span class="ko">There is two years, I started.</span> → <span class="ok">I started two years <b>ago</b>.</span> (J’ai commencé il y a deux ans.)<br>Tu verras cette structure avec le prétérit (leçon <i>Le prétérit des verbes réguliers</i>).' },
 
     { type: 'h', text: 'Au passé et au futur : un aperçu' },
-    { type: 'p', html: '<b>There</b> ne bouge pas : seul <b>be</b> change de temps. Au passé : <b>there was</b> (singulier) / <b>there were</b> (pluriel). Au futur : <b>there will be</b> (singulier et pluriel). Tu les étudieras plus tard, mais apprends déjà à les reconnaître.' },
+    { type: 'p', html: '<b>There</b> ne bouge pas : seul <b>be</b> change de temps. Au passé : <b>there was</b> (singulier) / <b>there were</b> (pluriel). Au futur : <b>there will be</b> (singulier et pluriel). Tu les étudieras plus tard (leçons <i>Le prétérit de « be » : was et were</i> et <i>Le futur : will, be going to et présent continu</i>), mais apprends déjà à les reconnaître.' },
     { type: 'examples', items: [
       { en: 'There was a meeting yesterday.', fr: 'Il y avait une réunion hier.' },
       { en: 'There were ten people at the meeting.', fr: 'Il y avait dix personnes à la réunion.' },

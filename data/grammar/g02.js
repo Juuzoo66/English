@@ -24,18 +24,18 @@ LE.register({
       ['<b>it</b>', 'il / elle', 'une <b>chose</b>, un animal, une entreprise, une idée'],
       ['<b>we</b>', 'nous (et souvent « on »)', '« On est prêts. » → <i>We’re ready.</i>'],
       ['<b>they</b>', 'ils / elles', 'des personnes <b>ou</b> des choses au pluriel']
-    ], caption: 'Le sujet se place <b>toujours</b> avant le verbe, et on ne peut jamais l’oublier : <i>It’s late.</i> (pas « Is late »).' },
-    { type: 'box', style: 'warn', title: 'Piège : il et elle pour les objets', html: 'En français, « la réunion » est <i>elle</i> et « le rapport » est <i>il</i>. En anglais, le genre des objets n’existe pas : une chose au singulier, c’est <b>it</b> ; plusieurs choses, c’est <b>they</b>. <b>He</b> et <b>she</b> sont réservés aux personnes.<br><span class="ko">The meeting? She is at ten.</span> → <span class="ok">The meeting? It’s at ten.</span>' },
+    ], caption: 'Dans une phrase affirmative, le sujet se place <b>avant</b> le verbe, et on ne peut pas l’oublier : <span class="ok">It’s late.</span> (pas <span class="ko">Is late</span>).' },
+    { type: 'box', style: 'warn', title: 'Piège : il et elle pour les objets', html: 'En français, « la réunion » est <i>elle</i> et « le rapport » est <i>il</i>. En anglais, le genre des objets n’existe pas : une chose au singulier, c’est <b>it</b> ; plusieurs choses, c’est <b>they</b>. <b>He</b> et <b>she</b> sont réservés aux personnes (et parfois aux animaux de compagnie).<br><span class="ko">The meeting? She is at ten.</span> → <span class="ok">The meeting? It’s at ten.</span>' },
     { type: 'examples', items: [
       { en: "The report? It's on your desk.", fr: 'Le rapport ? Il est sur ton bureau.' },
       { en: "The meeting is long. It's boring!", fr: 'La réunion est longue. Elle est ennuyeuse !' },
       { en: "Where are the keys? They're in the drawer.", fr: 'Où sont les clés ? Elles sont dans le tiroir.' },
       { en: "I like Nadia. She's very kind.", fr: 'J’aime bien Nadia. Elle est très gentille.' }
     ] },
-    { type: 'box', style: 'info', title: 'Bon à savoir : « they » pour une seule personne', html: 'Quand on ne sait pas si la personne est un homme ou une femme (ou qu’on ne veut pas le préciser), l’anglais utilise souvent <b>they</b> au singulier : <i>A customer is on the phone. <b>They</b> want to speak to a manager.</i> (Un client est au téléphone. Il ou elle veut parler à un responsable.) Le verbe reste au pluriel. Tu le verras dans les documents du TOEIC : <i>Each candidate must bring <b>their</b> ID.</i> (Chaque candidat doit apporter sa pièce d’identité.)' },
+    { type: 'box', style: 'info', title: 'Bon à savoir : « they » pour une seule personne', html: 'Quand on ne sait pas si la personne est un homme ou une femme (ou qu’on ne veut pas le préciser), l’anglais utilise souvent <b>they</b> au singulier : <i>A customer is on the phone. <b>They</b> want to speak to a manager.</i> (Un client est au téléphone. Il ou elle veut parler à un responsable.) Le verbe se conjugue comme au pluriel (<i>they want</i>, <i>they are</i>). Tu le verras dans les documents du TOEIC : <i>Each candidate must bring <b>their</b> ID.</i> (Chaque candidat doit apporter sa pièce d’identité.)' },
 
     { type: 'h', text: 'Les adjectifs possessifs : my, your, his…' },
-    { type: 'p', html: 'Pour dire « mon, ton, son… », on met un <b>adjectif possessif</b> devant le nom. Bonne nouvelle : il ne change <b>jamais</b>, ni au féminin, ni au pluriel. <b>My</b> veut dire à la fois « mon », « ma » <b>et</b> « mes » !' },
+    { type: 'p', html: 'Pour dire « mon, ton, son… », on met un <b>adjectif possessif</b> devant le nom. Bonne nouvelle : il ne s’accorde <b>jamais</b> avec la chose possédée, ni au féminin, ni au pluriel. <b>My</b> veut dire à la fois « mon », « ma » <b>et</b> « mes » !' },
     { type: 'table', head: ['Sujet', 'Possessif', 'Exemple', 'Français'], rows: [
       ['I', '<b>my</b>', 'my car / my keys', 'ma voiture / mes clés'],
       ['you', '<b>your</b>', 'your office', 'ton bureau / votre bureau'],
@@ -64,7 +64,7 @@ LE.register({
       ['her bag', '<b>hers</b>', 'le sien… / à elle'],
       ['our bag', '<b>ours</b>', 'le nôtre… / à nous'],
       ['their bag', '<b>theirs</b>', 'le leur… / à eux, à elles']
-    ], caption: '<b>His</b> ne change pas. <i>Its</i> ne s’emploie pas comme pronom possessif. Et <b>jamais d’apostrophe</b> dans <i>yours, hers, ours, theirs</i>.' },
+    ], caption: '<b>His</b> est identique dans les deux colonnes (<i>his bag</i> → <i>his</i>). <i>Its</i> ne s’emploie pas comme pronom possessif. Et <b>jamais d’apostrophe</b> dans <i>yours, hers, ours, theirs</i>.' },
     { type: 'examples', items: [
       { en: "Is this pen yours? — Yes, it's mine.", fr: 'Ce stylo est à toi ? — Oui, c’est le mien.' },
       { en: "This isn't my coat. Mine is black.", fr: 'Ce n’est pas mon manteau. Le mien est noir.' },

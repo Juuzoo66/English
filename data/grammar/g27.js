@@ -18,7 +18,7 @@ LE.register({
       ['<b>may</b>', 'possibilité ; permission (formel)', '<i>It <b>may</b> rain.</i> / <i><b>May</b> I come in?</i>', 'Il va peut-être pleuvoir. / Puis-je entrer ?'],
       ['<b>might</b>', 'possibilité', '<i>He <b>might</b> be late.</i>', 'Il sera peut-être en retard.'],
       ['<b>could</b>', 'possibilité ; demande polie', '<i>It <b>could</b> be a mistake.</i> / <i><b>Could</b> you help me?</i>', 'Ça pourrait être une erreur. / Pourrais-tu m’aider ?'],
-      ['<b>would</b>', 'demande très polie, offre, invitation', '<i><b>Would</b> you like some coffee?</i>', 'Voulez-vous du café ?']
+      ['<b>would</b>', 'demande polie, offre, invitation', '<i><b>Would</b> you like some coffee?</i>', 'Voulez-vous du café ?']
     ], caption: '<b>Could</b> est aussi le passé de <i>can</i> (capacité) : <i>I <b>could</b> swim when I was five.</i> (Je savais nager à cinq ans.) Le contexte permet de faire la différence.' },
 
     { type: 'h', text: 'May, might, could : « peut-être »' },
@@ -56,10 +56,10 @@ LE.register({
     { type: 'examples', items: [
       { en: 'May I ask a question?', fr: 'Puis-je poser une question ?' },
       { en: 'Could I use your phone, please?', fr: 'Pourrais-je utiliser ton téléphone, s’il te plaît ?' },
-      { en: 'May I speak to Ms. Rossi, please? — Of course. One moment, please.', fr: 'Pourrais-je parler à Mme Rossi, s’il vous plaît ? — Bien sûr. Un instant, s’il vous plaît.', accent: 'en-GB' },
+      { en: 'May I speak to Ms. Rossi, please? — Of course. One moment, please.', fr: 'Puis-je parler à Mme Rossi, s’il vous plaît ? — Bien sûr. Un instant, s’il vous plaît.', accent: 'en-GB' },
       { en: 'Can I sit here? — Sure, go ahead.', fr: 'Je peux m’asseoir ici ? — Bien sûr, vas-y.' }
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : « May you… ? »', html: 'Pour demander la permission, <b>may</b> s’utilise seulement avec <b>I</b> ou <b>we</b> : <i>May I…? May we…?</i> Pour demander à quelqu’un de faire quelque chose, on utilise <b>could</b> ou <b>would</b> :<br><span class="ko">May you help me?</span> → <span class="ok">Could you help me?</span>' },
+    { type: 'box', style: 'warn', title: 'Piège : « May you… ? »', html: 'Dans une question, <b>may</b> sert à demander la <b>permission</b> pour soi : <i>May I…? May we…?</i> Il ne sert jamais à demander à quelqu’un de faire quelque chose : pour cela, on utilise <b>can</b>, <b>could</b> ou <b>would</b> :<br><span class="ko">May you help me?</span> → <span class="ok">Could you help me?</span>' },
 
     { type: 'h', text: 'Demander à quelqu’un de faire quelque chose' },
     { type: 'p', html: 'En anglais, la politesse passe beaucoup par la <b>forme de la question</b>. Plus la formule est longue et indirecte, plus elle est polie. Au travail et au TOEIC, <b>Could you…?</b> est la formule la plus courante.' },
@@ -105,7 +105,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'Aperçu : parler du passé avec must have, might have, should have…' },
-    { type: 'p', html: 'Pour faire une déduction sur le <b>passé</b>, on utilise <b>modal + have + participe passé</b> (la 3ᵉ colonne des verbes irréguliers ; <i>-ed</i> pour les verbes réguliers). Le <i>have</i> ne change jamais, même avec <i>he</i> ou <i>she</i>. Ces formes sont de niveau B1-B2 : pour l’instant, l’important est de savoir les <b>reconnaître</b> à l’écoute et à la lecture.' },
+    { type: 'p', html: 'Pour parler du <b>passé</b> (déduction, possibilité, regret ou reproche), on utilise <b>modal + have + participe passé</b> (la 3ᵉ colonne des verbes irréguliers ; <i>-ed</i> pour les verbes réguliers). Le <i>have</i> ne change jamais, même avec <i>he</i> ou <i>she</i>. Ces formes sont de niveau B1-B2 : pour l’instant, l’important est de savoir les <b>reconnaître</b> à l’écoute et à la lecture.' },
     { type: 'table', head: ['Forme', 'Sens', 'Exemple', 'Français'], rows: [
       ['<b>must have</b> + participe', 'déduction : sûrement', '<i>She <b>must have missed</b> the train.</i>', 'Elle a dû rater le train.'],
       ['<b>may / might / could have</b> + participe', 'possibilité', '<i>He <b>might have left</b> already.</i>', 'Il est peut-être déjà parti.'],

@@ -2,12 +2,12 @@ LE.register({
   id: 'g18',
   kind: 'grammar',
   title: 'Les verbes irréguliers essentiels',
-  subtitle: 'Went, bought, sent… les 40 formes du passé à connaître par cœur, apprises malin',
+  subtitle: 'Went, bought, sent… les formes du passé indispensables, et une méthode pour les retenir facilement',
   level: 'A2',
   minutes: 45,
   goals: [
     'Comprendre les trois formes d’un verbe irrégulier et le rôle de chacune',
-    'Utiliser au prétérit les 40 verbes irréguliers les plus utiles au travail',
+    'Utiliser au prétérit les 41 verbes irréguliers les plus utiles au travail',
     'Mémoriser plus vite grâce aux familles de sons',
     'Éviter les confusions classiques : <i>bought / brought, thought / taught</i>'
   ],
@@ -44,7 +44,7 @@ LE.register({
       ['i – a – u', 'begin – began – begun (commencer)', 'sing – sang – sung (chanter), drink – drank – drunk (boire), swim – swam – swum (nager), ring – rang – rung (sonner)'],
       ['o au prétérit, -en au participe', 'write – wrote – written (écrire)', 'drive – drove – driven (conduire), speak – spoke – spoken (parler), choose – chose – chosen (choisir), break – broke – broken (casser), forget – forgot – forgotten (oublier)'],
       ['-ew / -own', 'know – knew – known (savoir, connaître)', 'grow – grew – grown (grandir), throw – threw – thrown (lancer), fly – flew – flown (prendre l’avion)'],
-      ['Retour à la base', 'come – came – come (venir)', 'become – became – become (devenir), run – ran – run (courir, diriger)'],
+      ['Participe passé = base', 'come – came – come (venir)', 'become – became – become (devenir), run – ran – run (courir, diriger)'],
       ['Les inclassables', 'go – went – gone (aller)', 'be – was / were – been (être), do – did – done (faire), see – saw – seen (voir), have – had – had (avoir), make – made – made (faire), get – got – gotten (obtenir), take – took – taken (prendre), give – gave – given (donner)']
     ], caption: 'Dans la colonne de droite, on ne répète pas les formes identiques : <i>put</i> = put – put – put ; <i>bring – brought</i> = bring – brought – brought.' },
     { type: 'box', style: 'tip', title: 'Le truc du rythme', html: 'Dis toujours les trois formes <b>ensemble</b>, à voix haute, comme une petite chanson : <i>buy, bought, bought — bring, brought, brought — think, thought, thought</i>. Au bout de quelques jours, quand tu entendras <i>thought</i>, ton cerveau pensera tout seul « think ». C’est exactement ce qu’il te faut au TOEIC : <b>reconnaître vite</b> le verbe.' },
@@ -56,7 +56,7 @@ LE.register({
       { en: 'She kept all the receipts.', fr: 'Elle a gardé tous les reçus.', note: 'keep → <b>kept</b>' }
     ] },
 
-    { type: 'h', text: 'Les 40 verbes irréguliers indispensables au travail' },
+    { type: 'h', text: 'Les 41 verbes irréguliers indispensables au travail' },
     { type: 'p', html: 'Voici les verbes irréguliers que tu croiseras sans arrêt dans les e-mails, les réunions et les textes du TOEIC. Ils font tous partie du <b>rang 1</b> de la liste de référence « Les verbes irréguliers ». Objectif : connaître leur prétérit (2ᵉ colonne, en gras) <b>par cœur</b>.' },
     { type: 'table', head: ['Base verbale', 'Prétérit', 'Participe passé', 'Français'], rows: [
       ['be', '<b>was / were</b>', 'been', 'être'],
@@ -76,6 +76,7 @@ LE.register({
       ['go', '<b>went</b>', 'gone', 'aller'],
       ['have', '<b>had</b>', 'had', 'avoir'],
       ['hold', '<b>held</b>', 'held', 'tenir ; organiser (une réunion)'],
+      ['keep', '<b>kept</b>', 'kept', 'garder ; continuer (à)'],
       ['know', '<b>knew</b>', 'known', 'savoir, connaître'],
       ['lead', '<b>led</b>', 'led', 'mener, diriger'],
       ['leave', '<b>left</b>', 'left', 'partir, quitter ; laisser'],
@@ -116,7 +117,7 @@ LE.register({
       '<b>Le cache</b> : cache les colonnes 2 et 3, récite, puis vérifie. Note les verbes ratés.',
       '<b>Révise au bon moment</b> : les verbes ratés le lendemain, puis 3 jours après, puis une semaine après. C’est la <b>répétition espacée</b>, la méthode la plus efficace pour la mémoire à long terme.'
     ] },
-    { type: 'box', style: 'info', title: 'La liste complète', html: 'La liste de référence « Les verbes irréguliers » réunit plus de 140 verbes, classés par <b>rang</b>. Commence par le <b>rang 1</b> (les 40 verbes de cette leçon et une douzaine d’autres), puis passe au rang 2. Le rang 3 est surtout à <b>reconnaître</b> quand tu le lis ou l’entends.' },
+    { type: 'box', style: 'info', title: 'La liste complète', html: 'La liste de référence « Les verbes irréguliers » réunit plus de 140 verbes, classés par <b>rang</b>. Commence par le <b>rang 1</b> (les 41 verbes de cette leçon et une douzaine d’autres), puis passe au rang 2. Le rang 3 est surtout à <b>reconnaître</b> quand tu le lis ou l’entends.' },
     { type: 'dialog', title: 'De retour d’un salon professionnel', lines: [
       { speaker: 'W', en: 'Hi, Marco! How was the trade fair in Frankfurt?', fr: 'Salut, Marco ! Comment s’est passé le salon à Francfort ?' },
       { speaker: 'M', en: 'It was great! I met a lot of potential clients.', fr: 'C’était super ! J’ai rencontré beaucoup de clients potentiels.' },
@@ -127,7 +128,7 @@ LE.register({
     ] },
 
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, on te propose souvent plusieurs formes du même verbe : <i>Mr. Obi ------- a speech at the conference last year.</i> (give / gives / gave / giving) → <b>gave</b>, grâce à <i>last year</i>. En <b>Parties 3 et 4</b>, les verbes irréguliers sont partout : <i>I left my laptop in the meeting room</i>, <i>We sent the invoice on Monday</i>. Si tu ne reconnais pas <i>left</i> comme le passé de <i>leave</i>, tu perds le sens de la phrase.' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• Trois formes : <b>base</b> (<i>write</i>) – <b>prétérit</b> (<i>wrote</i>) – <b>participe passé</b> (<i>written</i>). Au prétérit, on prend la <b>2ᵉ colonne</b>.<br>• Même forme à toutes les personnes (sauf <i>was / were</i>), et <b>jamais de -ed</b> : <i>went</i>, pas <i>goed</i>.<br>• Apprends par <b>familles de sons</b> : <i>buy – bought, think – thought, send – sent, keep – kept…</i><br>• Priorité : les 40 verbes du tableau (rang 1 de la liste « Les verbes irréguliers »).<br>• 5 verbes par jour, à voix haute, avec des révisions espacées.' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• Trois formes : <b>base</b> (<i>write</i>) – <b>prétérit</b> (<i>wrote</i>) – <b>participe passé</b> (<i>written</i>). Au prétérit, on prend la <b>2ᵉ colonne</b>.<br>• Même forme à toutes les personnes (sauf <i>was / were</i>), et <b>jamais de -ed</b> : <i>went</i>, pas <i>goed</i>.<br>• Apprends par <b>familles de sons</b> : <i>buy – bought, think – thought, send – sent, keep – kept…</i><br>• Priorité : les 41 verbes du tableau (rang 1 de la liste « Les verbes irréguliers »).<br>• 5 verbes par jour, à voix haute, avec des révisions espacées.' }
   ],
   exercises: [
     { type: 'mcq', q: 'Last week, we ___ to Chicago for a conference.', options: ['goed', 'went', 'gone', 'go'], answer: 1, explain: 'Prétérit de <i>go</i> : <b>went</b>. <i>Gone</i> est le participe passé (3ᵉ colonne) et « goed » n’existe pas.' },
@@ -143,7 +144,7 @@ LE.register({
     { type: 'order', answer: 'She took the train to Boston yesterday.', alts: ['Yesterday she took the train to Boston.'], fr: 'Elle a pris le train pour Boston hier.', explain: '<i>Take</i> → <b>took</b>. Ordre : sujet + verbe + complément + lieu + moment.' },
     { type: 'order', answer: 'They sold three hundred units last week.', alts: ['Last week they sold three hundred units.'], fr: 'Ils ont vendu trois cents unités la semaine dernière.', explain: '<i>Sell</i> → <b>sold</b> (famille -ell → -old). <i>Last week</i> va en fin (ou en début) de phrase.' },
     { type: 'listen', accent: 'en-AU', say: "I left the office early yesterday because I had a doctor's appointment.", q: 'Qu’a fait cette personne hier ?', options: ['Elle a quitté le bureau tôt.', 'Elle est arrivée au bureau tôt.', 'Elle a oublié son rendez-vous chez le médecin.'], answer: 0, explain: '<i>Left</i> est le prétérit de <b>leave</b> (partir, quitter) et <i>had</i> celui de <b>have</b> : « J’ai quitté le bureau tôt hier parce que j’avais rendez-vous chez le médecin. »' },
-    { type: 'dictation', accent: 'en-CA', say: 'He spoke to the client and wrote an email.', answers: ['He spoke to the client and wrote an email'], explain: '<i>Spoke</i> = prétérit de <b>speak</b> ; <i>wrote</i> = prétérit de <b>write</b>. « Il a parlé au client et a écrit un e-mail. »' },
+    { type: 'dictation', accent: 'en-CA', say: 'He spoke to the client and wrote an email.', answers: ['He spoke to the client and wrote an email', 'He spoke to the client and wrote an e-mail'], explain: '<i>Spoke</i> = prétérit de <b>speak</b> ; <i>wrote</i> = prétérit de <b>write</b>. « Il a parlé au client et a écrit un e-mail. »' },
     { type: 'mcq', q: 'The company ------- a new factory in Monterrey last year. <small>(style TOEIC)</small>', options: ['build', 'builds', 'built', 'building'], answer: 2, explain: '<i>Last year</i> → prétérit. <i>Build</i> → <b>built</b>.' },
     { type: 'mcq', q: 'Mr. Petrov ------- the sales team for five years before he retired. <small>(style TOEIC)</small>', options: ['leads', 'led', 'leaded', 'leading'], answer: 1, explain: '<i>Before he retired</i> (avant de prendre sa retraite) : période terminée → prétérit. <i>Lead</i> → <b>led</b> ; « leaded » n’existe pas dans ce sens.' }
   ]

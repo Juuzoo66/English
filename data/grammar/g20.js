@@ -30,7 +30,7 @@ LE.register({
       ['you', 'you <b>were</b> working', 'you <b>weren’t</b> working', '<b>Were</b> you working?'],
       ['we / they', 'they <b>were</b> working', 'they <b>weren’t</b> working', '<b>Were</b> they working?']
     ], caption: 'Retiens : <b>I, he, she, it → was</b> ; <b>you, we, they → were</b>. <i>wasn’t</i> = was not ; <i>weren’t</i> = were not.' },
-    { type: 'box', style: 'tip', title: 'Rappel : l’orthographe du -ing', html: 'Les règles sont les mêmes qu’au présent continu :<br>• le <b>e</b> muet final tombe : <i>make → making</i>, <i>write → writing</i> ;<br>• la consonne finale est doublée après une voyelle courte accentuée : <i>stop → stopping</i>, <i>plan → planning</i>, <i>run → running</i> ;<br>• <b>-ie</b> devient <b>-ying</b> : <i>lie → lying</i>, <i>tie → tying</i>.' },
+    { type: 'box', style: 'tip', title: 'Rappel : l’orthographe du -ing', html: 'Les règles sont les mêmes qu’au présent continu :<br>• le <b>e</b> muet final tombe : <i>make → making</i>, <i>write → writing</i> ;<br>• verbe d’une syllabe terminé par consonne + <b>une seule</b> voyelle + consonne : on double la dernière consonne : <i>stop → stopping</i>, <i>plan → planning</i>, <i>run → running</i> (mais jamais w, x, y : <i>fix → fixing</i>) ;<br>• <b>-ie</b> devient <b>-ying</b> : <i>lie → lying</i>, <i>tie → tying</i>.' },
     { type: 'examples', items: [
       { en: "I wasn't listening. Can you repeat that?", fr: 'Je n’écoutais pas. Tu peux répéter ?' },
       { en: "The machines weren't working this morning.", fr: 'Les machines ne fonctionnaient pas ce matin.', note: '<i>work</i> veut aussi dire « fonctionner » pour une machine.' },
@@ -92,7 +92,7 @@ LE.register({
     { type: 'box', style: 'warn', title: 'Piège : l’imparfait d’habitude', html: '<span class="ko">When I lived in Lyon, I was often taking the train to Paris.</span><br><span class="ok">When I lived in Lyon, I often took the train to Paris.</span><br>Une action <b>répétée</b> (avec <i>often, usually, every day, every summer</i>…) se met au <b>prétérit</b>, même si le français dit « je prenais ».' },
 
     { type: 'h', text: 'Les verbes d’état : jamais au continu' },
-    { type: 'p', html: 'Comme au présent (voir la leçon « Présent simple ou présent continu ? »), les <b>verbes d’état</b> ne prennent pas la forme en -ing : ils décrivent une situation, pas une action. Les principaux : <i>know</i> (savoir, connaître), <i>understand</i> (comprendre), <i>want</i> (vouloir), <i>need</i> (avoir besoin de), <i>like / love / hate</i> (aimer / adorer / détester), <i>prefer</i> (préférer), <i>believe</i> (croire), <i>own</i> (posséder), <i>belong</i> (appartenir), <i>seem</i> (sembler), <i>mean</i> (signifier).<br><span class="ko">I was knowing</span> → <span class="ok">I knew</span> ; <span class="ko">She was wanting</span> → <span class="ok">She wanted</span>.' },
+    { type: 'p', html: 'Comme au présent (voir la leçon « Présent simple ou présent continu ? »), les <b>verbes d’état</b> ne prennent pas la forme en -ing : ils décrivent une situation, pas une action. Les principaux : <i>know</i> (savoir, connaître), <i>understand</i> (comprendre), <i>want</i> (vouloir), <i>need</i> (avoir besoin de), <i>like / love / hate</i> (aimer / adorer / détester), <i>prefer</i> (préférer), <i>believe</i> (croire), <i>own</i> (posséder), <i>belong</i> (appartenir), <i>seem</i> (sembler), <i>mean</i> (signifier).<br><span class="ko">I was knowing</span> → <span class="ok">I knew</span> ; <span class="ko">She was wanting</span> → <span class="ok">She wanted</span>.<br>Attention à <b>have</b> : au sens de « posséder », c’est un verbe d’état (<i>He <b>had</b> a company car.</i>) ; mais <i>have lunch</i> (déjeuner) ou <i>have a meeting</i> (être en réunion) sont des actions : <i>We <b>were having</b> lunch</i> est donc correct.' },
     { type: 'examples', items: [
       { en: "I didn't know the answer.", fr: 'Je ne connaissais pas la réponse.' },
       { en: 'She wanted a bigger office.', fr: 'Elle voulait un bureau plus grand.' },
@@ -104,7 +104,7 @@ LE.register({
       { speaker: 'W', en: 'Hi Marco, I tried to call you at eleven. Where were you?', fr: 'Salut Marco, j’ai essayé de t’appeler à onze heures. Où étais-tu ?' },
       { speaker: 'M', en: 'Sorry, Aisha. I was meeting a client, so my phone was off.', fr: 'Désolé, Aisha. J’étais en rendez-vous avec un client, donc mon téléphone était éteint.' },
       { speaker: 'W', en: 'No problem. And this afternoon? I called again at three.', fr: 'Pas de souci. Et cet après-midi ? J’ai rappelé à quinze heures.' },
-      { speaker: 'M', en: 'At three? I was driving back to the office. What were you calling about?', fr: 'À quinze heures ? J’étais sur la route du retour vers le bureau. Tu appelais pour quoi ?' },
+      { speaker: 'M', en: 'At three? I was driving back to the office. What were you calling about?', fr: 'À quinze heures ? J’étais en voiture, je rentrais au bureau. Tu appelais pour quoi ?' },
       { speaker: 'W', en: "The printer wasn't working, but Sofia fixed it while you were driving.", fr: 'L’imprimante ne marchait pas, mais Sofia l’a réparée pendant que tu conduisais.' }
     ] },
 

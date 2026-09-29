@@ -20,7 +20,7 @@ LE.register({
       '<b>Les vérités générales</b> : <i>The sun rises in the east.</i> (Le soleil se lève à l’est.)',
       '<b>Les horaires et les programmes</b> : <i>The train leaves at 8.</i> (Le train part à 8 h.)'
     ] },
-    { type: 'p', html: 'Bonne nouvelle : il s’utilise presque comme le présent français (<i>je travaille, elle travaille</i>). Une seule différence : quand « je travaille » veut dire « je suis <b>en train de</b> travailler, en ce moment », l’anglais utilise un autre temps. Tu le verras dans la leçon « Le présent continu (be + -ing) ».' },
+    { type: 'p', html: 'Bonne nouvelle : il s’utilise presque comme le présent français (<i>je travaille, elle travaille</i>). Attention quand même à une grande différence : quand « je travaille » veut dire « je suis <b>en train de</b> travailler, en ce moment », l’anglais utilise un autre temps. Tu le verras dans la leçon « Le présent continu (be + -ing) ».' },
     { type: 'examples', items: [
       { en: 'I drink coffee every morning.', fr: 'Je bois du café tous les matins.', note: 'Une habitude.' },
       { en: 'She works in finance.', fr: 'Elle travaille dans la finance.', note: 'Un fait permanent : c’est son métier.' },
@@ -52,7 +52,7 @@ LE.register({
       ['my colleagues', 'they', 'My colleagues <b>work</b> late. (pas de -s)'],
       ['Tom and I', 'we', 'Tom and I <b>share</b> an office. (pas de -s)']
     ] },
-    { type: 'box', style: 'warn', title: 'Piège n°1 des francophones', html: 'Comme on n’entend pas de -s en français (« il travaille »), on l’oublie en anglais. C’est l’une des erreurs les plus testées au TOEIC !<br><span class="ko">She work in a bank.</span> → <span class="ok">She works in a bank.</span><br><span class="ko">The managers works late.</span> → <span class="ok">The managers work late.</span><br>Ne confonds pas avec le pluriel des noms : un <b>nom</b> avec -s est au pluriel (<i>two managers</i>), mais un <b>verbe</b> avec -s va avec un sujet au <b>singulier</b> (<i>the manager works</i>).' },
+    { type: 'box', style: 'warn', title: 'Piège n°1 des francophones', html: 'Comme on n’entend pas de -s en français (« il travaille »), on l’oublie en anglais. C’est l’une des erreurs les plus testées au TOEIC !<br><span class="ko">She work in a bank.</span> → <span class="ok">She works in a bank.</span><br><span class="ko">The managers works late.</span> → <span class="ok">The managers work late.</span><br>Et n’ajoute pas <i>am / is / are</i> devant le verbe : <span class="ko">I am work here.</span> → <span class="ok">I work here.</span><br>Ne confonds pas avec le pluriel des noms : un <b>nom</b> avec -s est au pluriel (<i>two managers</i>), mais un <b>verbe</b> avec -s va avec un sujet au <b>singulier</b> (<i>the manager works</i>).' },
     { type: 'examples', items: [
       { en: 'My boss starts work at eight.', fr: 'Mon chef commence le travail à huit heures.' },
       { en: 'The company sells office furniture.', fr: 'L’entreprise vend du mobilier de bureau.', note: '<i>The company</i> = <b>it</b> → <i>sells</i>.' },
@@ -132,8 +132,8 @@ LE.register({
     { type: 'mcq', q: 'She ___ in a bank.', options: ['work', 'works', 'working'], answer: 1, explain: '<b>She</b> = 3ᵉ personne du singulier → verbe + <b>-s</b> : <i>she works</i>.' },
     { type: 'mcq', q: 'I ___ coffee every morning.', options: ['drinks', 'drink', 'drinking'], answer: 1, explain: 'Avec <b>I</b>, pas de -s : on utilise la base verbale <i>drink</i>.' },
     { type: 'mcq', q: 'My colleagues ___ at nine every day.', options: ['starts', 'start', 'starting'], answer: 1, explain: '<i>My colleagues</i> est au pluriel (= <b>they</b>) → pas de -s : <i>start</i>.' },
-    { type: 'gap', q: 'Ahmed ___ (live) in Toronto with his family.', answers: ['lives'], explain: '<i>Ahmed</i> = <b>he</b> → <i>live</i> + <b>-s</b> = <b>lives</b>.' },
-    { type: 'gap', q: 'The company ___ (sell) office furniture.', answers: ['sells'], explain: '<i>The company</i> = <b>it</b> → <i>sell</i> + <b>-s</b> = <b>sells</b>. C’est un fait permanent : présent simple.' },
+    { type: 'gap', q: 'Ahmed ___ (know) all our clients.', answers: ['knows'], explain: '<i>Ahmed</i> = <b>he</b> → <i>know</i> + <b>-s</b> = <b>knows</b> (il connaît).' },
+    { type: 'gap', q: 'The company ___ (own) three hotels in Spain.', answers: ['owns'], explain: '<i>The company</i> = <b>it</b> → <i>own</i> (posséder) + <b>-s</b> = <b>owns</b>. C’est un fait permanent : présent simple.' },
     { type: 'mcq', q: 'Quelle phrase est correctement écrite ?', options: ['He watchs the news every evening.', 'He watches the news every evening.', 'He watchies the news every evening.'], answer: 1, explain: 'Après <b>-ch</b>, on ajoute <b>-es</b> : <i>watch → watches</i>.' },
     { type: 'gap', q: 'Carlos ___ (study) English on Tuesdays.', answers: ['studies'], explain: '<i>study</i> se termine par consonne + <b>y</b> → le y devient <b>-ies</b> : <i>studies</i>.' },
     { type: 'mcq', q: 'Tom ___ tennis on Saturdays.', options: ['plaies', 'play', 'plays', 'playes'], answer: 2, explain: '<i>Tom</i> = he → -s. <i>play</i> : voyelle (a) + y → on ajoute juste <b>-s</b> : <i>plays</i>.' },

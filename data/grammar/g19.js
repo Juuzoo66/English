@@ -59,6 +59,7 @@ LE.register({
       { en: 'How long did the training last?', fr: 'Combien de temps la formation a-t-elle duré ?' },
       { en: "Why didn't Karim come to the meeting?", fr: 'Pourquoi Karim n’est-il pas venu à la réunion ?', note: "Question négative : <b>Why didn't</b> + sujet + base verbale. Très fréquent au TOEIC !" }
     ] },
+    { type: 'box', style: 'warn', title: 'Piège : n’oublie pas « did »', html: 'En français, on peut dire « Où tu es allée ? » sans rien inverser. En anglais, la question au passé a <b>besoin de did</b> (sauf avec <i>be</i>, et quand <i>who / what</i> est le sujet) :<br><span class="ko">Where you went?</span> → <span class="ok">Where did you go?</span><br><span class="ko">What time the meeting started?</span> → <span class="ok">What time did the meeting start?</span>' },
 
     { type: 'h', text: 'Qui a appelé ? Que s’est-il passé ? Sans « did » !' },
     { type: 'p', html: 'Quand <b>who</b> (qui) ou <b>what</b> (qu’est-ce qui) est le <b>sujet</b> du verbe — c’est-à-dire quand on cherche <b>qui ou quoi a fait l’action</b> —, on n’utilise <b>pas</b> <i>did</i>. Le verbe se met directement au prétérit, comme dans une phrase affirmative.' },
@@ -72,7 +73,7 @@ LE.register({
       { en: 'Who took my stapler?', fr: 'Qui a pris mon agrafeuse ?' },
       { en: 'What happened at the meeting?', fr: 'Que s’est-il passé à la réunion ?' },
       { en: 'Who won the contract?', fr: 'Qui a remporté le contrat ?' },
-      { en: 'Which team sold the most?', fr: 'Quelle équipe a vendu le plus ?' }
+      { en: 'Which team sold the most?', fr: 'Quelle équipe a vendu le plus ?', note: 'Même règle avec <i>which</i> + nom quand il est le sujet : pas de <i>did</i>.' }
     ] },
 
     { type: 'h', text: 'Et « was / were » ? Jamais de « did » !' },
@@ -100,7 +101,7 @@ LE.register({
       { speaker: 'W', en: 'Great. Did they sign the contract?', fr: 'Super. Ils ont signé le contrat ?' },
       { speaker: 'M', en: "No, they didn't. They wanted a lower price.", fr: 'Non. Ils voulaient un prix plus bas.' },
       { speaker: 'W', en: 'I see. And what happened at the hotel? You mentioned a problem.', fr: 'Je vois. Et que s’est-il passé à l’hôtel ? Tu as parlé d’un problème.' },
-      { speaker: 'M', en: 'They lost my reservation, but they found me another room.', fr: 'Ils avaient perdu ma réservation, mais ils m’ont trouvé une autre chambre.' }
+      { speaker: 'M', en: 'They lost my reservation, but they found me another room.', fr: 'Ils ont perdu ma réservation, mais ils m’ont trouvé une autre chambre.' }
     ] },
 
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: "La <b>Partie 2</b> est remplie de questions au passé : <i>When did the shipment arrive?</i>, <i>Who called this morning?</i>, <i>Why didn't you come to the meeting?</i> Écoute bien le <b>premier mot</b> : il annonce le type de réponse (un moment pour <i>when</i>, une personne pour <i>who</i>, une raison pour <i>why</i>). En <b>Partie 5</b>, repère <i>did / didn't / did not</i> : le verbe qui suit est <b>toujours à la base verbale</b>. Ex. : <i>The supplier did not ------- our order on time.</i> → <b>deliver</b>." },

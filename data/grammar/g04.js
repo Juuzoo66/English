@@ -104,7 +104,7 @@ LE.register({
     ], caption: 'Au pluriel, c’est le compteur qui prend le <b>s</b> : <span class="ok">two pieces of advice</span>, jamais <span class="ko">two pieces of advices</span>.' },
     { type: 'examples', items: [
       { en: 'Can I give you a piece of advice?', fr: 'Je peux te donner un conseil ?' },
-      { en: 'We need some information about the hotel.', fr: 'Nous avons besoin d’informations sur l’hôtel.' },
+      { en: 'We need some information about the hotel.', fr: 'Nous avons besoin d’informations sur l’hôtel.', note: '<b>some</b> = « du, de la, des » (une quantité non précisée) : il s’emploie aussi avec les indénombrables, qui restent sans <b>s</b>.' },
       { en: 'Each passenger can bring two pieces of luggage.', fr: 'Chaque passager peut apporter deux bagages.' },
       { en: 'Two bottles of water, please.', fr: 'Deux bouteilles d’eau, s’il vous plaît.' },
       { en: 'Two coffees, please!', fr: 'Deux cafés, s’il vous plaît !', note: 'Au café, <i>a coffee</i> = une tasse de café : dans ce cas précis, le mot se compte.' }

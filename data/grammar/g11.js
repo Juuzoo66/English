@@ -32,11 +32,11 @@ LE.register({
       ['<b>when</b>', 'quand', 'un moment', 'When is your flight? — On Monday.'],
       ['<b>why</b>', 'pourquoi', 'une raison', 'Why are you tired? — Because I work at night.'],
       ['<b>how</b>', 'comment', 'une manière, un état', 'How do you go to work? — By bus.']
-    ], caption: '<b>Wh-</b> se prononce comme un simple « w » : <i>what</i> ≈ « wott », <i>where</i> ≈ « wèr », <i>when</i> ≈ « wenn ». Exception : <b>who</b> et <b>whose</b> se prononcent avec un « h » soufflé : « hou », « houz ».' },
+    ], caption: '<b>Wh-</b> se prononce comme un simple « w » (le son « ou » de <i>week-end</i>) : <i>what</i> ≈ « ouatt », <i>where</i> ≈ « ouèr », <i>when</i> ≈ « ouènn ». Exception : <b>who</b> et <b>whose</b> se prononcent avec un « h » soufflé : « hou », « houz ».' },
     { type: 'box', style: 'tip', title: 'What ou which ?', html: '<b>What</b> pose une question ouverte : toutes les réponses sont possibles (<i>What is your favorite color?</i>). <b>Which</b> s’utilise quand on choisit parmi un <b>petit nombre d’options connues</b> : <i>Which color do you prefer, blue or black?</i> Dans le doute : s’il y a une liste de choix, prends <b>which</b>.' },
     { type: 'examples', items: [
       { en: 'Who is that woman?', fr: 'Qui est cette femme ?' },
-      { en: 'Whose car is this?', fr: 'À qui est cette voiture ?', note: '<b>Whose</b> + nom : <i>whose car</i> = la voiture de qui. On répond souvent avec le génitif : <i>It’s Paul’s.</i> (voir la leçon « Pronoms, possessifs et génitif (’s) »).' },
+      { en: 'Whose car is this?', fr: 'À qui est cette voiture ?', note: '<b>Whose</b> + nom : <i>whose car</i> = la voiture de qui. On répond souvent avec le génitif (le <b>’s</b> qui indique le possesseur) : <i>It’s Paul’s.</i> (C’est celle de Paul.) (voir la leçon « Pronoms, possessifs et génitif (’s) »).' },
       { en: 'Which train goes to the airport?', fr: 'Quel train va à l’aéroport ?' },
       { en: "Why is the store closed? — Because it's a holiday.", fr: 'Pourquoi le magasin est-il fermé ? — Parce que c’est un jour férié.', note: 'On répond à <b>why</b> avec <b>because</b> (parce que).' }
     ] },
@@ -45,7 +45,7 @@ LE.register({
     { type: 'h', text: 'How et ses composés' },
     { type: 'p', html: 'Seul, <b>how</b> veut dire « comment » : <i>How are you?</i> (Comment vas-tu ?). Mais on l’associe très souvent à un autre mot pour former des questions précises : combien, combien de temps, à quelle fréquence, à quelle distance, quel âge… Ces questions sont partout au TOEIC.' },
     { type: 'table', head: ['Question', 'Sens', 'Exemple'], rows: [
-      ['<b>how much</b> + nom indénombrable', 'combien de (quantité)', 'How much time do we have? — Ten minutes.'],
+      ['<b>how much</b> + nom indénombrable (qu’on ne compte pas un par un)', 'combien de (quantité)', 'How much time do we have? — Ten minutes.'],
       ['<b>how much</b> (prix)', 'combien ça coûte', 'How much is this chair? — $120.'],
       ['<b>how many</b> + nom pluriel', 'combien de (nombre)', 'How many people work here? — About fifty.'],
       ['<b>how long</b>', 'combien de temps (durée)', 'How long is the flight? — Two hours.'],
@@ -108,7 +108,7 @@ LE.register({
     { type: 'dialog', title: 'À l’accueil d’un salon professionnel', lines: [
       { speaker: 'W', en: "Good morning! What's your name, please?", fr: 'Bonjour ! Quel est votre nom, s’il vous plaît ?' },
       { speaker: 'M', en: 'Karim Haddad.', fr: 'Karim Haddad.' },
-      { speaker: 'W', en: 'And which company are you with?', fr: 'Et vous êtes de quelle entreprise ?' },
+      { speaker: 'W', en: 'And what company are you with?', fr: 'Et vous êtes de quelle entreprise ?' },
       { speaker: 'M', en: 'Brelmont Logistics.', fr: 'Brelmont Logistics.' },
       { speaker: 'W', en: 'How many people are with you today?', fr: 'Combien de personnes vous accompagnent aujourd’hui ?' },
       { speaker: 'M', en: 'Two. My colleagues are outside.', fr: 'Deux. Mes collègues sont dehors.' },

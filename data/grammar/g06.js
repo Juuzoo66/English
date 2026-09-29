@@ -22,7 +22,8 @@ LE.register({
       { en: 'This coffee is very hot.', fr: 'Ce café est très chaud.' },
       { en: 'That building is our head office.', fr: 'Ce bâtiment-là, c’est notre siège social.' },
       { en: 'These documents are for you.', fr: 'Ces documents sont pour toi.' },
-      { en: 'Those people are from the sales team.', fr: 'Ces gens-là font partie de l’équipe commerciale.' }
+      { en: 'Those people are from the sales team.', fr: 'Ces gens-là font partie de l’équipe commerciale.' },
+      { en: "I'm very busy this week.", fr: 'Je suis très occupée cette semaine.', note: 'Avec un moment, <b>this</b> = « ce… -ci », le moment actuel : <i>this morning</i> (ce matin), <i>this week</i> (cette semaine).' }
     ] },
     { type: 'box', style: 'tip', title: 'Astuce mémo', html: '<b>this / these</b> vont avec <b>here</b> (ici) ; <b>that / those</b> vont avec <b>there</b> (là-bas).<br>Pour le nombre : <b>this</b> → <b>these</b> et <b>that</b> → <b>those</b> (singulier → pluriel).' },
 
@@ -115,7 +116,7 @@ LE.register({
     { type: 'box', style: 'warn', title: 'Piège : le -s va sur le dernier nom', html: '<span class="ko">two meetings rooms</span> → <span class="ok">two meeting rooms</span><br><span class="ko">a ten-dollars ticket</span> → <span class="ok">a ten-dollar ticket</span> (mais : <i>The ticket is ten dollar<b>s</b>.</i>)<br><span class="ko">the number phone</span> → <span class="ok">the phone number</span>' },
 
     { type: 'h', text: 'Very, really, quite : nuancer un adjectif' },
-    { type: 'p', html: 'Pour renforcer ou atténuer un adjectif, place un de ces mots juste <b>devant</b> lui : <b>very</b> (très), <b>really</b> (vraiment, très courant à l’oral), <b>quite</b> (assez, plutôt ; les Américains disent souvent <b>pretty</b> dans ce sens : <i>pretty good</i>). <b>Not very</b> veut dire « pas très ». Avec un nom, l’ordre est : <i>a <b>very</b> big office</i>.' },
+    { type: 'p', html: 'Pour renforcer ou atténuer un adjectif, place un de ces mots juste <b>devant</b> lui : <b>very</b> (très), <b>really</b> (vraiment, très courant à l’oral), <b>quite</b> (assez, plutôt ; les Américains disent souvent <b>pretty</b> dans ce sens : <i>pretty good</i>). <b>Not very</b> veut dire « pas très ». Avec un nom, l’ordre est : <i>a <b>very</b> big office</i>, <i>a <b>really</b> nice hotel</i>. Attention, <b>quite</b> se place avant <b>a</b> : <i><b>quite</b> a big office</i> (un assez grand bureau).' },
     { type: 'examples', items: [
       { en: 'The office is very big.', fr: 'Le bureau est très grand.' },
       { en: 'This coffee is really good!', fr: 'Ce café est vraiment bon !' },
@@ -125,7 +126,7 @@ LE.register({
     ] },
     { type: 'box', style: 'tip', title: 'Attention : very ≠ too', html: '<b>too</b> veut dire « <b>trop</b> » : il y a un problème.<br><i>This hotel is <b>very</b> expensive.</i> (très cher : c’est un fait.)<br><i>This hotel is <b>too</b> expensive.</i> (trop cher : je ne peux pas le payer.)' },
 
-    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, tu devras choisir entre <i>this / these</i> ou <i>that / those</i> selon le nom qui suit : <i>------- documents must be signed.</i> → <b>These</b> (pluriel). On teste aussi la place de l’adjectif et les noms composés : <i>a <b>sales</b> representative</i>, <i>a <b>two-day</b> conference</i>. En <b>Parties 3 et 4</b>, les appels commencent souvent par <i>Hi, this is Mark from the accounting department.</i> : repère bien le nom et le service !' },
+    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, tu devras choisir entre <i>this / these</i> ou <i>that / those</i> selon le nom qui suit : <i>------- documents must be signed.</i> (This / These) → <b>These</b>, car <i>documents</i> est au pluriel. On teste aussi la place de l’adjectif et les noms composés : <i>a <b>sales</b> representative</i>, <i>a <b>two-day</b> conference</i>. En <b>Parties 3 et 4</b>, les appels commencent souvent par <i>Hi, this is Mark from the accounting department.</i> : repère bien le nom et le service !' },
     { type: 'box', style: 'key', title: 'À retenir', html: '• <b>this / these</b> = proche ; <b>that / those</b> = loin. <b>this / that</b> + singulier ; <b>these / those</b> + pluriel.<br>• <i>This is Anna.</i> pour présenter ou au téléphone ; <i>this one / that one</i> pour ne pas répéter le nom.<br>• L’adjectif se place <b>avant</b> le nom et ne prend <b>jamais de -s</b> : <i>two big offices</i>.<br>• Ordre : opinion → taille → âge → couleur → origine → matière → nom.<br>• Nom + nom : <i>a meeting room</i>, <i>a ten-dollar ticket</i> (pas de -s au premier nom).<br>• <b>very</b> (très), <b>really</b> (vraiment), <b>quite</b> (assez) + adjectif ; <b>too</b> = trop.' }
   ],
   exercises: [
