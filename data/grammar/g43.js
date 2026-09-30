@@ -65,7 +65,7 @@ LE.register({
     { type: 'p', html: 'La mélodie du tag change son sens :<br>• <b>Intonation montante ↗</b> : tu n’es pas sûre, c’est une <b>vraie question</b>. <i>The meeting is at ten, isn’t it? ↗</i> (Je crois que c’est à dix heures, mais je vérifie.)<br>• <b>Intonation descendante ↘</b> : tu es sûre, tu attends simplement que l’autre soit <b>d’accord</b>. <i>It’s a great hotel, isn’t it? ↘</i> (C’est un super hôtel, tu ne trouves pas ?)<br>Au TOEIC, tu n’as pas besoin de produire cette intonation, mais elle t’aide à comprendre ce que la personne attend.' },
 
     { type: 'h', text: 'Les réponses courtes' },
-    { type: 'p', html: 'En anglais, répondre juste <i>Yes</i> ou <i>No</i> paraît sec, voire impoli. On ajoute une <b>réponse courte</b> : <b>Yes / No</b> + <b>pronom</b> + <b>auxiliaire</b> de la question. Dans une réponse courte affirmative, on ne contracte jamais : <i>Yes, I <b>am</b>.</i> (et pas <i>Yes, I’m.</i>)' },
+    { type: 'p', html: 'En anglais, répondre juste <i>Yes</i> ou <i>No</i> peut paraître un peu sec. On ajoute souvent une <b>réponse courte</b> : <b>Yes / No</b> + <b>pronom</b> + <b>auxiliaire</b> de la question. Dans une réponse courte affirmative, on ne contracte jamais : <i>Yes, I <b>am</b>.</i> (et pas <i>Yes, I’m.</i>)' },
     { type: 'table', head: ['Question', 'Oui', 'Non'], rows: [
       ['Are you ready?', 'Yes, I <b>am</b>.', 'No, I’<b>m not</b>.'],
       ['Does she work here?', 'Yes, she <b>does</b>.', 'No, she <b>doesn’t</b>.'],

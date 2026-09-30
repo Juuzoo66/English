@@ -70,7 +70,7 @@ LE.register({
       explain: 'Conditionnel 2 (situation imaginaire) : <i>If</i> + <b>prétérit</b>, puis <i>would</i> + verbe. Avec <i>be</i>, on emploie <b>were</b> : <i>If I were you</i> (si j’étais toi, à ta place). On ne met ni <i>will</i> ni <i>would</i> après ce <i>if</i>.' },
     { level: 'B1', type: 'listen', say: 'Good afternoon, passengers. Flight two-oh-eight to Madrid is delayed because of a technical problem. The new departure time is four forty-five. Please remain in the waiting area near gate twelve.', q: 'What are passengers asked to do?',
       options: ['Board the plane immediately', 'Go to another gate', 'Wait near gate twelve', 'Contact the airline'], answer: 2,
-      explain: 'On entend : <i>Please <b>remain</b> in the waiting area near gate twelve</i> (merci de rester dans la zone d’attente près de la porte 12). Ici, <i>remain</i> = <i>stay</i> = <i>wait</i>. Le vol est retardé (<i>delayed</i>) : on n’embarque pas tout de suite.' },
+      explain: 'On entend : <i>Please <b>remain</b> in the waiting area near gate twelve</i> (merci de rester dans la zone d’attente près de la porte 12). <i>remain</i> = <i>stay</i> (rester) : la bonne réponse le reformule avec <i>wait</i> (attendre). Le vol est retardé (<i>delayed</i>) : on n’embarque pas tout de suite.' },
     { level: 'B1', type: 'mcq', q: 'The invoices ___ to all our clients yesterday.', options: ['sent', 'have sent', 'were sending', 'were sent'], answer: 3,
       explain: 'Les factures ne s’envoient pas toutes seules : elles <b>sont envoyées</b> par quelqu’un → voix passive = <b>be + participe passé</b>. <i>yesterday</i> impose le prétérit : <i>were sent</i> (ont été envoyées).' },
     { level: 'B1', type: 'mcq', q: 'The woman ___ car was damaged called her insurance company.', options: ['who', 'whose', 'which', 'whom'], answer: 1,
@@ -91,7 +91,7 @@ LE.register({
       explain: '<i>Staff who have already registered do not need to register again</i> = les personnes déjà inscrites n’ont pas besoin de se réinscrire : leur inscription reste valable. La formation est reportée (<i>postponed</i>) au 17 mars.' },
     { level: 'B1', type: 'listen', say: 'Excuse me, is this the right line for international transfers? — No, this line is for domestic flights. You need to go to the counter at the end of the hall.', q: 'Where does this conversation most likely take place?',
       options: ['At an airport', 'At a bank', 'At a train station', 'At a hotel'], answer: 0,
-      explain: '<i>domestic flights</i> (vols intérieurs) et <i>counter</i> (comptoir) indiquent un <b>aéroport</b>. Ici, <i>transfers</i> désigne les correspondances ; le mot fait penser à la banque (virements) : c’est le piège.' },
+      explain: '<i>domestic flights</i> (vols intérieurs) indique un <b>aéroport</b>. Ici, <i>transfers</i> désigne les correspondances ; le mot fait penser à la banque (virements) : c’est le piège.' },
 
     // ---------- B2 ----------
     { level: 'B2', type: 'mcq', q: 'Not only ___ the deadline, but they also went over budget.', options: ['they missed', 'they did miss', 'did they miss', 'missed they'], answer: 2,

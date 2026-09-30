@@ -117,8 +117,8 @@ LE.register({
       { speaker: 'W2', en: "Yes, I am. Actually, I finished my classes in June, so I'm looking for an internship now.", fr: 'Oui. En fait, j’ai terminé mes cours en juin, donc je cherche un stage maintenant.' },
       { speaker: 'W', en: 'Great. Have you had any training in customer service?', fr: 'Très bien. Avez-vous suivi une formation en service client ?' },
       { speaker: 'W2', en: 'Yes, I attended a two-week course last spring.', fr: 'Oui, j’ai suivi un cours de deux semaines au printemps dernier.' },
-      { speaker: 'W', en: 'Perfect. The internship starts in September, and the deadline for applications is Friday.', fr: 'Parfait. Le stage commence en septembre, et la date limite des candidatures est vendredi.' },
-      { speaker: 'W2', en: "Thank you. I'll send you my application by Wednesday.", fr: 'Merci. Je vous enverrai ma candidature d’ici mercredi.' }
+      { speaker: 'W', en: 'Perfect. The internship starts in September. Could you send us a letter of recommendation? The deadline is Friday.', fr: 'Parfait. Le stage commence en septembre. Pourriez-vous nous envoyer une lettre de recommandation ? La date limite est vendredi.' },
+      { speaker: 'W2', en: "Of course. I'll send it to you by Wednesday.", fr: 'Bien sûr. Je vous l’enverrai d’ici mercredi.' }
     ] },
 
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, les faux amis sont des pièges de vocabulaire classiques : <i>More than 300 people ------- the conference.</i> → <b>attended</b> (pas <i>assisted</i>) ; <i>We apologize for the ------- in processing your order.</i> → <b>delay</b> (pas <i>deadline</i>). Les prépositions « à la française » aussi : <i>depends -------</i> → <b>on</b> (pas <i>of</i>), <i>married -------</i> → <b>to</b> (pas <i>with</i>).<br>En <b>Parties 3, 4 et 7</b>, un seul mot mal compris peut fausser ta réponse : <i>The flight was delayed</i> = le vol a été <b>retardé</b> ; <i>Eventually, the client agreed</i> = <b>finalement</b>, le client a accepté (ce n’est pas une simple possibilité).' },
@@ -126,7 +126,7 @@ LE.register({
   ],
   exercises: [
     { type: 'mcq', q: 'Traduis : « Je travaille actuellement à Lyon. »', options: ["I'm actually working in Lyon.", "I'm currently working in Lyon.", "I'm eventually working in Lyon."], answer: 1, explain: '« actuellement » = <b>currently</b>. <i>Actually</i> veut dire « en fait », et <i>eventually</i> « finalement ».' },
-    { type: 'mcq', q: 'Traduis : « Elle a réussi son examen. »', options: ['She passed her exam.', 'She took her exam.', 'She succeeded her exam.'], answer: 0, explain: '<b>pass an exam</b> = <b>réussir</b> un examen. <i>Take an exam</i> = le passer (sans savoir si on l’a réussi). <i>Succeed</i> se construirait avec <i>in</i>.' },
+    { type: 'mcq', q: 'Traduis : « Elle a réussi son examen. »', options: ['She passed her exam.', 'She took her exam.', 'She succeeded her exam.'], answer: 0, explain: '<b>pass an exam</b> = <b>réussir</b> un examen. <i>Take an exam</i> = le passer (sans savoir si on l’a réussi). <i>Succeed</i> ne peut pas avoir de complément direct (on dirait <i>succeed <b>in</b> passing an exam</i>), et <i>pass</i> est bien plus naturel.' },
     { type: 'gap', q: 'Can you explain the problem ___? <small>(« m’expliquer »)</small>', answers: ['to me'], explain: '<b>explain</b> + chose + <b>to</b> + personne : <i>explain the problem <b>to me</b></i>. « Explain me » est une erreur.' },
     { type: 'gap', q: 'I might buy the laptop. It depends ___ the price.', answers: ['on', 'upon'], explain: '« dépendre <b>de</b> » = <b>depend on</b> (ou <i>upon</i>, plus formel). Jamais <i>depend of</i>.' },
     { type: 'gap', q: "He's married ___ a lawyer from Montreal.", answers: ['to'], explain: '« marié <b>à</b> » = <b>married to</b>. <i>Married with</i> est un calque du français.' },

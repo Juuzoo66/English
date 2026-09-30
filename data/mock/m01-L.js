@@ -114,7 +114,7 @@ LE.register({
         question: 'Could you send me the updated client list before the meeting?',
         responses: ['The meeting went well, thanks.', "Isn't it already on the shared drive?", 'They updated the software last week.'],
         answer: 1,
-        explain: 'Une question peut répondre à une question ! « <i>Isn’t it already on the shared drive?</i> » (Elle n’est pas déjà sur le dossier partagé ?) → la personne peut la récupérer elle-même. (A) Répète <i>meeting</i>, et parle d’une réunion passée. (C) Répète <i>updated</i> dans un autre contexte.'
+        explain: 'Une question peut répondre à une question ! « <i>Isn’t it already on the shared drive?</i> » (Elle n’est pas déjà sur le lecteur partagé ?) → la personne peut la récupérer elle-même. (A) Répète <i>meeting</i>, et parle d’une réunion passée. (C) Répète <i>updated</i> dans un autre contexte.'
       }
     ] },
 
