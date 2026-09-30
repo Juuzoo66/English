@@ -50,9 +50,23 @@
     return { voice, pitch, lang: voice ? voice.lang : accent };
   }
 
-  // Découpe un long texte en phrases (Chrome coupe parfois les énoncés longs).
+  // Découpe un long texte en phrases (Chrome coupe parfois les énoncés longs), sans couper
+  // les abréviations (Dr., a.m.), les nombres ($4.99, 10:30) ni les textes courts.
+  const ABBR = /\b(mr|mrs|ms|dr|st|jr|sr|no|inc|ltd|co|corp|vs|etc|e\.g|i\.e|a\.m|p\.m|u\.s|approx|ave|blvd|dept|ext|mt)\.$/i;
   function chunks(text) {
-    const parts = String(text).match(/[^.!?;:]+[.!?;:]*\s*/g) || [String(text)];
+    const s = String(text);
+    if (s.length <= 180) return [s];
+    const parts = [];
+    const re = /[.!?;]+(?=\s)/g;
+    let start = 0;
+    let m;
+    while ((m = re.exec(s))) {
+      const end = m.index + m[0].length;
+      if (ABBR.test(s.slice(start, end))) continue;
+      parts.push(s.slice(start, end));
+      start = end;
+    }
+    parts.push(s.slice(start));
     const out = [];
     let cur = '';
     for (const p of parts) {
