@@ -46,7 +46,7 @@ LE.register({
     { type: 'h', text: 'Présent continu et passif : les formes à reconnaître' },
     { type: 'p', html: 'Les phrases de la partie 1 utilisent presque toujours le <b>présent continu</b> (<i>be + -ing</i>, voir la leçon « Le présent continu (be + -ing) ») ou le <b>passif</b> (voir « La voix passive »). Deux formes se ressemblent beaucoup à l’oral mais n’ont pas du tout le même sens : <b>is being</b> et <b>has been</b>.' },
     { type: 'table', head: ['Forme', 'Exemple', 'Sens', 'Faut-il voir une personne ?'], rows: [
-      ['<b>is / are + -ing</b>', 'The man <b>is loading</b> the truck.', 'action en cours (le sujet fait l’action)', '<span class="ok">Oui</span> : celle qui fait l’action'],
+      ['<b>is / are + -ing</b>', 'The man <b>is loading</b> the truck.', 'action en cours (le sujet fait l’action)', '<span class="ok">Oui</span> : celle qui fait l’action<br><small>Sauf pour une <b>position</b> d’objet : <i>A ladder is leaning against the wall.</i></small>'],
       ['<b>is / are being</b> + participe passé', 'The truck <b>is being loaded</b>.', 'action en cours, vue du côté de l’objet', '<span class="ok">Oui</span> : quelqu’un doit être <b>en train</b> de le charger'],
       ['<b>has / have been</b> + participe passé', 'The truck <b>has been loaded</b>.', 'résultat : l’action est terminée', '<span class="ko">Non</span> : on voit seulement le résultat'],
       ['<b>is / are</b> + participe passé ou adjectif', 'The truck <b>is parked</b> by the door.<br>The truck <b>is full</b>.', 'état', '<span class="ko">Non</span>']
