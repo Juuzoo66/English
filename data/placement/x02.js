@@ -35,7 +35,7 @@ LE.register({
 
     // ---------- A2 ----------
     { level: 'A2', type: 'mcq', q: 'Yesterday, Ms. Adeyemi ___ the 7:30 train to work.', options: ['caught', 'catch', 'catched', 'catching'], answer: 0,
-      explain: '<i>Yesterday</i> (hier) → <b>prétérit</b>. <i>catch</i> est irrégulier : <i>catch – <b>caught</b> – caught</i> (attraper, prendre un train). « catched » n’existe pas.' },
+      explain: '<i>Yesterday</i> (hier) = moment passé et terminé → <b>prétérit</b> (le temps du passé en anglais : <i>worked, went…</i>). <i>catch</i> est irrégulier : <i>catch – <b>caught</b> – caught</i> (attraper, prendre un train). « catched » n’existe pas.' },
     { level: 'A2', type: 'mcq', q: '___ you go to the conference last week?', options: ['Do', 'Did', 'Were', 'Have'], answer: 1,
       explain: 'Question au prétérit : <b>Did</b> + sujet + verbe de base (<i>go</i>). <i>last week</i> (la semaine dernière) indique un moment terminé. « Were you go » et « Have you go » sont impossibles.' },
     { level: 'A2', type: 'listen', say: 'I started my new job in March. Before that, I worked in a hotel for five years.', q: 'Qu’as-tu entendu ?',
@@ -44,7 +44,7 @@ LE.register({
     { level: 'A2', type: 'mcq', q: 'I have just ___ the e-mail to the client.', options: ['send', 'sended', 'sending', 'sent'], answer: 3,
       explain: 'Present perfect = <b>have + participe passé</b> (la 3ᵉ colonne des verbes irréguliers). <i>send</i> est irrégulier : <i>send – sent – <b>sent</b></i>. <i>just</i> = « venir de » : <i>I have just sent</i> = je viens d’envoyer.' },
     { level: 'A2', type: 'mcq', q: 'Of all the hotels in the city, this one is the ___.', options: ['most expensive', 'more expensive', 'expensivest', 'much expensive'], answer: 0,
-      explain: '<i>Of all the hotels</i> (de tous les hôtels) → <b>superlatif</b>. Adjectif long (plusieurs syllabes) : <i>the <b>most</b> expensive</i> (le plus cher). « expensivest » n’existe pas : le <i>-est</i> est réservé aux adjectifs courts (<i>the cheapest</i>).' },
+      explain: '<i>Of all the hotels</i> (de tous les hôtels) → <b>superlatif</b>. Adjectif long (plusieurs syllabes) : <i>the <b>most</b> expensive</i> (le plus cher). « expensivest » n’existe pas : le <i>-est</i> est réservé aux adjectifs courts (<i>the cheapest</i>). <i>more expensive</i> est le comparatif (plus cher que…), pas le superlatif.' },
     { level: 'A2', type: 'listen', say: 'How long is the flight to Tokyo?', accent: 'en-GB', q: 'Choisis la meilleure réponse à la question.', options: ['It leaves at noon.', 'From Terminal 2.', 'About eleven hours.'], answer: 2,
       explain: '<i>How long…?</i> = combien de temps ? → une durée : <i>About eleven hours</i> (environ onze heures). <i>It leaves at noon</i> répondrait à <i>What time…?</i> et <i>From Terminal 2</i> à <i>Where…?</i>' },
     { level: 'A2', type: 'mcq', q: "Visitors ___ smoke anywhere in the building. It's strictly forbidden.", options: ["don't have to", 'have to', 'must', "mustn't"], answer: 3,
@@ -85,7 +85,7 @@ LE.register({
       options: ['If he wants to change hotels', 'If he wants to cancel his trip', 'If he needs a taxi to the airport', 'If the new departure time does not suit him'], answer: 3,
       explain: 'Mei dit : <i>If that’s too early, call me before five today</i> (si c’est trop tôt, appelle-moi avant 17 h) : il s’agit du nouvel horaire de départ (6 h au lieu de 10 h). <i>suit</i> = convenir.' },
     { level: 'B1', type: 'mcq', q: 'Due to high ___, this product is temporarily out of stock.', options: ['request', 'supply', 'order', 'demand'], answer: 3,
-      explain: '<b>demand</b> = la demande (des clients) : <i>high demand</i> = forte demande. Piège de traduction : « demande » ne se dit pas toujours <i>request</i>. <i>request</i> = une demande précise (<i>a request for information</i>) ; la demande du marché (des clients) = <i>demand</i>. <i>supply</i> = l’offre, l’approvisionnement.' },
+      explain: '<b>demand</b> = la demande (des clients) : <i>high demand</i> = forte demande. Piège de traduction : « demande » ne se dit pas toujours <i>request</i>. <i>request</i> = une demande précise (<i>a request for information</i>) ; la demande du marché (des clients) = <i>demand</i>. <i>supply</i> = l’offre, l’approvisionnement ; <i>order</i> = une commande.' },
     { level: 'B1', type: 'mcq', q: 'Lis cet avis :<br><i>« Starting June 1, employees may work from home up to two days per week. Requests must be approved by your department manager at least one week in advance. »</i><br>What must employees do before working from home?',
       options: ['Sign a new employment contract', "Get their manager's approval in advance", 'Inform the HR department on June 1', 'Work from home at least two days a week'], answer: 1,
       explain: '<i>Requests must be approved by your department manager at least one week in advance</i> = les demandes doivent être validées par votre responsable de service au moins une semaine à l’avance. <i>up to two days</i> = <b>jusqu’à</b> deux jours (maximum), pas « au moins ».' },

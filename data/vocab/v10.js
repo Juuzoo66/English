@@ -4,7 +4,7 @@ LE.register({
   title: 'Les verbes essentiels',
   subtitle: 'Les 60 verbes les plus utiles de l’anglais, avec un exemple au travail',
   level: 'A1',
-  intro: 'Ces 60 verbes sont les plus fréquents de l’anglais : au TOEIC, tu les entendras et les liras dans presque chaque phrase. Quand un verbe est <b>irrégulier</b>, la note te donne son <b>prétérit</b> (la forme du passé, comme <i>go → went</i>) : tu le reverras dans la leçon « Les verbes irréguliers essentiels ».',
+  intro: 'Ces 60 verbes font partie des plus fréquents de l’anglais : au TOEIC, tu les entendras et les liras dans presque chaque phrase. Quand un verbe est <b>irrégulier</b>, la note te donne son <b>prétérit</b> (la forme du passé, comme <i>go → went</i>) : tu le reverras dans la leçon « Les verbes irréguliers essentiels ».',
   groups: [
     { title: 'Les verbes de base', words: [
       { en: 'be', fr: 'être', pos: 'v', ex: 'We are a small company in Chicago.', exfr: 'Nous sommes une petite entreprise de Chicago.', note: 'prétérit : was / were. Sert aussi pour l’âge et les sensations : <i>I’m 30</i> (j’ai 30 ans), <i>I’m hungry</i> (j’ai faim).' },

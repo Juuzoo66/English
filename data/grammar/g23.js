@@ -42,7 +42,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'Much, many, a lot of : « beaucoup de »' },
-    { type: 'p', html: '<b>Many</b> s’emploie avec un nom <b>dénombrable au pluriel</b> (<i>many emails</i>), <b>much</b> avec un nom <b>indénombrable</b> (<i>much money</i>). <b>A lot of</b> (ou <b>lots of</b>, plus familier) va avec les deux. Dans la conversation, on utilise surtout <i>much</i> et <i>many</i> dans les <b>négations</b> et les <b>questions</b>, et <b>a lot of</b> dans les phrases <b>affirmatives</b>.' },
+    { type: 'p', html: '<b>Many</b> s’emploie avec un nom <b>dénombrable au pluriel</b> (<i>many emails</i>), <b>much</b> avec un nom <b>indénombrable</b> (<i>much money</i>). <b>A lot of</b> (ou <b>lots of</b>, plus familier) va avec les deux. Dans la conversation, on utilise surtout <i>much</i> et <i>many</i> dans les <b>négations</b> et les <b>questions</b>, et <b>a lot of</b> dans les phrases <b>affirmatives</b>. À l’écrit (e-mails, rapports, TOEIC), <i>many</i> reste très courant à l’affirmative : <i>Many clients pay online.</i>' },
     { type: 'table', head: ['Nom', 'Affirmation', 'Négation', 'Question'], rows: [
       ['Dénombrable', 'We have <b>a lot of</b> orders.', 'We don’t have <b>many</b> orders.', 'Do you have <b>many</b> orders?'],
       ['Indénombrable', 'We have <b>a lot of</b> work.', 'We don’t have <b>much</b> work.', 'Do you have <b>much</b> work?'],

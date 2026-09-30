@@ -14,7 +14,7 @@ LE.register({
   blocks: [
     { type: 'h', text: 'Le TOEIC, c’est quoi ?' },
     { type: 'p', html: 'Le <b>TOEIC</b> (<i>Test of English for International Communication</i>) est un test d’anglais créé par <b>ETS</b>, un organisme américain spécialisé dans les examens. Celui que tu vas passer s’appelle le <b>TOEIC Listening & Reading</b> : il mesure ta capacité à <b>comprendre</b> l’anglais à l’oral (<i>listening</i> = écoute) et à l’écrit (<i>reading</i> = lecture).' },
-    { type: 'p', html: 'Bonne nouvelle : tu n’as <b>ni à parler, ni à écrire</b> de texte. Il n’y a que des questions à choix multiples (tu choisis A, B, C ou D). Autre bonne nouvelle : on ne peut pas « rater » le TOEIC. Il n’y a pas de note éliminatoire : tu obtiens un <b>score</b> entre 10 et 990, qui correspond à un niveau.' },
+    { type: 'p', html: 'Bonne nouvelle : tu n’as <b>ni à parler, ni à écrire</b> de texte. Il n’y a que des questions à choix multiples (tu choisis A, B, C ou D ; seulement A, B ou C en partie 2). Autre bonne nouvelle : on ne peut pas « rater » le TOEIC. Il n’y a pas de note éliminatoire : tu obtiens un <b>score</b> entre 10 et 990, qui correspond à un niveau.' },
     { type: 'p', html: 'Les situations sont tirées de la <b>vie professionnelle et quotidienne</b> : réunions, e-mails, commandes, voyages d’affaires, annonces à l’aéroport, rendez-vous chez le médecin… Pas besoin de connaître un métier précis : tout le vocabulaire utile est dans les leçons de ce site.' },
     { type: 'list', items: [
       '<b>Trouver un emploi</b> : beaucoup d’employeurs demandent un score TOEIC sur le CV.',
@@ -47,13 +47,13 @@ LE.register({
       ['<b>B1 — seuil</b>', '<b>275</b>', '<b>275</b>', '<b>≈ 550</b>'],
       ['<b>B2 — avancé</b>', '<b>400</b>', '<b>385</b>', '<b>≈ 785</b>'],
       ['C1 — autonome', '490', '455', '≈ 945']
-    ], caption: 'En dessous des seuils A2, on est au niveau débutant (A1). Le niveau est attribué <b>section par section</b>.' },
+    ], caption: 'En dessous des seuils A2, on est au niveau débutant (A1 ou moins). Le niveau est attribué <b>section par section</b>.' },
 
     { type: 'h', text: 'Ton objectif B1 / B2, en clair' },
     { type: 'list', items: [
       '<b>B1</b> : au moins <b>275 en Listening ET 275 en Reading</b> (total ≥ 550). Tu comprends l’essentiel de messages clairs sur des sujets familiers : travail, voyages, rendez-vous.',
       '<b>B2</b> : au moins <b>400 en Listening ET 385 en Reading</b> (total ≥ 785). Tu comprends des discussions plus complexes et tu lis vite des documents professionnels variés.',
-      'À titre indicatif seulement (le barème exact n’est pas public) : 550 correspond à peu près à un peu plus de la moitié des questions réussies, 785 à environ trois quarts.'
+      'À titre indicatif seulement (le barème exact n’est pas public) : 550 correspond à un peu plus de la moitié des questions réussies, 785 à environ les trois quarts.'
     ] },
     { type: 'box', style: 'warn', title: 'Attention au total', html: 'Le total ne suffit pas : c’est le niveau de <b>chaque section</b> qui compte. Exemple : 450 en Listening + 335 en Reading = 785 au total, mais le certificat indiquera <b>B2 en Listening</b> et seulement <b>B1 en Reading</b>. Travaille donc les deux sections de façon équilibrée.' },
     { type: 'box', style: 'tip', title: '7 mois : une stratégie en deux temps', html: 'Partir de débutante pour arriver à <b>B1 (550)</b> en 7 mois est un objectif <b>réaliste</b> avec 45 à 60 minutes de travail par jour. <b>B2 (785)</b> est plus <b>ambitieux</b> : il demandera de la régularité et du « bonus » (séries et podcasts en anglais, lectures). Vise d’abord 550, puis pousse vers 785 : chaque point gagné compte.' },
@@ -72,7 +72,7 @@ LE.register({
     { type: 'list', ordered: true, items: [
       '<b>Réponds à toutes les questions.</b> Pas de points négatifs : une case vide rapporte toujours 0, une réponse au hasard a 1 chance sur 4 (1 sur 3 en partie 2). S’il reste des questions à la fin, coche une lettre au hasard.',
       '<b>Ne reste jamais bloquée.</b> Une question difficile rapporte autant qu’une facile. Tu hésites ? Choisis ta meilleure option et passe à la suivante : en Listening l’audio n’attend pas, en Reading le temps perdu te manquera à la fin.',
-      '<b>Utilise les consignes pour prendre de l’avance.</b> Elles sont toujours les mêmes : pendant qu’on les lit, regarde les photos de la partie 1 ou lis les premières questions des parties 3 et 4.',
+      '<b>Utilise les consignes pour prendre de l’avance.</b> Elles sont toujours les mêmes : pendant qu’elles sont lues, regarde les photos de la partie 1, puis, au début des parties 3 et 4, lis déjà les premières questions.',
       '<b>Lis les questions des parties 3 et 4 avant l’écoute.</b> Tu sauras quoi chercher (qui ? où ? quel problème ?). Dès que tu as répondu aux 3 questions, lis les 3 suivantes.',
       '<b>En partie 2, concentre-toi sur les 3 premiers mots</b> (<i>Where did you…?</i>, <i>Could you…?</i>) : ils annoncent le type de réponse attendu.',
       '<b>Méfie-toi des mots répétés et des sons proches.</b> Une réponse qui reprend un mot de la question ou un mot qui sonne pareil (<i>copy / coffee</i>) est très souvent un piège.',

@@ -43,7 +43,7 @@ LE.register({
       { en: 'brown', fr: 'marron, brun', pos: 'adj', ex: 'These brown boots are very comfortable.', exfr: 'Ces bottes marron sont très confortables.', note: 'faux ami : <i>maroon</i> ne veut pas dire « marron » mais « bordeaux » (rouge foncé) !' },
       { en: 'orange', fr: 'orange', pos: 'adj', ex: 'The orange T-shirts are for the event staff.', exfr: 'Les tee-shirts orange sont pour le personnel de l’événement.', note: 'se prononce « O-rinndj ».' },
       { en: 'pink', fr: 'rose', pos: 'adj', ex: 'Pink is my favorite color.', exfr: 'Le rose est ma couleur préférée.', note: 'une rose (la fleur) = <i>a rose</i>.' },
-      { en: 'purple', fr: 'violet', pos: 'adj', ex: 'The company logo is purple and white.', exfr: 'Le logo de l’entreprise est violet et blanc.', note: 'le mot anglais <i>violet</i> existe, mais il désigne un mauve clair (et la fleur, la violette). Le violet de tous les jours = <b>purple</b>.' },
+      { en: 'purple', fr: 'violet', pos: 'adj', ex: 'The company logo is purple and white.', exfr: 'Le logo de l’entreprise est violet et blanc.', note: 'le mot anglais <i>violet</i> existe, mais il est rare : il désigne un violet bleuté (et la fleur, la violette). Le violet de tous les jours = <b>purple</b>.' },
       { en: 'light', fr: 'clair (couleur)', pos: 'adj', ex: 'She wants a light blue shirt.', exfr: 'Elle veut une chemise bleu clair.', note: 'se place <b>devant</b> la couleur : <i>light gray</i> = gris clair. Autres sens : léger ; la lumière.' },
       { en: 'dark', fr: 'foncé (couleur) ; sombre', pos: 'adj', ex: "I'd like this jacket in dark green.", exfr: 'Je voudrais cette veste en vert foncé.', note: 'devant la couleur : <i>dark blue</i> = bleu foncé. Bleu marine = <i>navy blue</i>.' }
     ] },
@@ -74,7 +74,7 @@ LE.register({
       { en: 'too big', fr: 'trop grand', pos: 'expr', ex: 'This jacket is too big for me.', exfr: 'Cette veste est trop grande pour moi.', note: '<b>too</b> = trop. Contraire : <i>too small</i> (trop petit).' },
       { en: 'loose', fr: 'ample (pas serré) ; desserré', pos: 'adj', ex: 'I like loose clothes when I travel.', exfr: 'J’aime les vêtements amples quand je voyage.', note: 'se prononce « louss ». Ne confonds pas avec <i>lose</i> (perdre), qui se prononce « louz ».' },
       { en: 'tight', fr: 'serré, moulant', pos: 'adj', ex: 'These shoes are too tight. I need a bigger size.', exfr: 'Ces chaussures sont trop serrées. J’ai besoin d’une pointure au-dessus.', note: 'au TOEIC : <i>a tight schedule</i> = un planning serré, très chargé.' },
-      { en: 'comfortable', fr: 'confortable ; à l’aise', pos: 'adj', ex: 'Are the new uniforms comfortable?', exfr: 'Est-ce que les nouveaux uniformes sont confortables ?', note: 'se prononce en 3 syllabes : « KEUMF-teu-beul ».' },
+      { en: 'comfortable', fr: 'confortable ; à l’aise', pos: 'adj', ex: 'Are the new uniforms comfortable?', exfr: 'Est-ce que les nouveaux uniformes sont confortables ?', note: 'se prononce souvent en 3 syllabes : « KEUMF-teu-beul ». Accent sur la 1ʳᵉ syllabe.' },
       { en: 'casual', fr: 'décontracté (tenue)', pos: 'adj', ex: 'On Fridays, we can wear casual clothes.', exfr: 'Le vendredi, on peut venir en tenue décontractée.', note: '<i>casual Friday</i> = le vendredi « tenue décontractée ». Contraire : <i>formal</i> (habillé).' }
     ] }
   ],

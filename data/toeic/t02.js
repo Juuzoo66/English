@@ -26,7 +26,7 @@ LE.register({
       ['<b>Question-tag</b> (… n’est-ce pas ?)', '<i>You’re coming, aren’t you?</i>', 'comme une question fermée'],
       ['<b>Affirmation</b>', '<i>The printer is out of paper.</i>', 'une réaction logique : solution, accord, surprise…'],
       ['<b>Demande</b>', '<i>Could you send me the file?</i>', 'accepter ou refuser (<i>Sure.</i> / <i>Sorry, I’m busy.</i>)'],
-      ['<b>Proposition, suggestion</b>', '<i>Why don’t we take a break?</i><br><i>Would you like some help?</i>', 'accepter ou refuser (<i>Good idea.</i> / <i>No thanks, I’m fine.</i>)']
+      ['<b>Proposition, suggestion</b>', '<i>Why don’t we take a break?</i><br><i>Would you like some help?</i>', 'accepter ou refuser (<i>Good idea.</i> / <i>Yes, please.</i> / <i>No thanks, I’m fine.</i>)']
     ] },
     { type: 'box', style: 'warn', title: '« Why don’t we…? » n’est pas une question sur la raison', html: '<b>Why don’t we / Why don’t you…?</b> = « Et si on… ? », « Tu devrais… » : c’est une <b>suggestion</b>. On y répond par <i>Good idea!</i>, <i>Sounds good.</i> ou <i>Maybe later.</i> Une réponse qui commence par <i>Because…</i> est presque toujours un piège.<br>Même chose avec <b>Would you mind…?</b> (« Ça te dérangerait de… ? ») : <i>Not at all</i> (« pas du tout ») veut dire <b>d’accord, je le fais</b> !' },
 
@@ -214,7 +214,7 @@ LE.register({
         question: "Why don't we take a short break?",
         responses: ["Because I was tired.", "It broke last week.", "Good idea. Let's stop for ten minutes."],
         answer: 2, speakers: ['W', 'M'], accent: 'en-GB',
-        explain: '<b>Why don’t we…?</b> n’est pas une vraie question « pourquoi » : c’est une <b>suggestion</b> (« Et si on faisait une pause ? »). (A) Piège <i>Because</i>, et au passé en plus. (C) Piège de son : <i>broke</i> ressemble à <i>break</i>.'
+        explain: '<b>Why don’t we…?</b> n’est pas une vraie question « pourquoi » : c’est une <b>suggestion</b> (« Et si on faisait une pause ? ») → on l’accepte : bonne idée, arrêtons-nous dix minutes. (A) Piège <i>Because</i>, et au passé en plus. (B) Piège de son : <i>broke</i> ressemble à <i>break</i>.'
       },
       {
         question: "How often do you visit the Toronto office?",

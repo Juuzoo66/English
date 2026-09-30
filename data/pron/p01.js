@@ -13,7 +13,7 @@ LE.register({
   ],
   blocks: [
     { type: 'h', text: 'Pourquoi les voyelles sont-elles si importantes ?' },
-    { type: 'p', html: 'L’anglais n’a que <b>5 lettres voyelles</b> (a, e, i, o, u, plus le y de <i>my</i> ou <i>happy</i>), mais une <b>vingtaine de sons voyelles</b>. Une même lettre peut donc se prononcer de plusieurs façons : le <b>a</b> de <i>cat</i>, de <i>car</i>, de <i>name</i> et de <i>about</i> n’est jamais le même son !<br>Pour le TOEIC, ton objectif n°1 est de <b>comprendre</b> : si tu ne fais pas la différence entre <i>ship</i> (bateau) et <i>sheep</i> (mouton), ou entre <i>man</i> (un homme) et <i>men</i> (des hommes), tu risques de choisir la mauvaise réponse. Ton objectif n°2 est de <b>te faire comprendre</b>. Bonne nouvelle : en entraînant ton oreille, ta prononciation s’améliore aussi.' },
+    { type: 'p', html: 'L’anglais n’a que <b>5 lettres voyelles</b> (a, e, i, o, u — et parfois y, comme dans <i>my</i> ou <i>happy</i>), mais une <b>vingtaine de sons voyelles</b>. Une même lettre peut donc se prononcer de plusieurs façons : le <b>a</b> de <i>cat</i>, de <i>car</i>, de <i>name</i> et de <i>about</i> n’est jamais le même son !<br>Pour le TOEIC, ton objectif n°1 est de <b>comprendre</b> : si tu ne fais pas la différence entre <i>ship</i> (bateau) et <i>sheep</i> (mouton), ou entre <i>man</i> (un homme) et <i>men</i> (des hommes), tu risques de choisir la mauvaise réponse. Ton objectif n°2 est de <b>te faire comprendre</b>. Bonne nouvelle : en entraînant ton oreille, ta prononciation s’améliore aussi.' },
     { type: 'box', style: 'tip', title: 'Comment travailler cette leçon', html: 'Écoute chaque exemple et <b>répète-le à voix haute</b>, plusieurs fois. Pour les paires de mots, écoute les deux, puis ferme les yeux et demande-toi : « Lequel est-ce ? ». Les symboles entre barres obliques (comme /iː/) viennent de l’<b>alphabet phonétique</b> des dictionnaires : inutile de les apprendre par cœur, ils sont toujours expliqués avec un son français.' },
 
     { type: 'h', text: 'Sons courts et sons longs' },
@@ -41,7 +41,7 @@ LE.register({
     { type: 'box', style: 'warn', title: 'Piège : le /iː/ trop court', html: 'Les francophones prononcent souvent tous les « i » de la même façon, courts. Résultat : <i>leave</i> devient <i>live</i>, et <i>I want to leave</i> (je veux partir) devient <i>I want to live</i> (je veux vivre) ! Allonge aussi le /iː/ de <i>sheet</i> (feuille), <i>beach</i> (plage) et <i>piece</i> (morceau) : prononcés trop courts, ils ressemblent à… des gros mots.' },
 
     { type: 'h', text: 'Les sons de cat, cut, cart, bed, bad… et work / walk' },
-    { type: 'p', html: 'Ces cinq mots ont des voyelles différentes qui, pour une oreille française, se ressemblent beaucoup. Ajoutes-y <i>work</i> (travailler) et <i>walk</i> (marcher) : deux sons longs que les francophones confondent très souvent. Écoute-les bien : ce sont des pièges classiques de la <b>Partie 1</b> du TOEIC (la description de photos).' },
+    { type: 'p', html: '<i>cat</i>, <i>cut</i>, <i>cart</i> et <i>bed</i> contiennent quatre voyelles différentes qui, pour une oreille française, se ressemblent beaucoup (<i>bad</i> a le même son que <i>cat</i>, mais on le compare souvent à <i>bed</i>). Ajoutes-y <i>work</i> (travailler) et <i>walk</i> (marcher) : deux sons longs que les francophones confondent très souvent. Écoute-les bien : ce sont des pièges classiques de la <b>Partie 1</b> du TOEIC (la description de photos).' },
     { type: 'table', head: ['Son', 'Mot repère', 'Comparaison française', 'Autres mots'], rows: [
       ['/æ/', '<i>cat</i>, <i>bad</i>', 'un « è » très ouvert, presque « a » : ouvre grand la bouche', '<i>man, bag, back, plan, happy</i>'],
       ['/ʌ/', '<i>cut</i>', 'un « a » bref et sourd, bouche peu ouverte, proche du « eu » de « peur » dit très vite', '<i>bus, run, cup, money, Monday</i>'],
@@ -61,7 +61,7 @@ LE.register({
       { a: 'walk', b: 'work', note: 'marcher / travailler' }
     ] },
     { type: 'box', style: 'tip', title: 'Le son /ʌ/ s’écrit souvent avec un « o »', html: 'Beaucoup de mots très fréquents s’écrivent avec un <b>o</b> mais se prononcent /ʌ/, comme <i>cut</i> : <i>money, Monday, month, come, some, love, other, mother, company</i>. Ne dis pas « mo-ney » : c’est plutôt « MEU-ni ».' },
-    { type: 'box', style: 'warn', title: 'Piège du TOEIC : man ou men ?', html: 'En <b>Partie 1</b>, tu choisis la phrase qui décrit une photo. <i>The <b>man</b> is reading</i> (un homme) et <i>The <b>men</b> are reading</i> (des hommes) ne décrivent pas la même photo ! Écoute la voyelle (/æ/ très ouvert pour <i>man</i>, /e/ pour <i>men</i>) <b>et</b> le verbe (<i>is</i> ou <i>are</i>). Même chose pour <i>woman</i> /ˈwʊmən/ et <i>women</i> /ˈwɪmɪn/ : c’est la <b>première</b> syllabe qui change (« OU-mən » / « OUI-min »).' },
+    { type: 'box', style: 'warn', title: 'Piège du TOEIC : man ou men ?', html: 'En <b>Partie 1</b>, tu choisis la phrase qui décrit une photo. <i>The <b>man</b> is reading</i> (un homme) et <i>The <b>men</b> are reading</i> (des hommes) ne décrivent pas la même photo ! Écoute la voyelle (/æ/ très ouvert pour <i>man</i>, /e/ pour <i>men</i>) <b>et</b> le verbe (<i>is</i> ou <i>are</i>). Même chose pour <i>woman</i> /ˈwʊmən/ et <i>women</i> /ˈwɪmɪn/ : c’est la <b>première</b> syllabe qui change : « ou » dans <i>woman</i>, « oui » dans <i>women</i>.' },
 
     { type: 'h', text: 'Not ou note ? Le « o » court et le « o » qui glisse' },
     { type: 'p', html: 'Le <b>o</b> court de <i>not, hot, stop, job</i> dépend de l’accent : en <b>américain</b>, c’est un « â » ouvert, comme dans « pâte » (/ɑː/) : <i>job</i> sonne presque « djââb » ; en <b>britannique</b>, c’est un « o » court et ouvert, comme dans « bol » (/ɒ/).<br>Le <b>o</b> de <i>note, go, phone, home</i> n’est pas un « ô » français immobile : il <b>glisse</b> de « o » vers « ou » (/oʊ/).' },
@@ -126,7 +126,7 @@ LE.register({
     { type: 'h', text: 'Pas de voyelles nasales en anglais' },
     { type: 'p', html: 'En français, « an », « on », « in », « un » sont des <b>voyelles nasales</b> : l’air passe par le nez et on n’entend pas de vrai « n ». <b>L’anglais n’en a pas.</b> On prononce une voyelle normale, <b>puis</b> un vrai <b>n</b> (ou un vrai <b>m</b>), bien articulé.' },
     { type: 'examples', items: [
-      { en: 'Ten people attended the training.', fr: 'Dix personnes ont suivi la formation.', note: '<i>ten</i> = « tènn », pas « tin ».' },
+      { en: 'Ten people attended the training.', fr: 'Dix personnes ont suivi la formation.', note: '<i>ten</i> = « tènn », pas « teint » avec une voyelle nasale.' },
       { en: "I'm on the phone.", fr: 'Je suis au téléphone.', note: '<i>on</i> : une voyelle, puis un vrai <b>n</b>, pas le « on » français.' },
       { en: 'We need more information.', fr: 'Nous avons besoin de plus d’informations.', note: '<i>information</i> = « in-fər-MÉÏ-chən » : le <b>in</b> se dit « inn », pas « ain ».' },
       { en: 'The bank is on the corner.', fr: 'La banque est au coin de la rue.', note: '<i>bank</i> : le son /æ/ de <i>cat</i>, puis un vrai « nk », pas le « an » nasal de « banque ».' }

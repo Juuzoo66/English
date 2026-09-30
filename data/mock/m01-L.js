@@ -9,7 +9,7 @@ LE.register({
     { part: 1, items: [
       {
         accent: 'en-US',
-        scene: 'Un homme en chemise se tient debout devant une grande photocopieuse. D’une main, il soulève le couvercle de la machine ; dans l’autre, il tient une feuille de papier. À côté de lui, une pile de dossiers est posée sur une petite table.',
+        scene: 'Un homme en chemise, seul dans la pièce, se tient debout devant une grande photocopieuse. D’une main, il soulève le couvercle de la machine ; dans l’autre, il tient une feuille de papier. À côté de lui, une pile de dossiers est posée sur une petite table.',
         statements: ["He's stacking some folders on a shelf.", "He's sitting at a small table.", "He's lifting the lid of a copier.", "He's handing a sheet of paper to a coworker."],
         answer: 2,
         explain: '(C) est vraie : il soulève le couvercle (<i>lid</i>) de la photocopieuse (<i>copier</i>). (A) Les dossiers sont posés sur une table : personne ne les empile sur une étagère. (B) Il est <b>debout</b>, pas assis (<i>sitting</i>). (D) Il tient bien une feuille, mais il n’y a aucun collègue à qui la tendre (<i>hand</i> = tendre, donner).'
@@ -26,7 +26,7 @@ LE.register({
         scene: 'Deux ouvriers portant un casque de chantier travaillent sur un échafaudage installé le long de la façade d’un immeuble. L’un d’eux tend un pot de peinture à son collègue. Au pied de l’échafaudage, une échelle est appuyée contre le mur ; personne n’est dessus.',
         statements: ['One of the men is putting on a helmet.', 'The workers are climbing down a ladder.', 'Some paint is being poured into a bucket.', 'A ladder has been propped against the building.'],
         answer: 3,
-        explain: '(D) est vraie : une échelle <b>a été appuyée</b> contre le bâtiment (<i>prop against</i> = appuyer contre). (A) Piège classique : ils <b>portent</b> déjà un casque (<i>are wearing</i>) ; <i>putting on</i> = être en train de le mettre. (B) Personne n’est sur l’échelle. (C) On voit un pot de peinture, mais personne ne verse (<i>pour</i>) de peinture. Ici, la bonne réponse décrit un détail de l’arrière-plan : observe toute la photo !'
+        explain: '(D) est vraie : une échelle <b>a été appuyée</b> contre le bâtiment (<i>prop against</i> = appuyer contre). (A) Piège classique : ils <b>portent</b> déjà un casque (<i>are wearing</i>) ; <i>putting on</i> = être en train de le mettre. (B) Personne n’est sur l’échelle. (C) On voit un pot de peinture, mais personne ne verse (<i>pour</i>) de peinture. Ici, la bonne réponse ne décrit pas l’action principale (les ouvriers sur l’échafaudage) mais un détail secondaire : observe toute la photo !'
       }
     ] },
 
@@ -207,7 +207,7 @@ LE.register({
           { q: 'What does the woman mean when she says, "The board meeting is at nine a.m. on Monday"?', options: ['She needs the figures soon.', 'She would like to reschedule the meeting.', 'She will not be able to attend the meeting.', 'She has already finished the charts.'], answer: 0,
             explain: 'L’homme vient de dire que les chiffres ne sont pas encore vérifiés. En rappelant que la réunion a lieu lundi à 9 h, la femme souligne qu’il reste <b>peu de temps</b> : elle a besoin des chiffres rapidement. La suite le confirme : l’homme promet d’essayer de les obtenir <b>d’ici vendredi après-midi</b>. Pour ce type de question, écoute toujours ce qui est dit juste avant et juste après la phrase citée.' },
           { q: 'What does the man suggest?', options: ['Postponing the board meeting', 'Hiring a graphic designer', 'Working together over the weekend', 'Reusing a previous slide design'], answer: 3,
-            explain: '« <i>Why don’t you just use the slide design from last quarter’s presentation?</i> » (pourquoi ne pas simplement reprendre la mise en page de la présentation du trimestre dernier ?) → <b>réutiliser</b> un modèle précédent. (C) Piège : c’est elle qui finira les graphiques le week-end, et seule.' }
+            explain: '« <i>Why don’t you just use the slide design from last quarter’s presentation?</i> » (pourquoi ne pas simplement reprendre la mise en page de la présentation du trimestre dernier ?) → <b>réutiliser</b> un modèle précédent. (C) Piège : on entend <i>weekend</i>, mais c’est la femme qui dit qu’elle finira les graphiques ce week-end ; personne ne propose de travailler ensemble.' }
         ]
       },
       {
@@ -257,7 +257,7 @@ LE.register({
       {
         accent: 'en-US', speaker: 'W',
         intro: 'Questions refer to the following telephone message.',
-        text: "Hello, Mr. Adeyemi. This is Claire calling from Dr. Lindqvist's dental office. I'm calling to remind you about your appointment tomorrow, Thursday, at ten thirty a.m. Unfortunately, Dr. Lindqvist will be at a conference tomorrow, so your checkup will be done by Dr. Moreau instead. If you'd rather wait and see Dr. Lindqvist, she has some openings next Tuesday afternoon. Also, please remember to bring your new insurance card. Our records show that your old one expired last month. Please call us back at 555-0142 to let us know what you'd like to do. Thank you!",
+        text: "Hello, Mr. Adeyemi. This is Claire calling from Dr. Lindqvist's dental office. I'm calling to remind you about your appointment tomorrow, Thursday, at ten thirty a.m. Unfortunately, Dr. Lindqvist will be at a conference tomorrow, so your checkup will be done by Dr. Moreau instead. If you'd rather wait for her, she has some openings next Tuesday afternoon. Also, please remember to bring your new insurance card. Our records show that your old one expired last month. Please call us back at five-five-five, zero-one-four-two to let us know what you'd like to do. Thank you!",
         questions: [
           { q: 'Why is the speaker calling?', options: ['To confirm a payment', 'To remind the listener of an appointment', 'To announce that an office is moving', 'To ask about a conference'], answer: 1,
             explain: 'Dès le début : « <i>I’m calling to remind you about your appointment tomorrow</i> » (j’appelle pour vous rappeler votre rendez-vous de demain). <i>Remind</i> = rappeler quelque chose à quelqu’un. (D) Piège : la conférence est celle du Dr Lindqvist, ce n’est pas l’objet de l’appel.' },
@@ -270,7 +270,7 @@ LE.register({
       {
         accent: 'en-GB', speaker: 'M',
         intro: 'Questions refer to the following announcement and departure board.',
-        text: 'Attention, please. Due to a signal problem just outside the station, the train departing from platform three will be delayed by approximately twenty minutes. We apologize for any inconvenience this may cause. Passengers on this service who have connecting trains at Harlow Junction should go to the information desk, where a member of staff will help you rearrange your journey. We would also like to remind passengers that the station café is closed today for renovations. Hot drinks and snacks are available from the vending machines on platform one. Thank you for your patience.',
+        text: 'Attention, please. Due to a signal problem just outside the station, the train departing from platform three will be delayed by approximately twenty minutes. We apologize for any inconvenience this may cause. Passengers on this service who have connecting trains at Harlow Junction should go to the information desk, where a member of staff will help them rearrange their journeys. We would also like to remind passengers that the station café is closed today for renovations. Hot drinks and snacks are available from the vending machines on platform one. Thank you for your patience.',
         graphic: {
           title: 'Departures — Morning Trains',
           head: ['Destination', 'Time', 'Platform'],
@@ -293,7 +293,7 @@ LE.register({
       {
         accent: 'en-AU', speaker: 'W',
         intro: 'Questions refer to the following advertisement.',
-        text: "Do your managers spend hours every week putting together staff schedules? Then it's time to try Tallyport, the online scheduling tool that lets your whole team plan shifts, request time off, and swap hours, all from their smartphones. More than two thousand restaurants and shops already use Tallyport, and their managers save an average of five hours a week. Setting up is simple: just upload your staff list, and our system does the rest. And this month only, new customers can try Tallyport free for sixty days. That's twice as long as our usual free trial! If you ever have a question, our support team is available around the clock by phone or online chat. Sign up on our website today.",
+        text: "Do your managers spend hours every week putting together staff schedules? Then it's time to try Tallyport, the online scheduling tool that lets your employees check their schedules, request time off, and swap shifts, all from their smartphones. More than two thousand restaurants and shops already use Tallyport, and their managers save an average of five hours a week. Setting up is simple: just upload your staff list, and our system does the rest. And this month only, new customers can try Tallyport free for sixty days. That's twice as long as our usual free trial! If you ever have a question, our support team is available around the clock by phone or online chat. Sign up on our website today.",
         questions: [
           { q: 'What is being advertised?', options: ['A recruitment agency', 'A scheduling application', 'A restaurant chain', 'A new smartphone'], answer: 1,
             explain: 'Tallyport est « <i>the online scheduling tool</i> » (l’outil de planification en ligne) : une <b>application de planning</b> pour organiser les horaires du personnel. (D) Piège : on entend <i>smartphones</i>, mais l’outil s’utilise <b>sur</b> les smartphones, la publicité ne vend pas de téléphone.' },
@@ -322,7 +322,7 @@ LE.register({
         text: "Good afternoon, and welcome to Pellworth Cycles. My name is Grace, and I'll be showing you around our factory today. Pellworth has been building bicycles here since 1962, and we now produce about three hundred bikes a day. We'll start in the design studio, then move on to the assembly line, and we'll finish in our test area, where you'll be able to ride one of our new electric models. Before we go in, please make sure you're wearing the safety glasses we handed out at reception. Now, on the assembly line, the machines are quite loud. You've each been given a headset, so please keep it on and stay close to me. Oh, and at the end of the tour, every visitor will receive a voucher for twenty percent off any purchase in our factory store.",
         questions: [
           { q: 'What will the listeners do at the end of the tour?', options: ['Watch a short film', 'Meet a bicycle designer', 'Try out a bicycle', 'Have lunch in a cafeteria'], answer: 2,
-            explain: '« <i>we’ll finish in our test area, where you’ll be able to ride one of our new electric models</i> » (nous terminerons dans la zone d’essai, où vous pourrez rouler sur l’un de nos nouveaux modèles électriques) → <b>essayer un vélo</b>. (B) Piège : le studio de design est au <b>début</b> de la visite, et on n’y rencontre personne.' },
+            explain: '« <i>we’ll finish in our test area, where you’ll be able to ride one of our new electric models</i> » (nous terminerons dans la zone d’essai, où vous pourrez rouler sur l’un de nos nouveaux modèles électriques) → <b>essayer un vélo</b>. (B) Piège : le studio de design est au <b>début</b> de la visite, et aucune rencontre avec un designer n’est annoncée.' },
           { q: 'Why does the speaker say, "the machines are quite loud"?', options: ['To apologize for a delay', 'To explain why the listeners have headsets', 'To suggest that the factory needs new equipment', 'To recommend visiting on another day'], answer: 1,
             explain: 'Question d’intention : écoute ce qui suit la phrase citée. Juste après, la guide ajoute : « <i>You’ve each been given a headset, so please keep it on</i> » (on vous a remis un casque audio, gardez-le sur les oreilles). Elle parle du bruit pour <b>expliquer pourquoi</b> les visiteurs ont un casque. Rien n’indique qu’il faudrait changer les machines (C).' },
           { q: 'What will every visitor receive?', options: ['A discount on store purchases', 'A free bicycle helmet', 'A product catalog', 'A company T-shirt'], answer: 0,

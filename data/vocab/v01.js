@@ -68,8 +68,9 @@ LE.register({
       { en: 'accountant', fr: 'comptable', pos: 'n', ex: 'The accountant works in the finance department.', exfr: 'La comptable travaille au service financier.', note: 'La comptabilité = <b>accounting</b>.' },
       { en: 'salesperson', fr: 'vendeur, vendeuse ; commercial(e)', pos: 'n', ex: 'Ask the salesperson for the price.', exfr: 'Demande le prix au vendeur.', note: 'Aussi : <i>sales assistant</i> (en magasin), <i>sales representative</i> ou <i>sales rep</i> (commercial).' },
       { en: 'receptionist', fr: 'réceptionniste ; hôte, hôtesse d’accueil', pos: 'n', ex: 'Please ask the receptionist for a visitor badge.', exfr: 'Merci de demander un badge visiteur à la réceptionniste.' },
-      { en: 'lawyer', fr: 'avocat(e) ; juriste', pos: 'n', ex: 'Our lawyer checks every contract carefully.', exfr: 'Notre avocate vérifie chaque contrat avec soin.', note: 'Faux ami : l’avocat (le fruit) = <b>avocado</b>.' },
-      { en: 'student', fr: 'étudiant(e) ; élève', pos: 'n', ex: 'Maya is a business student in Montreal.', exfr: 'Maya est étudiante en commerce à Montréal.' }
+      { en: 'lawyer', fr: 'avocat(e) ; juriste', pos: 'n', ex: 'Our lawyer checks every contract carefully.', exfr: 'Notre avocate vérifie chaque contrat avec soin.', note: 'Piège : en français, « avocat » a deux sens ; le fruit se dit <b>avocado</b>.' },
+      { en: 'student', fr: 'étudiant(e) ; élève', pos: 'n', ex: 'Maya is a business student in Montreal.', exfr: 'Maya est étudiante en commerce à Montréal.' },
+      { en: 'job', fr: 'travail, emploi ; poste', pos: 'n', ex: 'I have a new job in a big company.', exfr: 'J’ai un nouveau travail dans une grande entreprise.', note: '<i>What’s your job?</i> = Quel est ton métier ? Le travail en général (indénombrable) = <b>work</b> : <i>I go to work.</i>' }
     ] }
   ],
   tips: [

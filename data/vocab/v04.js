@@ -6,7 +6,7 @@ LE.register({
   level: 'A1',
   intro: 'La maison et la routine, c’est le vocabulaire de ta vie de tous les jours, et la base pour parler de ton emploi du temps au travail. Au TOEIC, la Partie 1 montre souvent des pièces et des meubles, et les annonces de logement ou les horaires apparaissent en Partie 7.',
   groups: [
-    { title: 'Les pièces et les espaces', words: [
+    { title: 'Les pièces et les éléments de la maison', words: [
       { en: 'kitchen', fr: 'cuisine (la pièce)', pos: 'n', ex: 'The kitchen is small but very modern.', exfr: 'La cuisine est petite mais très moderne.', note: 'Faire la cuisine = <b>cook</b>. Au bureau : <i>the office kitchen</i>.' },
       { en: 'bedroom', fr: 'chambre', pos: 'n', ex: 'The apartment has two bedrooms.', exfr: 'L’appartement a deux chambres.', note: 'Une chambre d’hôtel = <i>a (hotel) <b>room</b></i>.' },
       { en: 'bathroom', fr: 'salle de bains ; toilettes (US)', pos: 'n', ex: 'Excuse me, where is the bathroom?', exfr: 'Excusez-moi, où sont les toilettes ?', note: 'Aux États-Unis, <i>bathroom</i> désigne aussi les toilettes. Dans un lieu public : <b>restroom</b>.' },
@@ -14,8 +14,11 @@ LE.register({
       { en: 'dining room', fr: 'salle à manger', pos: 'n', ex: 'Dinner is ready in the dining room.', exfr: 'Le dîner est servi dans la salle à manger.' },
       { en: 'garden', fr: 'jardin (fleurs, potager)', pos: 'n', ex: 'My mother grows tomatoes in her garden.', exfr: 'Ma mère fait pousser des tomates dans son jardin.', note: 'UK : <i>garden</i> = tout jardin. US : plutôt un jardin fleuri ou un potager.' },
       { en: 'yard', fr: 'jardin, cour (autour d’une maison, US)', pos: 'n', ex: 'Our house has a big yard.', exfr: 'Notre maison a un grand jardin.', note: '<i>backyard</i> = le jardin de derrière ; <i>front yard</i> = le jardin de devant.' },
-      { en: 'stairs', fr: 'escalier', pos: 'n', ex: 'The stairs are next to the kitchen.', exfr: 'L’escalier est à côté de la cuisine.', note: 'Toujours au pluriel. <i>upstairs</i> = en haut ; <i>downstairs</i> = en bas.' },
-      { en: 'floor', fr: 'sol ; étage', pos: 'n', ex: 'Our office is on the second floor.', exfr: 'Notre bureau est au premier étage.', note: 'Aux États-Unis, <i>second floor</i> = 1ᵉʳ étage : voir l’encadré sur les étages.' }
+      { en: 'stairs', fr: 'escalier', pos: 'n', ex: 'The stairs are next to the kitchen.', exfr: 'L’escalier est à côté de la cuisine.', note: 'Au pluriel dans ce sens. <i>upstairs</i> = en haut ; <i>downstairs</i> = en bas.' },
+      { en: 'floor', fr: 'sol ; étage', pos: 'n', ex: 'Our office is on the second floor.', exfr: 'Notre bureau est au premier étage.', note: 'Aux États-Unis, <i>second floor</i> = 1ᵉʳ étage : voir l’encadré sur les étages.' },
+      { en: 'door', fr: 'porte', pos: 'n', ex: 'Please close the door when you leave.', exfr: 'Merci de fermer la porte quand tu pars.', note: 'Se prononce « dor ». <i>the front door</i> = la porte d’entrée.' },
+      { en: 'window', fr: 'fenêtre', pos: 'n', ex: "Can you open the window? It's very hot in here.", exfr: 'Tu peux ouvrir la fenêtre ? Il fait très chaud ici.' },
+      { en: 'wall', fr: 'mur', pos: 'n', ex: 'There is a big map on the wall.', exfr: 'Il y a une grande carte au mur.', note: 'On dit <b>on</b> the wall. Très fréquent en Partie 1 du TOEIC : <i>A picture is hanging on the wall.</i> (Un tableau est accroché au mur.)' }
     ] },
     { title: 'Les meubles et l’équipement', words: [
       { en: 'sofa', fr: 'canapé', pos: 'n', ex: 'There is a large sofa in the waiting room.', exfr: 'Il y a un grand canapé dans la salle d’attente.', note: 'Aussi : <b>couch</b> (US).' },

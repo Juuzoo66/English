@@ -35,7 +35,7 @@ LE.register({
 
     // ---------- A2 ----------
     { level: 'A2', type: 'mcq', q: 'Last year, we ___ to Canada for a conference.', options: ['go', 'gone', 'goed', 'went'], answer: 3,
-      explain: '<i>Last year</i> (l’année dernière) = moment passé et terminé → <b>prétérit</b>. <i>go</i> est irrégulier : <i>go – <b>went</b> – gone</i>. « goed » n’existe pas.' },
+      explain: '<i>Last year</i> (l’année dernière) = moment passé et terminé → <b>prétérit</b> (le temps du passé en anglais : <i>worked, saw…</i>). <i>go</i> est irrégulier : <i>go – <b>went</b> – gone</i>. « goed » n’existe pas.' },
     { level: 'A2', type: 'mcq', q: 'Sorry, I ___ your message yesterday. I was very busy.', options: ["didn't see", "didn't saw", "don't saw", "wasn't see"], answer: 0,
       explain: 'Négation au prétérit : <b>didn’t + verbe de base</b>. Le passé est déjà marqué par <i>did</i>, donc le verbe ne change pas : <i>I didn’t <b>see</b></i> (et pas « didn’t saw »).' },
     { level: 'A2', type: 'listen', say: 'Last week, I flew to Berlin for a meeting, and I came back on Friday.', q: 'Qu’as-tu entendu ?',

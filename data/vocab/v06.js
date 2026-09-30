@@ -50,8 +50,9 @@ LE.register({
     { title: 'Les transports', words: [
       { en: 'bus stop', fr: 'arrêt de bus', pos: 'n', ex: 'Wait for me at the bus stop.', exfr: 'Attends-moi à l’arrêt de bus.' },
       { en: 'train station', fr: 'gare', pos: 'n', ex: 'The train station is ten minutes from here.', exfr: 'La gare est à dix minutes d’ici.' },
+      { en: 'airport', fr: 'aéroport', pos: 'n', ex: 'How long does it take to get to the airport?', exfr: 'Combien de temps faut-il pour aller à l’aéroport ?', note: 'accent sur la 1ʳᵉ syllabe : <b>AIR</b>-port' },
       { en: 'platform', fr: 'quai', pos: 'n', ex: 'The train to Boston leaves from platform 4.', exfr: 'Le train pour Boston part du quai 4.', note: 'aux États-Unis, on entend aussi <i>track</i> : <i>track 4</i> = voie 4' },
-      { en: 'subway', fr: 'métro', pos: 'n', ex: 'I take the subway to work every day.', exfr: 'Je prends le métro pour aller au travail tous les jours.', note: 'UK : <b>underground</b> (à Londres : <i>the Tube</i>). Piège : en UK, <i>a subway</i> = un passage souterrain pour piétons !' },
+      { en: 'subway', fr: 'métro', pos: 'n', ex: 'I take the subway to work every day.', exfr: 'Je prends le métro pour aller au travail tous les jours.', note: 'UK : <b>underground</b> (à Londres : <i>the Tube</i>). Piège : au Royaume-Uni, <i>a subway</i> = un passage souterrain pour piétons !' },
       { en: 'taxi', fr: 'taxi', pos: 'n', ex: "Let's take a taxi to the airport.", exfr: 'Prenons un taxi pour aller à l’aéroport.', note: 'synonyme américain : <b>cab</b> (<i>take a cab</i>)' },
       { en: 'ticket', fr: 'billet, ticket', pos: 'n', ex: 'Buy your ticket before you get on the train.', exfr: 'Achète ton billet avant de monter dans le train.', note: '<i>one-way ticket</i> = aller simple ; <i>round-trip ticket</i> = aller-retour (UK : <i>return ticket</i>)' },
       { en: 'fare', fr: 'prix du trajet, tarif', pos: 'n', ex: 'The bus fare is two dollars.', exfr: 'Le trajet en bus coûte deux dollars.', note: 'même prononciation que <i>fair</i> (juste ; foire, salon) : le contexte t’aide !' },
@@ -63,6 +64,7 @@ LE.register({
       { en: 'get off', fr: 'descendre (d’un bus, d’un train)', pos: 'pv', ex: 'Get off at the third stop.', exfr: 'Descends au troisième arrêt.', note: 'pour une voiture ou un taxi : <i>get out of</i>' },
       { en: 'miss', fr: 'rater, manquer', pos: 'v', ex: "Hurry up, or we'll miss the bus!", exfr: 'Dépêche-toi, sinon on va rater le bus !', note: 'autre sens : <i>I miss you.</i> = Tu me manques.' },
       { en: 'drive', fr: 'conduire ; aller en voiture', pos: 'v', ex: 'I drive to work, but my colleague walks.', exfr: 'Je vais au travail en voiture, mais ma collègue y va à pied.', note: 'irrégulier : drive – drove – driven. <i>driver</i> = conducteur, chauffeur' },
+      { en: 'walk', fr: 'marcher ; aller à pied', pos: 'v', ex: 'I walk to the office every morning.', exfr: 'Je vais au bureau à pied tous les matins.', note: 'le <b>l</b> est muet : « wok ». <i>a ten-minute walk</i> = dix minutes à pied' },
       { en: 'on foot', fr: 'à pied', pos: 'expr', ex: 'The office is five minutes away on foot.', exfr: 'Le bureau est à cinq minutes à pied.', note: 'mais <b>by</b> pour les véhicules : <i>by bus, by train, by car</i>. Plus courant : <i>I walk to work.</i>' }
     ] }
   ],

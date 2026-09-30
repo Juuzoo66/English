@@ -38,7 +38,7 @@ LE.register({
       { en: "The invoice is wrong? I'll look into it right away.", fr: 'La facture est fausse ? Je vais examiner ça tout de suite.', note: 'Inséparable : <i>look into <b>it</b></i>.' },
       { en: 'The meeting has been called off.', fr: 'La réunion a été annulée.', note: 'Au <b>passif</b>, la particule reste juste après le participe passé : <i>called <b>off</b></i>, <i>was put <b>off</b></i>.' }
     ] },
-    { type: 'box', style: 'tip', title: 'Complément long et accent', html: 'Avec un nom court, les deux places sont possibles : <i>fill out the form</i> = <i>fill the form out</i>. Mais si le complément est <b>long</b>, mets-le <b>après</b> la particule : <i>Please fill out <b>the form that I sent you last week</b>.</i> Sinon, la particule se retrouve perdue en fin de phrase.<br>À l’oral, c’est la <b>particule</b> qui porte l’accent : <i>set UP, call OFF, turn it DOWN</i>. Écoute-la bien : c’est souvent elle qui donne le sens.' },
+    { type: 'box', style: 'tip', title: 'Complément long et accent', html: 'Avec un nom court, les deux places sont possibles : <i>fill out the form</i> = <i>fill the form out</i>. Mais si le complément est <b>long</b>, mets-le <b>après</b> la particule : <i>Please fill out <b>the form that I sent you last week</b>.</i> Sinon, la particule se retrouve perdue en fin de phrase.<br>À l’oral, c’est le plus souvent la <b>particule</b> qui porte l’accent : <i>set UP, call OFF, turn it DOWN</i>. Écoute-la bien : c’est souvent elle qui donne le sens.' },
 
     { type: 'h', text: 'Thème 1 — Réunions et projets' },
     { type: 'table', head: ['Phrasal verb', 'Sens', 'Exemple', 'Synonyme formel'], rows: [

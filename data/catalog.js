@@ -55,7 +55,10 @@ LE.catalog = {
     { id: 'g41', title: 'Les phrasal verbs essentiels du monde pro', level: 'B2', file: 'data/grammar/g41.js' },
     { id: 'g42', title: 'Used to, be used to, get used to et le causatif', level: 'B2', file: 'data/grammar/g42.js' },
     { id: 'g43', title: 'Question tags, so / neither et réponses courtes', level: 'B1', file: 'data/grammar/g43.js' },
-    { id: 'g44', title: 'Faux amis et erreurs typiques des francophones', level: 'B1', file: 'data/grammar/g44.js' }
+    { id: 'g44', title: 'Faux amis et erreurs typiques des francophones', level: 'B1', file: 'data/grammar/g44.js' },
+    { id: 'g45', title: 'Les prépositions clés du TOEIC : by, until, within, during, among…', level: 'B1', file: 'data/grammar/g45.js' },
+    { id: 'g46', title: 'Le futur continu et le futur antérieur', level: 'B2', file: 'data/grammar/g46.js' },
+    { id: 'g47', title: 'Le subjonctif anglais et les tournures formelles', level: 'B2', file: 'data/grammar/g47.js' }
   ],
 
   pron: [

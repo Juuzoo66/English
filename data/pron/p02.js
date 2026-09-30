@@ -67,7 +67,7 @@ LE.register({
       { en: "Sorry, I'm very busy right now.", fr: 'Désolée, je suis très occupée en ce moment.', note: 'Entre deux voyelles (<i>sorry, very</i>), le r se prononce dans tous les accents.' },
       { en: 'The factory is in a rural area.', fr: 'L’usine est dans une zone rurale.', note: '<i>rural</i> est difficile même pour les natifs : « ROU-rəl ». <i>area</i> = « È-ri-ə ».' },
       { en: 'Where is your car?', fr: 'Où est ta voiture ?', note: 'Accent américain : le r de <i>where</i>, <i>your</i> et <i>car</i> est prononcé.', accent: 'en-US' },
-      { en: 'Where is your car?', fr: 'Où est ta voiture ?', note: 'Accent britannique : les r finaux disparaissent (« kââ »).', accent: 'en-GB' }
+      { en: 'Where is your car?', fr: 'Où est ta voiture ?', note: 'Accent britannique : le r de <i>your</i> et de <i>car</i> ne se prononce pas (« kââ »), car il n’est pas suivi d’une voyelle.', accent: 'en-GB' }
     ] },
 
     { type: 'h', text: 'Le w (et le wh)' },
@@ -125,14 +125,14 @@ LE.register({
     ] },
     { type: 'dialog', title: 'Au téléphone avec l’hôtel', lines: [
       { speaker: 'W', en: 'Good morning, Hartwell Hotel. How can I help you?', fr: 'Bonjour, hôtel Hartwell. Comment puis-je vous aider ?' },
-      { speaker: 'M', en: "Hi. I'd like to book a room for three nights, from Thursday.", fr: 'Bonjour. Je voudrais réserver une chambre pour trois nuits, à partir de jeudi.' },
+      { speaker: 'M', en: "Hi. I'd like to book a room for three nights, starting Thursday.", fr: 'Bonjour. Je voudrais réserver une chambre pour trois nuits, à partir de jeudi.' },
       { speaker: 'W', en: 'Certainly. Would you like a room with a view of the river?', fr: 'Bien sûr. Voulez-vous une chambre avec vue sur la rivière ?' },
       { speaker: 'M', en: 'Yes, that would be perfect. How much is it?', fr: 'Oui, ce serait parfait. C’est combien ?' },
       { speaker: 'W', en: "It's a hundred and thirty dollars a night.", fr: 'C’est cent trente dollars la nuit.' },
       { speaker: 'M', en: "Great. I'll send you my details this morning. Thank you!", fr: 'Parfait. Je vous envoie mes coordonnées ce matin. Merci !' }
     ] },
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 2</b>, les mauvaises réponses contiennent souvent un mot qui <b>sonne presque</b> comme un mot de la question. Exemple : <i>Who’s going to <b>hold</b> the meeting?</i> (Qui va animer la réunion ?) → piège : <i>The building is quite <b>old</b>.</i> ; bonne réponse : <i>Ms. Nakamura will.</i> Méfie-toi aussi de <i>three / tree / free</i>, <i>thirty / dirty</i>, <i>hair / air</i>. En <b>Parties 3 et 4</b>, écoute bien les jours : <i>Thursday</i> ou <i>Tuesday</i> ?' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>th</b> : langue entre les dents ; /θ/ sourd (<i>think, three</i>) et /ð/ sonore (<i>this, the</i>). Jamais s, z, t, d ou f.<br>• <b>h</b> : un souffle, presque toujours prononcé (<i>hair ≠ air</i>) ; muet seulement dans <i>hour, honest, honor</i> (→ <i>an hour</i>).<br>• <b>r</b> : langue recourbée, pas de r de gorge ; prononcé en fin de mot en américain (<i>car</i>).<br>• <b>w</b> = « ou » rapide, jamais « v » ; <i>who, whose, whole</i> = son h.<br>• <b>-ng</b> /ŋ/ sans « gue » : <i>sing, working</i>.<br>• On prononce les consonnes finales (<i>desk, asked</i>), mais pas les lettres muettes (<i>knife, write, listen, receipt, debt, Wednesday</i>).' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>th</b> : langue entre les dents ; /θ/ sourd (<i>think, three</i>) et /ð/ sonore (<i>this, the</i>). Jamais s, z, t, d ou f.<br>• <b>h</b> : un souffle, presque toujours prononcé (<i>hair ≠ air</i>) ; muet dans quelques mots seulement : <i>hour, honest, honor</i> (→ <i>an hour</i>).<br>• <b>r</b> : langue recourbée, pas de r de gorge ; prononcé en fin de mot en américain (<i>car</i>).<br>• <b>w</b> = « ou » rapide, jamais « v » ; <i>who, whose, whole</i> = son h.<br>• <b>-ng</b> /ŋ/ sans « gue » : <i>sing, working</i>.<br>• On prononce les consonnes finales (<i>desk, asked</i>), mais pas les lettres muettes (<i>knife, write, listen, receipt, debt, Wednesday</i>).' }
   ],
   exercises: [
     { type: 'listen', say: 'three', q: 'Quel mot entends-tu ?', options: ['tree', 'three', 'free'], answer: 1, explain: '<i>three</i> (trois) commence par /θ/ : la langue est entre les dents. <i>tree</i> commence par un t, <i>free</i> par un f.' },

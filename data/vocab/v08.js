@@ -18,6 +18,7 @@ LE.register({
       { en: 'watch movies', fr: 'regarder des films', pos: 'expr', ex: 'On Friday nights, we watch movies at home.', exfr: 'Le vendredi soir, nous regardons des films à la maison.', note: 'UK : <i>watch films</i>. Aller au cinéma : <i>go to the movies</i> (US)' },
       { en: 'work out', fr: 'faire du sport, s’entraîner', pos: 'pv', ex: 'I work out at lunchtime to stay in shape.', exfr: 'Je fais du sport le midi pour rester en forme.', note: 'nom : <i>a workout</i> (une séance de sport). Autre sens : <i>work out a problem</i> = résoudre un problème' },
       { en: 'go out', fr: 'sortir', pos: 'pv', ex: 'Do you want to go out for dinner tonight?', exfr: 'Tu veux sortir dîner ce soir ?' },
+      { en: 'vacation', fr: 'vacances ; congés', pos: 'n', ex: "I'll be on vacation next week, so please contact Ms. Diaz.", exfr: 'Je serai en vacances la semaine prochaine, alors contacte Mme Diaz.', note: 'UK : <b>holiday</b>. <i>be on vacation</i> = être en vacances ; <i>vacation days</i> = jours de congés payés' },
       { en: 'relax', fr: 'se détendre', pos: 'v', ex: 'On Sundays, I just relax at home.', exfr: 'Le dimanche, je me détends tout simplement à la maison.', note: 'accent sur la 2ᵉ syllabe : re-<b>LAX</b>' }
     ] },
     { title: 'Le sport', words: [
@@ -26,7 +27,7 @@ LE.register({
       { en: 'swimming', fr: 'natation', pos: 'n', ex: 'Swimming is good for your back.', exfr: 'La natation, c’est bon pour le dos.', note: '<i>go swimming</i> = aller nager ; <i>swimming pool</i> = piscine' },
       { en: 'running', fr: 'course à pied', pos: 'n', ex: 'She goes running every morning before work.', exfr: 'Elle va courir tous les matins avant le travail.', note: 'verbe : <i>run</i> (irrégulier : run – ran – run)' },
       { en: 'team', fr: 'équipe', pos: 'n', ex: 'The sales team plays basketball every Thursday.', exfr: 'L’équipe commerciale joue au basket tous les jeudis.', note: 'aussi l’équipe au travail : <i>team leader</i>, <i>team building</i>' },
-      { en: 'game', fr: 'match ; jeu', pos: 'n', ex: 'Did you watch the game last night?', exfr: 'Tu as regardé le match hier soir ?', note: 'UK : <b>match</b> (<i>a football match</i>). Aux États-Unis, <i>match</i> s’emploie surtout pour le tennis' },
+      { en: 'game', fr: 'match ; jeu', pos: 'n', ex: 'Did you watch the game last night?', exfr: 'Tu as regardé le match hier soir ?', note: 'UK : <b>match</b> (<i>a football match</i>). Aux États-Unis, <i>match</i> s’emploie surtout pour le tennis, le golf ou la boxe' },
       { en: 'player', fr: 'joueur, joueuse', pos: 'n', ex: "She's the best player on the team.", exfr: 'C’est la meilleure joueuse de l’équipe.' },
       { en: 'coach', fr: 'entraîneur, entraîneuse', pos: 'n', ex: 'Our coach wants us to train twice a week.', exfr: 'Notre entraîneur veut qu’on s’entraîne deux fois par semaine.', note: 'en anglais britannique, <i>a coach</i> est aussi un car (autocar)' },
       { en: 'win', fr: 'gagner', pos: 'v', ex: 'Which team do you think will win?', exfr: 'À ton avis, quelle équipe va gagner ?', note: 'irrégulier : win – won – won (<i>won</i> se prononce comme <i>one</i>). Gagner un salaire = <b>earn</b>, pas <i>win</i> !' },
@@ -38,6 +39,10 @@ LE.register({
     { title: 'La météo', words: [
       { en: 'weather', fr: 'temps (qu’il fait), météo', pos: 'n', ex: "What's the weather like in Chicago today?", exfr: 'Quel temps fait-il à Chicago aujourd’hui ?', note: 'le temps qui passe = <i>time</i>. Même prononciation que <i>whether</i> (si)' },
       { en: 'forecast', fr: 'prévisions (météo)', pos: 'n', ex: 'The forecast says it will rain tomorrow.', exfr: 'La météo annonce de la pluie pour demain.', note: '<i>weather forecast</i> = bulletin météo. Aussi en économie : <i>sales forecast</i> = prévisions de ventes' },
+      { en: 'hot', fr: 'chaud (très chaud)', pos: 'adj', ex: "It's very hot today, so the office is closing early.", exfr: 'Il fait très chaud aujourd’hui, donc le bureau ferme plus tôt.', note: 'pour la météo, on utilise <b>it is</b> : <i>It’s hot.</i> = Il fait chaud. Mais <i>I’m hot.</i> = J’ai chaud (moi). Aussi : épicé (<i>hot sauce</i>)' },
+      { en: 'warm', fr: 'chaud, doux (agréablement chaud)', pos: 'adj', ex: 'It will be warm and sunny this afternoon.', exfr: 'Il fera doux et ensoleillé cet après-midi.', note: 'plus agréable que <i>hot</i>. <i>a warm coat</i> = un manteau chaud' },
+      { en: 'cold', fr: 'froid', pos: 'adj', ex: "It's cold outside, so don't forget your coat.", exfr: 'Il fait froid dehors, alors n’oublie pas ton manteau.', note: 'du plus chaud au plus froid : <i>hot → warm → cool → cold → freezing</i>' },
+      { en: 'cool', fr: 'frais (un peu froid)', pos: 'adj', ex: 'The evenings are cool in the fall, so bring a jacket.', exfr: 'Les soirées sont fraîches en automne, alors prends une veste.', note: 'à l’oral, <i>cool</i> veut aussi dire « génial » : <i>That’s cool!</i>' },
       { en: 'sunny', fr: 'ensoleillé', pos: 'adj', ex: 'It will be sunny all weekend.', exfr: 'Il y aura du soleil tout le week-end.' },
       { en: 'cloudy', fr: 'nuageux', pos: 'adj', ex: "It's cloudy this morning, but it isn't cold.", exfr: 'Le ciel est nuageux ce matin, mais il ne fait pas froid.' },
       { en: 'rain', fr: 'pleuvoir ; pluie', pos: 'v', ex: "It's raining, so the picnic is canceled.", exfr: 'Il pleut, donc le pique-nique est annulé.', note: '<i>It’s raining.</i> = Il pleut (en ce moment). Le nom : <i>the rain</i> = la pluie' },

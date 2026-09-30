@@ -43,7 +43,7 @@ LE.register({
     { type: 'table', head: ['Rubrique', 'À quoi elle sert'], rows: [
       ['🏠 Accueil', 'Ta séance du jour, ta semaine en cours, le compte à rebours jusqu’au TOEIC.'],
       ['🗓️ Programme', 'Les 30 semaines, tâche par tâche. Tu vois ce qui est fait et ce qui reste.'],
-      ['📘 Cours', '44 leçons de grammaire, 7 leçons de prononciation et la liste des verbes irréguliers, tout expliqué en français.'],
+      ['📘 Cours', '47 leçons de grammaire, 7 leçons de prononciation et la liste des verbes irréguliers, tout expliqué en français.'],
       ['🧠 Vocabulaire', '24 thèmes (de « saluer » à « contrats et assurances »), avec flashcards et quiz.'],
       ['🎯 TOEIC', 'La méthode et des séries d’entraînement pour les 7 parties, 2 TOEIC blancs et 2 tests de niveau.'],
       ['📈 Progrès', 'Tes statistiques, tes scores, tes réglages et la sauvegarde de ta progression.']

@@ -18,10 +18,11 @@ LE.register({
       { en: 'cheese', fr: 'fromage', pos: 'n', ex: 'This sandwich has cheese and tomato.', exfr: 'Ce sandwich contient du fromage et de la tomate.' },
       { en: 'water', fr: 'eau', pos: 'n', ex: 'Can I have a glass of water, please?', exfr: 'Je peux avoir un verre d’eau, s’il vous plaît ?', note: 'eau gazeuse : <i>sparkling water</i> ; eau plate : <i>still water</i>' },
       { en: 'coffee', fr: 'café', pos: 'n', ex: "Let's have a coffee before the meeting.", exfr: 'Prenons un café avant la réunion.' },
-      { en: 'soft drink', fr: 'boisson sans alcool, soda', pos: 'n', ex: 'The price includes a sandwich and a soft drink.', exfr: 'Le prix comprend un sandwich et une boisson.', note: 'très courant aux États-Unis : <i>soda</i>' }
+      { en: 'tea', fr: 'thé', pos: 'n', ex: 'Would you like tea or coffee?', exfr: 'Vous voulez du thé ou du café ?', note: 'se prononce « tii », comme la lettre <b>T</b>' },
+      { en: 'soft drink', fr: 'boisson sans alcool, soda', pos: 'n', ex: 'The price includes a sandwich and a soft drink.', exfr: 'Le prix comprend un sandwich et un soda.', note: 'très courant aux États-Unis : <i>soda</i>' }
     ] },
     { title: 'Au restaurant', words: [
-      { en: 'reservation', fr: 'réservation', pos: 'n', ex: "I'd like to make a reservation for Friday night.", exfr: 'Je voudrais faire une réservation pour vendredi soir.', note: 'synonyme : <i>book a table</i> (réserver une table)' },
+      { en: 'reservation', fr: 'réservation', pos: 'n', ex: "I'd like to make a reservation for Friday night.", exfr: 'Je voudrais faire une réservation pour vendredi soir.', note: 'réserver une table : <i>make a reservation</i> ou <i>book a table</i>' },
       { en: 'table for two', fr: 'une table pour deux', pos: 'expr', ex: 'Good evening. A table for two, please.', exfr: 'Bonsoir. Une table pour deux, s’il vous plaît.' },
       { en: 'menu', fr: 'carte, menu', pos: 'n', ex: 'Could we see the menu, please?', exfr: 'Pourrions-nous voir la carte, s’il vous plaît ?', note: 'le « menu » français à prix fixe se dit plutôt <i>set menu</i>' },
       { en: 'waiter', fr: 'serveur', pos: 'n', ex: 'Our waiter is very friendly and helpful.', exfr: 'Notre serveur est très sympathique et serviable.', note: 'serveuse : <i>waitress</i>. Mot neutre très courant aux États-Unis : <b>server</b>' },
@@ -52,7 +53,7 @@ LE.register({
     { title: 'Emballages et quantités', words: [
       { en: 'loaf', fr: 'pain (entier), miche', pos: 'n', ex: "I'd like a loaf of bread, please.", exfr: 'Je voudrais un pain, s’il vous plaît.', note: 'pluriel irrégulier : <i>loaves</i>' },
       { en: 'bottle', fr: 'bouteille', pos: 'n', ex: 'Buy two bottles of water for the meeting.', exfr: 'Achète deux bouteilles d’eau pour la réunion.' },
-      { en: 'can', fr: 'canette ; boîte de conserve', pos: 'n', ex: 'He buys a can of soda from the vending machine.', exfr: 'Il achète une canette de soda au distributeur.', note: 'boîte de conserve en UK : aussi <i>tin</i>. Ne confonds pas avec le verbe <i>can</i> (pouvoir)' },
+      { en: 'can', fr: 'canette ; boîte de conserve', pos: 'n', ex: 'He buys a can of soda from the vending machine.', exfr: 'Il achète une canette de soda au distributeur.', note: 'au Royaume-Uni, une boîte de conserve se dit aussi <i>tin</i>. Ne confonds pas avec le verbe <i>can</i> (pouvoir)' },
       { en: 'package', fr: 'paquet ; colis', pos: 'n', ex: 'This package of rice is enough for six people.', exfr: 'Ce paquet de riz suffit pour six personnes.', note: 'UK : <i>packet</i> pour un paquet d’aliments' },
       { en: 'jar', fr: 'pot, bocal', pos: 'n', ex: 'Can you open this jar of jam?', exfr: 'Tu peux ouvrir ce pot de confiture ?' },
       { en: 'pound', fr: 'livre (≈ 450 g)', pos: 'n', ex: 'Apples are two dollars a pound.', exfr: 'Les pommes sont à deux dollars la livre.', note: 'abréviation : <b>lb</b>. Aussi la livre sterling (£)' },
@@ -65,7 +66,8 @@ LE.register({
       { en: 'boil', fr: 'faire bouillir', pos: 'v', ex: 'Boil the water before you add the rice.', exfr: 'Fais bouillir l’eau avant d’ajouter le riz.', note: '<i>a boiled egg</i> = un œuf à la coque ou un œuf dur' },
       { en: 'fry', fr: 'faire frire, faire revenir', pos: 'v', ex: 'Fry the onions in a little oil.', exfr: 'Fais revenir les oignons dans un peu d’huile.', note: '<i>fried eggs</i> = des œufs au plat ; <i>French fries</i> = des frites' },
       { en: 'bake', fr: 'faire cuire au four', pos: 'v', ex: 'My colleague bakes a cake for every birthday.', exfr: 'Ma collègue fait un gâteau pour chaque anniversaire.', note: '<i>baker</i> = boulanger ; <i>bakery</i> = boulangerie' },
-      { en: 'recipe', fr: 'recette (de cuisine)', pos: 'n', ex: 'Can you give me the recipe for this soup?', exfr: 'Tu peux me donner la recette de cette soupe ?', note: '3 syllabes : <b>RE</b>-ci-pe. Piège : ≠ <i>receipt</i> (ticket de caisse)' },
+      { en: 'recipe', fr: 'recette (de cuisine)', pos: 'n', ex: 'Can you give me the recipe for this soup?', exfr: 'Tu peux me donner la recette de cette soupe ?', note: '3 syllabes : « <b>RÈ</b>-si-pi ». Piège : ≠ <i>receipt</i> (ticket de caisse)' },
+      { en: 'hungry', fr: 'qui a faim', pos: 'adj', ex: "I'm hungry. Let's have lunch now.", exfr: 'J’ai faim. Allons déjeuner maintenant.', note: 'avoir faim = <b>be</b> hungry : <i>I’m hungry</i> (pas « I have hunger »). Avoir soif = <i>be thirsty</i>' },
       { en: 'meal', fr: 'repas', pos: 'n', ex: 'The price includes three meals a day.', exfr: 'Le prix comprend trois repas par jour.' },
       { en: 'breakfast', fr: 'petit déjeuner', pos: 'n', ex: 'Breakfast is served from 7 to 10 a.m.', exfr: 'Le petit déjeuner est servi de 7 h à 10 h.', note: 'se prononce « BREK-feust »' },
       { en: 'lunch', fr: 'déjeuner (repas de midi)', pos: 'n', ex: "Let's have lunch together on Friday.", exfr: 'Déjeunons ensemble vendredi.', note: '<i>have lunch</i> = déjeuner (sans article)' },
@@ -73,7 +75,7 @@ LE.register({
     ] }
   ],
   tips: [
-    { style: 'warn', title: 'Faux amis à table', html: '• <b>entrée</b> : aux États-Unis, <i>entrée</i> = le <b>plat principal</b> ! L’entrée française se dit <b>appetizer</b> (US) ou <b>starter</b> (UK).<br>• <b>recipe</b> = recette de cuisine, mais <b>receipt</b> = ticket de caisse.<br>• <b>on sale</b> = en promotion, mais <b>for sale</b> = à vendre.<br>• <b>a cooker</b> (UK) = une cuisinière (l’appareil) ; le cuisinier = <b>a cook</b>.' },
+    { style: 'warn', title: 'Faux amis et pièges à table', html: '• <b>entrée</b> : aux États-Unis, <i>entrée</i> = le <b>plat principal</b> ! L’entrée française se dit <b>appetizer</b> (US) ou <b>starter</b> (UK).<br>• <b>recipe</b> = recette de cuisine, mais <b>receipt</b> = ticket de caisse.<br>• <b>on sale</b> = en promotion, mais <b>for sale</b> = à vendre.<br>• <b>a cooker</b> (UK) = une cuisinière (l’appareil) ; le cuisinier = <b>a cook</b>.' },
     { style: 'tip', title: 'Américain ou britannique ?', html: 'Le TOEIC utilise surtout l’anglais américain, mais il faut reconnaître les deux :<br>• l’addition : <b>check</b> (US) / <b>bill</b> (UK)<br>• les frites : <b>fries</b> ou <i>French fries</i> (US) / <b>chips</b> (UK)<br>• les chips : <b>chips</b> (US) / <b>crisps</b> (UK)<br>• l’entrée : <b>appetizer</b> (US) / <b>starter</b> (UK)<br>• le chariot : <b>shopping cart</b> (US) / <b>trolley</b> (UK)<br>• la file d’attente : <b>line</b> (US) / <b>queue</b> (UK)' },
     { style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 1</b>, on voit souvent des restaurants et des magasins : <i>A waiter is taking an order.</i> (Un serveur prend une commande.) <i>A woman is pushing a shopping cart.</i> (Une femme pousse un chariot.) En <b>Parties 3 et 7</b>, on réserve une table pour un déjeuner d’affaires, on commande un buffet à un traiteur (<i>catering order</i>) ou on vérifie un ticket de caisse.' }
   ]

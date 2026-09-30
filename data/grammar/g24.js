@@ -87,7 +87,7 @@ LE.register({
       { en: 'The meeting has just started.', fr: 'La réunion vient de commencer.' },
       { en: "I've already paid the invoice.", fr: 'J’ai déjà payé la facture.' },
       { en: "The new printer hasn't arrived yet.", fr: 'La nouvelle imprimante n’est pas encore arrivée.' },
-      { en: 'Have you read the report yet? — No, not yet.', fr: 'Tu as lu le rapport ? — Non, pas encore.' },
+      { en: 'Have you read the report yet? — No, not yet.', fr: 'Tu as déjà lu le rapport ? — Non, pas encore.' },
       { en: 'Has Mr. Tanaka called back yet?', fr: 'Est-ce que M. Tanaka a rappelé ?' }
     ] },
     { type: 'box', style: 'warn', title: 'Pièges : « venir de » et « déjà »', html: '• « Je viens de… » ne se traduit pas avec <i>come</i> : <span class="ko">I come from sending the email.</span> → <span class="ok">I’ve just sent the email.</span><br>• « Déjà » a trois traductions :<br>— une expérience de vie (question) → <b>ever</b> : « Tu es déjà allée à Rome ? » → <i>Have you <b>ever</b> been to Rome?</i><br>— plus tôt que prévu → <b>already</b> : « J’ai déjà payé. » → <i>I’ve <b>already</b> paid.</i><br>— une question sur une chose attendue → <b>yet</b> : « Tu as déjà fini ? » → <i>Have you finished <b>yet</b>?</i>' },
@@ -120,7 +120,7 @@ LE.register({
       { speaker: 'M', en: 'No, not yet. Has Ms. Park sent it?', fr: 'Non, pas encore. Mme Park l’a envoyé ?' },
       { speaker: 'W', en: "Yes, she's just sent it to everyone. And guess what? The client has approved our budget!", fr: 'Oui, elle vient de l’envoyer à tout le monde. Et tu sais quoi ? Le client a approuvé notre budget !' },
       { speaker: 'M', en: 'Great news! Have you ever worked with this client?', fr: 'Excellente nouvelle ! Tu as déjà travaillé avec ce client ?' },
-      { speaker: 'W', en: "No, I haven't, but Amira has. She's gone to their office today.", fr: 'Non, mais Amira, oui. Elle est partie à leur bureau aujourd’hui.' },
+      { speaker: 'W', en: "No, I haven't, but Amira has. She's gone to their office for a meeting.", fr: 'Non, mais Amira, oui. Elle est partie à leurs bureaux pour une réunion.' },
       { speaker: 'M', en: "Perfect. I've already booked a room for Thursday's meeting.", fr: 'Parfait. J’ai déjà réservé une salle pour la réunion de jeudi.' }
     ] },
 

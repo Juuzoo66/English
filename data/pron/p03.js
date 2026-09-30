@@ -121,7 +121,7 @@ LE.register({
       ['8th', 'eighth', 'un seul t'],
       ['9th', 'ninth', 'sans e'],
       ['20th, 30th', 'twentieth, thirtieth', 'y → <b>ie</b> + th'],
-      ['21st, 22nd, 23rd', 'twenty-first, twenty-second, twenty-third', 'seul le dernier chiffre change']
+      ['21st, 22nd, 23rd', 'twenty-first, twenty-second, twenty-third', 'seul le dernier mot devient ordinal']
     ] },
     { type: 'examples', items: [
       { en: 'The meeting is on May fifth.', fr: 'La réunion est le 5 mai.', note: 'Américain : écrit <i>May 5</i>, mais dit <i>May fifth</i>.' },
@@ -140,7 +140,7 @@ LE.register({
       ['7:30', 'seven thirty', 'half past seven'],
       ['7:45', 'seven forty-five', 'a quarter to eight'],
       ['7:50', 'seven fifty', 'ten to eight'],
-      ['12:00', 'noon (midi) / midnight (minuit)', '—']
+      ['12:00', "twelve <small>ou</small> twelve o'clock", 'noon (midi) <small>ou</small> midnight (minuit)']
     ], caption: '<b>a.m.</b> = de minuit à midi ; <b>p.m.</b> = de midi à minuit (<i>9 p.m.</i> = 21 h). À l’oral, on utilise rarement le format 24 h. Attention : <i>a quarter to eight</i> = 7 h 45 (on annonce l’heure <b>suivante</b>, comme « huit heures moins le quart ») et <i>half past seven</i> = 7 h 30.' },
 
     { type: 'h', text: 'Téléphone, chambre, vol : chiffre par chiffre' },
@@ -178,7 +178,7 @@ LE.register({
     { type: 'listen', say: 'We sold two thousand three hundred units last month.', accent: 'en-CA', q: 'Combien d’unités ont été vendues le mois dernier ?', options: ['2,300', '2,003', '20,300', '23,000'], answer: 0, explain: '<i>two thousand three hundred</i> = 2 300, écrit <b>2,300</b> en anglais (la virgule sépare les milliers).' },
     { type: 'dictation', say: 'The meeting is on May fifth.', answers: ['The meeting is on May fifth', 'The meeting is on May 5th', 'The meeting is on May 5'], explain: 'En américain, <i>May 5</i> se lit <i>May fifth</i> (nombre ordinal). Traduction : « La réunion est le 5 mai. »' },
     { type: 'dictation', say: 'The train leaves at seven forty-five.', answers: ['The train leaves at seven forty-five', 'The train leaves at seven forty five', 'The train leaves at 7:45', 'The train leaves at 7.45', 'The train leaves at 7 45'], explain: '<i>seven forty-five</i> = 7:45, soit 7 h 45 (on peut aussi dire <i>a quarter to eight</i>).' },
-    { type: 'dictation', say: 'It costs fifteen dollars and fifty cents.', answers: ['It costs fifteen dollars and fifty cents', 'It costs 15 dollars and 50 cents', 'It costs $15.50', 'It costs 15 dollars and fifty cents', 'It costs fifteen dollars and 50 cents'], explain: '<i>fifteen dollars and fifty cents</i> = $15.50 (15,50 $). Version courte à l’oral : <i>fifteen fifty</i>.' },
+    { type: 'dictation', say: 'It costs fifteen dollars and fifty cents.', answers: ['It costs fifteen dollars and fifty cents', 'It costs 15 dollars and 50 cents', 'It costs $15.50', 'It costs $15 and 50 cents', 'It costs 15 dollars and fifty cents', 'It costs fifteen dollars and 50 cents'], explain: '<i>fifteen dollars and fifty cents</i> = $15.50 (15,50 $). Version courte à l’oral : <i>fifteen fifty</i>.' },
     { type: 'dictation', say: 'My phone number is five five five, oh one four two.', answers: ['My phone number is 555-0142', 'My phone number is 555 0142', 'My phone number is 5550142', 'My phone number is 555, 0142', 'My phone number is five five five oh one four two', 'My phone number is five five five, oh one four two', 'My phone number is five five five zero one four two'], explain: 'Les numéros de téléphone se lisent chiffre par chiffre ; <i>oh</i> = 0. Le numéro est donc 555-0142.' },
     { type: 'dictation', say: 'She was born in nineteen ninety-nine.', answers: ['She was born in 1999', 'She was born in nineteen ninety-nine', 'She was born in nineteen ninety nine'], explain: 'Les années se lisent en deux morceaux : 19 / 99 → <i>nineteen ninety-nine</i> = 1999.' },
     { type: 'dictation', say: 'Our market share is two point five percent.', answers: ['Our market share is two point five percent', 'Our market share is 2.5 percent', 'Our market share is 2.5%', 'Our market share is 2.5 %', 'Our market share is 2.5 per cent', 'Our market share is two point five per cent'], explain: '<i>two point five</i> = 2.5 (2,5 en français) : en anglais, le <b>point</b> sépare les décimales. « Notre part de marché est de 2,5 %. »' }

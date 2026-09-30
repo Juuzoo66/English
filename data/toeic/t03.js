@@ -64,7 +64,7 @@ LE.register({
       ['<i>problem / concern / issue</i>', 'problème / inquiétude / souci', '<i>but, unfortunately, I’m afraid…</i>'],
       ['<i>ask / request</i>', 'demander', '<i>Could you…? Can you…? Please…</i>'],
       ['<i>suggest / recommend</i>', 'suggérer / recommander', '<i>Why don’t you…? You should… How about…?</i>'],
-      ['<i>offer</i>', 'proposer (de faire soi-même)', '<i>I can… / Let me… / Shall I…?</i>'],
+      ['<i>offer</i>', 'proposer (de faire soi-même) ; offrir (une réduction…)', '<i>I can… / Let me… / Shall I…? / We’ll give you…</i>'],
       ['<i>agree to</i>', 'accepter de', '<i>Sure. / No problem. / I’ll do it.</i>'],
       ['<i>next / plan to / will</i>', 'ensuite / avoir l’intention de / va', 'les dernières répliques'],
       ['<i>according to</i>', 'd’après, selon', 'les paroles de la personne citée'],
@@ -86,7 +86,7 @@ LE.register({
       ["I'm swamped this week.", 'He has a heavy workload.', 'être débordé'],
       ["We've run out of paper.", 'Some office supplies are needed.', 'il n’y a plus de papier'],
       ["Let's grab a bite.", 'Have a meal together', 'manger un morceau ensemble'],
-      ["The shipment hasn't arrived yet.", 'A delivery is late.', 'la livraison est en retard'],
+      ["The shipment still hasn't arrived.", 'A delivery is late.', 'la livraison est en retard'],
       ["Can you cover my shift?", 'Work in place of a colleague', 'remplacer quelqu’un'],
       ["Could you look over my report?", 'Review a document', 'relire un document'],
       ["It's on the house.", 'It is free of charge.', 'c’est offert']
@@ -222,11 +222,11 @@ LE.register({
       ], questions: [
         { q: 'What problem does the woman mention?', options: ['She forgot her password.', 'Her laptop keeps turning off.', 'Her screen is broken.', 'She cannot connect to the Internet.'], answer: 1, explain: '« <i>my laptop keeps shutting down</i> » (mon ordinateur portable n’arrête pas de s’éteindre). <i>Shut down</i> est reformulé en <i>turn off</i>.' },
         { q: 'What does the man mean when he says, "It\'s ten forty-five"?', options: ['The woman is late for work.', 'The presentation has been moved.', 'There is not enough time for the update.', 'He is about to go on a break.'], answer: 2, explain: 'La femme veut la mise à jour <b>maintenant</b> et sa présentation est à 11 heures. En rappelant qu’il est 10 h 45, l’homme sous-entend qu’il ne reste pas assez de temps. Elle le confirme aussitôt : « <i>It’ll take too long, won’t it?</i> »' },
-        { q: 'What does the man suggest?', options: ['Using a different computer', 'Buying a new battery', 'Postponing the presentation', 'Calling the client'], answer: 0, explain: '« <i>Why don’t you borrow one of the spare laptops?</i> » (Pourquoi n’empruntes-tu pas un des portables de rechange ?). <i>Why don’t you…?</i> introduit une suggestion.' }
+        { q: 'What does the man suggest?', options: ['Using a different computer', 'Buying a new battery', 'Postponing the presentation', 'Calling the client'], answer: 0, explain: '« <i>Why don’t you borrow one of the spare laptops from the IT room?</i> » (Pourquoi n’empruntes-tu pas un des portables de rechange du service informatique ?). <i>Why don’t you…?</i> introduit une suggestion.' }
       ] }
     ] },
 
-    { title: 'Série 3 — Avec graphiques (vers le B2)', level: 'B1', items: [
+    { title: 'Série 3 — Graphiques et imprévus (vers le B2)', level: 'B1', items: [
       { accent: 'en-US', graphic: { title: 'Green Leaf Catering — Lunch Platters', head: ['Platter', 'Serves', 'Price'], rows: [
         ['Sandwich Platter', '10 people', '$85'],
         ['Salad Platter', '10 people', '$70'],
@@ -243,7 +243,7 @@ LE.register({
         { speaker: 'W', text: "Will do. I'll call them after lunch." }
       ], questions: [
         { q: 'What are the speakers preparing for?', options: ['A retirement party', 'A client visit', 'A job fair', 'A training session'], answer: 3, explain: 'Dès la 1ʳᵉ réplique : « <i>lunch for Thursday’s training session</i> » (le déjeuner de la formation de jeudi).' },
-        { q: 'Look at the graphic. How much will the order most likely cost?', options: ['$70', '$85', '$120', '$160'], answer: 2, explain: 'Ils sont 15, veulent <b>un seul</b> plateau pour 15 personnes (<i>one platter that serves fifteen</i>) et choisissent les pâtes (<i>the pasta… let’s go with that</i>). Dans le tableau, <i>Pasta Platter</i> = <b>120 $</b>. Le prix n’est jamais prononcé : il faut croiser l’audio et le document.' },
+        { q: 'Look at the graphic. How much will the order most likely cost?', options: ['$70', '$85', '$120', '$160'], answer: 2, explain: 'Ils sont 15, veulent <b>un seul</b> plateau pour 15 personnes (<i>one platter that serves fifteen</i>) et choisissent les pâtes : la femme les propose (<i>the pasta comes with a vegetable sauce</i>) et l’homme accepte (<i>let’s go with that</i>). Dans le tableau, <i>Pasta Platter</i> = <b>120 $</b>. Le prix n’est jamais prononcé : il faut croiser l’audio et le document.' },
         { q: 'What change does the man mention?', options: ['The session will take place on a different floor.', 'More people will attend.', 'A trainer has canceled.', 'The date has been changed.'], answer: 0, explain: '« <i>the session’s been moved to the fourth floor</i> » (la formation a été déplacée au 4ᵉ étage). Piège : <b>(B)</b> — le nombre de participants (15) ne change pas.' }
       ] },
       { accent: 'en-AU', lines: [
@@ -313,7 +313,7 @@ LE.register({
         { speaker: 'M', text: "Oh, I see. Well, a few more days won't make a big difference." }
       ], questions: [
         { q: 'Who most likely is the woman?', options: ['A real estate agent', 'A building owner', 'An interior designer', 'A parking attendant'], answer: 0, explain: 'Elle a fait visiter des bureaux au client (<i>the units we visited this morning</i>), l’aide à choisir et parle du propriétaire (<i>the owner</i>) comme d’une autre personne : c’est une <b>agente immobilière</b>. Piège : <b>(B)</b> — le propriétaire est à Toronto.' },
-        { q: 'Look at the graphic. Which unit will the man most likely rent?', options: ['Unit 204', 'Unit 310', 'Unit 415', 'Unit 520'], answer: 2, explain: 'Deux conditions : 4 000 $ par mois au maximum (<i>We can’t spend more than four thousand a month</i>) et au moins 1 400 pieds carrés (<i>at least fourteen hundred square feet</i> : on compte en centaines, 14 × 100). Seul le lot <b>415</b> (1 500 sq. ft., 3 800 $) remplit les deux : le 520 est trop cher, le 204 et le 310 sont trop petits.' },
+        { q: 'Look at the graphic. Which unit will the man most likely rent?', options: ['Unit 204', 'Unit 310', 'Unit 415', 'Unit 520'], answer: 2, explain: 'Deux conditions : 4 000 $ par mois au maximum (<i>We can’t spend more than four thousand a month</i>) et au moins 1 400 pieds carrés (<i>at least fourteen hundred square feet</i> : on compte en centaines, 14 × 100, soit environ 130 m²). Seul le local <b>415</b> (1 500 sq. ft., 3 800 $) remplit les deux : le 520 est trop cher, le 204 et le 310 sont trop petits.' },
         { q: 'What does the woman mean when she says, "The owner is in Toronto until next Tuesday"?', options: ['The man should call the owner directly.', 'The lease cannot be signed this week.', 'The rent is likely to increase.', 'The unit will be available next Tuesday.'], answer: 1, explain: 'L’homme demande à signer le bail cette semaine (<i>Could we sign the lease this week?</i>). En répondant que le propriétaire est absent jusqu’à mardi prochain, la femme sous-entend que <b>ce ne sera pas possible cette semaine</b>. L’homme le confirme : « <i>a few more days won’t make a big difference</i> ».' }
       ] },
       { accent: 'en-US', lines: [

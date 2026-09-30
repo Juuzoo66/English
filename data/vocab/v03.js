@@ -4,7 +4,7 @@ LE.register({
   title: 'Les gens : famille, description, caractère',
   subtitle: 'Présenter sa famille, décrire quelqu’un et parler de sa personnalité',
   level: 'A1',
-  intro: 'Parler des gens, c’est présenter sa famille, décrire un collègue ou comprendre une lettre de recommandation. Au TOEIC, les photos de la Partie 1 montrent presque toujours des personnes, et les offres d’emploi de la Partie 7 listent des qualités comme <i>reliable</i> ou <i>organized</i>.',
+  intro: 'Parler des gens, c’est présenter sa famille, décrire un collègue ou comprendre une lettre de recommandation. Au TOEIC, les photos de la Partie 1 montrent très souvent des personnes, et les offres d’emploi de la Partie 7 listent des qualités comme <i>reliable</i> ou <i>organized</i>.',
   groups: [
     { title: 'La famille proche', words: [
       { en: 'family', fr: 'famille', pos: 'n', ex: 'My family lives in Toulouse.', exfr: 'Ma famille habite à Toulouse.' },
@@ -20,16 +20,20 @@ LE.register({
       { en: 'daughter', fr: 'fille (de quelqu’un)', pos: 'n', ex: 'My daughter starts school next week.', exfr: 'Ma fille entre à l’école la semaine prochaine.', note: '<b>daughter</b> = lien de parenté (ma fille) ; <b>girl</b> = une fille, une jeune fille. Le gh est muet : « do-teur ».' },
       { en: 'children', fr: 'enfants', pos: 'n', ex: 'Do you have any children?', exfr: 'Tu as des enfants ?', note: 'Pluriel irrégulier. Singulier : <b>a child</b>. Familier : <i>kids</i>.' }
     ] },
-    { title: 'La famille élargie', words: [
+    { title: 'La famille élargie et les amis', words: [
       { en: 'grandparents', fr: 'grands-parents', pos: 'n', ex: 'My grandparents live in the country.', exfr: 'Mes grands-parents habitent à la campagne.', note: '<i>grandmother</i> (familier : grandma), <i>grandfather</i> (familier : grandpa).' },
       { en: 'uncle', fr: 'oncle', pos: 'n', ex: 'My uncle has a small restaurant.', exfr: 'Mon oncle a un petit restaurant.' },
       { en: 'aunt', fr: 'tante', pos: 'n', ex: 'My aunt lives in Canada with her family.', exfr: 'Ma tante vit au Canada avec sa famille.', note: 'US : « ènt » ; UK : « ânt ».' },
       { en: 'cousin', fr: 'cousin(e)', pos: 'n', ex: 'My cousin works in a big hotel.', exfr: 'Mon cousin travaille dans un grand hôtel.', note: 'Un seul mot pour cousin et cousine.' },
       { en: 'nephew', fr: 'neveu', pos: 'n', ex: 'My nephew is a student in Montreal.', exfr: 'Mon neveu est étudiant à Montréal.' },
       { en: 'niece', fr: 'nièce', pos: 'n', ex: 'Her niece is only three years old.', exfr: 'Sa nièce n’a que trois ans.' },
-      { en: 'relatives', fr: 'membres de la famille ; proches', pos: 'n', ex: 'We visit our relatives every summer.', exfr: 'Nous rendons visite à notre famille chaque été.', note: 'Singulier : <b>a relative</b>. C’est la bonne traduction de « mes parents » au sens de « ma famille ».' }
+      { en: 'relatives', fr: 'membres de la famille ; proches', pos: 'n', ex: 'We visit our relatives every summer.', exfr: 'Nous rendons visite à notre famille chaque été.', note: 'Singulier : <b>a relative</b>. C’est la bonne traduction de « mes parents » au sens de « ma famille ».' },
+      { en: 'friend', fr: 'ami(e) ; copain, copine', pos: 'n', ex: 'I often have lunch with my friends from work.', exfr: 'Je déjeune souvent avec mes amis du travail.', note: 'Se prononce « frènd » : le i ne se prononce pas. Un(e) collègue = <i>a colleague</i>.' }
     ] },
-    { title: 'L’âge et les étapes de la vie', words: [
+    { title: 'Les personnes et les âges de la vie', words: [
+      { en: 'person', fr: 'personne', pos: 'n', ex: 'The ticket costs twenty dollars per person.', exfr: 'Le billet coûte vingt dollars par personne.', note: 'Pluriel irrégulier : <b>people</b> (des gens, des personnes) : <i>ten people</i>. <i>People</i> est toujours pluriel : <i>People <b>are</b> friendly here.</i>' },
+      { en: 'man', fr: 'homme', pos: 'n', ex: 'The man in the blue suit is our new director.', exfr: 'L’homme en costume bleu est notre nouveau directeur.', note: 'Pluriel irrégulier : <b>men</b>.' },
+      { en: 'woman', fr: 'femme', pos: 'n', ex: 'The woman next to the window is my manager.', exfr: 'La femme à côté de la fenêtre est ma responsable.', note: 'Pluriel irrégulier : <b>women</b>. Attention à la prononciation : <i>woman</i> « wou-meun », <i>women</i> « oui-mine ».' },
       { en: 'baby', fr: 'bébé', pos: 'n', ex: 'My colleague has a new baby.', exfr: 'Ma collègue vient d’avoir un bébé.' },
       { en: 'teenager', fr: 'adolescent(e)', pos: 'n', ex: 'Their son is a teenager now.', exfr: 'Leur fils est adolescent maintenant.', note: 'De 13 à 19 ans : les âges en <b>-teen</b> ! Familier : <i>teen</i>.' },
       { en: 'adult', fr: 'adulte', pos: 'n', ex: 'The ticket costs ten dollars for adults.', exfr: 'Le billet coûte dix dollars pour les adultes.' },
@@ -69,7 +73,7 @@ LE.register({
   ],
   tips: [
     { style: 'warn', title: 'Faux amis', html: '<b>parents</b> = seulement le père et la mère. Pour « mes parents » au sens de « ma famille » (oncles, cousins…), on dit <b>my relatives</b>.<br><b>sympathetic</b> ≠ sympathique : ce mot veut dire « compatissant ». Pour « sympa », dis <b>nice</b> ou <b>friendly</b>.<br><b>sensible</b> = raisonnable, plein de bon sens. « Sensible » (qui ressent fort) se dit <b>sensitive</b>.' },
-    { style: 'tip', title: 'Décrire quelqu’un : be, have ou have got ?', html: 'Taille, âge, caractère → <b>be</b> : <i>He’s tall. She’s 40. They’re friendly.</i><br>Cheveux, yeux, barbe → <b>have</b> (ou <b>have got</b>, surtout en anglais britannique) : <i>She has blue eyes.</i> = <i>She’s got blue eyes.</i> Attention : dans <i>she’s got</i>, <b>’s</b> = <b>has</b>, pas <i>is</i> (voir la leçon « Have et have got »).<br><b>hair</b> est au singulier : <i>Her hair <b>is</b> long.</i> Les adjectifs se placent devant, la taille avant la couleur : <i>long black hair</i>.' },
+    { style: 'tip', title: 'Décrire quelqu’un : be, have ou have got ?', html: 'Taille, âge, caractère → <b>be</b> : <i>He’s tall. She’s 40. They’re friendly.</i><br>Cheveux, yeux, barbe → <b>have</b> (ou <b>have got</b>, surtout en anglais britannique) : <i>She has blue eyes.</i> = <i>She’s got blue eyes.</i> Attention : dans <i>she’s got</i>, <b>’s</b> = <b>has</b>, pas <i>is</i> (voir la leçon « Have et have got »).<br><b>hair</b> est au singulier : <i>Her hair <b>is</b> long.</i> Les adjectifs se placent devant, la longueur avant la couleur : <i>long black hair</i>.' },
     { style: 'info', title: 'Et au TOEIC ?', html: 'Les adjectifs de caractère reviennent dans les offres d’emploi et les lettres de recommandation (Partie 7) : on cherche des candidats <b>reliable</b>, <b>hard-working</b>, <b>organized</b> et <b>confident</b>. En Partie 1 (photos), on décrit les personnes : <i>The man is wearing glasses.</i> <i>The woman has long hair.</i>' }
   ]
 });

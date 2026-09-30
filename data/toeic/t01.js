@@ -21,7 +21,7 @@ LE.register({
     { type: 'h', text: 'Les 3 types de photos' },
     { type: 'table', head: ['Type de photo', 'Ce que décrivent les phrases', 'Phrase typique'], rows: [
       ['<b>Une personne</b>', 'son action, sa position, ce qu’elle porte ou tient', '<i>The woman is typing on a keyboard.</i>'],
-      ['<b>Plusieurs personnes</b>', 'ce qu’elles font ensemble, ou ce que fait l’une d’elles ; attention aux mots <i>all, everyone, both</i> (tous, les deux)', '<i>They’re sitting around a table.</i><br><i>One of the men is pointing at a screen.</i>'],
+      ['<b>Plusieurs personnes</b>', 'ce qu’elles font ensemble, ou ce que fait l’une d’elles ; attention aux mots <i>all, everyone, both</i> (tous, tout le monde, les deux)', '<i>They’re sitting around a table.</i><br><i>One of the men is pointing at a screen.</i>'],
       ['<b>Objets et lieux</b> (souvent sans personne)', 'la place des objets, l’état d’un lieu → souvent une forme <b>passive</b>', '<i>Some chairs have been stacked in a corner.</i><br><i>There are some plants by the window.</i>']
     ] },
     { type: 'examples', items: [
@@ -62,9 +62,9 @@ LE.register({
     { type: 'h', text: 'Les 6 pièges classiques' },
     { type: 'p', html: 'Imagine cette photo : <b>un homme tape sur le clavier de son ordinateur ; une tasse de café est posée à côté de lui.</b> Voici les phrases fausses que le TOEIC pourrait te proposer :' },
     { type: 'table', head: ['Piège', 'Phrase fausse', 'Pourquoi c’est faux'], rows: [
-      ['<b>Mot entendu, mais hors action</b>', '<i>He’s drinking a cup of coffee.</i>', 'La tasse est bien là, mais il ne boit pas.'],
+      ['<b>Objet absent de la photo</b>', '<i>He’s talking on the phone.</i>', 'Il n’y a pas de téléphone sur la photo : un seul mot qui ne correspond à rien suffit à rendre la phrase fausse.'],
       ['<b>Son proche</b>', '<i>He’s making a copy.</i>', '<i>copy</i> ressemble à <i>coffee</i> : ton oreille croit reconnaître un mot de la photo.'],
-      ['<b>Bon nom, mauvais verbe</b>', '<i>He’s fixing the computer.</i>', 'L’ordinateur est là, mais il ne le répare pas : il tape.'],
+      ['<b>Bon nom, mauvais verbe</b>', '<i>He’s drinking a cup of coffee.</i><br><i>He’s fixing the computer.</i>', 'La tasse et l’ordinateur sont bien là, mais il ne boit pas et ne répare rien : il tape.'],
       ['<b>is being + participe sans personne</b>', '<i>(photo d’une salle vide)</i> <i>The chairs are being arranged.</i>', 'Personne n’est en train de disposer les chaises.'],
       ['<b>Supposition invisible</b>', '<i>He’s waiting for a client.</i>', 'Impossible de le savoir en regardant la photo : on ne décrit que ce qu’on <b>voit</b>.'],
       ['<b>Généralisation fausse</b>', '<i>(photo de réunion)</i> <i>Everyone is sitting down.</i>', 'Il suffit qu’une seule personne soit debout pour que ce soit faux.']
