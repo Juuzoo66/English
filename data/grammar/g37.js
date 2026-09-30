@@ -23,7 +23,7 @@ LE.register({
     { type: 'box', style: 'tip', title: '« That » est facultatif', html: 'Après <i>say</i> et <i>tell</i>, <b>that</b> (que) est facultatif, et on l’omet très souvent à l’oral : <i>She said <b>(that)</b> she was tired.</i> En français, « que » est obligatoire ; en anglais, non.' },
 
     { type: 'h', text: 'Say ou tell ?' },
-    { type: 'p', html: 'Les deux veulent dire « dire », mais ils ne se construisent pas de la même façon. <b>Tell</b> est toujours suivi de la <b>personne</b> à qui l’on parle. <b>Say</b> est suivi de <b>ce qu’on dit</b> ; si on veut mentionner la personne, il faut ajouter <b>to</b>.' },
+    { type: 'p', html: 'Les deux veulent dire « dire », mais ils ne se construisent pas de la même façon. Pour rapporter des paroles, <b>tell</b> est toujours suivi de la <b>personne</b> à qui l’on parle. <b>Say</b> est suivi de <b>ce qu’on dit</b> ; si on veut mentionner la personne, il faut ajouter <b>to</b>.' },
     { type: 'table', head: ['Verbe', 'Construction', 'Exemple'], rows: [
       ['<b>tell</b>', 'tell + <b>personne</b> (+ that…)', 'She <b>told me</b> (that) she was busy.'],
       ['<b>say</b>', 'say (+ that…)', 'She <b>said</b> (that) she was busy.'],

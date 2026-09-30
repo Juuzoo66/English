@@ -43,7 +43,7 @@ LE.register({
       ['… sauf <b>w, x, y</b>, qui ne se doublent jamais', 'show → showing, fix → fixing, stay → staying'],
       ['Verbe de deux syllabes accentué sur la <b>dernière</b> : on double aussi', 'begin → begi<b>nn</b>ing, forget → forge<b>tt</b>ing (mais <i>visit → visiting</i>, <i>open → opening</i> : accent sur la 1ʳᵉ syllabe)'],
       ['Verbe en <b>-el</b> accentué au début (<i>TRAvel</i>) : un seul <b>l</b> en anglais américain', 'travel → traveling, cancel → canceling (en anglais britannique : <i>travelling, cancelling</i>)']
-    ], caption: 'Pas de panique : les cas particuliers concernent peu de verbes, et ce sont des verbes très fréquents que tu retiendras vite.' },
+    ], caption: 'Pas de panique : ces règles s’appliquent toujours de la même façon, et tu les retiendras vite en voyant les mêmes verbes fréquents revenir souvent.' },
     { type: 'examples', items: [
       { en: "I'm writing an e-mail.", fr: 'J’écris un e-mail.', note: 'write → writ<b>ing</b> : le <b>e</b> tombe.' },
       { en: 'The bus is coming.', fr: 'Le bus arrive.', note: 'come → com<b>ing</b>.' },
@@ -88,7 +88,7 @@ LE.register({
       ['<b>today</b>', 'aujourd’hui', 'Nadia is working from home <b>today</b>.'],
       ['<b>this week</b> / <b>this month</b>', 'cette semaine / ce mois-ci', 'I’m taking a Spanish class <b>this month</b>.'],
       ['<b>Look!</b> / <b>Listen!</b>', 'Regarde ! / Écoute !', '<b>Look!</b> The bus is coming.']
-    ], caption: '<b>Currently</b> est un faux ami : il veut dire « actuellement », pas « couramment » (qui se dit <i>fluently</i>). Et « actuellement » ne se dit pas <i>actually</i>, qui veut dire « en fait ».' },
+    ], caption: '<b>Currently</b> est un faux ami : il veut dire « actuellement », pas « couramment » (<i>parler couramment une langue</i> = <i>speak a language fluently</i>). Et « actuellement » ne se dit pas <i>actually</i>, qui veut dire « en fait ».' },
     { type: 'box', style: 'tip', title: 'Pas avec tous les verbes', html: 'Quelques verbes très courants ne se mettent (presque) jamais au présent continu, même pour parler de maintenant : ce sont les <b>verbes d’état</b>, comme <b>know</b> (savoir), <b>want</b> (vouloir), <b>need</b> (avoir besoin), <b>like</b> (aimer), <b>understand</b> (comprendre).<br><span class="ko">I’m knowing the answer.</span> → <span class="ok">I know the answer.</span><br><span class="ko">I’m wanting a coffee.</span> → <span class="ok">I want a coffee.</span><br>Tu verras tout ça en détail dans la leçon « Présent simple ou présent continu ? ».' },
 
     { type: 'h', text: 'Négation, questions et réponses courtes' },

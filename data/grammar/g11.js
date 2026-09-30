@@ -31,7 +31,7 @@ LE.register({
       ['<b>where</b>', 'où', 'un lieu', 'Where is the bank? — Next to the station.'],
       ['<b>when</b>', 'quand', 'un moment', 'When is your flight? — On Monday.'],
       ['<b>why</b>', 'pourquoi', 'une raison', 'Why are you tired? — Because I work at night.'],
-      ['<b>how</b>', 'comment', 'une manière, un état', 'How do you go to work? — By bus.']
+      ['<b>how</b>', 'comment', 'une manière, un état', 'How do you get to work? — By bus.']
     ], caption: '<b>Wh-</b> se prononce comme un simple « w » (le son « ou » de <i>week-end</i>) : <i>what</i> ≈ « ouatt », <i>where</i> ≈ « ouèr », <i>when</i> ≈ « ouènn ». Exception : <b>who</b> et <b>whose</b> se prononcent avec un « h » soufflé : « hou », « houz ».' },
     { type: 'box', style: 'tip', title: 'What ou which ?', html: '<b>What</b> pose une question ouverte : toutes les réponses sont possibles (<i>What is your favorite color?</i>). <b>Which</b> s’utilise quand on choisit parmi un <b>petit nombre d’options connues</b> : <i>Which color do you prefer, blue or black?</i> Dans le doute : s’il y a une liste de choix, prends <b>which</b>.' },
     { type: 'examples', items: [

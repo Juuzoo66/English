@@ -50,7 +50,7 @@ LE.register({
       { en: 'Is this the file you need?', fr: 'C’est le fichier dont tu as besoin ?', note: '<i>need</i> se construit sans préposition : « dont » disparaît complètement.' },
       { en: 'The candidate they hired starts on Monday.', fr: 'Le candidat qu’ils ont recruté commence lundi.' }
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : impossible de supprimer un pronom sujet', html: 'Si le pronom est suivi directement d’un verbe, il est <b>sujet</b> : on ne peut pas le supprimer.<br><span class="ko">The woman called you is my boss.</span> → <span class="ok">The woman <b>who</b> called you is my boss.</span><br>Test rapide : juste après le pronom, y a-t-il un sujet (<i>I, you, we, the manager…</i>) ? Si oui, et s’il n’y a pas de virgule avant le pronom, tu peux l’enlever. Sinon, garde-le.' },
+    { type: 'box', style: 'warn', title: 'Piège : impossible de supprimer un pronom sujet', html: 'Si le pronom est suivi directement d’un verbe, il est <b>sujet</b> : on ne peut pas le supprimer.<br><span class="ko">The woman called you is my boss.</span> → <span class="ok">The woman <b>who</b> called you is my boss.</span><br>Test rapide pour <i>who, which, that</i> : juste après le pronom, y a-t-il un sujet (<i>I, you, we, the manager…</i>) ? Si oui, et s’il n’y a pas de virgule avant le pronom, tu peux l’enlever. Sinon, garde-le.' },
 
     { type: 'h', text: 'Avec ou sans virgules : deux types de relatives' },
     { type: 'table', head: ['Critère', 'Relative <b>déterminative</b>', 'Relative <b>explicative</b>'], rows: [
