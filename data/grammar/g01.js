@@ -86,7 +86,7 @@ LE.register({
       ['J’ai chaud. / J’ai froid.', 'I’m <b>hot</b>. / I’m <b>cold</b>.'],
       ['J’ai peur.', 'I’m <b>afraid</b>. / I’m <b>scared</b>.'],
       ['Tu as raison. / Tu as tort.', 'You’re <b>right</b>. / You’re <b>wrong</b>.'],
-      ['Je suis en retard.', 'I’m <b>late</b>.']
+      ['J’ai 10 minutes de retard.', 'I’m 10 minutes <b>late</b>.']
     ] },
     { type: 'box', style: 'warn', title: 'À ne jamais dire', html: '<span class="ko">I have 30 years.</span> → <span class="ok">I am 30.</span><br><span class="ko">I have hungry.</span> → <span class="ok">I’m hungry.</span>' },
     { type: 'examples', items: [
@@ -103,15 +103,15 @@ LE.register({
     { type: 'mcq', q: 'I ___ a teacher.', options: ['am', 'is', 'are'], answer: 0, explain: 'Avec <b>I</b>, on utilise toujours <b>am</b>.' },
     { type: 'mcq', q: 'They ___ from Spain.', options: ['is', 'am', 'are'], answer: 2, explain: '<b>They</b> (ils / elles) → <b>are</b>.' },
     { type: 'mcq', q: 'The printer ___ broken.', options: ['is', 'are', 'am'], answer: 0, explain: '<i>The printer</i> = une chose au singulier = <b>it</b> → <b>is</b>.' },
-    { type: 'gap', q: 'We ___ in the meeting room.', answers: ['are', "'re"], explain: '<b>We</b> → <b>are</b> (contracté : <i>we’re</i>).' },
-    { type: 'gap', q: 'My manager ___ very nice.', answers: ['is'], explain: '<i>My manager</i> = une personne = he / she → <b>is</b>.' },
+    { type: 'gap', q: 'We ___ (be) in the meeting room.', answers: ['are', "'re"], explain: '<b>We</b> → <b>are</b> (contracté : <i>we’re</i>).' },
+    { type: 'gap', q: 'My manager ___ (be) very nice.', answers: ['is'], explain: '<i>My manager</i> = une personne = he / she → <b>is</b>.' },
     { type: 'mcq', q: 'Comment dit-on « J’ai 28 ans » ?', options: ['I have 28 years.', 'I am 28.', 'I have 28.', 'I am 28 year.'], answer: 1, explain: 'Pour l’âge, l’anglais utilise <b>be</b> : <i>I am 28</i> (ou <i>I am 28 years old</i>, avec un <b>s</b> à <i>years</i>).' },
     { type: 'gap', q: 'She ___ (not) at home.', answers: ["isn't", 'is not', "'s not"], explain: 'Négation de <b>is</b> : <i>is not</i> = <i>isn’t</i> (ou <i>she’s not</i>).' },
     { type: 'gap', q: 'I ___ (not) hungry, thanks.', answers: ["'m not", 'am not'], explain: 'Avec <b>I</b>, la négation est <i>I am not</i> = <i>I’m not</i>. « I amn’t » n’existe pas.' },
     { type: 'mcq', q: '— Are you ready? — Yes, ___.', options: ["I'm", 'I am', 'I is', 'am I'], answer: 1, explain: 'Dans une réponse courte affirmative, on ne contracte pas : <b>Yes, I am.</b>' },
     { type: 'order', answer: 'Is the meeting at ten?', fr: 'Est-ce que la réunion est à dix heures ?', explain: 'Question avec <b>be</b> : on inverse → <b>Is</b> + sujet (<i>the meeting</i>) + reste de la phrase.' },
     { type: 'order', answer: 'We are not open on Sundays.', fr: 'Nous ne sommes pas ouverts le dimanche.', explain: 'La négation <b>not</b> se place juste après <b>are</b>.' },
-    { type: 'gap', q: 'Close the door, please. I ___ cold.', answers: ['am', "'m"], explain: '« J’ai froid » se dit <i>I am cold</i> / <i>I’m cold</i> : on utilise <b>be</b>, pas <i>have</i>.' },
+    { type: 'gap', q: 'Close the door, please. I ___ cold.', answers: ['am', "'m", 'feel'], explain: '« J’ai froid » se dit <i>I am cold</i> / <i>I’m cold</i> : on utilise <b>be</b>, pas <i>have</i>. (<i>I feel cold</i> est aussi correct.)' },
     { type: 'listen', say: "Hi, I'm Tom. I'm thirty and I'm from Manchester.", q: 'Qu’as-tu entendu sur Tom ?', options: ['Il a 13 ans et vient de Manchester.', 'Il a 30 ans et vient de Manchester.', 'Il a 30 ans et vit à Londres.'], answer: 1, explain: 'Tom dit <i>I’m <b>thirty</b></i> (30, accent sur la 1ʳᵉ syllabe) et <i>I’m from <b>Manchester</b></i>.' },
     { type: 'dictation', say: "They aren't in the office today.", answers: ["They aren't in the office today", 'They are not in the office today', "They're not in the office today"], explain: '<i>aren’t</i> = <i>are not</i> : « Ils ne sont pas au bureau aujourd’hui. »' },
     { type: 'mcq', q: 'The new chairs ------- in the storage room. <small>(style TOEIC)</small>', options: ['is', 'be', 'are', 'am'], answer: 2, explain: 'Le sujet <i>The new chairs</i> est au <b>pluriel</b> (= they) → <b>are</b>.' },

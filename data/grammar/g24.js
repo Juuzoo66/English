@@ -13,7 +13,7 @@ LE.register({
   ],
   blocks: [
     { type: 'h', text: 'À quoi sert le present perfect ?' },
-    { type: 'p', html: 'Le <b>present perfect</b> est un temps « pont » entre le passé et le présent. L’action a eu lieu dans le passé, mais ce qui compte, c’est son <b>lien avec maintenant</b> : une expérience que tu as vécue, un résultat visible aujourd’hui, une nouvelle que tu annonces. Il ressemble au <b>passé composé</b> français (<i>j’<b>ai</b> fini</i> → <i>I <b>have</b> finished</i>), mais il ne s’utilise <b>pas toujours</b> comme lui : avec le present perfect, on ne dit jamais <b>quand</b> l’action a eu lieu.' },
+    { type: 'p', html: 'Le <b>present perfect</b> est un temps « pont » entre le passé et le présent. L’action a eu lieu dans le passé, mais ce qui compte, c’est son <b>lien avec maintenant</b> : une expérience que tu as vécue, un résultat visible aujourd’hui, une nouvelle que tu annonces. Il ressemble au <b>passé composé</b> français (<i>j’<b>ai</b> fini</i> → <i>I <b>have</b> finished</i>), mais il ne s’utilise <b>pas toujours</b> comme lui : avec le present perfect, on ne précise jamais <b>le moment passé</b> où l’action a eu lieu (<i>hier, en 2020, il y a deux jours…</i>).' },
     { type: 'examples', items: [
       { en: "I've lost my badge.", fr: 'J’ai perdu mon badge.', note: 'Résultat présent : je n’ai pas mon badge <b>maintenant</b>.' },
       { en: 'Have you ever been to Canada?', fr: 'Es-tu déjà allée au Canada ?', note: 'Expérience de vie : peu importe quand.' },
@@ -82,7 +82,7 @@ LE.register({
       ['<b>already</b>', 'déjà (plus tôt que prévu)', 'entre <i>have</i> et le participe', 'She’s <b>already</b> left.<br>(Elle est déjà partie.)'],
       ['<b>yet</b> (négation)', 'pas encore', 'en fin de phrase', 'We haven’t decided <b>yet</b>.<br>(Nous n’avons pas encore décidé.)'],
       ['<b>yet</b> (question)', 'déjà ? (on attend que ça arrive)', 'en fin de phrase', 'Have you finished <b>yet</b>?<br>(Tu as déjà fini ?)']
-    ], caption: '<b>Just</b> et <b>already</b> s’emploient surtout dans les phrases affirmatives ; <b>yet</b> dans les négations et les questions.' },
+    ], caption: '<b>Just</b> et <b>already</b> s’emploient surtout dans les phrases affirmatives ; <b>yet</b> dans les négations et les questions. À l’oral, <b>already</b> se met aussi parfois en fin de phrase : <i>I’ve done it already.</i>' },
     { type: 'examples', items: [
       { en: 'The meeting has just started.', fr: 'La réunion vient de commencer.' },
       { en: "I've already paid the invoice.", fr: 'J’ai déjà payé la facture.' },
@@ -103,7 +103,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'Been ou gone ?' },
-    { type: 'p', html: 'Le verbe <b>go</b> a deux participes passés possibles. <b>Gone</b> : la personne est partie et <b>n’est pas encore revenue</b>. <b>Been</b> : la personne est allée quelque part et <b>en est revenue</b> (c’est une expérience).' },
+    { type: 'p', html: 'Pour dire « être allé(e) quelque part », le present perfect a deux formes. <b>Gone</b> (participe passé de <i>go</i>) : la personne est partie et <b>n’est pas encore revenue</b>. <b>Been</b> (participe passé de <i>be</i>, suivi de <b>to</b> + lieu) : la personne est allée quelque part et <b>en est revenue</b> (c’est une expérience).' },
     { type: 'table', head: ['Phrase', 'Sens', 'Où est-elle maintenant ?'], rows: [
       ['She has <b>gone</b> to Rome.', 'Elle est partie à Rome.', 'À Rome (ou en route).'],
       ['She has <b>been</b> to Rome.', 'Elle est déjà allée à Rome.', 'Pas à Rome : elle en est revenue.'],
@@ -124,7 +124,7 @@ LE.register({
       { speaker: 'M', en: "Perfect. I've already booked a room for Thursday's meeting.", fr: 'Parfait. J’ai déjà réservé une salle pour la réunion de jeudi.' }
     ] },
 
-    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, repère les mots-signaux : <i>just, already, yet, ever, never, recently, so far, since, for</i> → present perfect. Vérifie aussi l’accord (<i>The company <b>has</b>…</i>, <i>Our clients <b>have</b>…</i>) et qu’après <i>has / have</i> vient bien un <b>participe passé</b> : <i>has ------- (sign / signed / signing)</i> → <b>signed</b>.<br>En <b>Partie 2</b>, la bonne réponse à <i>Have you finished the report?</i> peut être <i>Not yet.</i> ou <i>I’m almost done.</i><br>En <b>Partie 7</b>, les e-mails commencent souvent par <i>We <b>have received</b> your application…</i> ou <i>I<b>’ve attached</b> the file.</i>' },
+    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, repère les mots-signaux : <i>just, already, yet, ever, never, recently, so far, since</i> (et <i>for</i> quand la situation dure encore) → present perfect. Vérifie aussi l’accord (<i>The company <b>has</b>…</i>, <i>Our clients <b>have</b>…</i>) et qu’après <i>has / have</i> vient bien un <b>participe passé</b> : <i>has ------- (sign / signed / signing)</i> → <b>signed</b>.<br>En <b>Partie 2</b>, la bonne réponse à <i>Have you finished the report?</i> peut être <i>Not yet.</i> ou <i>I’m almost done.</i><br>En <b>Partie 7</b>, les e-mails commencent souvent par <i>We <b>have received</b> your application…</i> ou <i>I<b>’ve attached</b> the file.</i>' },
     { type: 'box', style: 'key', title: 'À retenir', html: '• Present perfect = <b>have / has + participe passé</b> (<i>I’ve finished, she hasn’t called, Have you seen…?</i>).<br>• Toujours <b>have</b>, jamais <i>be</i> : <i>She <b>has</b> arrived.</i> Et <b>’s</b> + participe passé = <b>has</b> (<i>she’s sent</i>).<br>• Emplois : expérience (<i>ever, never</i>), nouvelle ou résultat (<i>I’ve lost my badge</i>), action récente (<i>just</i>), <i>already / yet</i>, situation qui dure (<i>for / since</i>).<br>• <b>Gone</b> = parti (pas encore revenu) ; <b>been</b> = allé et revenu.<br>• Jamais avec un moment passé précis : <i>yesterday, last week, ago</i> → prétérit.' }
   ],
   exercises: [
@@ -132,7 +132,7 @@ LE.register({
     { type: 'gap', q: 'We ___ (receive) your payment. Thank you! <small>(present perfect)</small>', answers: ['have received', "'ve received"], explain: 'Present perfect : <b>have</b> + participe passé (<i>received</i>). Avec <i>we</i>, on peut contracter : <i>we’ve received</i>.' },
     { type: 'gap', q: 'Mr. Kim ___ (not / reply) to my email. <small>(present perfect)</small>', answers: ["hasn't replied", 'has not replied'], explain: '<i>Mr. Kim</i> = he → <b>has</b>. Négation : <b>hasn’t</b> (= <i>has not</i>) + participe passé <i>replied</i> (reply → replied : le <b>y</b> devient <b>i</b>).' },
     { type: 'mcq', q: '« She’s sent the invoice. » Ici, <b>she’s</b> = …', options: ['she is', 'she has', 'she was'], answer: 1, explain: '<b>’s + participe passé</b> (<i>sent</i>) = <b>has</b> : « Elle a envoyé la facture. » Avec <i>she is</i>, on aurait un verbe en -ing (<i>she’s sending</i>).' },
-    { type: 'gap', q: '— Have you ever been to Canada? — No, I ___.', answers: ["haven't", 'have not'], explain: 'Réponse courte : on reprend l’auxiliaire <b>have</b> : <i>Yes, I have. / No, I haven’t.</i>' },
+    { type: 'gap', q: '— Have you ever been to Canada? — No, I ___.', answers: ["haven't", 'have not', 'never have'], explain: 'Réponse courte : on reprend l’auxiliaire <b>have</b> : <i>Yes, I have. / No, I haven’t.</i> (<i>No, I never have.</i> est aussi possible.)' },
     { type: 'gap', q: 'I ___ (never / work) in a bank. <small>(present perfect)</small>', answers: ['have never worked', "'ve never worked"], explain: '<b>Never</b> se place entre <i>have</i> et le participe passé : <i>I have never worked</i> (= <i>I’ve never worked</i>). Une seule négation : pas de <i>haven’t</i> avec <i>never</i>.' },
     { type: 'mcq', q: '« La nouvelle imprimante n’est pas encore arrivée. » → The new printer hasn’t arrived ___.', options: ['already', 'yet', 'just', 'ever'], answer: 1, explain: '« Pas encore » = <b>not … yet</b>, avec <i>yet</i> en fin de phrase.' },
     { type: 'gap', q: '« Je viens d’envoyer le devis. » → I have ___ the quote. (just / send)', answers: ['just sent'], explain: '« Venir de » = <b>just</b> + participe passé, entre <i>have</i> et le participe : <i>I have just sent</i>. <i>Send</i> est irrégulier : send → sent → <b>sent</b>.' },

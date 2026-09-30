@@ -38,7 +38,7 @@ LE.register({
       { en: 'Could I have some water, please?', fr: 'Pourrais-je avoir de l’eau, s’il vous plaît ?', note: 'Demande polie → <b>some</b>.' },
       { en: 'If you have any questions, please contact us.', fr: 'Si vous avez des questions, n’hésitez pas à nous contacter.', note: 'Phrase très fréquente à la fin des e-mails et des annonces du TOEIC.' },
       { en: 'You can call me at any time.', fr: 'Tu peux m’appeler à n’importe quelle heure.', note: '<b>any</b> dans une phrase affirmative = « n’importe quel ».' },
-      { en: 'How many tickets are left? — None.', fr: 'Combien de billets reste-t-il ? — Aucun.', note: '<b>None</b> s’emploie seul, sans nom derrière : « aucun ».' }
+      { en: 'How many tickets are left? — None.', fr: 'Combien de billets reste-t-il ? — Aucun.', note: '<b>None</b> = « aucun ». Il s’emploie seul ou suivi de <b>of</b> (<i>none of them</i>), jamais directement devant un nom : <i>no tickets</i>, mais <i>none</i> tout seul.' }
     ] },
 
     { type: 'h', text: 'Much, many, a lot of : « beaucoup de »' },
@@ -98,7 +98,7 @@ LE.register({
       { en: 'Each employee has a personal locker.', fr: 'Chaque employé a un casier personnel.', note: 'Nom au singulier (<i>employee</i>) et verbe au singulier (<i>has</i>).' },
       { en: 'Every room has a view of the sea.', fr: 'Toutes les chambres ont vue sur la mer.', note: 'Le français dit « toutes les chambres » (pluriel) ; l’anglais dit <i>every room</i> (singulier).' },
       { en: 'I check my emails every morning.', fr: 'Je consulte mes e-mails tous les matins.' },
-      { en: 'Each of the rooms has a projector.', fr: 'Chacune des salles a un projecteur.', note: '<b>each of</b> + <i>the / my / these</i> + pluriel, mais verbe au <b>singulier</b>. On ne dit jamais <i>every of</i>.' }
+      { en: 'Each of the rooms has a projector.', fr: 'Chacune des salles a un projecteur.', note: '<b>each of</b> + <i>the / my / these</i> + pluriel, mais verbe au <b>singulier</b>. On ne dit jamais <i>every of</i> (mais <i>every one of the rooms</i> est correct).' }
     ] },
     { type: 'table', head: ['Mot', 'En général', 'Groupe précis (+ of the / of my…)', 'Français'], rows: [
       ['all', '<b>all</b> employees', '<b>all (of) the</b> employees', 'tous les employés'],
@@ -106,7 +106,7 @@ LE.register({
       ['some', '<b>some</b> employees', '<b>some of the</b> employees', 'certains employés, certains des employés'],
       ['no / none', '<b>no</b> employees', '<b>none of the</b> employees', 'aucun employé, aucun des employés'],
       ['many', '<b>many</b> employees', '<b>many of the</b> employees', 'beaucoup d’employés, beaucoup des employés']
-    ], caption: '<b>All, most, some, none</b> parlent des choses <b>en général</b> (sans <i>the</i>) ou d’un <b>groupe précis</b> (avec <b>of the / of my / of our…</b>). Devant un pronom, <b>of</b> est obligatoire : <i>all <b>of</b> us, most <b>of</b> them, none <b>of</b> them</i>.' },
+    ], caption: '<b>All, most, some, many, no</b> + nom parlent des choses <b>en général</b> (sans <i>the</i>). Pour un <b>groupe précis</b>, on ajoute <b>of the / of my / of our…</b> (et <b>no</b> devient <b>none of</b>). Devant un pronom, <b>of</b> est obligatoire : <i>all <b>of</b> us, most <b>of</b> them, none <b>of</b> them</i>.' },
     { type: 'box', style: 'warn', title: 'Piège : « la plupart des » et « tous les jours »', html: '<span class="ko">Most of people</span> / <span class="ko">The most people</span> → <span class="ok">Most people</span> (en général).<br><span class="ko">Most of employees in our team</span> → <span class="ok">Most of the employees in our team</span> (groupe précis : il faut <b>the</b>).<br>« Tous les jours » se dit <b>every day</b> ; <i>all day</i> veut dire « toute la journée ».' },
 
     { type: 'h', text: 'Both, either, neither : quand il y en a deux (B1)' },
@@ -128,7 +128,7 @@ LE.register({
       { speaker: 'W', en: "Omar, do we have enough chairs for tomorrow's training?", fr: 'Omar, est-ce qu’on a assez de chaises pour la formation de demain ?' },
       { speaker: 'M', en: 'I think so. We have thirty, and only twenty-four people are coming.', fr: 'Je crois. On en a trente, et seulement vingt-quatre personnes viennent.' },
       { speaker: 'W', en: 'Great. Is there any coffee left?', fr: 'Parfait. Est-ce qu’il reste du café ?' },
-      { speaker: 'M', en: "There's a little, but not much. I'll order some more.", fr: 'Il en reste un peu, mais pas beaucoup. Je vais en commander.' },
+      { speaker: 'M', en: "There's a little, but not much. I'll order some more.", fr: 'Il en reste un peu, mais pas beaucoup. Je vais en recommander.' },
       { speaker: 'W', en: 'And how many handouts did you print?', fr: 'Et combien de documents as-tu imprimés ?' },
       { speaker: 'M', en: 'Only a few. The printer on our floor has too many problems.', fr: 'Seulement quelques-uns. L’imprimante de notre étage a trop de problèmes.' },
       { speaker: 'W', en: 'Use either printer on the third floor. Both of them work fine.', fr: 'Utilise l’une ou l’autre des imprimantes du troisième étage. Elles marchent bien toutes les deux.' }
@@ -154,7 +154,7 @@ LE.register({
     { type: 'mcq', q: 'I have ___ questions about the contract. Do you have five minutes?', options: ['a little', 'a few', 'much'], answer: 1, explain: '<i>Questions</i> est un dénombrable au pluriel → <b>a few</b> (quelques). <i>A little</i> et <i>much</i> vont avec les indénombrables.' },
     { type: 'gap', q: 'Could you speak more slowly? I only speak ___ English. (un peu d’)', answers: ['a little', 'a bit of', 'a little bit of'], explain: '<i>English</i> (la langue) est indénombrable → <b>a little</b> = un peu de (sens positif). <i>A bit of</i> est aussi correct, en plus familier.' },
     { type: 'listen', accent: 'en-AU', say: 'Few people came to the training session, so we canceled the next one.', q: 'Qu’as-tu compris ?', options: ['Quelques personnes sont venues et la séance suivante est maintenue.', 'Peu de personnes sont venues, donc la séance suivante est annulée.', 'Beaucoup de personnes sont venues à la séance de formation.'], answer: 1, explain: '<b>Few</b> (sans <i>a</i>) = « peu de », sens négatif : il n’y avait presque personne. <i>We canceled the next one</i> = nous avons annulé la suivante.' },
-    { type: 'gap', q: "This room isn't ___ for thirty people. (big / enough)", answers: ['big enough'], explain: 'Avec un adjectif, <b>enough</b> se place <b>après</b> : <i>big enough</i> (assez grand). On ne dit jamais <i>enough big</i>.' },
+    { type: 'gap', q: "This room isn't ___ for thirty people. (big + enough, dans le bon ordre)", answers: ['big enough'], explain: 'Avec un adjectif, <b>enough</b> se place <b>après</b> : <i>big enough</i> (assez grand). On ne dit jamais <i>enough big</i>.' },
     { type: 'mcq', q: '« Je consulte mes e-mails tous les jours. » → I check my emails ___ day.', options: ['all', 'every', 'all the'], answer: 1, explain: '« Tous les jours » = <b>every day</b> (<i>every</i> + singulier). <i>All day</i> veut dire « toute la journée », et <i>all the day</i> ne se dit pas.' },
     { type: 'order', answer: 'Each of the rooms has a projector.', fr: 'Chacune des salles a un projecteur.', explain: '<b>Each of the</b> + nom au pluriel (<i>rooms</i>), mais le verbe reste au <b>singulier</b> (<i>has</i>).' },
     { type: 'order', answer: 'Most of our clients pay by credit card.', fr: 'La plupart de nos clients paient par carte de crédit.', explain: 'Groupe précis (<i>our clients</i>) → <b>most of</b> + <i>our</i> + nom. Pour parler des clients en général, on dirait simplement <i>most clients</i>.' },

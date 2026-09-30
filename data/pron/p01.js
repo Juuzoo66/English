@@ -7,13 +7,13 @@ LE.register({
   minutes: 35,
   goals: [
     'Distinguer les voyelles <b>courtes</b> et <b>longues</b> : <i>ship / sheep</i>, <i>full / fool</i>',
-    'Reconnaître les sons de <i>cat</i>, <i>cut</i>, <i>cart</i>, <i>bed</i> et <i>bad</i>',
+    'Reconnaître les sons de <i>cat</i>, <i>cut</i>, <i>cart</i>, <i>bed</i>, <i>bad</i>… et ne plus confondre <i>work</i> et <i>walk</i>',
     'Repérer le <b>schwa</b> /ə/, la voyelle la plus fréquente de l’anglais',
     'Entendre les <b>diphtongues</b> (<i>day, go, my, now</i>) et oublier les voyelles nasales'
   ],
   blocks: [
     { type: 'h', text: 'Pourquoi les voyelles sont-elles si importantes ?' },
-    { type: 'p', html: 'L’anglais n’a que <b>5 lettres voyelles</b> (a, e, i, o, u), mais une <b>vingtaine de sons voyelles</b>. Une même lettre peut donc se prononcer de plusieurs façons : le <b>a</b> de <i>cat</i>, de <i>car</i>, de <i>name</i> et de <i>about</i> n’est jamais le même son !<br>Pour le TOEIC, ton objectif n°1 est de <b>comprendre</b> : si tu ne fais pas la différence entre <i>ship</i> (bateau) et <i>sheep</i> (mouton), ou entre <i>man</i> (un homme) et <i>men</i> (des hommes), tu risques de choisir la mauvaise réponse. Ton objectif n°2 est de <b>te faire comprendre</b>. Bonne nouvelle : en entraînant ton oreille, ta prononciation s’améliore aussi.' },
+    { type: 'p', html: 'L’anglais n’a que <b>5 lettres voyelles</b> (a, e, i, o, u, plus le y de <i>my</i> ou <i>happy</i>), mais une <b>vingtaine de sons voyelles</b>. Une même lettre peut donc se prononcer de plusieurs façons : le <b>a</b> de <i>cat</i>, de <i>car</i>, de <i>name</i> et de <i>about</i> n’est jamais le même son !<br>Pour le TOEIC, ton objectif n°1 est de <b>comprendre</b> : si tu ne fais pas la différence entre <i>ship</i> (bateau) et <i>sheep</i> (mouton), ou entre <i>man</i> (un homme) et <i>men</i> (des hommes), tu risques de choisir la mauvaise réponse. Ton objectif n°2 est de <b>te faire comprendre</b>. Bonne nouvelle : en entraînant ton oreille, ta prononciation s’améliore aussi.' },
     { type: 'box', style: 'tip', title: 'Comment travailler cette leçon', html: 'Écoute chaque exemple et <b>répète-le à voix haute</b>, plusieurs fois. Pour les paires de mots, écoute les deux, puis ferme les yeux et demande-toi : « Lequel est-ce ? ». Les symboles entre barres obliques (comme /iː/) viennent de l’<b>alphabet phonétique</b> des dictionnaires : inutile de les apprendre par cœur, ils sont toujours expliqués avec un son français.' },
 
     { type: 'h', text: 'Sons courts et sons longs' },
@@ -40,14 +40,16 @@ LE.register({
     ] },
     { type: 'box', style: 'warn', title: 'Piège : le /iː/ trop court', html: 'Les francophones prononcent souvent tous les « i » de la même façon, courts. Résultat : <i>leave</i> devient <i>live</i>, et <i>I want to leave</i> (je veux partir) devient <i>I want to live</i> (je veux vivre) ! Allonge aussi le /iː/ de <i>sheet</i> (feuille), <i>beach</i> (plage) et <i>piece</i> (morceau) : prononcés trop courts, ils ressemblent à… des gros mots.' },
 
-    { type: 'h', text: 'Les sons de cat, cut, cart, bed et bad' },
-    { type: 'p', html: 'Ces cinq mots ont des voyelles différentes qui, pour une oreille française, se ressemblent beaucoup. Écoute-les bien : ce sont des pièges classiques de la <b>Partie 1</b> du TOEIC (la description de photos).' },
+    { type: 'h', text: 'Les sons de cat, cut, cart, bed, bad… et work / walk' },
+    { type: 'p', html: 'Ces cinq mots ont des voyelles différentes qui, pour une oreille française, se ressemblent beaucoup. Ajoutes-y <i>work</i> (travailler) et <i>walk</i> (marcher) : deux sons longs que les francophones confondent très souvent. Écoute-les bien : ce sont des pièges classiques de la <b>Partie 1</b> du TOEIC (la description de photos).' },
     { type: 'table', head: ['Son', 'Mot repère', 'Comparaison française', 'Autres mots'], rows: [
       ['/æ/', '<i>cat</i>, <i>bad</i>', 'un « è » très ouvert, presque « a » : ouvre grand la bouche', '<i>man, bag, back, plan, happy</i>'],
       ['/ʌ/', '<i>cut</i>', 'un « a » bref et sourd, bouche peu ouverte, proche du « eu » de « peur » dit très vite', '<i>bus, run, cup, money, Monday</i>'],
       ['/ɑː/', '<i>cart</i>', 'comme le « â » de « pâte », long, au fond de la bouche', '<i>car, far, park, start, father</i>'],
-      ['/e/', '<i>bed</i>', 'comme le « è » de « mère », mais court', '<i>men, desk, send, ten, said</i>']
-    ], caption: 'En anglais américain, le <b>r</b> de <i>cart, car, park</i> se prononce (voir « Les consonnes piégeuses : th, h, r, w, -ng »).' },
+      ['/e/', '<i>bed</i>', 'comme le « è » de « mère », mais court', '<i>men, desk, send, ten, said</i>'],
+      ['/ɜː/', '<i>work</i>', 'comme le « eu » de « heure », mais long ; en américain, on entend aussi le <b>r</b> : « weurk »', '<i>first, third, learn, word, person</i>'],
+      ['/ɔː/', '<i>walk</i>', 'comme le « o » de « fort », mais long (en américain, souvent plus ouvert, proche de « â ») ; le <b>l</b> de <i>walk</i> est muet', '<i>talk, call, all, small, law</i>']
+    ], caption: 'En anglais américain, le <b>r</b> de <i>cart, car, park, work, first</i> se prononce (voir « Les consonnes piégeuses : th, h, r, w, -ng »).' },
     { type: 'pairs', items: [
       { a: 'cat', b: 'cut', note: 'un chat / couper' },
       { a: 'cap', b: 'cup', note: 'une casquette / une tasse' },
@@ -55,7 +57,8 @@ LE.register({
       { a: 'cut', b: 'cart', note: 'couper / un chariot' },
       { a: 'bed', b: 'bad', note: 'un lit / mauvais' },
       { a: 'men', b: 'man', note: 'des hommes / un homme' },
-      { a: 'pen', b: 'pan', note: 'un stylo / une poêle' }
+      { a: 'pen', b: 'pan', note: 'un stylo / une poêle' },
+      { a: 'walk', b: 'work', note: 'marcher / travailler' }
     ] },
     { type: 'box', style: 'tip', title: 'Le son /ʌ/ s’écrit souvent avec un « o »', html: 'Beaucoup de mots très fréquents s’écrivent avec un <b>o</b> mais se prononcent /ʌ/, comme <i>cut</i> : <i>money, Monday, month, come, some, love, other, mother, company</i>. Ne dis pas « mo-ney » : c’est plutôt « MEU-ni ».' },
     { type: 'box', style: 'warn', title: 'Piège du TOEIC : man ou men ?', html: 'En <b>Partie 1</b>, tu choisis la phrase qui décrit une photo. <i>The <b>man</b> is reading</i> (un homme) et <i>The <b>men</b> are reading</i> (des hommes) ne décrivent pas la même photo ! Écoute la voyelle (/æ/ très ouvert pour <i>man</i>, /e/ pour <i>men</i>) <b>et</b> le verbe (<i>is</i> ou <i>are</i>). Même chose pour <i>woman</i> /ˈwʊmən/ et <i>women</i> /ˈwɪmɪn/ : c’est la <b>première</b> syllabe qui change (« OU-mən » / « OUI-min »).' },
@@ -70,7 +73,7 @@ LE.register({
       { a: 'want', b: "won't", note: 'vouloir / <i>will not</i> (ne… pas, au futur)' }
     ] },
     { type: 'examples', items: [
-      { en: 'The shop is not open on Sunday.', fr: 'Le magasin n’est pas ouvert le dimanche.', note: '<i>shop</i>, <i>not</i> : o court ; <i>open</i> : o qui glisse /oʊ/.' },
+      { en: 'The shop is not open on Sundays.', fr: 'Le magasin n’est pas ouvert le dimanche.', note: '<i>shop</i>, <i>not</i> : o court ; <i>open</i> : o qui glisse /oʊ/.' },
       { en: 'I got a new phone.', fr: 'J’ai eu un nouveau téléphone.', note: '<i>got</i> : o court ; <i>phone</i> : /oʊ/.' },
       { en: "I won't go home late.", fr: 'Je ne rentrerai pas tard.', note: '<i>won’t</i>, <i>go</i>, <i>home</i> : trois fois /oʊ/. Ne confonds pas <i>won’t</i> avec <i>want</i> (vouloir) !' },
       { en: 'Please send me a note.', fr: 'Envoie-moi un petit mot, s’il te plaît.', note: '<i>note</i> : le son glisse de « o » vers « ou ».' }
@@ -138,13 +141,12 @@ LE.register({
       { speaker: 'W', en: "Mine's at noon. Have a good trip!", fr: 'Le mien est à midi. Bon voyage !' }
     ] },
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'Les concepteurs du TOEIC adorent les <b>sons proches</b>. En <b>Partie 2</b>, une mauvaise réponse contient souvent un mot qui <b>ressemble</b> à un mot de la question. Exemple : <i>Where did you <b>leave</b> the report?</i> (Où as-tu laissé le rapport ?) → piège : <i>I <b>live</b> near here.</i> ; bonne réponse : <i>On your desk.</i> En <b>Partie 1</b>, fais attention à <i>man / men</i>, <i>woman / women</i>, <i>cup / cap</i>, <i>walk / work</i>.' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• Voyelles <b>courtes</b> (relâchées) ≠ <b>longues</b> (tendues) : <i>ship / sheep, live / leave, full / fool, pull / pool</i>.<br>• <i>cat</i> /æ/ (très ouvert) ≠ <i>cut</i> /ʌ/ (bref, sourd) ≠ <i>cart</i> /ɑː/ (long) ; <i>bed</i> /e/ ≠ <i>bad</i> /æ/ ; <i>men</i> ≠ <i>man</i>.<br>• <i>not</i> (o court) ≠ <i>note</i> (o qui glisse, /oʊ/) ; <i>want</i> ≠ <i>won’t</i>.<br>• Le <b>schwa</b> /ə/ = petit « e » neutre des syllabes faibles : <i>about, banana, computer</i>.<br>• Les diphtongues glissent : <i>day, go, my, now, boy, here, there</i>.<br>• <b>Aucune voyelle nasale</b> : on prononce toujours le <b>n</b> (<i>ten, information</i>).' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• Voyelles <b>courtes</b> (relâchées) ≠ <b>longues</b> (tendues) : <i>ship / sheep, live / leave, full / fool, pull / pool</i>.<br>• <i>cat</i> /æ/ (très ouvert) ≠ <i>cut</i> /ʌ/ (bref, sourd) ≠ <i>cart</i> /ɑː/ (long) ; <i>bed</i> /e/ ≠ <i>bad</i> /æ/ ; <i>men</i> ≠ <i>man</i> ; <i>work</i> /ɜː/ ≠ <i>walk</i> /ɔː/.<br>• <i>not</i> (o court) ≠ <i>note</i> (o qui glisse, /oʊ/) ; <i>want</i> ≠ <i>won’t</i>.<br>• Le <b>schwa</b> /ə/ = petit « e » neutre des syllabes faibles : <i>about, banana, computer</i>.<br>• Les diphtongues glissent : <i>day, go, my, now, boy, here, there</i>.<br>• <b>Aucune voyelle nasale</b> : on prononce toujours le <b>n</b> (<i>ten, information</i>).' }
   ],
   exercises: [
     { type: 'mcq', q: 'Lequel de ces mots contient un son <b>long</b> /iː/ ?', options: ['ship', 'sit', 'sheep', 'fill'], answer: 2, explain: '<i>sheep</i> (mouton) a un /iː/ long et tendu : « chiiip ». <i>ship, sit, fill</i> ont un /ɪ/ court et relâché.' },
     { type: 'listen', say: 'sheep', q: 'Quel mot entends-tu ?', options: ['ship', 'sheep'], answer: 1, explain: 'Tu as entendu <i>sheep</i> (mouton) : le son est long et tendu (/iː/). <i>ship</i> (bateau) est bref et relâché.' },
-    { type: 'listen', say: 'full', q: 'Quel mot entends-tu ?', options: ['full', 'fool'], answer: 0, explain: '<i>full</i> (plein) : un « ou » court /ʊ/, lèvres peu arrondies. <i>fool</i> (idiot) a un « ou » long /uː/.' },
-    { type: 'listen', say: 'pool', q: 'Quel mot entends-tu ?', options: ['pool', 'pull'], answer: 0, explain: '<i>pool</i> (piscine) : « ou » long /uː/, comme dans « fou » mais tenu plus longtemps. <i>pull</i> (tirer) est bref.' },
+    { type: 'listen', say: 'full', accent: 'en-AU', q: 'Quel mot entends-tu ?', options: ['full', 'fool'], answer: 0, explain: '<i>full</i> (plein) : un « ou » court /ʊ/, lèvres peu arrondies. <i>fool</i> (idiot) a un « ou » long /uː/.' },
     { type: 'listen', say: 'to leave', accent: 'en-GB', q: 'Quel verbe entends-tu ?', options: ['to live', 'to leave'], answer: 1, explain: 'Le son est long (/iː/) : <i>to leave</i> (partir, quitter). <i>to live</i> (habiter, vivre) a un /ɪ/ court.' },
     { type: 'listen', say: 'cut', q: 'Quel mot entends-tu ?', options: ['cart', 'cat', 'cut'], answer: 2, explain: '<i>cut</i> (couper) : /ʌ/, un « a » bref et sourd. <i>cat</i> a un /æ/ très ouvert ; <i>cart</i> a un « â » long (et un r en américain).' },
     { type: 'listen', say: 'bad', q: 'Quel mot entends-tu ?', options: ['bad', 'bed'], answer: 0, explain: '<i>bad</i> (mauvais) : /æ/, bouche grande ouverte. <i>bed</i> (lit) a un /e/, comme un « è » court.' },
@@ -155,6 +157,7 @@ LE.register({
     { type: 'mcq', q: 'Comment prononce-t-on <i>ten</i> (dix) ?', options: ['Comme « teint », avec une voyelle nasale et sans n', '« tènn » : un « è » bref, puis un vrai n', '« tiine », avec un i long'], answer: 1, explain: 'L’anglais n’a pas de voyelles nasales : on dit un « è » court (/e/), puis on prononce vraiment le <b>n</b>.' },
     { type: 'listen', say: 'Ask the men at the front desk.', q: 'Qu’as-tu entendu ?', options: ['Ask the men at the front desk.', 'Ask the man at the front desk.'], answer: 0, explain: '<i>men</i> (des hommes) se prononce avec /e/, comme un « è » court. <i>man</i> aurait un /æ/ très ouvert. Au TOEIC, ce détail change tout : un seul homme ou plusieurs ?' },
     { type: 'listen', say: 'Is this your cup?', accent: 'en-GB', q: 'Qu’as-tu entendu ?', options: ['Is this your cap?', 'Is this your cup?'], answer: 1, explain: '<i>cup</i> (tasse) : /ʌ/, un « a » bref et sourd. <i>cap</i> (casquette) aurait un /æ/ très ouvert, proche de « è ».' },
+    { type: 'listen', say: 'The man is working.', q: 'Qu’as-tu entendu ? <small>(style TOEIC Partie 1)</small>', options: ['The man is walking.', 'The man is working.'], answer: 1, explain: '<i>working</i> (travailler) : /ɜː/, un « eu » long, avec le <b>r</b> en américain (« WEUR-king »). <i>walking</i> (marcher) a un « o » long /ɔː/ et un <b>l</b> muet (« WO-king »). En Partie 1, cette confusion est un piège classique.' },
     { type: 'dictation', say: "I won't go home late.", answers: ["I won't go home late", 'I will not go home late'], explain: '<i>won’t</i> (= <i>will not</i>) se prononce avec le « o » qui glisse (/oʊ/), comme <i>go</i> et <i>home</i>. Ne le confonds pas avec <i>want</i> (vouloir). Traduction : « Je ne rentrerai pas tard. »' },
     { type: 'listen', say: 'Where did you leave the report?', accent: 'en-CA', q: 'Tu entends une question (style TOEIC Partie 2). Quelle est la meilleure réponse ?', options: ['I live near the office.', 'Yes, I read it.', 'On your desk.'], answer: 2, explain: 'La question porte sur un <b>lieu</b> (<i>where</i>) avec le verbe <i>leave</i> (laisser) → <i>On your desk.</i> <i>I live…</i> est un piège sonore (<i>live</i> ≠ <i>leave</i>) et <i>Yes…</i> ne répond jamais à une question en <i>where</i>.' }
   ]

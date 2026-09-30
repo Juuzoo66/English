@@ -35,7 +35,8 @@ LE.register({
       { en: 'The printer is still on. Could you turn it off?', fr: 'L’imprimante est encore allumée. Tu pourrais l’éteindre ?', note: 'Pronom <b>it</b> → entre le verbe et la particule.' },
       { en: 'Here is the application form. Fill it out and sign it.', fr: 'Voici le formulaire de candidature. Remplis-le et signe-le.' },
       { en: 'Mr. Adeyemi called. Can you call him back?', fr: 'M. Adeyemi a appelé. Tu peux le rappeler ?' },
-      { en: "The invoice is wrong? I'll look into it right away.", fr: 'La facture est fausse ? Je vais examiner ça tout de suite.', note: 'Inséparable : <i>look into <b>it</b></i>.' }
+      { en: "The invoice is wrong? I'll look into it right away.", fr: 'La facture est fausse ? Je vais examiner ça tout de suite.', note: 'Inséparable : <i>look into <b>it</b></i>.' },
+      { en: 'The meeting has been called off.', fr: 'La réunion a été annulée.', note: 'Au <b>passif</b>, la particule reste juste après le participe passé : <i>called <b>off</b></i>, <i>was put <b>off</b></i>.' }
     ] },
     { type: 'box', style: 'tip', title: 'Complément long et accent', html: 'Avec un nom court, les deux places sont possibles : <i>fill out the form</i> = <i>fill the form out</i>. Mais si le complément est <b>long</b>, mets-le <b>après</b> la particule : <i>Please fill out <b>the form that I sent you last week</b>.</i> Sinon, la particule se retrouve perdue en fin de phrase.<br>À l’oral, c’est la <b>particule</b> qui porte l’accent : <i>set UP, call OFF, turn it DOWN</i>. Écoute-la bien : c’est souvent elle qui donne le sens.' },
 
@@ -94,7 +95,7 @@ LE.register({
       ['<b>work out</b>', 'trouver (une solution), calculer ; bien se passer', 'We <b>worked out</b> a new schedule.<br><small>Nous avons mis au point un nouveau planning.</small>', 'devise, calculate ; succeed'],
       ['<b>come up with</b>', 'trouver, imaginer (une idée)', 'She <b>came up with</b> a great idea.<br><small>Elle a eu une excellente idée.</small>', 'propose, devise'],
       ['<b>deal with</b>', 's’occuper de, traiter, gérer', 'Mr. Ruiz <b>deals with</b> customer complaints.<br><small>M. Ruiz traite les réclamations des clients.</small>', 'handle, manage'],
-      ['<b>run out of</b>', 'ne plus avoir de, être à court de', 'We’ve <b>run out of</b> paper.<br><small>Nous n’avons plus de papier.</small>', 'use up']
+      ['<b>run out of</b>', 'ne plus avoir de, être à court de', 'We’ve <b>run out of</b> paper.<br><small>Nous n’avons plus de papier.</small>', 'have none left ; exhaust (a supply)']
     ] },
     { type: 'examples', items: [
       { en: "We've run out of toner, so I can't print the handouts.", fr: 'Nous n’avons plus de toner, donc je ne peux pas imprimer les documents à distribuer.', note: '<i>a handout</i> = un document distribué (nom formé sur <i>hand out</i>).' },

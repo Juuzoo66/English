@@ -29,7 +29,7 @@ LE.register({
       ['easy, happy, heavy', '<b>-y</b> → <b>-ily</b>', 'eas<b>ily</b>, happ<b>ily</b>, heav<b>ily</b>', 'facilement, joyeusement, fortement'],
       ['possible, simple, comfortable', '<b>-le</b> → <b>-ly</b>', 'possib<b>ly</b>, simp<b>ly</b>, comfortab<b>ly</b>', 'peut-être (éventuellement), simplement, confortablement'],
       ['basic, automatic, dramatic', '<b>-ic</b> → <b>-ically</b>', 'basic<b>ally</b>, automatic<b>ally</b>, dramatic<b>ally</b>', 'en gros (au fond), automatiquement, de façon spectaculaire']
-    ], caption: 'Deux exceptions à connaître : <i>true → <b>truly</b></i> (vraiment, sincèrement) et <i>public → <b>publicly</b></i> (publiquement).' },
+    ], caption: 'Deux exceptions à connaître : <i>true → <b>truly</b></i> (vraiment, sincèrement), où le <b>e</b> disparaît, et <i>public → <b>publicly</b></i> (publiquement), et non <i>publically</i>.' },
     { type: 'examples', items: [
       { en: 'Please read the instructions carefully.', fr: 'Merci de lire attentivement les instructions.' },
       { en: 'You can easily book a room online.', fr: 'Tu peux facilement réserver une chambre en ligne.' },
@@ -117,8 +117,8 @@ LE.register({
       ['<b>fairly</b>', 'assez, relativement', 'fairly easy', 'relativement facile'],
       ['<b>rather</b>', 'plutôt (souvent pour une critique)', 'rather slow', 'plutôt lent'],
       ['<b>slightly</b>', 'légèrement', 'slightly higher', 'légèrement plus élevé']
-    ], caption: 'Ces adverbes se placent <b>devant</b> l’adjectif ou l’adverbe qu’ils modifient : <i>very <b>well</b>, extremely <b>quickly</b>, slightly <b>higher</b></i>.' },
-    { type: 'box', style: 'tip', title: 'Highly et very much', html: '• <b>Highly</b> (très, vivement) n’a rien à voir avec la hauteur : il s’emploie avec des mots comme <i>recommended, qualified, successful, competitive</i>. Pour la hauteur, on dit <b>high</b> : <i>The plane flew <b>high</b>.</i> (L’avion volait haut.)<br>• Devant un adjectif, on met <b>very</b>, jamais <i>very much</i> : <span class="ko">very much interesting</span> → <span class="ok">very interesting</span>. <i>Very much</i> se place après le verbe et son complément : <i>I like it <b>very much</b>.</i>' },
+    ], caption: 'Ces adverbes se placent <b>devant</b> l’adjectif ou l’adverbe qu’ils modifient : <i>very <b>well</b>, extremely <b>quickly</b>, slightly <b>higher</b></i>. Nuance : en anglais américain, <b>quite</b> est souvent plus fort, proche de <i>very</i> (<i>quite expensive</i> = vraiment cher) ; <b>fairly</b> reste toujours modéré.' },
+    { type: 'box', style: 'tip', title: 'Highly et very much', html: '• <b>Highly</b> (très, vivement) n’a rien à voir avec la hauteur : il s’emploie avec des mots comme <i>recommended, qualified, successful, competitive</i>. Pour la hauteur, on dit <b>high</b> : <i>The plane flew <b>high</b>.</i> (L’avion volait haut.)<br>• Devant un adjectif, on met <b>very</b>, pas <i>very much</i> : <span class="ko">very much interesting</span> → <span class="ok">very interesting</span>. <i>Very much</i> se place après le verbe et son complément : <i>I like it <b>very much</b>.</i>' },
     { type: 'dialog', title: 'Après la formation', lines: [
       { speaker: 'W', en: 'So, how was the training session this morning?', fr: 'Alors, c’était comment, la formation ce matin ?' },
       { speaker: 'M', en: 'Honestly? The first part was quite boring. The trainer spoke really fast.', fr: 'Franchement ? La première partie était assez ennuyeuse. Le formateur parlait très vite.' },

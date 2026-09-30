@@ -59,7 +59,7 @@ LE.register({
       ['<b>pants</b> (US) / <b>trousers</b> (UK)', 'un pantalon', 'These pants <b>are</b> new.'],
       ['<b>glasses</b>', 'des lunettes', 'My glasses <b>are</b> on the desk.'],
       ['<b>goods</b>', 'des marchandises', 'The goods <b>are</b> in the warehouse.']
-    ], caption: '« Un pantalon » se dit <b>a pair of pants</b> ; « des lunettes », <b>a pair of glasses</b>. Attention : en anglais britannique, <i>pants</i> veut dire « slip, culotte » !' },
+    ], caption: 'Pour en compter un : « un pantalon » → <b>a pair of pants</b> ; « une paire de lunettes » → <b>a pair of glasses</b>. Attention : en anglais britannique, <i>pants</i> veut dire « slip, culotte » !' },
 
     { type: 'h', text: 'Dénombrable ou indénombrable ?' },
     { type: 'p', html: 'Un nom <b>dénombrable</b> (en anglais <i>countable</i>) désigne une chose qu’on peut compter : <i>one chair, two chairs</i>. Un nom <b>indénombrable</b> (<i>uncountable</i>) désigne une masse, une matière ou une idée qu’on ne compte pas : <i>water, money, advice</i>. Ça change toute la phrase :' },
@@ -109,7 +109,7 @@ LE.register({
       { en: 'Two bottles of water, please.', fr: 'Deux bouteilles d’eau, s’il vous plaît.' },
       { en: 'Two coffees, please!', fr: 'Deux cafés, s’il vous plaît !', note: 'Au café, <i>a coffee</i> = une tasse de café : dans ce cas précis, le mot se compte.' }
     ] },
-    { type: 'p', html: 'Pour dire « beaucoup de », on utilise <b>many</b> avec les dénombrables (<i>How many clients?</i>) et <b>much</b> avec les indénombrables (<i>How much money?</i>), ou simplement <b>a lot of</b> avec les deux (<i>a lot of clients, a lot of work</i>). Tu verras tout cela en détail dans la leçon « Les quantifieurs : some, any, much, many, few, little… ».' },
+    { type: 'p', html: 'Pour dire « beaucoup de », on utilise <b>many</b> avec les dénombrables et <b>much</b> avec les indénombrables. On les retrouve dans « combien de… ? » : <i>How <b>many</b> clients?</i> (combien de clients ?) / <i>How <b>much</b> money?</i> (combien d’argent ?). Dans une phrase affirmative, le plus simple est <b>a lot of</b>, qui marche avec les deux (<i>a lot of clients, a lot of work</i>). Tu verras tout cela en détail dans la leçon « Les quantifieurs : some, any, much, many, few, little… ».' },
 
     { type: 'h', text: 'Les mots composés : a ten-minute break' },
     { type: 'p', html: 'Quand un <b>nombre + un nom</b> servent d’adjectif devant un autre nom, on les relie par un trait d’union et le nom reste au <b>singulier</b> : en anglais, un adjectif ne prend jamais de <b>s</b>.' },

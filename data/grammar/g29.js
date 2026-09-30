@@ -44,7 +44,7 @@ LE.register({
     { type: 'box', style: 'tip', title: 'Deux compléments : send her the report', html: 'Avec <i>give, send, show, tell, offer</i>, deux constructions sont possibles :<br>• verbe + <b>personne</b> + chose : <i>I sent <b>her</b> the report.</i><br>• verbe + chose + <b>to</b> + personne : <i>I sent the report <b>to her</b>.</i><br>Quand la chose est aussi un pronom, préfère la 2ᵉ : <i>I sent <b>it to her</b>.</i> (Je le lui ai envoyé.)' },
 
     { type: 'h', text: 'Le grand tableau des pronoms' },
-    { type: 'table', head: ['Sujet', 'Complément', 'Possessif + nom', 'Possessif seul', 'Réfléchi'], rows: [
+    { type: 'table', head: ['Sujet', 'Complément', 'Adjectif possessif (+ nom)', 'Pronom possessif (seul)', 'Réfléchi'], rows: [
       ['I', 'me', 'my', 'mine', 'myself'],
       ['you', 'you', 'your', 'yours', 'yourself / yourselves'],
       ['he', 'him', 'his', 'his', 'himself'],
@@ -78,7 +78,7 @@ LE.register({
       { en: 'The director herself answered the phone.', fr: 'La directrice elle-même a répondu au téléphone.' },
       { en: 'I prefer to travel by myself.', fr: 'Je préfère voyager seule.' }
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : les verbes pronominaux français', html: 'Beaucoup de verbes français en « se… » <b>ne sont pas réfléchis</b> en anglais. N’ajoute pas <i>myself, yourself…</i> par réflexe !<br><span class="ko">We meet ourselves every Monday.</span> → <span class="ok">We meet every Monday.</span> (Nous nous réunissons tous les lundis.)<br><span class="ko">I don’t remember myself.</span> → <span class="ok">I don’t remember.</span> (Je ne me souviens pas.)<br><span class="ko">I get myself up at seven.</span> → <span class="ok">I get up at seven.</span> (Je me lève à sept heures.)' },
+    { type: 'box', style: 'warn', title: 'Piège : les verbes pronominaux français', html: 'Beaucoup de verbes français en « se… » <b>ne sont pas réfléchis</b> en anglais. N’ajoute pas <i>myself, yourself…</i> par réflexe !<br><span class="ko">We meet ourselves every Monday.</span> → <span class="ok">We meet every Monday.</span> (Nous nous réunissons tous les lundis.)<br><span class="ko">I don’t remember myself.</span> → <span class="ok">I don’t remember.</span> (Je ne me souviens pas.)<br><span class="ko">I feel myself tired.</span> → <span class="ok">I feel tired.</span> (Je me sens fatiguée.)<br>Même chose pour « se lever » : <span class="ok">I get up at seven.</span> (Je me lève à sept heures.), sans <i>myself</i>.' },
     { type: 'table', head: ['Français (verbe en « se »)', 'Anglais (sans -self)', 'Exemple'], rows: [
       ['se réunir, se retrouver', '<b>meet</b>', 'The board <b>meets</b> once a month.'],
       ['se souvenir (de)', '<b>remember</b>', 'I don’t <b>remember</b> his name.'],
@@ -93,7 +93,7 @@ LE.register({
     ], caption: 'À l’inverse, quelques verbes gardent le réfléchi, comme en français : <i>introduce yourself</i> (se présenter), <i>help yourself</i> (se servir), <i>enjoy yourself</i> (bien s’amuser), <i>hurt yourself</i> (se faire mal).' },
 
     { type: 'h', text: 'Each other : l’un l’autre' },
-    { type: 'p', html: 'En français, « se » peut aussi indiquer une action <b>réciproque</b> : « Ils se connaissent » = chacun connaît l’autre. L’anglais utilise alors <b>each other</b> (ou <i>one another</i>, un peu plus formel). Ce mot ne change jamais.' },
+    { type: 'p', html: 'En français, « se » peut aussi indiquer une action <b>réciproque</b> : « Ils se connaissent » = chacun connaît l’autre. L’anglais utilise alors <b>each other</b> (ou <i>one another</i>, un peu plus formel). Cette expression ne change pas selon la personne : <i>we know each other, they know each other</i>.' },
     { type: 'examples', items: [
       { en: 'Amir and Julia know each other well.', fr: 'Amir et Julia se connaissent bien.' },
       { en: 'We help each other a lot in this team.', fr: 'Nous nous entraidons beaucoup dans cette équipe.' },
@@ -137,7 +137,7 @@ LE.register({
       { speaker: 'M', en: "Don't worry. Everybody forgets things sometimes.", fr: 'Ne t’inquiète pas. Tout le monde oublie des choses parfois.' }
     ] },
 
-    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, presque chaque test contient une ou deux questions où les quatre options sont des formes du même pronom : <i>The new employees introduced ------- to the team.</i> (they / them / their / themselves) → <b>themselves</b>, car ce sont les employés qui se présentent <b>eux-mêmes</b>. Applique la méthode du tableau : regarde ce qu’il y a <b>juste avant et juste après</b> le trou. Les indéfinis tombent aussi : <i>Everyone in the department ------- invited.</i> → <b>is</b> (singulier).<br>En <b>Partie 3</b>, écoute bien les pronoms : <i>I’ll call <b>her</b></i> t’indique qu’on parle d’une femme, ce qui aide à répondre aux questions « Who…? ».' },
+    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, presque tous les tests contiennent une ou deux questions où les quatre options sont des formes du même pronom : <i>The new employees introduced ------- to the team.</i> (they / them / their / themselves) → <b>themselves</b>, car ce sont les employés qui se présentent <b>eux-mêmes</b>. Applique la méthode du tableau : regarde ce qu’il y a <b>juste avant et juste après</b> le trou. Les indéfinis tombent aussi : <i>Everyone in the department ------- invited.</i> → <b>is</b> (singulier).<br>En <b>Partie 3</b>, écoute bien les pronoms : <i>I’ll call <b>her</b></i> t’indique qu’on parle d’une femme, ce qui aide à répondre aux questions « Who…? ».' },
     { type: 'box', style: 'key', title: 'À retenir', html: '• Compléments : <b>me, you, him, her, it, us, them</b>, toujours <b>après</b> le verbe ou la préposition (<i>Call me. with them</i>).<br>• La place décide de la forme : avant le verbe → <i>they</i> ; après un verbe ou une préposition → <i>them</i> ; devant un nom → <i>their</i> ; seul → <i>theirs</i> ; même personne que le sujet → <i>themselves</i>.<br>• Réfléchis : <b>-self / -selves</b> ; <b>by myself</b> = seul(e), sans aide.<br>• Pas de réfléchi avec <i>meet, remember, get up, feel, worry, relax</i>…<br>• Action réciproque (l’un l’autre) → <b>each other</b>.<br>• <b>some- / any- / no- / every-</b> + <i>one, body, thing, where</i>, avec un verbe au <b>singulier</b> : <i>Everyone <b>is</b> here.</i><br>• <b>one / ones</b> pour ne pas répéter un nom : <i>the gray one, new ones</i>.' }
   ],
   exercises: [

@@ -20,7 +20,7 @@ LE.register({
       ['<b>Britannique</b> (UK)', 'Royaume-Uni', 'r muet en fin de syllabe ; t bien net ; a long dans <i>can’t</i>, <i>ask</i>, <i>bath</i>'],
       ['<b>Canadien</b> (CA)', 'Canada', 'très proche de l’américain ; <i>about</i> et <i>sorry</i> un peu différents'],
       ['<b>Australien</b> (AU) / néo-zélandais', 'Australie, Nouvelle-Zélande', 'r muet comme en UK ; le son « ay » de <i>today</i> tire vers « aï »']
-    ] },
+    ], caption: 'On parle ici de l’accent « standard » de chaque pays, celui des voix du TOEIC. Chaque pays a aussi des accents régionaux : en Écosse, par exemple, le r se prononce.' },
 
     { type: 'h', text: 'Différence n°1 : le r en fin de syllabe' },
     { type: 'p', html: 'En <b>américain</b> et en <b>canadien</b>, le r se prononce partout, même en fin de mot, avec la langue recourbée vers l’arrière : <i>car</i> = « kaar ». En <b>britannique</b> et en <b>australien</b>, le r ne se prononce que devant une voyelle : en fin de syllabe, il disparaît et allonge la voyelle : <i>car</i> = « kaa », <i>water</i> = « wo-teu », <i>order</i> = « oo-deu ». Si le mot suivant commence par une voyelle, le r revient pour faire la liaison : <i>the car is ready</i> → « the kaa-riz ready ».' },
@@ -29,11 +29,11 @@ LE.register({
       { en: 'Please place your order.', fr: 'Veuillez passer votre commande.', accent: 'en-GB', note: 'UK : « yoo », « oo-deu » : pas de r.' },
       { en: 'Can I have a glass of water?', fr: 'Je peux avoir un verre d’eau ?', accent: 'en-US', note: 'US : <i>water</i> = « wa-deur » (t battu + r).' },
       { en: 'Can I have a glass of water?', fr: 'Je peux avoir un verre d’eau ?', accent: 'en-GB', note: 'UK : <i>water</i> = « wo-teu » (t net, pas de r) ; <i>glass</i> avec un a long : « glaass ».' },
-      { en: 'The meeting is on the fourth floor.', fr: 'La réunion est au quatrième étage.', accent: 'en-AU', note: 'AU : comme en UK, <i>fourth</i> et <i>floor</i> sans r : « foth », « flo ».' }
+      { en: 'The meeting is on the fourth floor.', fr: 'La réunion est au quatrième étage.', accent: 'en-AU', note: 'AU : comme en UK, <i>fourth</i> et <i>floor</i> sans r : « footh », « floo ».' }
     ] },
 
     { type: 'h', text: 'Différence n°2 : le t entre deux voyelles' },
-    { type: 'p', html: 'En <b>américain</b> et en <b>canadien</b>, un t placé entre deux voyelles devient un « d » très rapide, un simple petit battement de langue : <i>water</i> → « wa-deur », <i>better</i> → « bè-deur », <i>meeting</i> → « mii-ding », <i>city</i> → « si-di ». En <b>britannique</b>, le t reste net : « bè-teu », « mii-ting ». L’<b>australien</b>, lui, fait souvent comme l’américain.' },
+    { type: 'p', html: 'En <b>américain</b> et en <b>canadien</b>, un t placé entre deux voyelles, devant une syllabe non accentuée, devient un « d » très rapide, un simple petit battement de langue : <i>water</i> → « wa-deur », <i>better</i> → « bè-deur », <i>meeting</i> → « mii-ding », <i>city</i> → « si-di ». Ça marche aussi après un r : <i>party</i> → « paar-di », <i>thirty</i> → « thur-di ». En revanche, si la syllabe qui suit le t est accentuée (<i>hotel</i>, <i>Italian</i>), le t reste net. En <b>britannique</b>, le t se prononce clairement dans tous les cas : « bè-teu », « mii-ting ». L’<b>australien</b>, lui, fait souvent comme l’américain.' },
     { type: 'examples', items: [
       { en: 'The meeting starts at eight thirty.', fr: 'La réunion commence à 8 h 30.', accent: 'en-US', note: 'US : « mii-ding », « thur-di ».' },
       { en: 'The meeting starts at eight thirty.', fr: 'La réunion commence à 8 h 30.', accent: 'en-GB', note: 'UK : « mii-ting », « theu-ti » : t bien nets, pas de r.' },
@@ -50,7 +50,7 @@ LE.register({
       ['after', '/ˈæftər/ « aèf-teur »', '/ˈɑːftə/ « aaf-teu »'],
       ['hot', '/hɑt/ « haat » (bouche grande ouverte)', '/hɒt/ « hott » (o court, lèvres arrondies)'],
       ['job', '/dʒɑb/ « djaab »', '/dʒɒb/ « djob »'],
-      ['schedule', '« <b>sk</b>é-djoul »', '« <b>sh</b>é-djoul » (UK traditionnel ; « sk- » s’entend aussi)'],
+      ['schedule', '« <b>sk</b>è-djoul »', '« <b>sh</b>è-djoul » (UK traditionnel ; « sk- » s’entend aussi)'],
       ['la lettre Z', '« zii » aux États-Unis, mais « zèd » au Canada', '« zèd »']
     ], caption: 'Le canadien suit l’américain pour les voyelles, mais il dit « zèd » comme les Britanniques.' },
     { type: 'box', style: 'warn', title: 'Piège : le can’t britannique', html: 'Si tu as appris à repérer <i>can’t</i> grâce au « kaènt » américain, le « kaannt » britannique et australien peut te surprendre. Retiens : un <b>a long et accentué</b> = <b>can’t</b>. Le <i>can</i> affirmatif, lui, reste court et faible dans tous les accents (« keun »). Et ne compte pas sur le t final : il est souvent avalé (voir la leçon « L’anglais parlé réel : formes faibles, liaisons, contractions »).' },
@@ -58,8 +58,10 @@ LE.register({
       { en: "Sorry, I can't make it on Tuesday.", fr: 'Désolée, je ne peux pas venir mardi.', accent: 'en-US', note: 'US : <i>can’t</i> = « kaènt ».' },
       { en: "Sorry, I can't make it on Tuesday.", fr: 'Désolée, je ne peux pas venir mardi.', accent: 'en-GB', note: 'UK : <i>can’t</i> = « kaannt ».' },
       { en: 'Could you ask the manager?', fr: 'Pourriez-vous demander au responsable ?', accent: 'en-GB', note: 'UK : <i>ask</i> = « aask », a long.' },
-      { en: "What's the schedule for tomorrow?", fr: 'Quel est le programme de demain ?', accent: 'en-US', note: 'US : <i>schedule</i> = « ské-djoul ».' },
-      { en: "What's the schedule for tomorrow?", fr: 'Quel est le programme de demain ?', accent: 'en-GB', note: 'UK : souvent « shé-djoul ».' }
+      { en: "What's the schedule for tomorrow?", fr: 'Quel est le programme de demain ?', accent: 'en-US', note: 'US : <i>schedule</i> = « skè-djoul ».' },
+      { en: "What's the schedule for tomorrow?", fr: 'Quel est le programme de demain ?', accent: 'en-GB', note: 'UK : souvent « shè-djoul ».' },
+      { en: 'She got a new job last month.', fr: 'Elle a trouvé un nouveau travail le mois dernier.', accent: 'en-US', note: 'US : <i>got</i> et <i>job</i> avec un « a » grand ouvert : « gaat », « djaab ».' },
+      { en: 'She got a new job last month.', fr: 'Elle a trouvé un nouveau travail le mois dernier.', accent: 'en-GB', note: 'UK : un o court, lèvres arrondies : « got », « djob » ; et <i>last</i> avec un a long : « laast ».' }
     ] },
 
     { type: 'h', text: 'L’australien et le canadien' },
@@ -133,7 +135,7 @@ LE.register({
   exercises: [
     { type: 'mcq', q: 'Dans quel accent entend-on le r de <i>car</i> et de <i>water</i> ?', options: ['Britannique', 'Australien', 'Américain'], answer: 2, explain: 'En américain (et en canadien), le r se prononce partout. En britannique et en australien, il disparaît en fin de syllabe : « kaa », « wo-teu ».' },
     { type: 'mcq', q: 'Comment un Américain prononce-t-il le plus souvent <i>better</i> ?', options: ['« bè-teu », avec un t bien net', '« bè-deur », avec un « d » très rapide', '« bè-teur », avec un r roulé'], answer: 1, explain: 'En américain, le t entre deux voyelles devient un « d » battu, et le r final se prononce : « bè-deur ». « bè-teu » est la prononciation britannique.' },
-    { type: 'mcq', q: 'Comment un Canadien prononce-t-il généralement la lettre <b>Z</b> ?', options: ['« zii », comme les Américains', '« zèd », comme les Britanniques'], answer: 1, explain: 'Sur ce point, le canadien suit le britannique : Z = « zèd ». Seuls les Américains disent « zii ».' },
+    { type: 'mcq', q: 'Comment un Canadien prononce-t-il généralement la lettre <b>Z</b> ?', options: ['« zii », comme les Américains', '« zèd », comme les Britanniques'], answer: 1, explain: 'Sur ce point, le canadien suit le britannique : Z = « zèd ». « zii » est la prononciation américaine (certains jeunes Canadiens l’utilisent aussi, mais « zèd » reste la norme au Canada).' },
     { type: 'mcq', q: 'Une Britannique dit <i>lift</i>. Quel est le mot américain ?', options: ['elevator', 'escalator', 'stairs', 'ladder'], answer: 0, explain: '<i>lift</i> (UK) = <i>elevator</i> (US) = ascenseur. <i>escalator</i> = escalier mécanique, <i>stairs</i> = escalier, <i>ladder</i> = échelle.' },
     { type: 'mcq', q: 'Au restaurant, un Américain demande <i>the check</i>. Que demande un Britannique ?', options: ['the bill', 'the cheque', 'the note', 'the ticket'], answer: 0, explain: 'En britannique, l’addition se dit <i>the bill</i>. <i>cheque</i> est l’orthographe britannique du chèque bancaire, pas de l’addition.' },
     { type: 'mcq', q: 'Laquelle de ces orthographes est <b>britannique</b> ?', options: ['color', 'center', 'organise', 'traveled'], answer: 2, explain: '<i>organise</i> (-ise) est britannique ; l’américain écrit <i>organize</i>. Les trois autres sont américaines (UK : <i>colour, centre, travelled</i>).' },

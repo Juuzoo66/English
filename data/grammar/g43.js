@@ -26,13 +26,13 @@ LE.register({
       'Reprends l’<b>auxiliaire</b> de la phrase (<i>be, have, can, will, should…</i>) : <i>You <b>can</b> drive, <b>can’t</b> you?</i>',
       'Phrase <b>affirmative</b> → tag <b>négatif</b> (contracté) ; phrase <b>négative</b> → tag <b>affirmatif</b> : <i>He <b>is</b> ready, <b>isn’t</b> he?</i> / <i>He <b>isn’t</b> ready, <b>is</b> he?</i>',
       'Pas d’auxiliaire (présent simple ou prétérit) → <b>do / does / did</b>, comme pour poser une question : <i>She <b>works</b> here, <b>doesn’t</b> she?</i>',
-      'Le sujet du tag est toujours un <b>pronom</b> : <i><b>Mr. Ito</b> is here, isn’t <b>he</b>?</i> / <i><b>The report</b> is ready, isn’t <b>it</b>?</i>'
+      'Le sujet du tag est toujours un <b>pronom</b> (ou <i>there</i>, voir plus bas) : <i><b>Mr. Ito</b> is here, isn’t <b>he</b>?</i> / <i><b>The report</b> is ready, isn’t <b>it</b>?</i>'
     ] },
     { type: 'table', head: ['Phrase', 'Tag', 'Pourquoi'], rows: [
       ['You’re new here,', '<b>aren’t you?</b>', 'be (are) → aren’t'],
       ['He isn’t ready,', '<b>is he?</b>', 'phrase négative → tag affirmatif'],
       ['They’ve finished,', '<b>haven’t they?</b>', 'present perfect → have'],
-      ['She can drive,', '<b>can’t she?</b>', 'modal can → can’t'],
+      ['She can drive,', '<b>can’t she?</b>', 'can → can’t'],
       ['You’ll call me,', '<b>won’t you?</b>', 'will → won’t'],
       ['We should leave now,', '<b>shouldn’t we?</b>', 'should → shouldn’t'],
       ['You work here,', '<b>don’t you?</b>', 'présent simple → do'],
@@ -75,7 +75,7 @@ LE.register({
       ['Will it be ready on time?', 'Yes, it <b>will</b>.', 'No, it <b>won’t</b>.'],
       ['Is there a hotel near here?', 'Yes, there <b>is</b>.', 'No, there <b>isn’t</b>.']
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : répondre à une question négative', html: 'Face à une question ou un tag <b>négatif</b>, le français répond « Si ! ». L’anglais, lui, répond selon la <b>réalité</b> : <b>Yes</b> + phrase affirmative, <b>No</b> + phrase négative.<br>— <i>You didn’t finish the report, did you?</i> (Tu n’as pas fini le rapport, si ?)<br>Tu l’as fini → <span class="ok">Yes, I did.</span> (= Si, je l’ai fini.) — Tu ne l’as pas fini → <span class="ok">No, I didn’t.</span><br>Jamais de mélange : <span class="ko">No, I did.</span> / <span class="ko">Yes, I didn’t.</span>' },
+    { type: 'box', style: 'warn', title: 'Piège : répondre à une question négative', html: 'Face à une question ou un tag <b>négatif</b>, le français répond « Si ! ». L’anglais, lui, répond selon la <b>réalité</b> : <b>Yes</b> + phrase affirmative, <b>No</b> + phrase négative.<br>— <i>You didn’t finish the report, did you?</i> (Tu n’as pas fini le rapport, n’est-ce pas ?)<br>Tu l’as fini → <span class="ok">Yes, I did.</span> (= Si, je l’ai fini.) — Tu ne l’as pas fini → <span class="ok">No, I didn’t.</span><br>Jamais de mélange : <span class="ko">No, I did.</span> / <span class="ko">Yes, I didn’t.</span>' },
 
     { type: 'h', text: 'So et neither : « moi aussi », « moi non plus »' },
     { type: 'p', html: 'Pour dire « moi aussi » (ou « lui aussi, nous aussi… »), on utilise <b>So</b> + <b>auxiliaire</b> + <b>sujet</b>, avec inversion. Pour « moi non plus », c’est <b>Neither</b> (ou <b>Nor</b>) + <b>auxiliaire</b> + <b>sujet</b>. L’auxiliaire doit correspondre à celui de la première phrase : même verbe, même temps. Sans auxiliaire dans la phrase de départ, on utilise <b>do / does / did</b>.' },
@@ -110,7 +110,7 @@ LE.register({
     { type: 'dialog', title: 'Juste avant la réunion', lines: [
       { speaker: 'W', en: "You've read the agenda, haven't you?", fr: 'Tu as lu l’ordre du jour, n’est-ce pas ?' },
       { speaker: 'M', en: "Yes, I have. We're discussing the budget first, aren't we?", fr: 'Oui. On parle d’abord du budget, c’est ça ?' },
-      { speaker: 'W', en: "That's right. Mr. Sato isn't coming, is he?", fr: 'Exactement. M. Sato ne vient pas, si ?' },
+      { speaker: 'W', en: "That's right. Mr. Sato isn't coming, is he?", fr: 'Exactement. M. Sato ne vient pas, c’est ça ?' },
       { speaker: 'M', en: "I'm afraid not. He's visiting a client all day.", fr: 'J’ai bien peur que non. Il est chez un client toute la journée.' },
       { speaker: 'W', en: "Oh well. I haven't finished my slides yet.", fr: 'Tant pis. Je n’ai pas encore fini mes diapositives.' },
       { speaker: 'M', en: "Neither have I! Let's work on them together, shall we?", fr: 'Moi non plus ! On y travaille ensemble, d’accord ?' }
@@ -129,10 +129,10 @@ LE.register({
     { type: 'order', answer: "Let's take a short break, shall we?", fr: 'Faisons une petite pause, d’accord ?', explain: 'Après une proposition avec <b>Let’s</b>, le tag est toujours <b>shall we</b>.' },
     { type: 'mcq', q: "— You didn't finish the report, did you? <small>(En réalité, tu l’as terminé.)</small> — ___", options: ['Yes, I did.', 'No, I did.', "No, I didn't.", "Yes, I didn't."], answer: 0, explain: 'On répond selon la réalité : tu l’as fini → <b>Yes, I did.</b> (= Si, je l’ai fini.) <i>Yes</i> va avec une phrase affirmative, <i>No</i> avec une phrase négative.' },
     { type: 'mcq', q: "— I'm exhausted. — ___", options: ['So do I.', 'So am I.', 'Neither am I.', 'Me neither.'], answer: 1, explain: 'Phrase affirmative avec <b>am</b> → « moi aussi » = <b>So am I</b>. <i>So do I</i> reprendrait un verbe au présent simple ; <i>Neither</i> et <i>Me neither</i> répondent à une phrase négative.' },
-    { type: 'gap', q: "— I didn't understand the new policy. — Neither ___ I.", answers: ['did'], explain: 'La phrase est au prétérit (<i>didn’t understand</i>) → on reprend <b>did</b> : <i>Neither <b>did</b> I</i> (moi non plus).' },
     { type: 'gap', q: "— We've already booked our flights. — So ___ we.", answers: ['have'], explain: 'Present perfect (<i>we’ve = we have booked</i>) → <i>So <b>have</b> we</i> (nous aussi).' },
     { type: 'mcq', q: "— Will the shipment arrive on time? — ___ It's stuck in customs.", options: ['I hope so.', "I'm afraid not.", 'I think so.', "I don't hope."], answer: 1, explain: 'La marchandise est bloquée en douane : c’est une mauvaise nouvelle → <b>I’m afraid not</b> (je crains que non). <i>I don’t hope</i> n’existe pas.' },
     { type: 'order', answer: 'Neither did the rest of the team.', fr: 'Le reste de l’équipe non plus (ne l’a pas reçu).', explain: '« … non plus » : <b>Neither</b> + auxiliaire (<i>did</i>) + sujet (<i>the rest of the team</i>), avec inversion.' },
+    { type: 'listen', accent: 'en-GB', say: "You'll be at the training session on Monday, won't you?", q: 'Quelle est la meilleure réponse ?', options: ["Yes, I've already signed up.", "It's a long train ride.", 'Yes, he trained very hard.'], answer: 0, explain: 'La question = <i>Will you be at the training session on Monday?</i> <b>Yes, I’ve already signed up</b> (oui, je suis déjà inscrite) y répond logiquement. Les deux autres sont des pièges sonores : <i>train</i> et <i>trained</i> ressemblent à <i>training</i>, mais ne répondent pas à la question (et <i>he</i> ne correspond pas à <i>you</i>).' },
     { type: 'listen', accent: 'en-AU', say: "You've received the invoice, haven't you?", q: 'Quelle est la meilleure réponse ?', options: ['Yes, it came yesterday.', "No, I haven't invoiced you.", 'I received a voice message.'], answer: 0, explain: 'La question = <i>Have you received the invoice?</i> <b>Yes, it came yesterday</b> répond logiquement. Les deux autres réponses sont des pièges sonores (<i>invoice → invoiced, voice</i>).' },
     { type: 'mcq', q: "Mr. Alvarez hasn't signed the contract yet, -------? <small>(style TOEIC)</small>", options: ['has he', "hasn't he", 'did he', 'does he'], answer: 0, explain: 'Auxiliaire <b>has</b> (present perfect) dans une phrase <b>négative</b> → tag affirmatif : <b>has he</b>.' },
     { type: 'mcq', q: 'The sales team exceeded its target this quarter, and so ------- the marketing department. <small>(style TOEIC)</small>', options: ['did', 'does', 'was', 'is'], answer: 0, explain: '<i>exceeded</i> est au prétérit, sans auxiliaire → on reprend <b>did</b> : <i>and so <b>did</b> the marketing department</i> (et le service marketing aussi).' }
