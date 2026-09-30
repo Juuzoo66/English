@@ -245,13 +245,16 @@
   const S_CONTRACTION = /\b(he|she|it|that|there|here|what|where|who|how|when|why|everyone|everybody|someone|somebody|no one|nobody|everything|something|nothing)'s\b/g;
   const HAS_S = new RegExp(S_CONTRACTION.source);
   const readings = (s) => (HAS_S.test(s) ? [s.replace(S_CONTRACTION, '$1 is'), s.replace(S_CONTRACTION, '$1 has')] : [s]);
+  // Trait d'union indifférent : « e-mail » = « email » = « e mail », « ten-minute » = « ten minute ».
+  const hyphenForms = (s) => [s, s.replace(/-/g, ' ').replace(/\s+/g, ' '), s.replace(/-/g, '')];
+  const forms = (s) => hyphenForms(s).flatMap(readings);
   LE.matches = function (given, accepted, loose) {
-    const f = loose ? LE.loose : LE.expand;
+    const f = loose ? (x) => LE.expand(x).replace(/[,;:"()–—]/g, ' ').replace(/[.!?]/g, '').replace(/\s+/g, ' ').trim() : LE.expand;
     const g = f(given);
     if (!g) return false;
-    const gs = readings(g);
+    const gs = forms(g);
     return accepted.some((a) => {
-      const as = readings(f(a));
+      const as = forms(f(a));
       return gs.some((x) => as.includes(x));
     });
   };
