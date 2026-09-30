@@ -20,7 +20,7 @@ LE.register({
       { en: 'The meeting ended at five.', fr: 'La réunion s’est terminée à cinq heures.' },
       { en: 'She worked in Tokyo for two years.', fr: 'Elle a travaillé à Tokyo pendant deux ans.', note: 'L’action est terminée : elle ne travaille plus à Tokyo.' }
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : « j’ai appelé » ne se dit pas « I have called »', html: 'Le passé composé français a deux mots (« j’<b>ai</b> appelé », « elle <b>est</b> arrivée »). Ne le traduis pas mot à mot : avec un moment passé précis, l’anglais utilise le prétérit, en <b>un seul mot</b>.<br><span class="ko">I have called him yesterday.</span> → <span class="ok">I called him yesterday.</span><br><span class="ko">She is arrived this morning.</span> → <span class="ok">She arrived this morning.</span>' },
+    { type: 'box', style: 'warn', title: 'Piège : « je l’ai appelé hier » ≠ « I have called him yesterday »', html: 'Le passé composé français a deux mots (« j’<b>ai</b> appelé », « elle <b>est</b> arrivée »). Ne le traduis pas mot à mot : avec un moment passé précis, l’anglais utilise le prétérit, en <b>un seul mot</b>.<br><span class="ko">I have called him yesterday.</span> → <span class="ok">I called him yesterday.</span><br><span class="ko">She is arrived this morning.</span> → <span class="ok">She arrived this morning.</span>' },
     { type: 'p', html: 'Tu connais déjà un prétérit : celui de <b>be</b> (<i>was / were</i>), vu dans la leçon « Le prétérit de « be » : was et were ». Ici, on s’occupe des verbes <b>réguliers</b>, c’est-à-dire de la grande majorité des verbes anglais.' },
 
     { type: 'h', text: 'La formation : base verbale + -ed' },
@@ -84,7 +84,7 @@ LE.register({
       ['<b>on</b> Monday / <b>on</b> May 3', 'lundi (dernier) / le 3 mai', 'The package arrived <b>on Monday</b>.'],
       ['<b>when I was</b>…', 'quand j’étais…', 'I lived in Dakar <b>when I was</b> a child.']
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : ago, last et « hier soir »', html: '• <b>Ago</b> se place <b>après</b> la durée : <span class="ko">ago two days</span> → <span class="ok">two days ago</span>.<br>• Pas de <i>the</i> devant <i>last</i> : <span class="ko">I called him the last week.</span> → <span class="ok">I called him last week.</span><br>• « Hier soir » se dit presque toujours <span class="ok">last night</span> (<i>yesterday night</i> est rare et peu naturel).' },
+    { type: 'box', style: 'warn', title: 'Piège : ago, last et « hier soir »', html: '• <b>Ago</b> se place <b>après</b> la durée : <span class="ko">ago two days</span> → <span class="ok">two days ago</span>.<br>• Pas de <i>the</i> devant <i>last</i> : <span class="ko">I called him the last week.</span> → <span class="ok">I called him last week.</span><br>• « Hier soir » se dit le plus souvent <span class="ok">last night</span> (ou <i>yesterday evening</i> pour le début de soirée) ; <i>yesterday night</i> est rare et peu naturel.' },
     { type: 'examples', items: [
       { en: 'Ms. Haddad joined the company five years ago.', fr: 'Mme Haddad est entrée dans l’entreprise il y a cinq ans.' },
       { en: 'I checked my email last night.', fr: 'J’ai consulté mes e-mails hier soir.' },

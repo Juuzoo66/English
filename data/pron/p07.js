@@ -23,7 +23,7 @@ LE.register({
     ], caption: 'On parle ici de l’accent « standard » de chaque pays, celui des voix du TOEIC. Chaque pays a aussi des accents régionaux : en Écosse, par exemple, le r se prononce.' },
 
     { type: 'h', text: 'Différence n°1 : le r en fin de syllabe' },
-    { type: 'p', html: 'En <b>américain</b> et en <b>canadien</b>, le r se prononce partout, même en fin de mot, avec la langue recourbée vers l’arrière : <i>car</i> = « kaar ». En <b>britannique</b> et en <b>australien</b>, le r ne se prononce que devant une voyelle : en fin de syllabe, il disparaît et allonge la voyelle : <i>car</i> = « kaa », <i>water</i> = « wo-teu », <i>order</i> = « oo-deu ». Si le mot suivant commence par une voyelle, le r revient pour faire la liaison : <i>the car is ready</i> → « the kaa-riz ready ».' },
+    { type: 'p', html: 'En <b>américain</b> et en <b>canadien</b>, le r se prononce partout, même en fin de mot, avec la langue recourbée vers l’arrière : <i>car</i> = « kaar ». En <b>britannique</b> et en <b>australien</b>, le r ne se prononce que devant une voyelle : en fin de syllabe, il disparaît (et la voyelle d’avant s’allonge souvent) : <i>car</i> = « kaa », <i>water</i> = « wo-teu », <i>order</i> = « oo-deu ». Si le mot suivant commence par une voyelle, le r revient pour faire la liaison : <i>the car is ready</i> → « the kaa-riz ready ».' },
     { type: 'examples', items: [
       { en: 'Please place your order.', fr: 'Veuillez passer votre commande.', accent: 'en-US', note: 'US : les r de <i>your</i> et <i>order</i> sont bien audibles.' },
       { en: 'Please place your order.', fr: 'Veuillez passer votre commande.', accent: 'en-GB', note: 'UK : « yoo », « oo-deu » : pas de r.' },
@@ -52,7 +52,7 @@ LE.register({
       ['job', '/dʒɑb/ « djaab »', '/dʒɒb/ « djob »'],
       ['schedule', '« <b>sk</b>è-djoul »', '« <b>sh</b>è-djoul » (UK traditionnel ; « sk- » s’entend aussi)'],
       ['la lettre Z', '« zii » aux États-Unis, mais « zèd » au Canada', '« zèd »']
-    ], caption: 'Le canadien suit l’américain pour les voyelles, mais il dit « zèd » comme les Britanniques.' },
+    ], caption: 'Pour ces mots, le canadien suit en gros l’américain, sauf pour la lettre Z : il dit « zèd », comme les Britanniques.' },
     { type: 'box', style: 'warn', title: 'Piège : le can’t britannique', html: 'Si tu as appris à repérer <i>can’t</i> grâce au « kaènt » américain, le « kaannt » britannique et australien peut te surprendre. Retiens : un <b>a long et accentué</b> = <b>can’t</b>. Le <i>can</i> affirmatif, lui, reste court et faible dans tous les accents (« keun »). Et ne compte pas sur le t final : il est souvent avalé (voir la leçon « L’anglais parlé réel : formes faibles, liaisons, contractions »).' },
     { type: 'examples', items: [
       { en: "Sorry, I can't make it on Tuesday.", fr: 'Désolée, je ne peux pas venir mardi.', accent: 'en-US', note: 'US : <i>can’t</i> = « kaènt ».' },

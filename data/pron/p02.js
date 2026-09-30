@@ -116,6 +116,7 @@ LE.register({
       ['<b>gh</b>', '<i>night, eight, daughter</i>', '« naït », « éït », « DO-tər »']
     ], caption: 'À l’écoute, tu dois reconnaître le mot tel qu’il <b>sonne</b>, pas tel qu’il s’écrit.' },
     { type: 'box', style: 'warn', title: 'Piège : des mots du TOEIC aux lettres muettes', html: '<i>receipt</i> (un reçu) se dit « ri-SIIT », sans p ; <i>debt</i> (une dette) se dit « dèt », sans b ; <i>Wednesday</i> se dit en deux syllabes, sans d. Ces mots sont fréquents au TOEIC (achats, finance, plannings) : si tu attends le p, le b ou le d, tu ne les reconnaîtras pas à l’oral !' },
+    { type: 'h', text: 'Révision : des paires à bien distinguer' },
     { type: 'pairs', items: [
       { a: 'sheet', b: 'seat', note: 'une feuille / un siège (<i>sh</i> = le « ch » français)' },
       { a: 'she', b: 'see', note: 'elle / voir' },

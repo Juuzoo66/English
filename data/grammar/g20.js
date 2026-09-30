@@ -25,16 +25,16 @@ LE.register({
     { type: 'h', text: 'La formation : was / were + verbe-ing' },
     { type: 'p', html: 'On prend le verbe <b>be au prétérit</b> (<i>was</i> ou <i>were</i>, voir la leçon « Le prétérit de « be » : was et were ») et on ajoute le verbe en <b>-ing</b>, exactement comme au présent continu. Un seul choix à faire : <b>was</b> ou <b>were</b>, selon le sujet.' },
     { type: 'table', head: ['Sujet', 'Affirmation', 'Négation', 'Question'], rows: [
-      ['I', 'I <b>was</b> working', 'I <b>wasn’t</b> working', '<b>Was</b> I working?'],
-      ['he / she / it', 'she <b>was</b> working', 'she <b>wasn’t</b> working', '<b>Was</b> she working?'],
-      ['you', 'you <b>were</b> working', 'you <b>weren’t</b> working', '<b>Were</b> you working?'],
-      ['we / they', 'they <b>were</b> working', 'they <b>weren’t</b> working', '<b>Were</b> they working?']
-    ], caption: 'Retiens : <b>I, he, she, it → was</b> ; <b>you, we, they → were</b>. <i>wasn’t</i> = was not ; <i>weren’t</i> = were not.' },
+      ['I', 'I <b>was</b> working', 'I <b>wasn\'t</b> working', '<b>Was</b> I working?'],
+      ['he / she / it', 'she <b>was</b> working', 'she <b>wasn\'t</b> working', '<b>Was</b> she working?'],
+      ['you', 'you <b>were</b> working', 'you <b>weren\'t</b> working', '<b>Were</b> you working?'],
+      ['we / they', 'they <b>were</b> working', 'they <b>weren\'t</b> working', '<b>Were</b> they working?']
+    ], caption: 'Retiens : <b>I, he, she, it → was</b> ; <b>you, we, they → were</b>. <i>wasn\'t</i> = was not ; <i>weren\'t</i> = were not.' },
     { type: 'box', style: 'tip', title: 'Rappel : l’orthographe du -ing', html: 'Les règles sont les mêmes qu’au présent continu :<br>• le <b>e</b> muet final tombe : <i>make → making</i>, <i>write → writing</i> ;<br>• verbe d’une syllabe terminé par consonne + <b>une seule</b> voyelle + consonne : on double la dernière consonne : <i>stop → stopping</i>, <i>plan → planning</i>, <i>run → running</i> (mais jamais w, x, y : <i>fix → fixing</i>) ;<br>• <b>-ie</b> devient <b>-ying</b> : <i>lie → lying</i>, <i>tie → tying</i>.' },
     { type: 'examples', items: [
       { en: "I wasn't listening. Can you repeat that?", fr: 'Je n’écoutais pas. Tu peux répéter ?' },
       { en: "The machines weren't working this morning.", fr: 'Les machines ne fonctionnaient pas ce matin.', note: '<i>work</i> veut aussi dire « fonctionner » pour une machine.' },
-      { en: 'Were you waiting for me? — Yes, I was.', fr: 'Tu m’attendais ? — Oui.', note: 'Réponse courte : on reprend seulement <i>was / were</i> : <i>Yes, I was. / No, I wasn’t.</i>' },
+      { en: 'Were you waiting for me? — Yes, I was.', fr: 'Tu m’attendais ? — Oui.', note: 'Réponse courte : on reprend seulement <i>was / were</i> : <i>Yes, I was. / No, I wasn\'t.</i>' },
       { en: 'Why was Mr. Chen waiting outside?', fr: 'Pourquoi M. Chen attendait-il dehors ?' }
     ] },
 
@@ -63,7 +63,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'Emploi 3 : deux actions en même temps (while)' },
-    { type: 'p', html: '<b>While</b> veut dire « pendant que ». Il introduit une action <b>longue</b>, donc il est presque toujours suivi du past continuous. On l’utilise pour deux actions longues <b>simultanées</b> (les deux au past continuous), ou pour une action longue pendant laquelle une action courte se produit.' },
+    { type: 'p', html: '<b>While</b> veut dire « pendant que ». Il introduit une action <b>longue</b>, donc il est très souvent suivi du past continuous. On l’utilise pour deux actions longues <b>simultanées</b> (les deux au past continuous), ou pour une action longue pendant laquelle une action courte se produit.' },
     { type: 'examples', items: [
       { en: 'While I was preparing the slides, Kenji was booking the meeting room.', fr: 'Pendant que je préparais les diapos, Kenji réservait la salle de réunion.' },
       { en: 'While the manager was speaking, everyone was taking notes.', fr: 'Pendant que la directrice parlait, tout le monde prenait des notes.' },
@@ -86,7 +86,7 @@ LE.register({
       ['Je <b>travaillais</b> quand il a appelé.', 'I <b>was working</b> when he called.', 'action en cours → past continuous'],
       ['Chaque été, nous <b>allions</b> en Italie.', 'Every summer, we <b>went</b> to Italy.', 'habitude → prétérit'],
       ['Il <b>avait</b> une voiture de fonction.', 'He <b>had</b> a company car.', 'possession (un état) → prétérit'],
-      ['Je ne <b>savais</b> pas.', 'I <b>didn’t know</b>.', 'verbe d’état → prétérit'],
+      ['Je ne <b>savais</b> pas.', 'I <b>didn\'t know</b>.', 'verbe d’état → prétérit'],
       ['Le bureau <b>était</b> grand.', 'The office <b>was</b> big.', 'description avec <i>be</i> → <i>was</i>']
     ], caption: 'Pour une habitude passée, tu peux aussi utiliser <i>used to</i> : <i>We used to go to Italy.</i> (voir la leçon « Used to, be used to, get used to et le causatif »).' },
     { type: 'box', style: 'warn', title: 'Piège : l’imparfait d’habitude', html: '<span class="ko">When I lived in Lyon, I was often taking the train to Paris.</span><br><span class="ok">When I lived in Lyon, I often took the train to Paris.</span><br>Une action <b>répétée</b> (avec <i>often, usually, every day, every summer</i>…) se met au <b>prétérit</b>, même si le français dit « je prenais ».' },
@@ -115,14 +115,14 @@ LE.register({
     { type: 'mcq', q: 'At 9 p.m. last night, I ___ TV at home.', options: ['was watching', 'were watching', 'am watching', 'watching'], answer: 0, explain: 'Moment précis du passé (<i>at 9 p.m. last night</i>) + action en cours → past continuous. Avec <b>I</b> → <b>was watching</b>.' },
     { type: 'gap', q: 'The two engineers ___ (test) the new machine when the power went out.', answers: ['were testing'], explain: 'Action longue interrompue par la coupure de courant. Sujet pluriel (<i>the two engineers</i> = they) → <b>were testing</b>.' },
     { type: 'gap', q: '— What were you doing at 10 a.m.? — I ___ (talk) to a client.', answers: ['was talking'], explain: 'On répond avec le temps de la question : action en cours à 10 heures → <b>was talking</b> (avec I → was).' },
-    { type: 'gap', q: 'Don’t worry, you didn’t wake me up. I ___ (not / sleep) when you called.', answers: ["wasn't sleeping", 'was not sleeping'], explain: 'Négation : <b>wasn’t</b> (= was not) + -ing. « Je ne dormais pas » au moment de ton appel.' },
+    { type: 'gap', q: 'Don\'t worry, you didn\'t wake me up. I ___ (not / sleep) when you called.', answers: ["wasn't sleeping", 'was not sleeping'], explain: 'Négation : <b>wasn\'t</b> (= was not) + -ing. « Je ne dormais pas » au moment de ton appel.' },
     { type: 'order', answer: 'What were you doing at nine?', fr: 'Qu’est-ce que tu faisais à neuf heures ?', explain: 'Question : mot interrogatif (<i>What</i>) + <b>were</b> + sujet + verbe-ing + moment.' },
     { type: 'mcq', q: 'I was driving to work when my phone ___.', options: ['rang', 'rings', 'has rung', 'will ring'], answer: 0, explain: 'L’action courte qui interrompt l’action longue se met au <b>prétérit</b> : <i>rang</i> (prétérit irrégulier de <i>ring</i>).' },
     { type: 'gap', q: 'Leila ___ (make) photocopies when the fire alarm went off.', answers: ['was making'], explain: 'Action longue interrompue par l’alarme → <b>was making</b>. Orthographe : <i>make</i> perd son <b>e</b> → <i>making</i>.' },
     { type: 'mcq', q: '___ I was preparing the report, my colleague was answering e-mails.', options: ['During', 'While', 'Meanwhile', 'Then'], answer: 1, explain: '<b>While</b> (pendant que) + sujet + verbe : deux actions longues simultanées. <i>During</i> est suivi d’un nom, pas d’un sujet + verbe.' },
     { type: 'mcq', q: 'The fire alarm went off ___ the meeting.', options: ['while', 'during', 'when'], answer: 1, explain: '<i>the meeting</i> est un <b>nom</b> sans verbe → <b>during</b>. Avec un verbe, on dirait <i>while we were having the meeting</i>.' },
     { type: 'order', answer: 'I was talking to a client when you called.', alts: ['When you called I was talking to a client.'], fr: 'J’étais en train de parler à un client quand tu as appelé.', explain: 'Action longue (<b>was talking</b>) interrompue par une action courte (<b>when you called</b>). On peut aussi commencer par <i>When you called</i>.' },
-    { type: 'mcq', q: 'Traduis : « Je ne connaissais pas son nom. »', options: ["I didn't know his name.", "I wasn't knowing his name.", "I wasn't know his name.", "I don't know his name."], answer: 0, explain: '<i>know</i> est un <b>verbe d’état</b> : jamais de -ing. L’imparfait « je ne connaissais pas » se traduit par le prétérit <b>didn’t know</b>.' },
+    { type: 'mcq', q: 'Traduis : « Je ne connaissais pas son nom. »', options: ["I didn't know his name.", "I wasn't knowing his name.", "I wasn't know his name.", "I don't know his name."], answer: 0, explain: '<i>know</i> est un <b>verbe d’état</b> : jamais de -ing. L’imparfait « je ne connaissais pas » se traduit par le prétérit <b>didn\'t know</b>.' },
     { type: 'mcq', q: 'Traduis : « Chaque été, nous allions en Italie. »', options: ['Every summer, we were going to Italy.', 'Every summer, we went to Italy.', 'Every summer, we go to Italy.'], answer: 1, explain: 'Habitude passée (<i>every summer</i>) → <b>prétérit</b> : <i>we went</i> (ou <i>we used to go</i>). L’imparfait d’habitude ne se traduit pas par le past continuous.' },
     { type: 'listen', accent: 'en-GB', say: "Sorry I missed your call this morning. I was driving to the airport, and I couldn't answer the phone.", q: 'Pourquoi la personne n’a-t-elle pas répondu au téléphone ?', options: ['Elle était en réunion avec un client.', 'Elle conduisait pour aller à l’aéroport.', 'Elle était dans l’avion.'], answer: 1, explain: 'Elle dit <i>I <b>was driving</b> to the airport</i> : elle était en train de conduire au moment de l’appel.' },
     { type: 'dictation', accent: 'en-AU', say: 'We were waiting for the client.', answers: ['We were waiting for the client'], explain: '« Nous attendions le client. » À l’oral, <i>were</i> est souvent prononcé faiblement, presque « wer ».' },

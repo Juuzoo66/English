@@ -36,7 +36,7 @@ LE.register({
       { en: 'When I worked in Tokyo, I would take the train at six every morning.', fr: 'Quand je travaillais à Tokyo, je prenais le train à six heures tous les matins.' },
       { en: 'Every Friday, the whole team would have lunch together.', fr: 'Tous les vendredis, toute l’équipe déjeunait ensemble.', note: '<i>have lunch</i> = une action → <i>would</i> possible.' },
       { en: 'My first boss would always check every detail.', fr: 'Mon premier patron vérifiait toujours chaque détail.' },
-      { en: 'I used to have a long commute.', fr: 'Avant, j’avais un long trajet pour aller au travail.', note: '<i>have</i> = posséder (un état) → <i>used to</i> seulement.' }
+      { en: 'I used to have a long commute.', fr: 'Avant, j’avais un long trajet pour aller au travail.', note: '<i>have a long commute</i> décrit une situation (un <b>état</b>), pas une action → <i>used to</i> seulement.' }
     ] },
     { type: 'table', head: ['Situation passée', 'used to', 'would', 'Prétérit simple'], rows: [
       ['Action répétée (habitude)', '<span class="ok">✓</span> I used to take the bus.', '<span class="ok">✓</span> I would take the bus.', '<span class="ok">✓</span> I took the bus every day.'],
