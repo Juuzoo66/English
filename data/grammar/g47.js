@@ -40,7 +40,7 @@ LE.register({
       ['<b>propose</b> that', 'proposer que', 'Ms. Kowalski proposed that the team <b>work</b> from home on Fridays.'],
       ['<b>demand</b> that', 'exiger que (avec force)', 'The union demanded that the factory <b>remain</b> open.'],
       ['<b>advise</b> / <b>urge</b> that', 'conseiller (vivement) que', 'We strongly advise that each passenger <b>arrive</b> two hours early.']
-    ], caption: 'Dans une phrase courte, <i>that</i> peut être omis : <i>I suggest you <b>call</b> her.</i> La base verbale reste la même.' },
+    ], caption: 'Dans un style moins formel, surtout après <i>suggest</i> et <i>recommend</i>, <i>that</i> est souvent omis : <i>I suggest you <b>call</b> her.</i> La base verbale reste la même.' },
     { type: 'examples', items: [
       { en: 'The consultant recommended that the company reduce its travel expenses.', fr: 'La consultante a recommandé que l’entreprise réduise ses frais de déplacement.', note: 'Le verbe principal est au passé, mais <b>reduce</b> ne change pas.' },
       { en: 'Our policy requires that every visitor wear a badge.', fr: 'Notre règlement exige que chaque visiteur porte un badge.' },
@@ -117,7 +117,7 @@ LE.register({
       ['Sales increased, and profits <b>also</b> rose.', '<b>Not only did sales increase</b>, <b>but</b> profits <b>also</b> rose.', 'Non seulement les ventes ont augmenté, mais les bénéfices aussi.'],
       ['We <b>rarely receive</b> complaints.', '<b>Rarely do we receive</b> complaints.', 'Nous recevons rarement des réclamations.'],
       ['The results <b>will be</b> published <b>only after</b> the audit.', '<b>Only after</b> the audit <b>will the results be</b> published.', 'Les résultats ne seront publiés qu’après l’audit.']
-    ], caption: 'Pas d’auxiliaire → <b>do / does / did</b> + <b>base verbale</b> : <span class="ko">Not only sales increased…</span> → <span class="ok">Not only did sales increase…</span> ; <span class="ko">Never I have seen…</span> → <span class="ok">Never have I seen…</span> Si <i>not only</i> est au milieu de la phrase, pas d’inversion : <i>The system <b>not only reduced</b> costs <b>but also improved</b> quality.</i>' },
+    ], caption: 'Pas d’auxiliaire → <b>do / does / did</b> + <b>base verbale</b> : <span class="ko">Not only sales increased…</span> → <span class="ok">Not only did sales increase…</span> Auxiliaire déjà présent → on l’inverse directement : <span class="ko">Never I have seen…</span> → <span class="ok">Never have I seen…</span> Si <i>not only</i> est au milieu de la phrase, pas d’inversion : <i>The system <b>not only reduced</b> costs <b>but also improved</b> quality.</i>' },
     { type: 'examples', items: [
       { en: 'Not only did the new system reduce costs, but it also improved quality.', fr: 'Non seulement le nouveau système a réduit les coûts, mais il a aussi amélioré la qualité.' },
       { en: 'Never have we received so many applications for a single position.', fr: 'Jamais nous n’avons reçu autant de candidatures pour un seul poste.' },
