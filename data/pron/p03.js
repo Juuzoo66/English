@@ -99,9 +99,9 @@ LE.register({
     { type: 'table', head: ['Prix écrit', 'À l’oral (courant)', 'À l’oral (complet)'], rows: [
       ['$4.99', 'four ninety-nine', 'four dollars and ninety-nine cents'],
       ['$15.50', 'fifteen fifty', 'fifteen dollars and fifty cents'],
-      ['$0.75', 'seventy-five cents', '—'],
+      ['$0.75', 'seventy-five cents', '(identique)'],
       ['$1,200', 'twelve hundred dollars', 'one thousand two hundred dollars'],
-      ['€20', 'twenty euros', '—'],
+      ['€20', 'twenty euros', '(identique)'],
       ['£8.25', 'eight twenty-five', 'eight pounds twenty-five (pence)']
     ], caption: 'Le symbole s’écrit <b>avant</b> le nombre, mais se dit <b>après</b> : $5 = <i>five dollars</i>.' },
     { type: 'examples', items: [
@@ -134,7 +134,7 @@ LE.register({
 
     { type: 'h', text: 'L’heure' },
     { type: 'table', head: ['Heure', 'Façon « chiffres » (la plus courante)', 'Façon « classique »'], rows: [
-      ['7:00', "seven <small>ou</small> seven o'clock", '—'],
+      ['7:00', "seven <small>ou</small> seven o'clock", '(identique)'],
       ['7:05', 'seven-oh-five', 'five past seven <small>ou</small> five after seven (US)'],
       ['7:15', 'seven fifteen', 'a quarter past seven <small>ou</small> a quarter after seven (US)'],
       ['7:30', 'seven thirty', 'half past seven'],

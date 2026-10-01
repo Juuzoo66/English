@@ -3,7 +3,7 @@ LE.register({
   kind: 'mock-section',
   mock: 'm01',
   section: 'reading',
-  title: 'TOEIC blanc n°1 — Reading',
+  title: 'TOEIC blanc n°1 : Reading',
   minutes: 38,
   parts: [
     /* ---------------- Partie 5 : 15 phrases à compléter ---------------- */
@@ -75,7 +75,7 @@ LE.register({
             explain: '<b>In the meantime</b> = en attendant, d’ici là : jusqu’à la fin des travaux (le 28 mars), la responsable s’excuse pour la gêne. <i>Otherwise</i> (sinon), <i>As a result</i> (par conséquent) et <i>For example</i> (par exemple) n’expriment pas le bon lien logique.' }
         ] },
       { title: 'Article',
-        text: 'CLAYTON (May 14) — Tallis Bakery, a family-owned business founded in 1998, is opening its third location next month on Harbor Street. The new shop will be {1} than the company\'s two existing stores, and it will include a café area with seating for up to 40 customers.\n\n"For years, our customers have asked for a place where they can sit down and enjoy our bread and pastries," said owner Rosa Tallis. "{2}"\n\nThe bakery also plans to hire about fifteen new employees, including bakers, cashiers, and servers. According to Ms. Tallis, {3} experience is not necessary, as all new staff members will receive full training.\n\nThe Harbor Street shop will open on June 7. To celebrate, the first 100 customers will receive a free loaf of bread. Job applications can be {4} through the bakery\'s Web site.',
+        text: 'CLAYTON (May 14): Tallis Bakery, a family-owned business founded in 1998, is opening its third location next month on Harbor Street. The new shop will be {1} than the company\'s two existing stores, and it will include a café area with seating for up to 40 customers.\n\n"For years, our customers have asked for a place where they can sit down and enjoy our bread and pastries," said owner Rosa Tallis. "{2}"\n\nThe bakery also plans to hire about fifteen new employees, including bakers, cashiers, and servers. According to Ms. Tallis, {3} experience is not necessary, as all new staff members will receive full training.\n\nThe Harbor Street shop will open on June 7. To celebrate, the first 100 customers will receive a free loaf of bread. Job applications can be {4} through the bakery\'s Web site.',
         questions: [
           { options: ['large', 'largest', 'larger', 'largely'], answer: 2,
             explain: 'Le mot <b>than</b> (que) annonce un <b>comparatif</b> : <i>larger than</i> (plus grande que). <i>largest</i> est un superlatif, <i>largely</i> un adverbe (« en grande partie »).' },
@@ -95,10 +95,10 @@ LE.register({
 
     /* ---------------- Partie 7 : compréhension écrite ---------------- */
     { part: 7, items: [
-      /* 1 — Annonce (3 q) */
+      /* 1 : Annonce (3 q) */
       { docs: [
-          { kind: 'Advertisement', title: 'Elmbrook Commons — Flexible Workspace in Downtown Ridgefield',
-            text: 'Need a professional place to work without signing a long-term lease? Elmbrook Commons offers modern, fully furnished offices and shared desks in the heart of downtown Ridgefield, just a two-minute walk from Central Station.\n\n<b>Membership options</b>\n• Day Pass — $25 per day: shared desk, high-speed Internet, and free coffee\n• Flex Plan — $180 per month: 10 days of access per month, plus 2 hours of meeting-room use\n• Private Office — $650 per month: your own lockable office, available 24 hours a day\n\nAll members may use our printers and scanners and receive business mail at our address.\n\n<b>Special offer:</b> Sign up for any monthly plan before April 30 and get your first week free!\n\nVisit us at 48 Maple Avenue or call 555-0142 to book a free tour.' }
+          { kind: 'Advertisement', title: 'Elmbrook Commons: Flexible Workspace in Downtown Ridgefield',
+            text: 'Need a professional place to work without signing a long-term lease? Elmbrook Commons offers modern, fully furnished offices and shared desks in the heart of downtown Ridgefield, just a two-minute walk from Central Station.\n\n<b>Membership options</b>\n• Day Pass ($25 per day): shared desk, high-speed Internet, and free coffee\n• Flex Plan ($180 per month): 10 days of access per month, plus 2 hours of meeting-room use\n• Private Office ($650 per month): your own lockable office, available 24 hours a day\n\nAll members may use our printers and scanners and receive business mail at our address.\n\n<b>Special offer:</b> Sign up for any monthly plan before April 30 and get your first week free!\n\nVisit us at 48 Maple Avenue or call 555-0142 to book a free tour.' }
         ],
         questions: [
           { q: 'What is being advertised?',
@@ -112,7 +112,7 @@ LE.register({
             explain: '<i>Sign up for <b>any monthly plan before April 30</b></i> : il faut choisir une formule <b>mensuelle</b> (Flex Plan ou Private Office) avant le 30 avril. Le <i>Day Pass</i> est à la journée : il ne donne pas droit à l’offre. La visite est proposée, pas obligatoire.' }
         ] },
 
-      /* 2 — Facture (3 q) */
+      /* 2 : Facture (3 q) */
       { docs: [
           { kind: 'Invoice',
             text: '<b>TIDEWELL OFFICE SUPPLIES</b>\n1250 Industrial Parkway, Denton\nPhone: 555-0187\n\n<b>INVOICE No. 40782</b>\nInvoice date: October 6\nBill to: Kessler-Obi Architects, 17 River Road, Denton\nAccount number: KO-5521\n\nItem | Quantity | Unit price | Amount\nPrinter paper (box of 10 reams) | 4 | $42.00 | $168.00\nBlack ink cartridges | 6 | $31.50 | $189.00\nDesk organizers | 3 | $18.00 | $54.00\nErgonomic chairs (model E-200) | 2 | $249.00 | $498.00\n\nSubtotal: $909.00\nDelivery: FREE (orders over $500)\n<b>Total due: $909.00</b>\n\nPayment is due within 30 days of the invoice date. A late fee of 2% will be added to any balance that remains unpaid after that date.\n\nNote: The ergonomic chairs are temporarily out of stock and will be shipped separately on October 20. All other items were delivered on October 6.\n\nQuestions about this invoice? Call our billing department at 555-0187.' }
@@ -129,7 +129,7 @@ LE.register({
             explain: 'Le paiement est dû <b>sous 30 jours</b> à partir du 6 octobre, donc au plus tard le 5 novembre. Ensuite, <i>a <b>late fee of 2%</b> will be added</i> : des frais de retard (<i>an additional charge</i>) s’ajoutent.' }
         ] },
 
-      /* 3 — Discussion en ligne (3 q, dont 1 question d'intention) */
+      /* 3 : Discussion en ligne (3 q, dont 1 question d'intention) */
       { docs: [
           { kind: 'Online chat',
             text: 'Daniela Ruiz (9:02 A.M.): Hi, team. The presentation for Nakamura Foods has been moved up to Thursday morning instead of Friday afternoon. Can we still be ready?\nKwame Asante (9:04 A.M.): That\'s tight. The third-quarter sales figures won\'t be final until Wednesday afternoon.\nDaniela Ruiz (9:05 A.M.): Could we use the figures from the preliminary report and update them later?\nKwame Asante (9:06 A.M.): I\'d rather not. Those numbers are exactly what the client will want to discuss.\nLinh Pham (9:08 A.M.): I could ask the finance department to send us the final figures a day early. I know their director well. We worked together on last year\'s budget review.\nKwame Asante (9:09 A.M.): If I get them by Tuesday evening, I can finish the charts on Wednesday morning.\nLinh Pham (9:10 A.M.): Leave it to me.\nDaniela Ruiz (9:11 A.M.): Great. I\'ll reserve the large conference room so we can rehearse on Wednesday at 4 P.M.' }
@@ -146,7 +146,7 @@ LE.register({
             explain: 'Juste avant, elle propose de demander les chiffres définitifs au service financier, et M. Asante précise qu’il en a besoin mardi soir. <i>Leave it to me</i> = « Je m’en occupe » : elle va contacter le service financier. C’est Mme Ruiz qui réserve la salle, et M. Asante qui fait les graphiques.' }
         ] },
 
-      /* 4 — E-mail (4 q, dont 1 question de vocabulaire) */
+      /* 4 : E-mail (4 q, dont 1 question de vocabulaire) */
       { docs: [
           { kind: 'E-mail',
             text: 'To: Tomás Ferreira\nFrom: Helen Adeyemi\nDate: August 25\nSubject: Your first day at Corvell Engineering\nAttachment: direct_deposit_form.pdf\n\nDear Mr. Ferreira,\n\nOn behalf of everyone at Corvell Engineering, I am pleased to welcome you to our team. As discussed during your final interview, your first day as a project coordinator will be Monday, September 8.\n\nPlease arrive at our main office at 8:30 A.M. and ask for me at the front desk. The morning will be devoted to orientation: you will receive your employee badge, fill out some paperwork, and attend a short safety presentation. In the afternoon, you will meet your supervisor, Gavin Lowe, and the other members of the infrastructure team.\n\nBefore your first day, please send me a copy of your university diploma and the attached direct-deposit form so that your salary can be paid on time.\n\nFinally, please note that parking at our main office is limited. Employees who drive to work must apply for a parking permit, which usually takes about two weeks to process. If you plan to drive, I recommend applying as soon as possible. Otherwise, the Riverside bus stop is located directly across the street.\n\nWe look forward to working with you.\n\nSincerely,\nHelen Adeyemi\nHuman Resources Manager, Corvell Engineering' }
@@ -166,10 +166,10 @@ LE.register({
             explain: '<i>The Riverside <b>bus stop is located directly across the street</b></i> : il y a un arrêt de bus juste en face. Le parking est au contraire limité (<i>parking … is limited</i>), et le premier jour de travail est un lundi, donc le bureau est ouvert ce jour-là.' }
         ] },
 
-      /* 5 — Article (4 q, dont 1 insertion de phrase) */
+      /* 5 : Article (4 q, dont 1 insertion de phrase) */
       { docs: [
           { kind: 'Article', title: 'Clothing Maker to Move Headquarters to Eastgate',
-            text: 'PORT ALDEN (February 12) — Marrowfield Outfitters, a maker of outdoor clothing, announced on Monday that it will move its headquarters from the city center to a renovated warehouse in the Eastgate district. — [1] —\n\nThe company, which was founded twelve years ago by designers Oliver Marrow and Nadia Fielding, has grown rapidly and now employs 240 people. "We have simply run out of space," said Ms. Fielding. "Our design and marketing teams are currently spread across three different buildings, which makes working together difficult." — [2] —\n\nThe new headquarters will bring all departments together under one roof. It will also include a small workshop where the company will make samples of its new products, a task currently handled by a partner company overseas. — [3] — According to Mr. Marrow, this will allow designers to test their ideas much more quickly.\n\nThe move is expected to be completed in September. Local officials welcomed the news, pointing out that the project will create about 60 new jobs in the area. — [4] — Recruitment for these positions will begin in the spring.' }
+            text: 'PORT ALDEN (February 12): Marrowfield Outfitters, a maker of outdoor clothing, announced on Monday that it will move its headquarters from the city center to a renovated warehouse in the Eastgate district. [1]\n\nThe company, which was founded twelve years ago by designers Oliver Marrow and Nadia Fielding, has grown rapidly and now employs 240 people. "We have simply run out of space," said Ms. Fielding. "Our design and marketing teams are currently spread across three different buildings, which makes working together difficult." [2]\n\nThe new headquarters will bring all departments together under one roof. It will also include a small workshop where the company will make samples of its new products, a task currently handled by a partner company overseas. [3] According to Mr. Marrow, this will allow designers to test their ideas much more quickly.\n\nThe move is expected to be completed in September. Local officials welcomed the news, pointing out that the project will create about 60 new jobs in the area. [4] Recruitment for these positions will begin in the spring.' }
         ],
         questions: [
           { q: 'What is the article mainly about?',
@@ -186,10 +186,10 @@ LE.register({
             explain: '<i>them</i> doit renvoyer à un nom pluriel qui précède : <i>about <b>60 new jobs</b></i>. « La plupart <b>de ces emplois</b> seront dans la production et l’expédition », puis <i>Recruitment for these positions…</i> (le recrutement pour ces postes) enchaîne naturellement. Aux autres positions, <i>them</i> renverrait au siège, aux bâtiments, aux équipes de design et de marketing ou aux échantillons : seuls des <b>emplois</b> peuvent être « dans la production et l’expédition ».' }
         ] },
 
-      /* 6 — Double document (5 q, dont 2 questions de croisement) */
+      /* 6 : Double document (5 q, dont 2 questions de croisement) */
       { docs: [
-          { kind: 'Schedule', title: 'Halloway Community College — Fall Professional Development Workshops',
-            text: 'Workshop | Date | Time | Fee\nEffective Business Writing | Tuesday, October 7 | 6:00–8:30 P.M. | $85\nIntroduction to Spreadsheets | Thursday, October 9 | 6:00–9:00 P.M. | $95\nPublic Speaking for Professionals | Saturday, October 11 | 9:00 A.M.–12:00 P.M. | $110\nNegotiation Skills | Saturday, October 18 | 1:00–4:00 P.M. | $110\n\nAll workshops are held in the Weller Building, Room 204, except Introduction to Spreadsheets, which takes place in Computer Lab B.\n\nRegister online or by phone at 555-0163. Participants who register for two or more workshops receive a 15% discount on the total fee.\n\nCancellations made at least 48 hours before the start of a workshop are fully refunded.' },
+          { kind: 'Schedule', title: 'Halloway Community College: Fall Professional Development Workshops',
+            text: 'Workshop | Date | Time | Fee\nEffective Business Writing | Tuesday, October 7 | 6:00-8:30 P.M. | $85\nIntroduction to Spreadsheets | Thursday, October 9 | 6:00-9:00 P.M. | $95\nPublic Speaking for Professionals | Saturday, October 11 | 9:00 A.M.-12:00 P.M. | $110\nNegotiation Skills | Saturday, October 18 | 1:00-4:00 P.M. | $110\n\nAll workshops are held in the Weller Building, Room 204, except Introduction to Spreadsheets, which takes place in Computer Lab B.\n\nRegister online or by phone at 555-0163. Participants who register for two or more workshops receive a 15% discount on the total fee.\n\nCancellations made at least 48 hours before the start of a workshop are fully refunded.' },
           { kind: 'E-mail',
             text: 'To: Registration Office, Halloway Community College\nFrom: Mariam Qureshi\nDate: October 2\nSubject: My registration\n\nHello,\n\nYesterday I registered online for the workshop on October 11 and paid the full fee. Since then, my manager has agreed that the company will pay for a second course, so I would like to add the negotiation workshop. Could you please apply the multiple-workshop discount to both courses?\n\nAlso, my confirmation e-mail says that my first workshop will take place in Computer Lab B. Could you please confirm the location? I want to make sure I go to the right place.\n\nThank you,\nMariam Qureshi' }
         ],
@@ -211,13 +211,13 @@ LE.register({
             explain: '<b>Croisement</b> : son premier atelier est <i>Public Speaking for Professionals</i> (11 octobre). Le programme précise que tous les ateliers ont lieu dans la <b>salle 204 du Weller Building</b>, <b>sauf</b> <i>Introduction to Spreadsheets</i> (en Computer Lab B). Son e-mail de confirmation contient donc une erreur.' }
         ] },
 
-      /* 7 — Triple document (5 q, dont 2 questions de croisement) */
+      /* 7 : Triple document (5 q, dont 2 questions de croisement) */
       { docs: [
-          { kind: 'Web page', title: 'Saffron Table Catering — Business Lunch and Reception Packages',
-            text: 'Fresh, homemade food for your business events\n\nPackages (price per person):\n• <b>Classic Lunch</b> — $14: assorted sandwiches, green salad, fresh fruit, soft drinks\n• <b>Hot Lunch</b> — $22: roast chicken or vegetable lasagna, green salad, dessert, soft drinks\n• <b>Evening Reception</b> — $30: hot and cold appetizers, dessert table, soft drinks, coffee\n\nPlease note:\n– Minimum order: 20 people.\n– Orders must be placed at least five business days before the event.\n– Delivery is free within 10 miles of our kitchen in Lakewood. A $40 fee applies to longer distances.\n– Plates, napkins, and utensils are included with every order at no extra charge.' },
+          { kind: 'Web page', title: 'Saffron Table Catering: Business Lunch and Reception Packages',
+            text: 'Fresh, homemade food for your business events\n\nPackages (price per person):\n• <b>Classic Lunch</b> ($14): assorted sandwiches, green salad, fresh fruit, soft drinks\n• <b>Hot Lunch</b> ($22): roast chicken or vegetable lasagna, green salad, dessert, soft drinks\n• <b>Evening Reception</b> ($30): hot and cold appetizers, dessert table, soft drinks, coffee\n\nPlease note:\n• Minimum order: 20 people.\n• Orders must be placed at least five business days before the event.\n• Delivery is free within 10 miles of our kitchen in Lakewood. A $40 fee applies to longer distances.\n• Plates, napkins, and utensils are included with every order at no extra charge.' },
           { kind: 'E-mail',
             text: 'To: Saffron Table Catering\nFrom: Grace Okonkwo\nDate: June 9\nSubject: Lunch order for June 25\n\nHello,\n\nOur company is holding an all-day training session for 35 employees on Wednesday, June 25, at our office in Brookfield, about 15 miles from Lakewood. We would like you to provide lunch at 12:30 P.M.\n\nOur staff would prefer a hot meal rather than sandwiches. Also, about ten of our employees do not eat meat, so please make sure there is a vegetarian option.\n\nCould you send me a price estimate by Wednesday, June 11? I would like to confirm the order before the end of the week.\n\nBest regards,\nGrace Okonkwo\nOffice Manager, Delmont Insurance' },
-          { kind: 'Review', title: 'Customer Reviews — Saffron Table Catering',
+          { kind: 'Review', title: 'Customer Reviews: Saffron Table Catering',
             text: '★★★★☆ Posted by Grace O. on June 27\n\nWe hired Saffron Table to cater a staff training day this week, and I would definitely use them again. The food was delicious, and several colleagues asked me for the caterer\'s name. The vegetable lasagna was especially popular.\n\nThe only problem was that the delivery van arrived twenty minutes later than scheduled, which made me a little nervous. However, the team set everything up very quickly, and lunch started almost on time. When I mentioned the delay, the owner, Arjun Bhatt, kindly removed the delivery fee from our bill.' }
         ],
         questions: [

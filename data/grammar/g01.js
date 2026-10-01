@@ -44,7 +44,7 @@ LE.register({
     { type: 'h', text: 'La forme négative' },
     { type: 'p', html: 'Pour dire « ne… pas », on ajoute simplement <b>not</b> après <b>am / is / are</b>. Deux contractions sont possibles, elles veulent dire la même chose.' },
     { type: 'table', head: ['Forme pleine', 'Contraction 1', 'Contraction 2'], rows: [
-      ['I am not', 'I’m not', '—'],
+      ['I am not', 'I’m not', '(n’existe pas)'],
       ['you are not', 'you’re not', 'you aren’t'],
       ['he / she / it is not', 'he’s not', 'he isn’t'],
       ['we / they are not', 'we’re not', 'we aren’t']
@@ -69,7 +69,7 @@ LE.register({
       { en: 'Where are you from?', fr: 'D’où viens-tu ?' },
       { en: "I'm from Lyon. I'm French.", fr: 'Je viens de Lyon. Je suis française.' },
       { en: 'Is Mr. Brown in his office?', fr: 'Est-ce que M. Brown est dans son bureau ?' },
-      { en: 'How are you? — Fine, thanks.', fr: 'Comment vas-tu ? — Bien, merci.' }
+      { en: 'How are you? Fine, thanks.', fr: 'Comment vas-tu ? Bien, merci.' }
     ] },
     { type: 'dialog', title: 'Premier jour au bureau', lines: [
       { speaker: 'W', en: "Hello, I'm Sarah. Are you the new assistant?", fr: 'Bonjour, je suis Sarah. Tu es la nouvelle assistante ?' },
@@ -90,14 +90,14 @@ LE.register({
     ] },
     { type: 'box', style: 'warn', title: 'À ne jamais dire', html: '<span class="ko">I have 30 years.</span> → <span class="ok">I am 30.</span><br><span class="ko">I have hungry.</span> → <span class="ok">I’m hungry.</span>' },
     { type: 'examples', items: [
-      { en: 'How old are you? — I am twenty-five.', fr: 'Quel âge as-tu ? — J’ai vingt-cinq ans.' },
+      { en: 'How old are you? I am twenty-five.', fr: 'Quel âge as-tu ? J’ai vingt-cinq ans.' },
       { en: "Are you hungry? Let's have lunch.", fr: 'Tu as faim ? Allons déjeuner.' },
       { en: "You're right, the report is late.", fr: 'Tu as raison, le rapport est en retard.' },
       { en: "Close the window, I'm cold.", fr: 'Ferme la fenêtre, j’ai froid.' }
     ] },
 
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 2</b> (questions-réponses), beaucoup de questions commencent par <i>Is…?</i> ou <i>Are…?</i> : <i>Is the report ready?</i> La bonne réponse n’est pas toujours « Yes / No » : <i>Almost, give me ten minutes.</i> est une excellente réponse. En <b>Partie 5</b>, on te demandera de choisir entre <i>is</i> et <i>are</i> selon le sujet : <i>The new printers ------- in the storage room.</i> → <b>are</b>.' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>I am</b> — <b>he / she / it is</b> — <b>you / we / they are</b>.<br>• Négation : <b>not</b> après le verbe (<i>isn’t, aren’t, I’m not</i>).<br>• Question : on inverse (<i>Are you…? Is it…?</i>).<br>• Âge, faim, soif, chaud, froid, peur, raison, tort → <b>be</b> (<i>I’m 30, I’m hungry</i>).' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>I am</b>, <b>he / she / it is</b>, <b>you / we / they are</b>.<br>• Négation : <b>not</b> après le verbe (<i>isn’t, aren’t, I’m not</i>).<br>• Question : on inverse (<i>Are you…? Is it…?</i>).<br>• Âge, faim, soif, chaud, froid, peur, raison, tort → <b>be</b> (<i>I’m 30, I’m hungry</i>).' }
   ],
   exercises: [
     { type: 'mcq', q: 'I ___ a teacher.', options: ['am', 'is', 'are'], answer: 0, explain: 'Avec <b>I</b>, on utilise toujours <b>am</b>.' },
@@ -108,7 +108,7 @@ LE.register({
     { type: 'mcq', q: 'Comment dit-on « J’ai 28 ans » ?', options: ['I have 28 years.', 'I am 28.', 'I have 28.', 'I am 28 year.'], answer: 1, explain: 'Pour l’âge, l’anglais utilise <b>be</b> : <i>I am 28</i> (ou <i>I am 28 years old</i>, avec un <b>s</b> à <i>years</i>).' },
     { type: 'gap', q: 'She ___ (not) at home.', answers: ["isn't", 'is not', "'s not"], explain: 'Négation de <b>is</b> : <i>is not</i> = <i>isn’t</i> (ou <i>she’s not</i>).' },
     { type: 'gap', q: 'I ___ (not) hungry, thanks.', answers: ["'m not", 'am not'], explain: 'Avec <b>I</b>, la négation est <i>I am not</i> = <i>I’m not</i>. « I amn’t » n’existe pas.' },
-    { type: 'mcq', q: '— Are you ready? — Yes, ___.', options: ["I'm", 'I am', 'I is', 'am I'], answer: 1, explain: 'Dans une réponse courte affirmative, on ne contracte pas : <b>Yes, I am.</b>' },
+    { type: 'mcq', q: 'A: Are you ready? B: Yes, ___.', options: ["I'm", 'I am', 'I is', 'am I'], answer: 1, explain: 'Dans une réponse courte affirmative, on ne contracte pas : <b>Yes, I am.</b>' },
     { type: 'order', answer: 'Is the meeting at ten?', fr: 'Est-ce que la réunion est à dix heures ?', explain: 'Question avec <b>be</b> : on inverse → <b>Is</b> + sujet (<i>the meeting</i>) + reste de la phrase.' },
     { type: 'order', answer: 'We are not open on Sundays.', fr: 'Nous ne sommes pas ouverts le dimanche.', explain: 'La négation <b>not</b> se place juste après <b>are</b>.' },
     { type: 'gap', q: 'Close the door, please. I ___ cold.', answers: ['am', "'m", 'feel'], explain: '« J’ai froid » se dit <i>I am cold</i> / <i>I’m cold</i> : on utilise <b>be</b>, pas <i>have</i>. (<i>I feel cold</i> est aussi correct.)' },

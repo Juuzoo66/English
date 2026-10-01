@@ -182,7 +182,9 @@
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   };
   // Le HTML des fichiers de données est restreint et validé (tools/validate.mjs) : on l'insère tel quel.
-  LE.rich = (s) => (s == null ? '' : String(s));
+  // Espace insécable avant ? ! : ; » et après « (pour qu'un « ? » ne passe jamais seul à la ligne).
+  LE.nb = (html) => String(html).replace(/ ([?!:;»])/g, '\u00a0$1').replace(/« /g, '«\u00a0');
+  LE.rich = (s) => (s == null ? '' : LE.nb(s));
   LE.$ = (sel, root) => (root || document).querySelector(sel);
   LE.$$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
   LE.el = function (html) {

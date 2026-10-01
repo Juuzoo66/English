@@ -28,7 +28,7 @@ LE.register({
       { en: 'stomach', fr: 'ventre ; estomac', pos: 'n', ex: "Don't take this medicine on an empty stomach.", exfr: 'Ne prends pas ce médicament à jeun.', note: 'se prononce « STEU-meuk » (<b>ch</b> = k)' }
     ] },
     { title: 'Symptômes et maladies', words: [
-      { en: 'feel', fr: 'se sentir', pos: 'v', ex: 'How do you feel today? — Much better, thanks.', exfr: 'Comment te sens-tu aujourd’hui ? — Beaucoup mieux, merci.', note: "irrégulier : feel – felt – felt. <i>I don't feel well.</i> = Je ne me sens pas bien." },
+      { en: 'feel', fr: 'se sentir', pos: 'v', ex: 'How do you feel today? Much better, thanks.', exfr: 'Comment te sens-tu aujourd’hui ? Beaucoup mieux, merci.', note: "irrégulier : feel, felt, felt. <i>I don't feel well.</i> = Je ne me sens pas bien." },
       { en: 'sick', fr: 'malade', pos: 'adj', ex: "Kenji is sick today, so he isn't coming to the meeting.", exfr: 'Kenji est malade aujourd’hui, il ne vient pas à la réunion.', note: 'synonyme : <b>ill</b> (plus formel, surtout après le verbe : <i>She is ill.</i>). En anglais britannique, <i>be sick</i> peut aussi vouloir dire « vomir »' },
       { en: 'tired', fr: 'fatigué, fatiguée', pos: 'adj', ex: "I'm tired because I worked late last night.", exfr: 'Je suis fatiguée parce que j’ai travaillé tard hier soir.' },
       { en: 'headache', fr: 'mal de tête', pos: 'n', ex: "I have a headache, so I'm going home early.", exfr: 'J’ai mal à la tête, alors je rentre plus tôt.', note: 'avec l’article : <b>a</b> headache ! Se prononce « HÈD-èïk » (<b>ch</b> = k)' },
@@ -39,7 +39,7 @@ LE.register({
       { en: 'cough', fr: 'toux ; tousser', pos: 'n', ex: 'Take this syrup for your cough.', exfr: 'Prends ce sirop pour ta toux.', note: 'se prononce « kof » (<b>gh</b> = f). Aussi un verbe : <i>cough</i> = tousser' },
       { en: 'sore throat', fr: 'mal de gorge', pos: 'n', ex: "I have a sore throat and can't talk much today.", exfr: 'J’ai mal à la gorge et je ne peux pas beaucoup parler aujourd’hui.', note: '<i>sore</i> = douloureux : <i>sore eyes</i>, <i>sore muscles</i>' },
       { en: 'pain', fr: 'douleur', pos: 'n', ex: 'Tell the doctor where you feel the pain.', exfr: 'Dis au médecin où tu as mal.', note: 'faux ami : <i>pain</i> = douleur ; le pain = <i>bread</i>. <i>painful</i> = douloureux' },
-      { en: 'hurt', fr: 'faire mal ; (se) blesser', pos: 'v', ex: 'My back hurts when I sit for too long.', exfr: 'J’ai mal au dos quand je reste assise trop longtemps.', note: 'irrégulier : hurt – hurt – hurt. <i>I hurt my leg.</i> = Je me suis blessée à la jambe.' },
+      { en: 'hurt', fr: 'faire mal ; (se) blesser', pos: 'v', ex: 'My back hurts when I sit for too long.', exfr: 'J’ai mal au dos quand je reste assise trop longtemps.', note: 'irrégulier : hurt, hurt, hurt. <i>I hurt my leg.</i> = Je me suis blessée à la jambe.' },
       { en: 'injury', fr: 'blessure', pos: 'n', ex: 'Report any injury to your manager right away.', exfr: 'Signale toute blessure à ton responsable immédiatement.', note: 'adjectif : <i>injured</i> (blessé). Faux ami : une « injure » = <i>an insult</i>' },
       { en: 'allergy', fr: 'allergie', pos: 'n', ex: 'Do you have any food allergies?', exfr: 'As-tu des allergies alimentaires ?', note: 'accent sur la 1ʳᵉ syllabe : <b>AL</b>-ler-gy. <i>be allergic to</i> = être allergique à' }
     ] },

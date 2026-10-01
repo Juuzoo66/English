@@ -6,7 +6,7 @@ LE.register({
   level: 'B2',
   minutes: 50,
   goals: [
-    'Imaginer une situation irréelle ou peu probable : <i>If I had more time, I would learn Spanish.</i> — <i>If I were you, I would…</i>',
+    'Imaginer une situation irréelle ou peu probable : <i>If I had more time, I would learn Spanish. If I were you, I would…</i>',
     'Refaire le passé et exprimer un regret : <i>If I had known, I would have called you.</i>',
     'Dire ce que tu regrettes avec <b>wish</b> et <b>if only</b> : <i>I wish I had more time. I wish I hadn’t sent that email.</i>',
     'Reconnaître les inversions formelles du TOEIC : <i>Should you require…, Had we known…, Were the company to…</i>'

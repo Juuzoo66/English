@@ -26,21 +26,21 @@ LE.register({
     { type: 'table', head: ['Type', 'Forme pleine', 'Forme contractée', 'Français'], rows: [
       ['Affirmation', 'I <b>will</b> call / she <b>will</b> call', 'I<b>’ll</b> call / she<b>’ll</b> call', 'j’appellerai / elle appellera'],
       ['Négation', 'we <b>will not</b> be late', 'we <b>won’t</b> be late', 'nous ne serons pas en retard'],
-      ['Question', '<b>Will</b> you be at the meeting?', '—', 'Seras-tu à la réunion ?'],
+      ['Question', '<b>Will</b> you be at the meeting?', '(pas de contraction)', 'Seras-tu à la réunion ?'],
       ['Réponse courte', 'Yes, I <b>will</b>. / No, I <b>will not</b>.', 'No, I <b>won’t</b>.', 'Oui. / Non.']
     ], caption: 'Comme avec <i>be</i>, on ne contracte jamais une réponse courte affirmative : <i>Yes, I will.</i> (et non « Yes, I’ll. »).' },
     { type: 'box', style: 'warn', title: 'Pièges de forme', html: '<span class="ko">She will to come.</span> → <span class="ok">She will come.</span> (pas de <i>to</i>)<br><span class="ko">He wills come.</span> / <span class="ko">He will comes.</span> → <span class="ok">He will come.</span> (pas de -s)<br>À l’oral, ne confonds pas <b>won’t</b> (qui rime avec <i>don’t</i>) et <b>want</b> (vouloir) : <i>I won’t go</i> (je n’irai pas) ≠ <i>I want to go</i> (je veux y aller).' },
 
     { type: 'h', text: 'Les emplois de will' },
     { type: 'list', items: [
-      '<b>Décision prise sur le moment</b>, au moment où l’on parle : <i>The phone is ringing. — I’ll get it.</i>',
+      '<b>Décision prise sur le moment</b>, au moment où l’on parle : <i>The phone is ringing. I’ll get it.</i>',
       '<b>Promesse</b> : <i>I’ll send you the file tonight, I promise.</i>',
       '<b>Offre</b> (proposer de faire quelque chose) : <i>Your bags look heavy. I’ll carry one.</i>',
       '<b>Prédiction</b> (ce que l’on pense ou croit), souvent avec <i>I think, I’m sure, probably</i> : <i>I think prices will go up.</i>',
       '<b>Fait futur officiel</b> (annonces, e-mails, notes de service) : <i>The conference will be held in May.</i>'
     ] },
     { type: 'examples', items: [
-      { en: "The phone is ringing. — Don't worry, I'll get it.", fr: 'Le téléphone sonne. — Ne t’inquiète pas, je vais répondre.', note: 'Le français dit « je vais répondre », mais c’est une décision de dernière seconde → <b>will</b>.' },
+      { en: "The phone is ringing. Don't worry, I'll get it.", fr: 'Le téléphone sonne. Ne t’inquiète pas, je vais répondre.', note: 'Le français dit « je vais répondre », mais c’est une décision de dernière seconde → <b>will</b>.' },
       { en: "I'll send you the report tonight, I promise.", fr: 'Je t’enverrai le rapport ce soir, promis.' },
       { en: "I won't tell anyone.", fr: 'Je ne le dirai à personne.' },
       { en: "Those boxes look heavy. I'll help you.", fr: 'Ces cartons ont l’air lourds. Je vais t’aider.' }
@@ -75,7 +75,7 @@ LE.register({
       { en: "Look at those black clouds! It's going to rain.", fr: 'Regarde ces nuages noirs ! Il va pleuvoir.', note: 'Indice visible : les nuages.' },
       { en: "Hurry up! We're going to miss the train.", fr: 'Dépêche-toi ! On va rater le train.' }
     ] },
-    { type: 'box', style: 'tip', title: 'Will ou be going to pour une décision ?', html: 'Tout dépend du <b>moment où la décision est prise</b> :<br>— <i>We’re out of paper.</i> — <i>Oh, I didn’t know. <b>I’ll order</b> some.</i> (décision prise à l’instant → <b>will</b>)<br>— <i>We’re out of paper.</i> — <i>I know. <b>I’m going to order</b> some this afternoon.</i> (décision déjà prise → <b>going to</b>)<br>Pour une simple prédiction, les deux sont souvent possibles : <i>I think it will rain.</i> / <i>I think it’s going to rain.</i>' },
+    { type: 'box', style: 'tip', title: 'Will ou be going to pour une décision ?', html: 'Tout dépend du <b>moment où la décision est prise</b> :<br>• A : <i>We’re out of paper.</i> B : <i>Oh, I didn’t know. <b>I’ll order</b> some.</i> (décision prise à l’instant → <b>will</b>)<br>• A : <i>We’re out of paper.</i> B : <i>I know. <b>I’m going to order</b> some this afternoon.</i> (décision déjà prise → <b>going to</b>)<br>Pour une simple prédiction, les deux sont souvent possibles : <i>I think it will rain.</i> / <i>I think it’s going to rain.</i>' },
     { type: 'dialog', title: 'Préparer la visite de clients', lines: [
       { speaker: 'W', en: 'Javier, the clients from Seoul are arriving tomorrow. Are you ready?', fr: 'Javier, les clients de Séoul arrivent demain. Tu es prêt ?' },
       { speaker: 'M', en: "Almost. I'm going to prepare the presentation this afternoon.", fr: 'Presque. Je vais préparer la présentation cet après-midi.' },
@@ -103,7 +103,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'La règle capitale : pas de will après when, as soon as, if…' },
-    { type: 'p', html: 'Voici <b>la</b> règle que les francophones oublient le plus. Après les mots qui introduisent un moment ou une condition — <b>when</b> (quand), <b>as soon as</b> (dès que), <b>before</b> (avant que, avant de), <b>after</b> (après que, après), <b>until</b> (jusqu’à ce que), <b>once</b> (une fois que), <b>if</b> (si) — on utilise le <b>présent</b>, jamais <i>will</i>, même quand on parle du futur. <i>Will</i> reste dans l’autre partie de la phrase.' },
+    { type: 'p', html: 'Voici <b>la</b> règle que les francophones oublient le plus. Après les mots qui introduisent un moment ou une condition, comme <b>when</b> (quand), <b>as soon as</b> (dès que), <b>before</b> (avant que, avant de), <b>after</b> (après que, après), <b>until</b> (jusqu’à ce que), <b>once</b> (une fois que), <b>if</b> (si), on utilise le <b>présent</b>, jamais <i>will</i>, même quand on parle du futur. <i>Will</i> reste dans l’autre partie de la phrase.' },
     { type: 'table', head: ['Français', 'Faux', 'Correct'], rows: [
       ['Quand j’<b>arriverai</b>, je t’appellerai.', '<span class="ko">When I will arrive, I’ll call you.</span>', '<span class="ok">When I <b>arrive</b>, I’ll call you.</span>'],
       ['Dès que j’<b>aurai</b> les chiffres, je t’enverrai le rapport.', '<span class="ko">As soon as I will have the figures…</span>', '<span class="ok">As soon as I <b>have</b> the figures, I’ll send you the report.</span>'],
@@ -142,9 +142,9 @@ LE.register({
     { type: 'gap', q: 'We ___ (hire) two new engineers next year. <small>(be going to)</small>', answers: ["'re going to hire", 'are going to hire'], explain: '<b>be going to</b> + base verbale ; avec <b>we</b> → <b>are going to hire</b> (contracté : <i>we’re going to hire</i>).' },
     { type: 'mcq', q: 'Those boxes look heavy. ___ I help you?', options: ['Shall', 'Will', 'Am', 'Do'], answer: 0, explain: 'Pour proposer son aide avec <b>I</b>, on dit <b>Shall I…?</b> (= Tu veux que je t’aide ?).' },
     { type: 'mcq', q: 'Look at those black clouds! It ___ rain.', options: ['is going to', 'will to', 'going to', 'is going'], answer: 0, explain: 'Prédiction fondée sur un indice visible (les nuages) → <b>is going to</b> + base verbale. Il faut les trois éléments : <i>is</i> + <i>going</i> + <i>to</i>.' },
-    { type: 'mcq', q: '— Why are you buying paint? — I ___ my office this weekend. That’s my plan.', options: ['am going to paint', 'will paint', 'paint', 'painted'], answer: 0, explain: 'C’est un projet <b>déjà décidé</b> (<i>That’s my plan</i> ; d’ailleurs, la personne est déjà en train d’acheter la peinture) → <b>be going to</b>. <i>Will</i> exprimerait une décision prise à l’instant.' },
-    { type: 'mcq', q: '— We don’t have any paper for the printer. — Oh, really? I didn’t know. I ___ some right now.', options: ['will order', 'ordered', 'order', 'have ordered'], answer: 0, explain: 'La personne découvre le problème et décide <b>à l’instant</b> → <b>will</b> (à l’oral : <i>I’ll order some</i>).' },
-    { type: 'gap', q: 'I ___ (meet) the client on Friday at 10 — it’s in my calendar. <small>(présent continu)</small>', answers: ["'m meeting", 'am meeting'], explain: 'Rendez-vous organisé (jour, heure, noté dans l’agenda) → présent continu : <b>I’m meeting</b>.' },
+    { type: 'mcq', q: 'A: Why are you buying paint? B: I ___ my office this weekend. That’s my plan.', options: ['am going to paint', 'will paint', 'paint', 'painted'], answer: 0, explain: 'C’est un projet <b>déjà décidé</b> (<i>That’s my plan</i> ; d’ailleurs, la personne est déjà en train d’acheter la peinture) → <b>be going to</b>. <i>Will</i> exprimerait une décision prise à l’instant.' },
+    { type: 'mcq', q: 'A: We don’t have any paper for the printer. B: Oh, really? I didn’t know. I ___ some right now.', options: ['will order', 'ordered', 'order', 'have ordered'], answer: 0, explain: 'La personne découvre le problème et décide <b>à l’instant</b> → <b>will</b> (à l’oral : <i>I’ll order some</i>).' },
+    { type: 'gap', q: 'I ___ (meet) the client on Friday at 10. It’s in my calendar. <small>(présent continu)</small>', answers: ["'m meeting", 'am meeting'], explain: 'Rendez-vous organisé (jour, heure, noté dans l’agenda) → présent continu : <b>I’m meeting</b>.' },
     { type: 'mcq', q: 'When the manager ___ back, I’ll give her your message.', options: ['comes', 'will come', 'came', 'is going to come'], answer: 0, explain: 'Après <b>when</b> (sens futur), on utilise le <b>présent</b> : <b>comes</b>. Le futur <i>I’ll give</i> reste dans l’autre partie de la phrase.' },
     { type: 'gap', q: 'When Mr. Silva ___ (arrive), please send him to my office.', answers: ['arrives', 'has arrived'], explain: 'Après <b>when</b>, jamais <i>will</i> : présent simple <b>arrives</b>, avec le -s de la 3ᵉ personne. (<i>has arrived</i>, au present perfect, est aussi accepté : il insiste sur l’arrivée déjà faite.)' },
     { type: 'gap', q: 'If it ___ (rain) tomorrow, we’ll move the company picnic indoors.', answers: ['rains'], explain: 'Après <b>if</b>, on met le <b>présent</b> même pour parler de demain : <b>rains</b> (it → -s). Traduction : « S’il pleut demain, nous ferons le pique-nique de l’entreprise à l’intérieur. »' },

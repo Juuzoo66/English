@@ -24,34 +24,34 @@ LE.register({
     { type: 'h', text: 'Les huit mots de base' },
     { type: 'p', html: 'Chaque mot interrogatif annonce <b>le type de réponse</b> qu’on attend : une personne, un lieu, un moment, une raison… Apprends-les avec leur réponse, c’est la meilleure façon de ne plus les confondre.' },
     { type: 'table', head: ['Mot', 'Sens', 'La réponse donne…', 'Exemple'], rows: [
-      ['<b>what</b>', 'que, quoi, quel(le)', 'une chose, une information', 'What is your job? — I’m a nurse.'],
-      ['<b>which</b>', 'quel(le), lequel (parmi un petit choix)', 'un choix', 'Which color, blue or black? — Blue.'],
-      ['<b>who</b>', 'qui', 'une personne', 'Who is your manager? — Ms. Diallo.'],
-      ['<b>whose</b>', 'à qui, de qui', 'un propriétaire', 'Whose phone is this? — It’s Tom’s.'],
-      ['<b>where</b>', 'où', 'un lieu', 'Where is the bank? — Next to the station.'],
-      ['<b>when</b>', 'quand', 'un moment', 'When is your flight? — On Monday.'],
-      ['<b>why</b>', 'pourquoi', 'une raison', 'Why are you tired? — Because I work at night.'],
-      ['<b>how</b>', 'comment', 'une manière, un état', 'How do you get to work? — By bus.']
+      ['<b>what</b>', 'que, quoi, quel(le)', 'une chose, une information', 'What is your job? I’m a nurse.'],
+      ['<b>which</b>', 'quel(le), lequel (parmi un petit choix)', 'un choix', 'Which color, blue or black? Blue.'],
+      ['<b>who</b>', 'qui', 'une personne', 'Who is your manager? Ms. Diallo.'],
+      ['<b>whose</b>', 'à qui, de qui', 'un propriétaire', 'Whose phone is this? It’s Tom’s.'],
+      ['<b>where</b>', 'où', 'un lieu', 'Where is the bank? Next to the station.'],
+      ['<b>when</b>', 'quand', 'un moment', 'When is your flight? On Monday.'],
+      ['<b>why</b>', 'pourquoi', 'une raison', 'Why are you tired? Because I work at night.'],
+      ['<b>how</b>', 'comment', 'une manière, un état', 'How do you get to work? By bus.']
     ], caption: '<b>Wh-</b> se prononce comme un simple « w » (le son « ou » de <i>week-end</i>) : <i>what</i> ≈ « ouatt », <i>where</i> ≈ « ouèr », <i>when</i> ≈ « ouènn ». Exception : <b>who</b> et <b>whose</b> se prononcent avec un « h » soufflé : « hou », « houz ».' },
     { type: 'box', style: 'tip', title: 'What ou which ?', html: '<b>What</b> pose une question ouverte : toutes les réponses sont possibles (<i>What is your favorite color?</i>). <b>Which</b> s’utilise quand on choisit parmi un <b>petit nombre d’options connues</b> : <i>Which color do you prefer, blue or black?</i> Dans le doute : s’il y a une liste de choix, prends <b>which</b>.' },
     { type: 'examples', items: [
       { en: 'Who is that woman?', fr: 'Qui est cette femme ?' },
       { en: 'Whose car is this?', fr: 'À qui est cette voiture ?', note: '<b>Whose</b> + nom : <i>whose car</i> = la voiture de qui. On répond souvent avec le génitif (le <b>’s</b> qui indique le possesseur) : <i>It’s Paul’s.</i> (C’est celle de Paul.) (voir la leçon « Pronoms, possessifs et génitif (’s) »).' },
       { en: 'Which train goes to the airport?', fr: 'Quel train va à l’aéroport ?' },
-      { en: "Why is the store closed? — Because it's a holiday.", fr: 'Pourquoi le magasin est-il fermé ? — Parce que c’est un jour férié.', note: 'On répond à <b>why</b> avec <b>because</b> (parce que).' }
+      { en: "Why is the store closed? Because it's a holiday.", fr: 'Pourquoi le magasin est-il fermé ? Parce que c’est un jour férié.', note: 'On répond à <b>why</b> avec <b>because</b> (parce que).' }
     ] },
     { type: 'box', style: 'warn', title: 'Piège : whose ou who’s ?', html: '<b>Whose</b> (à qui) et <b>who’s</b> (= <i>who is</i>, qui est) se prononcent exactement pareil : « houz ».<br><i><b>Whose</b> laptop is this?</i> = À qui est cet ordinateur ?<br><i><b>Who’s</b> your new colleague?</i> = Qui est ton nouveau collègue ?<br>À l’écrit, pose-toi la question : est-ce que je peux remplacer par <i>who is</i> ? Si oui, c’est <b>who’s</b>.' },
 
     { type: 'h', text: 'How et ses composés' },
     { type: 'p', html: 'Seul, <b>how</b> veut dire « comment » : <i>How are you?</i> (Comment vas-tu ?). Mais on l’associe très souvent à un autre mot pour former des questions précises : combien, combien de temps, à quelle fréquence, à quelle distance, quel âge… Ces questions sont partout au TOEIC.' },
     { type: 'table', head: ['Question', 'Sens', 'Exemple'], rows: [
-      ['<b>how much</b> + nom indénombrable (qu’on ne compte pas un par un)', 'combien de (quantité)', 'How much time do we have? — Ten minutes.'],
-      ['<b>how much</b> (prix)', 'combien ça coûte', 'How much is this chair? — $120.'],
-      ['<b>how many</b> + nom pluriel', 'combien de (nombre)', 'How many people work here? — About fifty.'],
-      ['<b>how long</b>', 'combien de temps (durée)', 'How long is the flight? — Two hours.'],
-      ['<b>how often</b>', 'à quelle fréquence, tous les combien', 'How often do you travel? — Twice a month.'],
-      ['<b>how far</b>', 'à quelle distance', 'How far is the hotel? — About two kilometers.'],
-      ['<b>how old</b>', 'quel âge', 'How old is your son? — He’s six.']
+      ['<b>how much</b> + nom indénombrable (qu’on ne compte pas un par un)', 'combien de (quantité)', 'How much time do we have? Ten minutes.'],
+      ['<b>how much</b> (prix)', 'combien ça coûte', 'How much is this chair? $120.'],
+      ['<b>how many</b> + nom pluriel', 'combien de (nombre)', 'How many people work here? About fifty.'],
+      ['<b>how long</b>', 'combien de temps (durée)', 'How long is the flight? Two hours.'],
+      ['<b>how often</b>', 'à quelle fréquence, tous les combien', 'How often do you travel? Twice a month.'],
+      ['<b>how far</b>', 'à quelle distance', 'How far is the hotel? About two kilometers.'],
+      ['<b>how old</b>', 'quel âge', 'How old is your son? He’s six.']
     ], caption: 'On trouve aussi <b>how</b> + adjectif : <i>how big</i> (de quelle taille), <i>how tall</i> (de quelle hauteur ; quelle taille pour une personne)…' },
     { type: 'box', style: 'tip', title: 'How much ou how many ?', html: '<b>How many</b> + nom au <b>pluriel</b>, pour ce qu’on peut compter : <i>how many days, how many e-mails, how many people</i>.<br><b>How much</b> + nom <b>indénombrable</b> (qu’on ne compte pas un par un) : <i>how much money, how much time, how much information</i>.<br>Pour un <b>prix</b>, <b>how much</b> tout seul : <i>How much is it?</i> = <i>How much does it cost?</i> (Combien ça coûte ?). Revois « Le pluriel, dénombrables et indénombrables » si besoin.' },
     { type: 'examples', items: [
@@ -61,12 +61,12 @@ LE.register({
       { en: 'How often do you check your e-mails?', fr: 'Tous les combien consultes-tu tes e-mails ?' },
       { en: 'How far is the airport from the city center?', fr: 'À quelle distance du centre-ville se trouve l’aéroport ?' }
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : how long ou how often ?', html: 'Deux questions faciles à confondre à l’oral :<br><b>How long</b> demande une <b>durée</b> : <i>How long is the meeting? — One hour.</i><br><b>How often</b> demande une <b>fréquence</b> : <i>How often is the meeting? — Every Monday.</i><br>Écoute bien le deuxième mot : <i>long</i> → « combien de temps », <i>often</i> → « tous les combien ».' },
+    { type: 'box', style: 'warn', title: 'Piège : how long ou how often ?', html: 'Deux questions faciles à confondre à l’oral :<br><b>How long</b> demande une <b>durée</b> : <i>How long is the meeting? One hour.</i><br><b>How often</b> demande une <b>fréquence</b> : <i>How often is the meeting? Every Monday.</i><br>Écoute bien le deuxième mot : <i>long</i> → « combien de temps », <i>often</i> → « tous les combien ».' },
 
     { type: 'h', text: 'What + nom : what time, what kind of…' },
     { type: 'p', html: 'Comme « quel » en français, <b>what</b> peut être suivi d’un nom : <b>what time</b> (quelle heure), <b>what day</b> (quel jour), <b>what size</b> (quelle taille), <b>what color</b> (quelle couleur), <b>what kind of</b> (quel genre de, quel type de). Attention : <b>what time</b> demande une <b>heure précise</b> (<i>At 3:30.</i>), alors que <b>when</b> est plus large : un jour, une date, une période (<i>Next week. / In June. / After lunch.</i>). Et « Quelle heure est-il ? » se dit <b>What time is it?</b>, jamais <span class="ko">What hour is it?</span>' },
     { type: 'examples', items: [
-      { en: "What time is it? — It's ten past nine.", fr: 'Quelle heure est-il ? — Il est neuf heures dix.' },
+      { en: "What time is it? It's ten past nine.", fr: 'Quelle heure est-il ? Il est neuf heures dix.' },
       { en: 'What time does the store open?', fr: 'À quelle heure le magasin ouvre-t-il ?' },
       { en: 'What kind of music do you like?', fr: 'Quel genre de musique aimes-tu ?' },
       { en: 'What day is the conference?', fr: 'Quel jour a lieu la conférence ?' }
@@ -130,19 +130,19 @@ LE.register({
       ['<b>How often</b> does the bus come?', 'Every fifteen minutes.', 'For fifteen minutes. <small>(une durée → <i>how long</i>)</small>'],
       ['<b>How much</b> is the ticket?', 'Forty dollars.', 'Two tickets, please. <small>(un nombre → <i>how many</i>)</small>']
     ], caption: 'Règle d’or : à une vraie question en <b>wh-</b>, on ne répond pas par <i>Yes</i> ou <i>No</i>. Élimine directement ces réponses.' },
-    { type: 'box', style: 'tip', title: 'Trois astuces de pro', html: '• <b>Why don’t we…?</b> n’est pas une vraie question sur la raison : c’est une <b>suggestion</b> (« Et si on… ? »). <i>Why don’t we take a break? — Good idea!</i> Ici, pas de <i>because</i>.<br>• La bonne réponse est souvent <b>indirecte</b> : <i>When does the meeting start? — Let me check the schedule.</i> (Je vais vérifier le planning.) Elle ne donne pas l’heure, mais c’est une réponse logique.<br>• Méfie-toi des réponses qui <b>répètent un mot</b> de la question ou qui contiennent un mot au son proche : c’est souvent un piège.' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>what</b> quoi / quel — <b>which</b> lequel (petit choix) — <b>who</b> qui — <b>whose</b> à qui — <b>where</b> où — <b>when</b> quand — <b>why</b> pourquoi (→ <i>because</i>) — <b>how</b> comment.<br>• <b>how much</b> (prix, indénombrable), <b>how many</b> (+ pluriel), <b>how long</b> (durée), <b>how often</b> (fréquence), <b>how far</b> (distance), <b>how old</b> (âge), <b>what time</b> (heure), <b>what kind of</b> (quel genre de).<br>• Ordre : <b>wh- + auxiliaire + sujet + verbe</b> (<i>Where do you work?</i>), sauf si <i>who / what</i> est le sujet (<i>Who called?</i>).<br>• La préposition va à la fin : <i>Where are you from? Who is it for?</i><br>• TOEIC Partie 2 : écoute bien le <b>premier mot</b> et élimine les réponses hors sujet.' }
+    { type: 'box', style: 'tip', title: 'Trois astuces de pro', html: '• <b>Why don’t we…?</b> n’est pas une vraie question sur la raison : c’est une <b>suggestion</b> (« Et si on… ? »). <i>Why don’t we take a break? Good idea!</i> Ici, pas de <i>because</i>.<br>• La bonne réponse est souvent <b>indirecte</b> : <i>When does the meeting start? Let me check the schedule.</i> (Je vais vérifier le planning.) Elle ne donne pas l’heure, mais c’est une réponse logique.<br>• Méfie-toi des réponses qui <b>répètent un mot</b> de la question ou qui contiennent un mot au son proche : c’est souvent un piège.' },
+    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>what</b> quoi / quel, <b>which</b> lequel (petit choix), <b>who</b> qui, <b>whose</b> à qui, <b>where</b> où, <b>when</b> quand, <b>why</b> pourquoi (→ <i>because</i>), <b>how</b> comment.<br>• <b>how much</b> (prix, indénombrable), <b>how many</b> (+ pluriel), <b>how long</b> (durée), <b>how often</b> (fréquence), <b>how far</b> (distance), <b>how old</b> (âge), <b>what time</b> (heure), <b>what kind of</b> (quel genre de).<br>• Ordre : <b>wh- + auxiliaire + sujet + verbe</b> (<i>Where do you work?</i>), sauf si <i>who / what</i> est le sujet (<i>Who called?</i>).<br>• La préposition va à la fin : <i>Where are you from? Who is it for?</i><br>• TOEIC Partie 2 : écoute bien le <b>premier mot</b> et élimine les réponses hors sujet.' }
   ],
   exercises: [
-    { type: 'mcq', q: '___ is your manager? — Ms. Okafor.', options: ['Where', 'Who', 'When', 'Why'], answer: 1, explain: 'La réponse est une <b>personne</b> (<i>Ms. Okafor</i>) → <b>Who</b> (qui).' },
-    { type: 'mcq', q: '___ is the meeting? — On Tuesday at ten.', options: ['Who', 'Where', 'When', 'Whose'], answer: 2, explain: 'La réponse est un <b>moment</b> (un jour et une heure) → <b>When</b> (quand).' },
-    { type: 'gap', q: '___ are you tired? — Because I work at night.', answers: ['Why'], explain: 'La réponse commence par <b>because</b> (parce que) : la question demande une raison → <b>Why</b> (pourquoi).' },
-    { type: 'mcq', q: "___ is this laptop? — It's $850.", options: ['How many', 'How much', 'How long', 'How old'], answer: 1, explain: 'On demande un <b>prix</b> → <b>How much</b> (combien ça coûte). <i>How many</i> sert à compter des choses au pluriel.' },
-    { type: 'gap', q: 'How ___ people work in your company? — About forty.', answers: ['many'], explain: '<i>people</i> est un nom pluriel qu’on peut compter → <b>how many</b>.' },
-    { type: 'gap', q: "___ (à qui) bag is this? — It's Carla's.", answers: ['Whose'], explain: '« À qui » = <b>whose</b>, suivi directement du nom : <i>Whose bag…?</i> Attention à ne pas écrire <i>who’s</i> (= who is).' },
+    { type: 'mcq', q: '___ is your manager? Ms. Okafor.', options: ['Where', 'Who', 'When', 'Why'], answer: 1, explain: 'La réponse est une <b>personne</b> (<i>Ms. Okafor</i>) → <b>Who</b> (qui).' },
+    { type: 'mcq', q: '___ is the meeting? On Tuesday at ten.', options: ['Who', 'Where', 'When', 'Whose'], answer: 2, explain: 'La réponse est un <b>moment</b> (un jour et une heure) → <b>When</b> (quand).' },
+    { type: 'gap', q: '___ are you tired? Because I work at night.', answers: ['Why'], explain: 'La réponse commence par <b>because</b> (parce que) : la question demande une raison → <b>Why</b> (pourquoi).' },
+    { type: 'mcq', q: "___ is this laptop? It's $850.", options: ['How many', 'How much', 'How long', 'How old'], answer: 1, explain: 'On demande un <b>prix</b> → <b>How much</b> (combien ça coûte). <i>How many</i> sert à compter des choses au pluriel.' },
+    { type: 'gap', q: 'How ___ people work in your company? About forty.', answers: ['many'], explain: '<i>people</i> est un nom pluriel qu’on peut compter → <b>how many</b>.' },
+    { type: 'gap', q: "___ (à qui) bag is this? It's Carla's.", answers: ['Whose'], explain: '« À qui » = <b>whose</b>, suivi directement du nom : <i>Whose bag…?</i> Attention à ne pas écrire <i>who’s</i> (= who is).' },
     { type: 'mcq', q: 'Tea or coffee? ___ do you prefer?', options: ['Who', 'Which', 'Where', 'Whose'], answer: 1, explain: 'On choisit entre deux options connues (thé ou café) → <b>Which</b>.' },
-    { type: 'mcq', q: 'How ___ is the airport from here? — About 20 kilometers.', options: ['long', 'far', 'often', 'old'], answer: 1, explain: 'On demande une <b>distance</b> → <b>how far</b>. <i>How long</i> = combien de temps (durée), <i>how often</i> = à quelle fréquence.' },
-    { type: 'gap', q: "What ___ is it? — It's three thirty.", answers: ['time'], explain: '« Quelle heure est-il ? » = <b>What time is it?</b> On ne dit jamais <i>What hour</i>.' },
+    { type: 'mcq', q: 'How ___ is the airport from here? About 20 kilometers.', options: ['long', 'far', 'often', 'old'], answer: 1, explain: 'On demande une <b>distance</b> → <b>how far</b>. <i>How long</i> = combien de temps (durée), <i>how often</i> = à quelle fréquence.' },
+    { type: 'gap', q: "What ___ is it? It's three thirty.", answers: ['time'], explain: '« Quelle heure est-il ? » = <b>What time is it?</b> On ne dit jamais <i>What hour</i>.' },
     { type: 'order', answer: 'How often do you travel for work?', fr: 'À quelle fréquence voyages-tu pour le travail ?', explain: 'Ordre : <b>How often</b> + auxiliaire <b>do</b> + sujet <b>you</b> + verbe <b>travel</b> + reste (<i>for work</i>).' },
     { type: 'order', answer: 'Who is this package for?', fr: 'Pour qui est ce colis ?', explain: 'En anglais, la préposition (<b>for</b>) se place à la <b>fin</b> de la question.' },
     { type: 'mcq', q: 'Comment dit-on « Qui travaille le samedi ? » ?', options: ['Who does works on Saturdays?', 'Who works on Saturdays?', 'Who is work on Saturdays?', 'Who do work on Saturdays?'], answer: 1, explain: '<b>Who</b> est ici le sujet (la personne qui travaille) : pas d’auxiliaire, le verbe suit directement et prend un <b>-s</b>, comme après <i>he / she</i>.' },

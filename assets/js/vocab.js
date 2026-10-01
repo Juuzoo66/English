@@ -88,8 +88,8 @@
           <li>${dot(w)}${LE.speakBtn(w.en)}
             <div class="w-main">
               <div><span class="w-en">${esc(w.en)}</span><span class="w-pos">${POS[w.pos] || esc(w.pos)}</span></div>
-              <div class="w-fr">${esc(w.fr)}</div>
-              <div class="w-ex">${esc(w.ex)} ${LE.speakBtn(w.ex).replace('class="speak"', 'class="speak" style="width:26px;height:26px;min-width:26px;font-size:12px;vertical-align:middle"')}<br><i>${esc(w.exfr)}</i></div>
+              <div class="w-fr">${LE.nb(esc(w.fr))}</div>
+              <div class="w-ex">${esc(w.ex)} ${LE.speakBtn(w.ex).replace('class="speak"', 'class="speak" style="width:26px;height:26px;min-width:26px;font-size:12px;vertical-align:middle"')}<br><i>${LE.nb(esc(w.exfr))}</i></div>
               ${w.note ? `<div class="w-note">💡 ${rich(w.note)}</div>` : ''}
             </div>
           </li>`).join('')}

@@ -56,8 +56,8 @@ LE.register({
     { type: 'examples', items: [
       { en: 'May I ask a question?', fr: 'Puis-je poser une question ?' },
       { en: 'Could I use your phone, please?', fr: 'Pourrais-je utiliser ton téléphone, s’il te plaît ?' },
-      { en: 'May I speak to Ms. Rossi, please? — Of course. One moment, please.', fr: 'Puis-je parler à Mme Rossi, s’il vous plaît ? — Bien sûr. Un instant, s’il vous plaît.', accent: 'en-GB' },
-      { en: 'Can I sit here? — Sure, go ahead.', fr: 'Je peux m’asseoir ici ? — Bien sûr, vas-y.' }
+      { en: 'May I speak to Ms. Rossi, please? Of course. One moment, please.', fr: 'Puis-je parler à Mme Rossi, s’il vous plaît ? Bien sûr. Un instant, s’il vous plaît.', accent: 'en-GB' },
+      { en: 'Can I sit here? Sure, go ahead.', fr: 'Je peux m’asseoir ici ? Bien sûr, vas-y.' }
     ] },
     { type: 'box', style: 'warn', title: 'Piège : « May you… ? »', html: 'Dans une question, <b>may</b> sert à demander la <b>permission</b> pour soi : <i>May I…? May we…?</i> Il ne sert jamais à demander à quelqu’un de faire quelque chose : pour cela, on utilise <b>can</b>, <b>could</b> ou <b>would</b> :<br><span class="ko">May you help me?</span> → <span class="ok">Could you help me?</span>' },
 
@@ -71,11 +71,11 @@ LE.register({
     ], caption: 'Attention à la construction : <b>Could you close</b>… (base verbale) mais <b>Would you mind closing</b>… (verbe en -ing).' },
     { type: 'box', style: 'warn', title: 'Piège : répondre à « Would you mind… ? »', html: '<b>Mind</b> veut dire « être dérangé par ». <i>Would you mind waiting?</i> signifie donc littéralement « Est-ce que ça vous <b>dérangerait</b> d’attendre ? ». Pour dire <b>d’accord</b>, on répond <b>non</b> (= non, ça ne me dérange pas) :<br><span class="ok">No, not at all.</span> / <span class="ok">No, of course not.</span> / <span class="ok">Not at all.</span><br>Répondre <span class="ko">Yes, I would.</span> voudrait dire « Oui, ça me dérange » : c’est un refus ! (Dans la vie réelle, beaucoup de gens répondent aussi <i>Sure!</i> : c’est admis.)' },
     { type: 'examples', items: [
-      { en: "Could you send me the file? — Sure, I'll do it right away.", fr: 'Pourrais-tu m’envoyer le fichier ? — Bien sûr, je le fais tout de suite.' },
-      { en: 'Would you mind waiting a few minutes? — No, not at all.', fr: 'Ça vous dérangerait d’attendre quelques minutes ? — Non, pas du tout.' },
-      { en: "Could you tell me where the conference room is? — It's on the third floor.", fr: 'Pourriez-vous me dire où se trouve la salle de conférence ? — Elle est au troisième étage.', note: 'Question indirecte : <i>where the conference room <b>is</b></i> (sujet + verbe), et pas <i>where is the conference room</i>.' },
-      { en: 'Would you please fill out this form? — Of course.', fr: 'Pourriez-vous remplir ce formulaire, s’il vous plaît ? — Bien sûr.', accent: 'en-CA' },
-      { en: 'Would you mind speaking a little more slowly? — No, of course not.', fr: 'Ça vous dérangerait de parler un peu plus lentement ? — Non, bien sûr que non.' }
+      { en: "Could you send me the file? Sure, I'll do it right away.", fr: 'Pourrais-tu m’envoyer le fichier ? Bien sûr, je le fais tout de suite.' },
+      { en: 'Would you mind waiting a few minutes? No, not at all.', fr: 'Ça vous dérangerait d’attendre quelques minutes ? Non, pas du tout.' },
+      { en: "Could you tell me where the conference room is? It's on the third floor.", fr: 'Pourriez-vous me dire où se trouve la salle de conférence ? Elle est au troisième étage.', note: 'Question indirecte : <i>where the conference room <b>is</b></i> (sujet + verbe), et pas <i>where is the conference room</i>.' },
+      { en: 'Would you please fill out this form? Of course.', fr: 'Pourriez-vous remplir ce formulaire, s’il vous plaît ? Bien sûr.', accent: 'en-CA' },
+      { en: 'Would you mind speaking a little more slowly? No, of course not.', fr: 'Ça vous dérangerait de parler un peu plus lentement ? Non, bien sûr que non.' }
     ] },
 
     { type: 'h', text: 'Offrir et inviter : would like' },
@@ -87,8 +87,8 @@ LE.register({
       ['<b>Would you like</b> to come to the concert?', 'Tu veux venir au concert ?', 'invitation, offre']
     ] },
     { type: 'examples', items: [
-      { en: 'Would you like something to drink? — Yes, please. A glass of water.', fr: 'Voulez-vous quelque chose à boire ? — Oui, merci. Un verre d’eau.' },
-      { en: "Would you like to join us for lunch? — I'd love to.", fr: 'Veux-tu déjeuner avec nous ? — Avec plaisir.' },
+      { en: 'Would you like something to drink? Yes, please. A glass of water.', fr: 'Voulez-vous quelque chose à boire ? Oui, merci. Un verre d’eau.' },
+      { en: "Would you like to join us for lunch? I'd love to.", fr: 'Veux-tu déjeuner avec nous ? Avec plaisir.' },
       { en: "I'd like to book a table for four, please.", fr: 'Je voudrais réserver une table pour quatre, s’il vous plaît.' },
       { en: 'Would you like me to call a taxi?', fr: 'Voulez-vous que j’appelle un taxi ?', note: '<b>Would you like me to</b> + base verbale = « Voulez-vous que je… ? » : une offre de service très fréquente au TOEIC.' }
     ] },
@@ -128,9 +128,9 @@ LE.register({
   exercises: [
     { type: 'mcq', q: 'Take an umbrella. It ___ this afternoon.', options: ['might rain', 'might to rain', 'might raining', 'mights rain'], answer: 0, explain: 'Après un modal (<b>might</b>), on met la <b>base verbale</b> : <i>might <b>rain</b></i>. Pas de <i>to</i>, pas de -ing, et jamais de -s au modal.' },
     { type: 'mcq', q: 'At a café: "___ a cup of tea, please."', options: ['I like', "I'd like", 'I would to like', 'I liking'], answer: 1, explain: 'Pour commander poliment, on dit <b>I’d like</b> (= <i>I would like</i>, « je voudrais »). <i>I like</i> exprime un goût général (« j’aime »).' },
-    { type: 'mcq', q: '___ I use your stapler? — Sure, go ahead.', options: ['May', 'Would', 'Must', 'Am'], answer: 0, explain: 'Pour demander la <b>permission</b> poliment : <b>May I…?</b> (ou <i>Can I / Could I</i>). La réponse <i>Go ahead</i> (vas-y) confirme qu’il s’agit d’une permission.' },
+    { type: 'mcq', q: 'A: ___ I use your stapler? B: Sure, go ahead.', options: ['May', 'Would', 'Must', 'Am'], answer: 0, explain: 'Pour demander la <b>permission</b> poliment : <b>May I…?</b> (ou <i>Can I / Could I</i>). La réponse <i>Go ahead</i> (vas-y) confirme qu’il s’agit d’une permission.' },
     { type: 'gap', q: 'Would you like ___ (join) us for lunch?', answers: ['to join'], explain: '<b>Would like</b> est suivi de <b>to + base verbale</b> : <i>Would you like <b>to join</b> us?</i> (Veux-tu te joindre à nous ?)' },
-    { type: 'mcq', q: '— Would you mind opening the window? — ___', options: ['Yes, I would. Here you go.', 'No, not at all.', 'Yes, I mind.', 'No, I would.'], answer: 1, explain: '<i>Would you mind…?</i> = « Ça te dérangerait de… ? ». Pour accepter, on répond <b>No, not at all</b> (non, ça ne me dérange pas). <i>Yes, I would</i> serait un refus.' },
+    { type: 'mcq', q: 'A: Would you mind opening the window? B: ___', options: ['Yes, I would. Here you go.', 'No, not at all.', 'Yes, I mind.', 'No, I would.'], answer: 1, explain: '<i>Would you mind…?</i> = « Ça te dérangerait de… ? ». Pour accepter, on répond <b>No, not at all</b> (non, ça ne me dérange pas). <i>Yes, I would</i> serait un refus.' },
     { type: 'gap', q: 'Would you mind ___ (wait) a few minutes? The doctor is running late.', answers: ['waiting'], explain: 'Après <b>Would you mind</b>, le verbe prend <b>-ing</b> : <i>Would you mind <b>waiting</b>?</i>' },
     { type: 'gap', q: 'Mr. Park worked all night. He ___ (be) very tired. (déduction : « il doit être »)', answers: ['must be'], explain: 'Déduction presque sûre (il a travaillé toute la nuit) → <b>must be</b> : « il doit être très fatigué ».' },
     { type: 'gap', q: "That ___ (be) Julia on the phone. She's on a plane right now. (déduction : « ça ne peut pas être »)", answers: ["can't be", 'cannot be', 'can not be', "couldn't be", 'could not be'], explain: 'Déduction négative (elle est dans un avion, donc impossible) → <b>can’t be</b> (ou <i>couldn’t be</i>). Le contraire de <i>must</i> (déduction), c’est <b>can’t</b>.' },

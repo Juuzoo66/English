@@ -42,7 +42,7 @@ LE.register({
       { en: 'in front of', fr: 'devant', pos: 'prep', ex: "I'll meet you in front of the museum.", exfr: 'Je te retrouve devant le musée.', note: 'piège : <i>in front of</i> = <b>devant</b>, pas « en face de » !' },
       { en: 'behind', fr: 'derrière', pos: 'prep', ex: 'The parking lot is behind the building.', exfr: 'Le parking est derrière le bâtiment.' },
       { en: 'near', fr: 'près de', pos: 'prep', ex: 'Is there a bus stop near here?', exfr: 'Y a-t-il un arrêt de bus près d’ici ?', note: 'pas de <i>of</i> : <i>near the station</i> (<span class="ko">near of</span>). Synonyme : <i>close to</i>' },
-      { en: 'far from', fr: 'loin de', pos: 'expr', ex: 'The airport is far from the city center.', exfr: 'L’aéroport est loin du centre-ville.', note: '<i>Is it far?</i> = C’est loin ? — <i>How far is it?</i> = C’est à quelle distance ?' },
+      { en: 'far from', fr: 'loin de', pos: 'expr', ex: 'The airport is far from the city center.', exfr: 'L’aéroport est loin du centre-ville.', note: '<i>Is it far?</i> = C’est loin ? <i>How far is it?</i> = C’est à quelle distance ?' },
       { en: 'at the end of', fr: 'au bout de ; à la fin de', pos: 'expr', ex: 'The elevator is at the end of the hallway.', exfr: 'L’ascenseur est au bout du couloir.', note: 'aussi pour le temps : <i>at the end of the month</i> = à la fin du mois' },
       { en: 'map', fr: 'plan, carte', pos: 'n', ex: 'Can you show me on the map?', exfr: 'Tu peux me montrer sur le plan ?' },
       { en: 'get lost', fr: 'se perdre', pos: 'expr', ex: "Take a map so you don't get lost.", exfr: 'Prends un plan pour ne pas te perdre.' }
@@ -63,7 +63,7 @@ LE.register({
       { en: 'get on', fr: 'monter (dans un bus, un train)', pos: 'pv', ex: 'Get on the bus and show your ticket to the driver.', exfr: 'Monte dans le bus et montre ton billet au chauffeur.', note: 'pour une voiture ou un taxi : <i>get in</i> / <i>get into</i>' },
       { en: 'get off', fr: 'descendre (d’un bus, d’un train)', pos: 'pv', ex: 'Get off at the third stop.', exfr: 'Descends au troisième arrêt.', note: 'pour une voiture ou un taxi : <i>get out of</i>' },
       { en: 'miss', fr: 'rater, manquer', pos: 'v', ex: "Hurry up, or we'll miss the bus!", exfr: 'Dépêche-toi, sinon on va rater le bus !', note: 'autre sens : <i>I miss you.</i> = Tu me manques.' },
-      { en: 'drive', fr: 'conduire ; aller en voiture', pos: 'v', ex: 'I drive to work, but my colleague walks.', exfr: 'Je vais au travail en voiture, mais ma collègue y va à pied.', note: 'irrégulier : drive – drove – driven. <i>driver</i> = conducteur, chauffeur' },
+      { en: 'drive', fr: 'conduire ; aller en voiture', pos: 'v', ex: 'I drive to work, but my colleague walks.', exfr: 'Je vais au travail en voiture, mais ma collègue y va à pied.', note: 'irrégulier : drive, drove, driven. <i>driver</i> = conducteur, chauffeur' },
       { en: 'walk', fr: 'marcher ; aller à pied', pos: 'v', ex: 'I walk to the office every morning.', exfr: 'Je vais au bureau à pied tous les matins.', note: 'le <b>l</b> est muet : « wok ». <i>a ten-minute walk</i> = dix minutes à pied' },
       { en: 'on foot', fr: 'à pied', pos: 'expr', ex: 'The office is five minutes away on foot.', exfr: 'Le bureau est à cinq minutes à pied.', note: 'mais <b>by</b> pour les véhicules : <i>by bus, by train, by car</i>. Plus courant : <i>I walk to work.</i>' }
     ] }

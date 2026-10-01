@@ -20,7 +20,7 @@ LE.register({
       { en: 'suit', fr: 'costume ; tailleur', pos: 'n', ex: 'He wears a suit for important meetings.', exfr: 'Il porte un costume pour les réunions importantes.', note: 'se prononce « soute ». Un seul mot pour tout l’ensemble (veste + pantalon ou jupe) : <i>a suit</i>.' },
       { en: 'tie', fr: 'cravate', pos: 'n', ex: 'Do I need to wear a tie for the interview?', exfr: 'Est-ce que je dois porter une cravate pour l’entretien ?' },
       { en: 'uniform', fr: 'uniforme ; tenue de travail', pos: 'n', ex: 'All the hotel staff wear a uniform.', exfr: 'Tout le personnel de l’hôtel porte un uniforme.', note: 'se prononce « YOU-ni-form ».' },
-      { en: 'wear', fr: 'porter (un vêtement, des lunettes)', pos: 'v', ex: 'What do you wear to work?', exfr: 'Qu’est-ce que tu portes pour aller au travail ?', note: 'irrégulier : wear – wore – worn. <i>wear</i> ou <i>carry</i> ? Voir l’encadré en bas de page.' }
+      { en: 'wear', fr: 'porter (un vêtement, des lunettes)', pos: 'v', ex: 'What do you wear to work?', exfr: 'Qu’est-ce que tu portes pour aller au travail ?', note: 'irrégulier : wear, wore, worn. <i>wear</i> ou <i>carry</i> ? Voir l’encadré en bas de page.' }
     ] },
     { title: 'Chaussures et accessoires', words: [
       { en: 'shoes', fr: 'chaussures', pos: 'n', ex: 'I need black shoes for my uniform.', exfr: 'J’ai besoin de chaussures noires pour mon uniforme.', note: 'une chaussure = <i>a shoe</i>. La pointure = <i>shoe size</i>.' },

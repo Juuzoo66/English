@@ -34,7 +34,7 @@ LE.register({
     { type: 'examples', items: [
       { en: "I wasn't listening. Can you repeat that?", fr: 'Je n’écoutais pas. Tu peux répéter ?' },
       { en: "The machines weren't working this morning.", fr: 'Les machines ne fonctionnaient pas ce matin.', note: '<i>work</i> veut aussi dire « fonctionner » pour une machine.' },
-      { en: 'Were you waiting for me? — Yes, I was.', fr: 'Tu m’attendais ? — Oui.', note: 'Réponse courte : on reprend seulement <i>was / were</i> : <i>Yes, I was. / No, I wasn\'t.</i>' },
+      { en: 'Were you waiting for me? Yes, I was.', fr: 'Tu m’attendais ? Oui.', note: 'Réponse courte : on reprend seulement <i>was / were</i> : <i>Yes, I was. / No, I wasn\'t.</i>' },
       { en: 'Why was Mr. Chen waiting outside?', fr: 'Pourquoi M. Chen attendait-il dehors ?' }
     ] },
 
@@ -44,7 +44,7 @@ LE.register({
       { en: 'At 9 a.m., Ms. Rossi was checking her e-mails.', fr: 'À 9 heures, Mme Rossi consultait ses e-mails.' },
       { en: 'At this time last week, we were flying to Singapore.', fr: 'La semaine dernière à la même heure, nous étions dans l’avion pour Singapour.' },
       { en: 'At noon, the whole team was having lunch in the cafeteria.', fr: 'À midi, toute l’équipe déjeunait à la cafétéria.' },
-      { en: 'What were you doing at 3 p.m. yesterday? — I was writing a report.', fr: 'Que faisais-tu hier à 15 heures ? — J’étais en train d’écrire un rapport.' }
+      { en: 'What were you doing at 3 p.m. yesterday? I was writing a report.', fr: 'Que faisais-tu hier à 15 heures ? J’étais en train d’écrire un rapport.' }
     ] },
 
     { type: 'h', text: 'Emploi 2 : une action interrompue (when + prétérit)' },
@@ -114,7 +114,7 @@ LE.register({
   exercises: [
     { type: 'mcq', q: 'At 9 p.m. last night, I ___ TV at home.', options: ['was watching', 'were watching', 'am watching', 'watching'], answer: 0, explain: 'Moment précis du passé (<i>at 9 p.m. last night</i>) + action en cours → past continuous. Avec <b>I</b> → <b>was watching</b>.' },
     { type: 'gap', q: 'The two engineers ___ (test) the new machine when the power went out.', answers: ['were testing'], explain: 'Action longue interrompue par la coupure de courant. Sujet pluriel (<i>the two engineers</i> = they) → <b>were testing</b>.' },
-    { type: 'gap', q: '— What were you doing at 10 a.m.? — I ___ (talk) to a client.', answers: ['was talking'], explain: 'On répond avec le temps de la question : action en cours à 10 heures → <b>was talking</b> (avec I → was).' },
+    { type: 'gap', q: 'A: What were you doing at 10 a.m.? B: I ___ (talk) to a client.', answers: ['was talking'], explain: 'On répond avec le temps de la question : action en cours à 10 heures → <b>was talking</b> (avec I → was).' },
     { type: 'gap', q: 'Don\'t worry, you didn\'t wake me up. I ___ (not / sleep) when you called.', answers: ["wasn't sleeping", 'was not sleeping'], explain: 'Négation : <b>wasn\'t</b> (= was not) + -ing. « Je ne dormais pas » au moment de ton appel.' },
     { type: 'order', answer: 'What were you doing at nine?', fr: 'Qu’est-ce que tu faisais à neuf heures ?', explain: 'Question : mot interrogatif (<i>What</i>) + <b>were</b> + sujet + verbe-ing + moment.' },
     { type: 'mcq', q: 'I was driving to work when my phone ___.', options: ['rang', 'rings', 'has rung', 'will ring'], answer: 0, explain: 'L’action courte qui interrompt l’action longue se met au <b>prétérit</b> : <i>rang</i> (prétérit irrégulier de <i>ring</i>).' },

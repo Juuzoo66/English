@@ -76,7 +76,7 @@ LE.register({
       ['have (avoir)', '<b>has</b>', 'She <b>has</b> a meeting at ten.'],
       ['do (faire)', '<b>does</b>', 'He <b>does</b> the paperwork.'],
       ['go (aller)', '<b>goes</b>', 'My boss <b>goes</b> to Paris every month.'],
-      ['be (être) — rappel', '<b>is</b>', 'It <b>is</b> late.']
+      ['be (être), pour rappel', '<b>is</b>', 'It <b>is</b> late.']
     ], caption: '<i>have</i> → <b>has</b> (jamais « haves ») : c’est la forme vraiment irrégulière. <i>does</i> et <i>goes</i> suivent la règle du -o. Pour <i>be</i>, revois la leçon « Le verbe « be » au présent ».' },
     { type: 'examples', items: [
       { en: 'She has two children.', fr: 'Elle a deux enfants.' },

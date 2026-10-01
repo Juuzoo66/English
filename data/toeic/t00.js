@@ -43,10 +43,10 @@ LE.register({
     { type: 'p', html: '<b>Il n’y a pas de points négatifs</b> : une mauvaise réponse ne te fait rien perdre, exactement comme une case vide. Conclusion : <b>réponds toujours à toutes les questions</b>, même au hasard.' },
     { type: 'p', html: 'Ton certificat indique aussi ton niveau selon le <b>CECRL</b> (Cadre européen commun de référence pour les langues : l’échelle A1, A2, B1, B2, C1, C2 utilisée dans toute l’Europe). ETS publie les scores <b>minimum</b> à atteindre pour chaque niveau :' },
     { type: 'table', head: ['Niveau CECRL', 'Listening (minimum)', 'Reading (minimum)', 'Total (environ)'], rows: [
-      ['A2 — élémentaire', '110', '115', '≈ 225'],
-      ['<b>B1 — seuil</b>', '<b>275</b>', '<b>275</b>', '<b>≈ 550</b>'],
-      ['<b>B2 — avancé</b>', '<b>400</b>', '<b>385</b>', '<b>≈ 785</b>'],
-      ['C1 — autonome', '490', '455', '≈ 945']
+      ['A2 (élémentaire)', '110', '115', '≈ 225'],
+      ['<b>B1 (seuil)</b>', '<b>275</b>', '<b>275</b>', '<b>≈ 550</b>'],
+      ['<b>B2 (avancé)</b>', '<b>400</b>', '<b>385</b>', '<b>≈ 785</b>'],
+      ['C1 (autonome)', '490', '455', '≈ 945']
     ], caption: 'En dessous des seuils A2, on est au niveau débutant (A1 ou moins). Le niveau est attribué <b>section par section</b>.' },
 
     { type: 'h', text: 'Ton objectif B1 / B2, en clair' },
@@ -61,10 +61,10 @@ LE.register({
     { type: 'h', text: 'Gérer son temps en Reading' },
     { type: 'p', html: 'En Listening, c’est l’enregistrement qui impose le rythme. En Reading, c’est <b>toi</b> qui gères tes 75 minutes, et c’est là que beaucoup de candidats perdent des points : ils n’arrivent pas au bout de la partie 7. Voici le découpage conseillé :' },
     { type: 'table', head: ['Partie', 'Questions', 'Temps conseillé', 'Repère'], rows: [
-      ['5 — Phrases à compléter', '30', '10 à 12 min', '≈ 20 secondes par phrase'],
-      ['6 — Textes à compléter', '16', '8 à 10 min', '≈ 2 min par texte'],
-      ['7 — Compréhension écrite', '54', '≈ 55 min', '≈ 1 min par question, lecture comprise'],
-      ['<b>Total</b>', '<b>100</b>', '<b>75 min</b>', '—']
+      ['5 : Phrases à compléter', '30', '10 à 12 min', '≈ 20 secondes par phrase'],
+      ['6 : Textes à compléter', '16', '8 à 10 min', '≈ 2 min par texte'],
+      ['7 : Compréhension écrite', '54', '≈ 55 min', '≈ 1 min par question, lecture comprise'],
+      ['<b>Total</b>', '<b>100</b>', '<b>75 min</b>', '-']
     ] },
     { type: 'box', style: 'tip', title: 'Chronomètre-toi dès maintenant', html: 'Pendant tes entraînements, mesure ton temps partie par partie : ce rythme doit devenir automatique. Si tu es en retard, ne sacrifie pas la partie 7 : mieux vaut deviner deux phrases de la partie 5 que laisser dix questions de la partie 7 sans les lire.' },
 
@@ -78,7 +78,7 @@ LE.register({
       '<b>Méfie-toi des mots répétés et des sons proches.</b> Une réponse qui reprend un mot de la question ou un mot qui sonne pareil (<i>copy / coffee</i>) est très souvent un piège.',
       '<b>En partie 5, regarde d’abord les 4 options.</b> Si ce sont 4 formes du même mot (<i>decide, decision, decisive, decisively</i>), c’est une question de grammaire : pas toujours besoin de lire toute la phrase.',
       '<b>En partie 7, lis la question avant le texte</b> et va chercher l’information (nom, date, chiffre) au lieu de tout lire mot à mot.',
-      '<b>Respecte ton chrono en Reading</b> : partie 5 ≈ 10–12 min, partie 6 ≈ 8–10 min, partie 7 ≈ 55 min.',
+      '<b>Respecte ton chrono en Reading</b> : partie 5 ≈ 10 à 12 min, partie 6 ≈ 8 à 10 min, partie 7 ≈ 55 min.',
       '<b>Entraîne-toi en conditions réelles.</b> Écoute sans mettre sur pause, fais les TOEIC blancs d’une traite, et travaille un peu chaque jour plutôt que beaucoup une fois par semaine.'
     ] },
 
@@ -102,17 +102,17 @@ LE.register({
 
     { type: 'h', text: 'Comment ce site te prépare à chaque partie' },
     { type: 'table', head: ['Partie', 'Leçon de stratégie', 'Leçons qui t’aident le plus'], rows: [
-      ['1', 'Partie 1 — Photographies', 'Le présent continu (be + -ing) ; La voix passive'],
-      ['2', 'Partie 2 — Questions-réponses', 'Les mots interrogatifs (wh- questions) ; Question tags, so / neither et réponses courtes'],
-      ['3', 'Partie 3 — Conversations', 'Communication pro : e-mails, téléphone, réunions ; L’anglais parlé réel : formes faibles, liaisons, contractions'],
-      ['4', 'Partie 4 — Exposés', 'Chiffres, lettres, dates et prix à l’oral ; Les accents du TOEIC : américain, britannique, australien, canadien'],
-      ['5', 'Partie 5 — Phrases à compléter', 'La formation des mots : nom, verbe, adjectif, adverbe ; Les prépositions après verbes, noms et adjectifs'],
-      ['6', 'Partie 6 — Textes à compléter', 'Les connecteurs logiques : although, despite, however… ; Present perfect ou prétérit ? (for, since, yet, already…)'],
-      ['7', 'Partie 7 — Compréhension écrite', 'Tout le vocabulaire thématique, par exemple : Achats, commandes, livraisons et stocks ; Recrutement et ressources humaines']
+      ['1', 'Partie 1 : Photographies', 'Le présent continu (be + -ing) ; La voix passive'],
+      ['2', 'Partie 2 : Questions-réponses', 'Les mots interrogatifs (wh- questions) ; Question tags, so / neither et réponses courtes'],
+      ['3', 'Partie 3 : Conversations', 'Communication pro : e-mails, téléphone, réunions ; L’anglais parlé réel : formes faibles, liaisons, contractions'],
+      ['4', 'Partie 4 : Exposés', 'Chiffres, lettres, dates et prix à l’oral ; Les accents du TOEIC : américain, britannique, australien, canadien'],
+      ['5', 'Partie 5 : Phrases à compléter', 'La formation des mots : nom, verbe, adjectif, adverbe ; Les prépositions après verbes, noms et adjectifs'],
+      ['6', 'Partie 6 : Textes à compléter', 'Les connecteurs logiques : although, despite, however… ; Present perfect ou prétérit ? (for, since, yet, already…)'],
+      ['7', 'Partie 7 : Compréhension écrite', 'Tout le vocabulaire thématique, par exemple : Achats, commandes, livraisons et stocks ; Recrutement et ressources humaines']
     ], caption: 'Le planning semaine par semaine est détaillé dans « Mode d’emploi : réussir le TOEIC en 7 mois ».' },
-    { type: 'p', html: 'Pour mesurer tes progrès : fais le « Test de niveau — version A » au début, le « Test de niveau — version B » à mi-parcours, puis le « TOEIC blanc n°1 » et le « TOEIC blanc n°2 » dans les dernières semaines. Ces TOEIC blancs sont en format réduit (environ la moitié d’un vrai test) : fais-les d’une traite, sans pause.' },
+    { type: 'p', html: 'Pour mesurer tes progrès : fais le « Test de niveau (version A) » au début, le « Test de niveau (version B) » à mi-parcours, puis le « TOEIC blanc n°1 » et le « TOEIC blanc n°2 » dans les dernières semaines. Ces TOEIC blancs sont en format réduit (environ la moitié d’un vrai test) : fais-les d’une traite, sans pause.' },
 
-    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>200 questions</b>, ≈ 2 h : Listening (parties 1–4, ≈ 45 min) puis Reading (parties 5–7, 75 min).<br>• Score de <b>10 à 990</b> ; <b>B1</b> = 275 + 275 (≈ 550), <b>B2</b> = 400 + 385 (≈ 785).<br>• <b>Pas de points négatifs</b> : réponds à tout. <b>Une seule écoute</b>, 4 accents.<br>• Reading : P5 ≈ 10–12 min, P6 ≈ 8–10 min, P7 ≈ 55 min.<br>• Jour J : <b>pièce d’identité obligatoire</b>, arrivée en avance, téléphone rangé.' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>200 questions</b>, ≈ 2 h : Listening (parties 1 à 4, ≈ 45 min) puis Reading (parties 5 à 7, 75 min).<br>• Score de <b>10 à 990</b> ; <b>B1</b> = 275 + 275 (≈ 550), <b>B2</b> = 400 + 385 (≈ 785).<br>• <b>Pas de points négatifs</b> : réponds à tout. <b>Une seule écoute</b>, 4 accents.<br>• Reading : P5 ≈ 10 à 12 min, P6 ≈ 8 à 10 min, P7 ≈ 55 min.<br>• Jour J : <b>pièce d’identité obligatoire</b>, arrivée en avance, téléphone rangé.' }
   ],
   exercises: [
     { type: 'mcq', q: 'Combien de questions compte le TOEIC Listening & Reading ?', options: ['100', '150', '200', '250'], answer: 2, explain: '<b>200 questions</b> : 100 en Listening (parties 1 à 4) et 100 en Reading (parties 5 à 7).' },
@@ -123,7 +123,7 @@ LE.register({
     { type: 'mcq', q: 'Quelle partie du TOEIC compte le plus de questions ?', options: ['Partie 2', 'Partie 3', 'Partie 5', 'Partie 7'], answer: 3, explain: 'La <b>partie 7</b> (compréhension écrite) compte <b>54 questions</b>. Viennent ensuite la partie 3 (39), les parties 4 et 5 (30 chacune), puis la partie 2 (25).' },
     { type: 'mcq', q: 'Quel score minimum faut-il en Listening pour obtenir le niveau <b>B2</b> dans cette section ?', options: ['275', '385', '400', '490'], answer: 2, explain: 'D’après ETS, le B2 commence à <b>400</b> en Listening (et à 385 en Reading). 275 = B1, 490 = C1.' },
     { type: 'mcq', q: 'Quel total faut-il viser, au minimum, pour le niveau <b>B1</b> ?', options: ['400', '550', '785', '945'], answer: 1, explain: 'B1 = 275 en Listening + 275 en Reading, soit <b>environ 550</b>. 785 correspond au B2 et 945 au C1.' },
-    { type: 'mcq', q: 'En Reading, combien de temps est-il conseillé de garder pour la partie 7 ?', options: ['Environ 15 minutes', 'Environ 30 minutes', 'Environ 55 minutes', 'Les 75 minutes entières'], answer: 2, explain: 'Sur 75 minutes : partie 5 ≈ 10–12 min, partie 6 ≈ 8–10 min, il reste donc <b>environ 55 minutes</b> pour les 54 questions de la partie 7.' },
+    { type: 'mcq', q: 'En Reading, combien de temps est-il conseillé de garder pour la partie 7 ?', options: ['Environ 15 minutes', 'Environ 30 minutes', 'Environ 55 minutes', 'Les 75 minutes entières'], answer: 2, explain: 'Sur 75 minutes : partie 5 ≈ 10 à 12 min, partie 6 ≈ 8 à 10 min, il reste donc <b>environ 55 minutes</b> pour les 54 questions de la partie 7.' },
     { type: 'mcq', q: 'Le jour du test, qu’est-ce qui est <b>obligatoire</b> ?', options: ['Un dictionnaire bilingue', 'Une pièce d’identité officielle avec photo', 'Ton téléphone allumé pour surveiller l’heure', 'Une calculatrice'], answer: 1, explain: 'Sans <b>pièce d’identité officielle</b> en cours de validité, tu ne peux pas passer le test. Les dictionnaires et les appareils électroniques sont interdits.' }
   ]
 });

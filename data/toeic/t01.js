@@ -2,7 +2,7 @@ LE.register({
   id: 't01',
   kind: 'toeic',
   part: 1,
-  title: 'Partie 1 — Photographies',
+  title: 'Partie 1 : Photographies',
   subtitle: 'Regarder une photo, écouter 4 phrases et repérer la seule qui est vraie',
   level: 'A2',
   minutes: 30,
@@ -117,7 +117,7 @@ LE.register({
     { type: 'box', style: 'key', title: 'À retenir', html: '• 6 photos, 4 phrases entendues une seule fois, <b>une seule vraie</b>.<br>• On ne décrit que ce qu’on <b>voit</b> : pas de supposition.<br>• <b>is being</b> + participe = quelqu’un est en train de le faire ; <b>has been</b> + participe = résultat visible.<br>• Pièges : mot de la photo avec le mauvais verbe, sons proches (<i>walking / working</i>), <i>everyone / all</i>, <i>wearing / putting on</i>.<br>• Méthode : observer → anticiper → éliminer → décider.' }
   ],
   sets: [
-    { title: 'Série 1 — Une personne', level: 'A2', items: [
+    { title: 'Série 1 : Une personne', level: 'A2', items: [
       {
         scene: 'Une femme est assise à un bureau, face à un ordinateur. Elle tape sur le clavier avec les deux mains et regarde l’écran. À côté du clavier sont posés un téléphone et une tasse.',
         statements: ["She's talking on the phone.", "She's typing on a keyboard.", "She's drinking from a cup.", "She's standing next to a desk."],
@@ -158,7 +158,7 @@ LE.register({
         explain: '(D) est vraie : il lit un journal. (A) La mallette (<i>briefcase</i>) est fermée, il n’y touche pas. (B) Les arbres sont derrière le banc : il n’est pas appuyé contre un arbre. (C) Il est assis sur un banc, pas sur l’herbe (<i>grass</i>).'
       }
     ] },
-    { title: 'Série 2 — Plusieurs personnes', level: 'A2', items: [
+    { title: 'Série 2 : Plusieurs personnes', level: 'A2', items: [
       {
         scene: 'Dans une salle de réunion, quatre personnes sont assises autour d’une table ovale, leurs ordinateurs portables ouverts devant elles. Une cinquième personne, une femme, est debout au bout de la table et montre du doigt un graphique projeté sur un écran.',
         statements: ["Everyone is seated at the table.", "The woman is pointing at a screen.", "They're leaving the meeting room.", "The people are closing their laptops."],
@@ -199,7 +199,7 @@ LE.register({
         explain: '(B) est vraie : ils examinent des plans. (A) La grue (<i>crane</i>) est au loin et ils ne la conduisent pas. (C) Ils <b>portent</b> leur casque (<i>wearing</i>) ; <i>taking off</i> voudrait dire qu’ils sont en train de l’enlever. (D) Ils regardent des plans, ils ne construisent pas de mur.'
       }
     ] },
-    { title: 'Série 3 — Objets, lieux et formes passives', level: 'B1', items: [
+    { title: 'Série 3 : Objets, lieux et formes passives', level: 'B1', items: [
       {
         scene: 'Une salle de conférence vide. Des chaises sont alignées en plusieurs rangées, tournées vers une estrade. Sur l’estrade, un micro est posé sur un pupitre. Il n’y a personne dans la salle.',
         statements: ["Chairs are being arranged in rows.", "Someone is speaking into a microphone.", "The chairs are stacked in a corner.", "Chairs have been arranged in rows."],

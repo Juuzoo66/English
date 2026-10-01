@@ -156,8 +156,8 @@ if (firstVocab) {
   void exs;
   for (let k = 0; k < 12; k++) {
     const q = await page.locator('.q-text').innerText();
-    const fr = q.match(/«\s*(.+?)\s*»/)[1];
-    const en = await page.evaluate(([id, f]) => LE.allWords(LE.content[id]).find((w) => w.fr === f).en, [firstVocab.id, fr]);
+    const fr = q.match(/«\s*(.+?)\s*»/)[1].replace(/\u00a0/g, ' ');
+    const en = await page.evaluate(([id, f]) => LE.allWords(LE.content[id]).find((w) => w.fr.replace(/\s+/g, ' ') === f.replace(/\s+/g, ' ')).en, [firstVocab.id, fr]);
     await page.fill('.q-body input', en);
     await page.click('.q-body button[type="submit"]');
     const fb = await page.locator('.feedback').getAttribute('class');

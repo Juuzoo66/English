@@ -48,10 +48,10 @@ LE.register({
     ], caption: 'Même règle que pour la négation : avec <b>Does</b>, le verbe reste à la base verbale (<i>Does she <b>speak</b></i>, pas <i>speaks</i>).' },
     { type: 'box', style: 'tip', title: 'Les réponses courtes', html: 'Répondre juste « Yes. » ou « No. » paraît un peu sec. On reprend l’auxiliaire : <i>Yes, I <b>do</b>.</i> / <i>No, he <b>doesn’t</b>.</i> Attention au calque du français « Oui, j’aime » : <span class="ko">Yes, I like.</span> → <span class="ok">Yes, I do.</span> ou <span class="ok">Yes, I like it.</span>' },
     { type: 'examples', items: [
-      { en: 'Do you speak English? — Yes, I do.', fr: 'Tu parles anglais ? — Oui.' },
-      { en: "Does Mr. Novak work on Saturdays? — No, he doesn't.", fr: 'Est-ce que M. Novak travaille le samedi ? — Non.' },
-      { en: 'Do they need a taxi? — Yes, they do.', fr: 'Ils ont besoin d’un taxi ? — Oui.' },
-      { en: "Does the hotel have a gym? — No, it doesn't.", fr: 'Est-ce que l’hôtel a une salle de sport ? — Non.' }
+      { en: 'Do you speak English? Yes, I do.', fr: 'Tu parles anglais ? Oui.' },
+      { en: "Does Mr. Novak work on Saturdays? No, he doesn't.", fr: 'Est-ce que M. Novak travaille le samedi ? Non.' },
+      { en: 'Do they need a taxi? Yes, they do.', fr: 'Ils ont besoin d’un taxi ? Oui.' },
+      { en: "Does the hotel have a gym? No, it doesn't.", fr: 'Est-ce que l’hôtel a une salle de sport ? Non.' }
     ] },
 
     { type: 'h', text: 'Les questions ouvertes (avec un mot interrogatif)' },
@@ -64,18 +64,18 @@ LE.register({
       ['<b>How</b> (comment)', 'does', 'she', 'get', 'to work?']
     ] },
     { type: 'examples', items: [
-      { en: 'Where do you work? — In a bank.', fr: 'Où travailles-tu ? — Dans une banque.' },
-      { en: 'What time does the store open? — At nine.', fr: 'À quelle heure le magasin ouvre-t-il ? — À neuf heures.' },
-      { en: 'What does your company make? — Car parts.', fr: 'Que fabrique ton entreprise ? — Des pièces automobiles.' },
-      { en: "Why does he take the train? — Because it's fast.", fr: 'Pourquoi prend-il le train ? — Parce que c’est rapide.' },
-      { en: "What do you do? — I'm an accountant.", fr: 'Qu’est-ce que tu fais dans la vie ? — Je suis comptable.', note: 'Le premier <i>do</i> est l’auxiliaire, le second est le verbe « faire ». C’est LA question pour demander le métier de quelqu’un.' }
+      { en: 'Where do you work? In a bank.', fr: 'Où travailles-tu ? Dans une banque.' },
+      { en: 'What time does the store open? At nine.', fr: 'À quelle heure le magasin ouvre-t-il ? À neuf heures.' },
+      { en: 'What does your company make? Car parts.', fr: 'Que fabrique ton entreprise ? Des pièces automobiles.' },
+      { en: "Why does he take the train? Because it's fast.", fr: 'Pourquoi prend-il le train ? Parce que c’est rapide.' },
+      { en: "What do you do? I'm an accountant.", fr: 'Qu’est-ce que tu fais dans la vie ? Je suis comptable.', note: 'Le premier <i>do</i> est l’auxiliaire, le second est le verbe « faire ». C’est LA question pour demander le métier de quelqu’un.' }
     ] },
     { type: 'box', style: 'warn', title: 'Piège : l’ordre des mots', html: 'En français parlé, on dit souvent « Tu travailles où ? » ou « La réunion commence à quelle heure ? ». En anglais, c’est impossible : le mot interrogatif vient <b>en premier</b>, et on n’oublie pas <b>do / does</b>.<br><span class="ko">Where you work?</span> → <span class="ok">Where do you work?</span><br><span class="ko">What time the meeting starts?</span> → <span class="ok">What time does the meeting start?</span>' },
 
     { type: 'h', text: 'Aperçu : les questions sur le sujet (sans do)' },
     { type: 'p', html: 'Quand <b>who</b> (qui) ou <b>what</b> (qu’est-ce qui) est <b>le sujet</b> du verbe, on n’utilise <b>pas</b> do : on garde l’ordre de la phrase affirmative, avec le -s. <i><b>Who works</b> here?</i> = Qui travaille ici ? Compare avec <i>Who <b>do you</b> call?</i> = Qui appelles-tu ? Là, le sujet est <i>you</i>, donc on garde <b>do</b>. Tu reverras ce point dans la leçon « Les mots interrogatifs (wh- questions) ».' },
     { type: 'examples', items: [
-      { en: 'Who works on Saturdays? — Linda does.', fr: 'Qui travaille le samedi ? — Linda.', note: 'Pas de <i>do</i> : <i>who</i> est le sujet. Réponse courte : <i>Linda does.</i>' },
+      { en: 'Who works on Saturdays? Linda does.', fr: 'Qui travaille le samedi ? Linda.', note: 'Pas de <i>do</i> : <i>who</i> est le sujet. Réponse courte : <i>Linda does.</i>' },
       { en: 'Who has the key to the meeting room?', fr: 'Qui a la clé de la salle de réunion ?' },
       { en: 'What happens after the meeting?', fr: 'Que se passe-t-il après la réunion ?' },
       { en: 'Who do you call when the printer breaks?', fr: 'Qui appelles-tu quand l’imprimante tombe en panne ?', note: 'Ici, le sujet est <i>you</i> → on utilise <b>do</b>.' }
@@ -90,7 +90,7 @@ LE.register({
       { speaker: 'M', en: 'Sure! Thanks a lot.', fr: 'Avec plaisir ! Merci beaucoup.' }
     ] },
 
-    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 2</b>, beaucoup de questions commencent par <i>Do you…?</i>, <i>Does…?</i>, <i>Where do…?</i> ou <i>What time does…?</i> Écoute bien le <b>premier mot</b> : <i>Where</i> attend un lieu, <i>What time</i> une heure. Et la bonne réponse n’est pas toujours <i>Yes / No</i> : <i>Do you have the sales figures? — Ms. Kim sent them this morning.</i> En <b>Partie 5</b>, retiens le réflexe : après <b>do / does / don’t / doesn’t</b>, toujours la <b>base verbale</b> : <i>The store does not ------- on Sundays.</i> → <b>open</b>.' },
+    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 2</b>, beaucoup de questions commencent par <i>Do you…?</i>, <i>Does…?</i>, <i>Where do…?</i> ou <i>What time does…?</i> Écoute bien le <b>premier mot</b> : <i>Where</i> attend un lieu, <i>What time</i> une heure. Et la bonne réponse n’est pas toujours <i>Yes / No</i> : <i>Do you have the sales figures? Ms. Kim sent them this morning.</i> En <b>Partie 5</b>, retiens le réflexe : après <b>do / does / don’t / doesn’t</b>, toujours la <b>base verbale</b> : <i>The store does not ------- on Sundays.</i> → <b>open</b>.' },
     { type: 'box', style: 'key', title: 'À retenir', html: '• Négation : <b>don’t / doesn’t + base verbale</b> : <i>She doesn’t work.</i><br>• Question : <b>Do / Does + sujet + base verbale</b> ? <i>Does she work?</i><br>• Réponses courtes : <i>Yes, I do. / No, she doesn’t.</i><br>• Question ouverte : <b>mot interrogatif + do / does + sujet + verbe</b> : <i>Where do you work?</i><br>• Après <i>does / doesn’t</i> : <b>jamais de -s</b> au verbe.<br>• Avec <b>be</b>, pas de <i>do</i> : <i>I’m not…, Are you…?</i>' }
   ],
   exercises: [
@@ -100,8 +100,8 @@ LE.register({
     { type: 'gap', q: 'My boss ___ (not / drink) coffee.', answers: ["doesn't drink", 'does not drink'], explain: '<i>My boss</i> = he / she → <b>doesn’t</b> + base verbale <i>drink</i> (sans -s).' },
     { type: 'mcq', q: 'Choisis la phrase correcte.', options: ["He doesn't works here.", "He don't work here.", "He doesn't work here.", 'He not work here.'], answer: 2, explain: 'Avec <b>he</b> → <b>doesn’t</b>, et après <i>doesn’t</i> le verbe reste à la base verbale : <i>work</i>, sans -s.' },
     { type: 'mcq', q: '___ your sister live in Montreal?', options: ['Do', 'Does', 'Is', 'Are'], answer: 1, explain: '<i>Your sister</i> = she → <b>Does</b>. <i>Is</i> est impossible : <i>live</i> est un verbe normal, il faut l’auxiliaire <i>do / does</i>.' },
-    { type: 'mcq', q: '— Does Paolo work here? — Yes, ___.', options: ['he does', 'he works', 'he do', "he's"], answer: 0, explain: 'Réponse courte : on reprend l’auxiliaire de la question → <b>Yes, he does.</b>' },
-    { type: 'gap', q: '— Do you have a car? — No, I ___.', answers: ["don't", 'do not'], explain: 'Réponse courte négative : on reprend l’auxiliaire <i>do</i> → <b>No, I don’t.</b>' },
+    { type: 'mcq', q: 'A: Does Paolo work here? B: Yes, ___.', options: ['he does', 'he works', 'he do', "he's"], answer: 0, explain: 'Réponse courte : on reprend l’auxiliaire de la question → <b>Yes, he does.</b>' },
+    { type: 'gap', q: 'A: Do you have a car? B: No, I ___.', answers: ["don't", 'do not'], explain: 'Réponse courte négative : on reprend l’auxiliaire <i>do</i> → <b>No, I don’t.</b>' },
     { type: 'gap', q: 'Where ___ (you / work)?', answers: ['do you work'], explain: 'Question ouverte : <b>Where + do + you + work</b> ? Ne pas oublier <i>do</i>, ni l’ordre auxiliaire → sujet → verbe.' },
     { type: 'gap', q: 'What time ___ (the store / open) on Saturdays?', answers: ['does the store open'], explain: '<i>The store</i> = it → <b>does</b>, puis le sujet, puis la base verbale <i>open</i> (sans -s).' },
     { type: 'order', answer: "My colleague doesn't speak French.", fr: 'Mon collègue ne parle pas français.', explain: 'Négation : sujet + <b>doesn’t</b> + base verbale (<i>speak</i>) + complément.' },

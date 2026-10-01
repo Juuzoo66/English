@@ -39,7 +39,7 @@ LE.register({
       { en: 'I spoke to her yesterday.', fr: 'Je lui ai parlé hier.', note: 'Ici, « lui » = à elle → <b>her</b>.' },
       { en: 'Are you coming with us?', fr: 'Tu viens avec nous ?' },
       { en: 'What do you think about it?', fr: 'Qu’est-ce que tu en penses ?', note: '« en » (de ça) → <b>about it</b>.' },
-      { en: "Who's there? — It's me!", fr: 'Qui est là ? — C’est moi !', note: 'Dans la langue courante, on dit <i>It’s <b>me</b></i> (et pas <i>It’s I</i>).' }
+      { en: "Who's there? It's me!", fr: 'Qui est là ? C’est moi !', note: 'Dans la langue courante, on dit <i>It’s <b>me</b></i> (et pas <i>It’s I</i>).' }
     ] },
     { type: 'box', style: 'tip', title: 'Deux compléments : send her the report', html: 'Avec <i>give, send, show, tell, offer</i>, deux constructions sont possibles :<br>• verbe + <b>personne</b> + chose : <i>I sent <b>her</b> the report.</i><br>• verbe + chose + <b>to</b> + personne : <i>I sent the report <b>to her</b>.</i><br>Quand la chose est aussi un pronom, préfère la 2ᵉ : <i>I sent <b>it to her</b>.</i> (Je le lui ai envoyé.)' },
 
@@ -49,7 +49,7 @@ LE.register({
       ['you', 'you', 'your', 'yours', 'yourself / yourselves'],
       ['he', 'him', 'his', 'his', 'himself'],
       ['she', 'her', 'her', 'hers', 'herself'],
-      ['it', 'it', 'its', '—', 'itself'],
+      ['it', 'it', 'its', '<small>(aucun)</small>', 'itself'],
       ['we', 'us', 'our', 'ours', 'ourselves'],
       ['they', 'them', 'their', 'theirs', 'themselves']
     ], caption: '<b>Yourself</b> = une seule personne (toi, ou vous de politesse) ; <b>yourselves</b> = plusieurs personnes. Au singulier <b>-self</b>, au pluriel <b>-selves</b>. On dit <i>him<b>self</b></i> et <i>them<b>selves</b></i> (jamais <i>hisself</i> ni <i>theirselves</i>).' },
@@ -123,7 +123,7 @@ LE.register({
     { type: 'h', text: 'One / ones : pour ne pas répéter un nom' },
     { type: 'p', html: 'Pour ne pas répéter un nom déjà cité, l’anglais utilise <b>one</b> (singulier) et <b>ones</b> (pluriel), souvent après un adjectif ou après <i>this, that, which, the</i>. C’est l’équivalent de « celui, celle, ceux, celles » ou de l’adjectif seul en français (« le gris »).' },
     { type: 'examples', items: [
-      { en: 'Which laptop is yours? — The gray one.', fr: 'Quel ordinateur portable est le tien ? — Le gris.', note: 'En anglais, un adjectif ne peut pas rester seul : <span class="ko">The gray.</span> → <span class="ok">The gray one.</span>' },
+      { en: 'Which laptop is yours? The gray one.', fr: 'Quel ordinateur portable est le tien ? Le gris.', note: 'En anglais, un adjectif ne peut pas rester seul : <span class="ko">The gray.</span> → <span class="ok">The gray one.</span>' },
       { en: 'These chairs are old. We need new ones.', fr: 'Ces chaises sont vieilles. Il nous en faut des neuves.' },
       { en: "I don't like this jacket. I prefer that one.", fr: 'Je n’aime pas cette veste. Je préfère celle-là.' },
       { en: 'The small boxes are here, and the big ones are in the storage room.', fr: 'Les petites boîtes sont ici, et les grandes sont dans la réserve.' }

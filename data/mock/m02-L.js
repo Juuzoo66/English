@@ -3,9 +3,9 @@ LE.register({
   kind: 'mock-section',
   mock: 'm02',
   section: 'listening',
-  title: 'TOEIC blanc n°2 — Listening',
+  title: 'TOEIC blanc n°2 : Listening',
   parts: [
-    /* ---------------- Partie 1 — Photographies (3 items) ---------------- */
+    /* ---------------- Partie 1 : Photographies (3 items) ---------------- */
     { part: 1, items: [
       {
         accent: 'en-US', speaker: 'W',
@@ -30,7 +30,7 @@ LE.register({
       }
     ] },
 
-    /* ---------------- Partie 2 — Questions-réponses (12 items) ---------------- */
+    /* ---------------- Partie 2 : Questions-réponses (12 items) ---------------- */
     { part: 2, items: [
       {
         accent: 'en-US', speakers: ['W', 'M'],
@@ -118,7 +118,7 @@ LE.register({
       }
     ] },
 
-    /* ---------------- Partie 3 — Conversations (6 × 3 questions) ---------------- */
+    /* ---------------- Partie 3 : Conversations (6 × 3 questions) ---------------- */
     { part: 3, items: [
       {
         accent: 'en-US',
@@ -174,7 +174,7 @@ LE.register({
           { speaker: 'W', text: "Great. And I'll send everyone an e-mail about the new date. I'll remind them that the shuttle bus will still leave from the main entrance at noon." }
         ],
         graphic: {
-          title: 'Four-Day Forecast — Lakeside Park',
+          title: 'Four-Day Forecast: Lakeside Park',
           head: ['Day', 'Forecast', 'High'],
           rows: [
             ['Wednesday', 'Sunny', '79°F'],
@@ -254,7 +254,7 @@ LE.register({
       }
     ] },
 
-    /* ---------------- Partie 4 — Exposés (5 × 3 questions) ---------------- */
+    /* ---------------- Partie 4 : Exposés (5 × 3 questions) ---------------- */
     { part: 4, items: [
       {
         accent: 'en-US', speaker: 'W',

@@ -2,7 +2,7 @@ LE.register({
   id: 't02',
   kind: 'toeic',
   part: 2,
-  title: 'Partie 2 — Questions-réponses',
+  title: 'Partie 2 : Questions-réponses',
   subtitle: 'Entendre une question, puis choisir la seule réponse logique parmi trois',
   level: 'A2',
   minutes: 35,
@@ -20,9 +20,9 @@ LE.register({
 
     { type: 'h', text: 'Les types de questions' },
     { type: 'table', head: ['Type', 'Exemple', 'Ce qu’on attend'], rows: [
-      ['<b>Question wh-</b> (who, where, when, what, which, why, how)', '<i>Where’s the meeting?</i>', 'une information précise (lieu, moment, personne…) — <b>jamais</b> <i>yes / no</i>'],
+      ['<b>Question wh-</b> (who, where, when, what, which, why, how)', '<i>Where’s the meeting?</i>', 'une information précise (lieu, moment, personne…), <b>jamais</b> <i>yes / no</i>'],
       ['<b>Question fermée</b> (oui / non)', '<i>Is the report ready?</i>', '<i>yes / no</i>, ou une réponse qui le sous-entend (<i>Almost.</i>)'],
-      ['<b>Question à choix</b> (avec <i>or</i>)', '<i>Should we meet today or tomorrow?</i>', 'l’un des deux choix, les deux, ou aucun — en général pas <i>yes / no</i>'],
+      ['<b>Question à choix</b> (avec <i>or</i>)', '<i>Should we meet today or tomorrow?</i>', 'l’un des deux choix, les deux, ou aucun (en général pas <i>yes / no</i>)'],
       ['<b>Question-tag</b> (… n’est-ce pas ?)', '<i>You’re coming, aren’t you?</i>', 'comme une question fermée'],
       ['<b>Affirmation</b>', '<i>The printer is out of paper.</i>', 'une réaction logique : solution, accord, surprise…'],
       ['<b>Demande</b>', '<i>Could you send me the file?</i>', 'accepter ou refuser (<i>Sure.</i> / <i>Sorry, I’m busy.</i>)'],
@@ -46,23 +46,23 @@ LE.register({
       ['<b>How many</b>', 'combien (nombre)', 'un nombre', '<i>Twelve people.</i>'],
       ['<b>How long</b>', 'combien de temps', 'une durée', '<i>For two weeks.</i> / <i>About an hour.</i>'],
       ['<b>How often</b>', 'à quelle fréquence', 'une fréquence', '<i>Once a month.</i>']
-    ], caption: 'Une raison ne commence pas toujours par <i>because</i> : <i>Why is the office closed? — It’s a public holiday.</i>' },
+    ], caption: 'Une raison ne commence pas toujours par <i>because</i> : <i>Why is the office closed? It’s a public holiday.</i>' },
     { type: 'examples', items: [
-      { en: "Who's organizing the conference? — Ms. Lindqvist is.", fr: 'Qui organise la conférence ? — C’est Mme Lindqvist.' },
-      { en: "Where should I put these files? — On my desk, please.", fr: 'Où est-ce que je mets ces dossiers ? — Sur mon bureau, s’il te plaît.', accent: 'en-GB' },
-      { en: "When does the flight leave? — At a quarter past six.", fr: 'Quand part le vol ? — À six heures et quart.' },
-      { en: "How long will the repairs take? — About two days.", fr: 'Combien de temps dureront les réparations ? — Environ deux jours.', accent: 'en-AU' },
-      { en: "Why is the office closed today? — It's a public holiday.", fr: 'Pourquoi le bureau est-il fermé aujourd’hui ? — C’est un jour férié.', accent: 'en-CA' }
+      { en: "Who's organizing the conference? Ms. Lindqvist is.", fr: 'Qui organise la conférence ? C’est Mme Lindqvist.' },
+      { en: "Where should I put these files? On my desk, please.", fr: 'Où est-ce que je mets ces dossiers ? Sur mon bureau, s’il te plaît.', accent: 'en-GB' },
+      { en: "When does the flight leave? At a quarter past six.", fr: 'Quand part le vol ? À six heures et quart.' },
+      { en: "How long will the repairs take? About two days.", fr: 'Combien de temps dureront les réparations ? Environ deux jours.', accent: 'en-AU' },
+      { en: "Why is the office closed today? It's a public holiday.", fr: 'Pourquoi le bureau est-il fermé aujourd’hui ? C’est un jour férié.', accent: 'en-CA' }
     ] },
 
     { type: 'h', text: 'Les réponses indirectes : très fréquentes !' },
     { type: 'p', html: 'Au TOEIC, la bonne réponse <b>ne répond souvent pas directement</b>. Comme dans la vraie vie, la personne peut dire qu’elle ne sait pas, renvoyer vers quelqu’un d’autre, poser une autre question ou donner une information qui <b>sous-entend</b> la réponse. Ces réponses sont souvent la bonne option, justement parce qu’elles ne répètent aucun mot de la question.' },
     { type: 'examples', items: [
-      { en: "When is the budget meeting? — I'm not sure, let me check.", fr: 'Quand a lieu la réunion budgétaire ? — Je ne suis pas sûre, je vérifie.' },
-      { en: "Who's in charge of the order? — Ask Maria. She'll know.", fr: 'Qui s’occupe de la commande ? — Demande à Maria. Elle saura.', accent: 'en-GB' },
-      { en: "Where's the new printer? — Didn't you get the e-mail about it?", fr: 'Où est la nouvelle imprimante ? — Tu n’as pas reçu l’e-mail à ce sujet ?', note: 'Répondre par une autre question est très courant.' },
-      { en: "Is the report ready? — I'm still working on it.", fr: 'Le rapport est prêt ? — J’y travaille encore.', note: 'Ça veut dire « non », sans le dire.' },
-      { en: "Are you coming to lunch? — I have to finish this first.", fr: 'Tu viens déjeuner ? — Je dois d’abord finir ça.', accent: 'en-AU' }
+      { en: "When is the budget meeting? I'm not sure, let me check.", fr: 'Quand a lieu la réunion budgétaire ? Je ne suis pas sûre, je vérifie.' },
+      { en: "Who's in charge of the order? Ask Maria. She'll know.", fr: 'Qui s’occupe de la commande ? Demande à Maria. Elle saura.', accent: 'en-GB' },
+      { en: "Where's the new printer? Didn't you get the e-mail about it?", fr: 'Où est la nouvelle imprimante ? Tu n’as pas reçu l’e-mail à ce sujet ?', note: 'Répondre par une autre question est très courant.' },
+      { en: "Is the report ready? I'm still working on it.", fr: 'Le rapport est prêt ? J’y travaille encore.', note: 'Ça veut dire « non », sans le dire.' },
+      { en: "Are you coming to lunch? I have to finish this first.", fr: 'Tu viens déjeuner ? Je dois d’abord finir ça.', accent: 'en-AU' }
     ] },
 
     { type: 'h', text: 'Les pièges classiques' },
@@ -73,7 +73,7 @@ LE.register({
       ['<b>Yes / No à une question wh-</b>', '<b>Where</b> is the file?', 'Yes, it is.', 'On ne répond jamais oui ou non à <i>where, when, who…</i>'],
       ['<b>Mauvais temps ou mauvaise personne</b>', '<b>Did you</b> call the client?', 'Yes, <b>he will</b>.', 'Question au passé sur « tu » ; réponse au futur sur « il ».']
     ] },
-    { type: 'box', style: 'tip', title: 'Répétition = alarme, pas preuve', html: 'Une réponse qui reprend un mot de la question est <b>souvent</b> un piège… mais pas toujours ! <i>Is the meeting today? — No, the meeting was moved to Friday.</i> est une très bonne réponse. Quand tu entends un mot répété, <b>méfie-toi</b>, puis vérifie si la réponse a vraiment un sens.' },
+    { type: 'box', style: 'tip', title: 'Répétition = alarme, pas preuve', html: 'Une réponse qui reprend un mot de la question est <b>souvent</b> un piège… mais pas toujours ! <i>Is the meeting today? No, the meeting was moved to Friday.</i> est une très bonne réponse. Quand tu entends un mot répété, <b>méfie-toi</b>, puis vérifie si la réponse a vraiment un sens.' },
     { type: 'pairs', items: [
       { a: 'copy', b: 'coffee', note: 'photocopie / café' },
       { a: 'lunch', b: 'launch', note: 'déjeuner / lancement (d’un produit)' },
@@ -92,10 +92,10 @@ LE.register({
       '<b>Coche et passe</b> tout de suite à la suivante.'
     ] },
     { type: 'examples', items: [
-      { en: "Could you help me move these boxes? — Sure, where do they go?", fr: 'Tu peux m’aider à déplacer ces cartons ? — Bien sûr, où vont-ils ?' },
-      { en: "Would you like me to book a taxi? — That would be great, thanks.", fr: 'Veux-tu que je réserve un taxi ? — Ce serait super, merci.', accent: 'en-GB' },
-      { en: "Why don't we order lunch in? — Good idea, I'm really hungry.", fr: 'Et si on se faisait livrer le déjeuner ? — Bonne idée, j’ai très faim.' },
-      { en: "Would you mind turning off the lights? — Not at all.", fr: 'Ça te dérangerait d’éteindre les lumières ? — Pas du tout (je le fais).', accent: 'en-CA' }
+      { en: "Could you help me move these boxes? Sure, where do they go?", fr: 'Tu peux m’aider à déplacer ces cartons ? Bien sûr, où vont-ils ?' },
+      { en: "Would you like me to book a taxi? That would be great, thanks.", fr: 'Veux-tu que je réserve un taxi ? Ce serait super, merci.', accent: 'en-GB' },
+      { en: "Why don't we order lunch in? Good idea, I'm really hungry.", fr: 'Et si on se faisait livrer le déjeuner ? Bonne idée, j’ai très faim.' },
+      { en: "Would you mind turning off the lights? Not at all.", fr: 'Ça te dérangerait d’éteindre les lumières ? Pas du tout (je le fais).', accent: 'en-CA' }
     ] },
     { type: 'dialog', title: 'Quatre échanges typiques', accent: 'en-US', lines: [
       { speaker: 'W', en: "You've sent the invoice, haven't you?", fr: 'Tu as envoyé la facture, n’est-ce pas ?' },
@@ -108,10 +108,10 @@ LE.register({
       { speaker: 'M', en: "I think it's Omar's.", fr: 'Je crois que c’est celle d’Omar.' }
     ] },
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: '25 questions sur les 100 du Listening : un quart de l’écoute ! C’est aussi la partie qui prépare le mieux aux conversations de la partie 3. Pour progresser, travaille les leçons « Les mots interrogatifs (wh- questions) » et « Question tags, so / neither et réponses courtes », puis entraîne-toi chaque jour avec les séries ci-dessous.' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• 25 questions, 3 réponses, <b>rien d’écrit</b>, une seule écoute.<br>• Les <b>3 premiers mots</b> annoncent le type de réponse : <i>Where</i> → un lieu, <i>When</i> → un moment…<br>• Jamais <i>yes / no</i> à une question <i>wh-</i>, et presque jamais à une question à choix (<i>or</i>).<br>• <i>Why don’t we…?</i> = suggestion ; <i>Would you mind…? — Not at all.</i> = d’accord.<br>• Les réponses <b>indirectes</b> (<i>Let me check.</i> / <i>Ask Maria.</i>) sont souvent les bonnes ; les mots répétés et les sons proches sont souvent des pièges.' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• 25 questions, 3 réponses, <b>rien d’écrit</b>, une seule écoute.<br>• Les <b>3 premiers mots</b> annoncent le type de réponse : <i>Where</i> → un lieu, <i>When</i> → un moment…<br>• Jamais <i>yes / no</i> à une question <i>wh-</i>, et presque jamais à une question à choix (<i>or</i>).<br>• <i>Why don’t we…?</i> = suggestion ; <i>Would you mind…? Not at all.</i> = d’accord.<br>• Les réponses <b>indirectes</b> (<i>Let me check.</i> / <i>Ask Maria.</i>) sont souvent les bonnes ; les mots répétés et les sons proches sont souvent des pièges.' }
   ],
   sets: [
-    { title: 'Série 1 — Who, where, when', level: 'A2', items: [
+    { title: 'Série 1 : Who, where, when', level: 'A2', items: [
       {
         question: "Who's in charge of the new project?",
         responses: ["It starts next week.", "Ms. Tanaka is.", "Yes, it's a big project."],
@@ -173,7 +173,7 @@ LE.register({
         explain: '<b>Who</b> → une personne : le livreur, je crois. (B) répond à <i>What</i> (ce qu’il y a dedans). (C) répète « left » avec un autre sens (<i>leave</i> = partir) et ne dit pas qui a laissé les cartons.'
       }
     ] },
-    { title: 'Série 2 — What, which, why, how', level: 'A2', items: [
+    { title: 'Série 2 : What, which, why, how', level: 'A2', items: [
       {
         question: "What time does the store close?",
         responses: ["It's close to the station.", "At eight on weekdays.", "Yes, it closed early."],
@@ -235,7 +235,7 @@ LE.register({
         explain: '<b>What’s the best way…?</b> → un moyen : envoie-lui un e-mail, il est rarement à son bureau. (A) répond <i>Yes</i> et répète « contact ». (C) répond à <i>Who is Mr. Nguyen?</i>'
       }
     ] },
-    { title: 'Série 3 — Oui / non, questions-tags, questions à choix', level: 'B1', items: [
+    { title: 'Série 3 : Oui / non, questions-tags, questions à choix', level: 'B1', items: [
       {
         question: "Have you finished the budget report?",
         responses: ["It's a very tight budget.", "Almost. I just need to check a few numbers.", "Yes, I'd like a copy."],
@@ -297,7 +297,7 @@ LE.register({
         explain: 'Question négative (<i>Isn’t…?</i> = ce n’est pas… ?) → non, elle a été déplacée à mercredi. (A) Piège : <i>proposed</i> reprend <i>proposal</i>. (B) répond à <i>How long</i>.'
       }
     ] },
-    { title: 'Série 4 — Affirmations, demandes, suggestions et réponses indirectes', level: 'B1', items: [
+    { title: 'Série 4 : Affirmations, demandes, suggestions et réponses indirectes', level: 'B1', items: [
       {
         question: "The printer on the third floor is out of paper again.",
         responses: ["I'll bring some up from the supply room.", "It's on the third floor.", "I printed two copies."],

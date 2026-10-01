@@ -27,7 +27,7 @@ LE.register({
     { type: 'table', head: ['Famille', 'Avec un nom', 'Avec un pronom (it, them, me…)', 'Exemples de verbes'], rows: [
       ['<b>Séparable</b>', 'turn off <b>the printer</b><br>turn <b>the printer</b> off', 'turn <b>it</b> off<br><small>jamais <span class="ko">turn off it</span></small>', 'set up, fill out, call off, put off, turn down, hand in, pick up, figure out, back up, sort out, wrap up'],
       ['<b>Inséparable</b>', 'look into <b>the problem</b>', 'look into <b>it</b><br><small>jamais <span class="ko">look it into</span></small>', 'look into, look after, go over, go through, deal with, get back to, run out of, come up with, keep up with'],
-      ['<b>Intransitif</b>', '— (pas de complément)', '—', 'show up, hold on, take off (avion), catch up, sign up, log in']
+      ['<b>Intransitif</b>', 'aucun (pas de complément)', 'aucun', 'show up, hold on, take off (avion), catch up, sign up, log in']
     ], caption: 'Les phrasal verbs de <b>trois mots</b> comme <i>run out of, come up with, get back to, keep up with</i> sont inséparables.' },
     { type: 'box', style: 'warn', title: 'Piège : le pronom se met au milieu !', html: 'Avec un phrasal verb séparable, un <b>pronom</b> (<i>it, them, him, her, me, us, you</i>) se place <b>obligatoirement</b> entre le verbe et la particule :<br><span class="ko">Can you turn off it?</span> → <span class="ok">Can you turn <b>it</b> off?</span><br><span class="ko">Please fill out it.</span> → <span class="ok">Please fill <b>it</b> out.</span><br><span class="ko">I’ll call back you.</span> → <span class="ok">I’ll call <b>you</b> back.</span><br>Avec un inséparable, c’est l’inverse : <span class="ko">I’ll look it into.</span> → <span class="ok">I’ll look into <b>it</b>.</span>' },
     { type: 'examples', items: [
@@ -40,7 +40,7 @@ LE.register({
     ] },
     { type: 'box', style: 'tip', title: 'Complément long et accent', html: 'Avec un nom court, les deux places sont possibles : <i>fill out the form</i> = <i>fill the form out</i>. Mais si le complément est <b>long</b>, mets-le <b>après</b> la particule : <i>Please fill out <b>the form that I sent you last week</b>.</i> Sinon, la particule se retrouve perdue en fin de phrase.<br>À l’oral, c’est le plus souvent la <b>particule</b> qui porte l’accent : <i>set UP, call OFF, turn it DOWN</i>. Écoute-la bien : c’est souvent elle qui donne le sens.' },
 
-    { type: 'h', text: 'Thème 1 — Réunions et projets' },
+    { type: 'h', text: 'Thème 1 : Réunions et projets' },
     { type: 'table', head: ['Phrasal verb', 'Sens', 'Exemple', 'Synonyme formel'], rows: [
       ['<b>set up</b>', 'organiser, mettre en place ; installer', 'Can you <b>set up</b> a meeting with the client?<br><small>Tu peux organiser une réunion avec le client ?</small>', 'arrange, establish, install'],
       ['<b>carry out</b>', 'réaliser, effectuer', 'We <b>carried out</b> a customer survey in May.<br><small>Nous avons réalisé une enquête clients en mai.</small>', 'conduct, perform'],
@@ -55,7 +55,7 @@ LE.register({
       ['<b>wrap up</b>', 'conclure, terminer', 'Let’s <b>wrap up</b> the meeting. It’s almost noon.<br><small>Terminons la réunion. Il est presque midi.</small>', 'conclude, finish']
     ] },
 
-    { type: 'h', text: 'Thème 2 — Téléphone et communication' },
+    { type: 'h', text: 'Thème 2 : Téléphone et communication' },
     { type: 'table', head: ['Phrasal verb', 'Sens', 'Exemple', 'Synonyme formel'], rows: [
       ['<b>call back</b>', 'rappeler (au téléphone)', 'Could you <b>call me back</b> after lunch?<br><small>Pourriez-vous me rappeler après le déjeuner ?</small>', 'return a call'],
       ['<b>get back to</b>', 'recontacter, revenir vers quelqu’un', 'I’ll <b>get back to</b> you by Friday.<br><small>Je reviens vers vous d’ici vendredi.</small>', 'respond, reply'],
@@ -75,7 +75,7 @@ LE.register({
       { speaker: 'M', en: "Only if she has questions. Otherwise, I'll follow up by e-mail tomorrow.", fr: 'Seulement si elle a des questions. Sinon, je ferai le suivi par e-mail demain.' }
     ] },
 
-    { type: 'h', text: 'Thème 3 — Documents, formulaires et informatique' },
+    { type: 'h', text: 'Thème 3 : Documents, formulaires et informatique' },
     { type: 'table', head: ['Phrasal verb', 'Sens', 'Exemple', 'Synonyme formel'], rows: [
       ['<b>fill out</b> / <b>fill in</b>', 'remplir (un formulaire)', 'Please <b>fill out</b> this form in capital letters.<br><small>Merci de remplir ce formulaire en majuscules.</small>', 'complete'],
       ['<b>hand in</b> / <b>turn in</b>', 'remettre, rendre (un travail)', '<b>Hand in</b> your expense reports by Friday.<br><small>Rendez vos notes de frais d’ici vendredi.</small>', 'submit'],
@@ -87,7 +87,7 @@ LE.register({
       ['<b>back up</b>', 'sauvegarder ; soutenir', '<b>Back up</b> your files every evening.<br><small>Sauvegarde tes fichiers tous les soirs.</small>', 'save a copy ; support']
     ] },
 
-    { type: 'h', text: 'Thème 4 — Résoudre les problèmes' },
+    { type: 'h', text: 'Thème 4 : Résoudre les problèmes' },
     { type: 'table', head: ['Phrasal verb', 'Sens', 'Exemple', 'Synonyme formel'], rows: [
       ['<b>look into</b>', 'examiner, étudier, enquêter sur', 'We’re <b>looking into</b> the delivery problem.<br><small>Nous examinons le problème de livraison.</small>', 'investigate, examine'],
       ['<b>figure out</b>', 'comprendre, trouver', 'I can’t <b>figure out</b> how this machine works.<br><small>Je n’arrive pas à comprendre comment marche cette machine.</small>', 'understand, solve'],
@@ -105,7 +105,7 @@ LE.register({
       { en: 'Could you fill in for me at the meeting tomorrow?', fr: 'Tu pourrais me remplacer à la réunion demain ?', note: '<i>fill in for someone</i> = remplacer quelqu’un.' }
     ] },
 
-    { type: 'h', text: 'Thème 5 — Ressources humaines et vie de l’entreprise' },
+    { type: 'h', text: 'Thème 5 : Ressources humaines et vie de l’entreprise' },
     { type: 'table', head: ['Phrasal verb', 'Sens', 'Exemple', 'Synonyme formel'], rows: [
       ['<b>take on</b>', 'embaucher ; prendre en charge (une tâche)', 'We’re <b>taking on</b> ten new employees.<br><small>Nous embauchons dix nouveaux employés.</small>', 'hire ; accept'],
       ['<b>lay off</b>', 'licencier (pour raisons économiques)', 'The factory <b>laid off</b> 200 workers.<br><small>L’usine a licencié 200 ouvriers.</small>', 'dismiss, let go'],
@@ -118,7 +118,7 @@ LE.register({
       ['<b>give up</b>', 'abandonner, arrêter', 'They <b>gave up</b> the project after a year.<br><small>Ils ont abandonné le projet au bout d’un an.</small>', 'abandon, quit']
     ] },
 
-    { type: 'h', text: 'Thème 6 — Déplacements et logistique' },
+    { type: 'h', text: 'Thème 6 : Déplacements et logistique' },
     { type: 'table', head: ['Phrasal verb', 'Sens', 'Exemple', 'Synonyme formel'], rows: [
       ['<b>show up</b> / <b>turn up</b>', 'arriver, se présenter, venir', 'Only ten people <b>showed up</b> for the meeting.<br><small>Seules dix personnes sont venues à la réunion.</small>', 'arrive, attend'],
       ['<b>pick up</b>', 'aller chercher, récupérer', 'I’ll <b>pick you up</b> at the airport.<br><small>Je viendrai te chercher à l’aéroport.</small>', 'collect'],
@@ -137,7 +137,7 @@ LE.register({
       ['follow up', '<b>a follow-up</b> (suivi, relance)', 'I sent a <b>follow-up</b> e-mail. <small>J’ai envoyé un e-mail de relance.</small>'],
       ['cut back', '<b>a cutback</b> (réduction, coupe)', 'There were <b>cutbacks</b> in the budget. <small>Il y a eu des coupes dans le budget.</small>'],
       ['check in', '<b>a check-in</b> (enregistrement)', '<b>Check-in</b> opens at 6 a.m. <small>L’enregistrement ouvre à 6 h.</small>']
-    ], caption: 'Verbe : <i>We need to <b>back up</b> the data.</i> — Nom : <i>We need a <b>backup</b> of the data.</i>' },
+    ], caption: 'Verbe : <i>We need to <b>back up</b> the data.</i> Nom : <i>We need a <b>backup</b> of the data.</i>' },
 
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'Les phrasal verbs sont partout :<br>• <b>Partie 5</b> : on te demande la bonne particule (<i>The meeting has been called ------- .</i> → <b>off</b>), le bon verbe (<i>------- the form</i> → <b>fill out</b>) ou le nom (<i>a ------- of the files</i> → <b>backup</b>).<br>• <b>Parties 3 et 4</b> : la conversation utilise le phrasal verb (<i>We had to <b>put off</b> the launch.</i>), mais la question et les réponses utilisent le synonyme formel (<i>Why was the launch <b>postponed</b>?</i>). Si tu ne connais pas le couple, tu rates la question.<br>• <b>Partie 7</b> : questions de synonymes (<i>The phrase “carry out” in paragraph 2 is closest in meaning to…</i> → <b>conduct</b>).<br>Les couples à connaître par cœur : <i>put off = postpone, call off = cancel, hand in = submit, look into = investigate, carry out = conduct, set up = establish, turn down = decline, take on = hire, lay off = dismiss, fill out = complete</i>.' },
     { type: 'box', style: 'key', title: 'À retenir', html: '• Phrasal verb = verbe + particule, avec un sens souvent nouveau : apprends-le comme un mot à part entière, avec un exemple.<br>• <b>Séparable</b> : <i>turn off the light / turn the light off</i> ; avec un pronom, <b>toujours au milieu</b> : <i>turn <b>it</b> off</i>.<br>• <b>Inséparable</b> (comme ceux de trois mots) : <i>look into <b>it</b>, deal with <b>it</b>, run out of <b>it</b></i>.<br>• Le verbe s’écrit en deux mots (<i>back up</i>), le nom souvent en un seul (<i>a backup</i>).<br>• Au TOEIC, pense synonyme : <i>put off = postpone, call off = cancel, hand in = submit, look into = investigate</i>.' }

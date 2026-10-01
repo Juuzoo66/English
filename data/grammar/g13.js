@@ -13,7 +13,7 @@ LE.register({
   ],
   blocks: [
     { type: 'h', text: 'Deux présents en anglais, un seul en français' },
-    { type: 'p', html: 'En français, « je travaille » sert à tout. En anglais, tu dois choisir entre deux présents : le <b>présent simple</b> (<i>I work</i> — voir « Le présent simple : la forme affirmative ») et le <b>présent continu</b> (<i>I’m working</i> — voir « Le présent continu (be + -ing) »). La question à te poser : est-ce une <b>habitude</b> ou un fait <b>permanent</b> ? Ou est-ce que ça se passe <b>maintenant</b>, de façon <b>temporaire</b> ?' },
+    { type: 'p', html: 'En français, « je travaille » sert à tout. En anglais, tu dois choisir entre deux présents : le <b>présent simple</b> (<i>I work</i> : voir « Le présent simple : la forme affirmative ») et le <b>présent continu</b> (<i>I’m working</i> : voir « Le présent continu (be + -ing) »). La question à te poser : est-ce une <b>habitude</b> ou un fait <b>permanent</b> ? Ou est-ce que ça se passe <b>maintenant</b>, de façon <b>temporaire</b> ?' },
     { type: 'table', head: ['Question', 'Présent simple', 'Présent continu'], rows: [
       ['Comment ça se forme ?', 'I <b>work</b> / she <b>works</b>', 'I<b>’m working</b> / she<b>’s working</b>'],
       ['Habitude ou maintenant ?', 'habitude, routine', 'maintenant, action en cours'],
@@ -55,7 +55,7 @@ LE.register({
       { en: 'Our company makes solar panels.', fr: 'Notre entreprise fabrique des panneaux solaires.', note: 'L’activité de l’entreprise : permanent.' },
       { en: "We're building a new factory near Dallas.", fr: 'Nous construisons une nouvelle usine près de Dallas.', note: 'Un projet en cours, qui va se terminer : temporaire.' }
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : le présent « à tout faire » du français', html: 'Les francophones mettent souvent le présent simple partout, par réflexe :<br><span class="ko">Sorry, I can’t talk. I drive.</span> → <span class="ok">Sorry, I can’t talk. I’m driving.</span><br><span class="ko">Look! It rains.</span> → <span class="ok">Look! It’s raining.</span><br>Et attention à ces deux questions qui n’ont rien à voir :<br><b>What do you do?</b> = Quel est ton métier ? — <i>I’m an accountant.</i> (Je suis comptable.)<br><b>What are you doing?</b> = Qu’est-ce que tu fais (en ce moment) ? — <i>I’m reading.</i> (Je lis.)' },
+    { type: 'box', style: 'warn', title: 'Piège : le présent « à tout faire » du français', html: 'Les francophones mettent souvent le présent simple partout, par réflexe :<br><span class="ko">Sorry, I can’t talk. I drive.</span> → <span class="ok">Sorry, I can’t talk. I’m driving.</span><br><span class="ko">Look! It rains.</span> → <span class="ok">Look! It’s raining.</span><br>Et attention à ces deux questions qui n’ont rien à voir :<br><b>What do you do?</b> = Quel est ton métier ? Réponse : <i>I’m an accountant.</i> (Je suis comptable.)<br><b>What are you doing?</b> = Qu’est-ce que tu fais (en ce moment) ? Réponse : <i>I’m reading.</i> (Je lis.)' },
 
     { type: 'h', text: 'Les verbes d’état : presque jamais au continu' },
     { type: 'p', html: 'Certains verbes ne décrivent pas une <b>action</b> (quelque chose qu’on fait) mais un <b>état</b> : ce qu’on sait, ce qu’on pense, ce qu’on veut, ce qu’on aime, ce qu’on possède. On les appelle les <b>verbes d’état</b>. Ils restent au <b>présent simple</b>, même quand on parle de maintenant : <i>I <b>know</b></i> (je sais), jamais <span class="ko">I’m knowing</span>.' },
@@ -71,7 +71,7 @@ LE.register({
       { en: 'I know the answer.', fr: 'Je connais la réponse.' },
       { en: 'Do you understand the problem?', fr: 'Est-ce que tu comprends le problème ?' },
       { en: 'This office belongs to Ms. Ibrahim.', fr: 'Ce bureau appartient à Mme Ibrahim.' },
-      { en: 'What does "ASAP" mean? — It means "as soon as possible."', fr: 'Que veut dire « ASAP » ? — Ça veut dire « dès que possible ».' },
+      { en: 'What does "ASAP" mean? It means "as soon as possible."', fr: 'Que veut dire « ASAP » ? Ça veut dire « dès que possible ».' },
       { en: 'The tickets cost $45 each.', fr: 'Les billets coûtent 45 dollars chacun.' }
     ] },
 
@@ -117,9 +117,9 @@ LE.register({
     { type: 'gap', q: 'Our company ___ (make) office furniture and sells it in twenty countries.', answers: ['makes'], explain: 'L’activité permanente de l’entreprise → présent simple, comme <i>sells</i> ; <i>our company</i> = it → <b>makes</b>.' },
     { type: 'mcq', q: 'I ___ what you mean.', options: ['understand', 'am understanding', 'understands', 'am understand'], answer: 0, explain: '<b>understand</b> est un verbe d’état → présent simple, sans -s après <i>I</i> : <b>I understand</b>.' },
     { type: 'gap', q: 'This umbrella ___ (belong) to Mr. Sato.', answers: ['belongs'], explain: '<b>belong</b> (appartenir) est un verbe d’état → présent simple, avec -s car <i>this umbrella</i> = it.' },
-    { type: 'gap', q: '— Do you want a coffee? — No, thanks. I ___ (not / want) anything right now.', answers: ["don't want", 'do not want'], explain: 'Même avec <i>right now</i>, <b>want</b> est un verbe d’état → présent simple : <b>don’t want</b>.' },
+    { type: 'gap', q: 'Do you want a coffee? No, thanks. I ___ (not / want) anything right now.', answers: ["don't want", 'do not want'], explain: 'Même avec <i>right now</i>, <b>want</b> est un verbe d’état → présent simple : <b>don’t want</b>.' },
     { type: 'gap', q: "Laura can't come to the phone. She ___ (have) lunch.", answers: ['is having', "'s having"], explain: '<i>have lunch</i> = déjeuner : c’est une action, en train de se passer → <b>is having</b>. Ici, <i>have</i> ne veut pas dire « posséder ».' },
-    { type: 'mcq', q: '— Is the report ready? — I ___ so. Let me check.', options: ['think', 'am thinking', 'thinks', 'thinking'], answer: 0, explain: '<i>I think so</i> (je pense que oui) exprime une opinion : <i>think</i> est ici un verbe d’état → présent simple.' },
+    { type: 'mcq', q: 'Is the report ready? I ___ so. Let me check.', options: ['think', 'am thinking', 'thinks', 'thinking'], answer: 0, explain: '<i>I think so</i> (je pense que oui) exprime une opinion : <i>think</i> est ici un verbe d’état → présent simple.' },
     { type: 'gap', q: "I'm not sure about the job offer yet. At the moment, I ___ (think) about it.", answers: ["'m thinking", 'am thinking'], explain: '<i>think about</i> = réfléchir à : une action en cours (<i>at the moment</i>) → présent continu : <b>I’m thinking</b> about it.' },
     { type: 'mcq', q: 'Quelle question veut dire « Quel est ton métier ? » ?', options: ['What are you doing?', 'What do you do?', 'What are you do?', 'What do you doing?'], answer: 1, explain: '<b>What do you do?</b> (présent simple) demande le métier, une situation permanente. <i>What are you doing?</i> veut dire « Qu’est-ce que tu fais en ce moment ? ».' },
     { type: 'order', answer: 'What are you working on at the moment?', alts: ['At the moment what are you working on'], fr: 'Sur quoi travailles-tu en ce moment ?', explain: '<i>at the moment</i> → présent continu : <b>What are you working on</b>… La préposition <i>on</i> reste à la fin de la question.' },

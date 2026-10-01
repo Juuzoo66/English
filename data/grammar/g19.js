@@ -35,12 +35,12 @@ LE.register({
       ['Did they pay the invoice?', 'Yes, they <b>did</b>.', "No, they <b>didn't</b>."],
       ['Did it work?', 'Yes, it <b>did</b>.', "No, it <b>didn't</b>."]
     ] },
-    { type: 'box', style: 'warn', title: 'Piège : le bon auxiliaire', html: 'La question commence par <b>Did</b> ? La réponse courte utilise <b>did</b>, pas <i>do</i>, et on ne reprend pas le verbe seul :<br>— Did you like the hotel? <span class="ko">Yes, I do.</span> <span class="ko">Yes, I liked.</span> → <span class="ok">Yes, I did.</span>' },
+    { type: 'box', style: 'warn', title: 'Piège : le bon auxiliaire', html: 'La question commence par <b>Did</b> ? La réponse courte utilise <b>did</b>, pas <i>do</i>, et on ne reprend pas le verbe seul :<br>Did you like the hotel? <span class="ko">Yes, I do.</span> <span class="ko">Yes, I liked.</span> → <span class="ok">Yes, I did.</span>' },
     { type: 'examples', items: [
-      { en: 'Did you book the hotel? — Yes, I did.', fr: 'Tu as réservé l’hôtel ? — Oui.', note: 'Le français répond simplement « Oui » ou « Non » : pas d’équivalent de <i>I did</i>.' },
-      { en: "Did Mr. Sato call back? — No, he didn't.", fr: 'Est-ce que M. Sato a rappelé ? — Non.' },
-      { en: "Did the new printer work? — No, it didn't.", fr: 'La nouvelle imprimante a-t-elle fonctionné ? — Non.' },
-      { en: 'Did the managers approve the budget? — Yes, they did.', fr: 'Les responsables ont-ils approuvé le budget ? — Oui.' }
+      { en: 'Did you book the hotel? Yes, I did.', fr: 'Tu as réservé l’hôtel ? Oui.', note: 'Le français répond simplement « Oui » ou « Non » : pas d’équivalent de <i>I did</i>.' },
+      { en: "Did Mr. Sato call back? No, he didn't.", fr: 'Est-ce que M. Sato a rappelé ? Non.' },
+      { en: "Did the new printer work? No, it didn't.", fr: 'La nouvelle imprimante a-t-elle fonctionné ? Non.' },
+      { en: 'Did the managers approve the budget? Yes, they did.', fr: 'Les responsables ont-ils approuvé le budget ? Oui.' }
     ] },
 
     { type: 'h', text: 'Les questions avec un mot interrogatif' },
@@ -62,11 +62,11 @@ LE.register({
     { type: 'box', style: 'warn', title: 'Piège : n’oublie pas « did »', html: 'En français, on peut dire « Où tu es allée ? » sans rien inverser. En anglais, la question au passé a <b>besoin de did</b> (sauf avec <i>be</i>, et quand <i>who / what</i> est le sujet) :<br><span class="ko">Where you went?</span> → <span class="ok">Where did you go?</span><br><span class="ko">What time the meeting started?</span> → <span class="ok">What time did the meeting start?</span>' },
 
     { type: 'h', text: 'Qui a appelé ? Que s’est-il passé ? Sans « did » !' },
-    { type: 'p', html: 'Quand <b>who</b> (qui) ou <b>what</b> (qu’est-ce qui) est le <b>sujet</b> du verbe — c’est-à-dire quand on cherche <b>qui ou quoi a fait l’action</b> —, on n’utilise <b>pas</b> <i>did</i>. Le verbe se met directement au prétérit, comme dans une phrase affirmative.' },
+    { type: 'p', html: 'Quand <b>who</b> (qui) ou <b>what</b> (qu’est-ce qui) est le <b>sujet</b> du verbe (c’est-à-dire quand on cherche <b>qui ou quoi a fait l’action</b>), on n’utilise <b>pas</b> <i>did</i>. Le verbe se met directement au prétérit, comme dans une phrase affirmative.' },
     { type: 'table', head: ['Question sur le sujet (sans did)', 'Question sur le complément (avec did)'], rows: [
-      ['<b>Who called</b>? — <i>Ms. Lee</i> called.<br><small>Qui a appelé ?</small>', '<b>Who did</b> you <b>call</b>? — I called <i>Ms. Lee</i>.<br><small>Qui as-tu appelé ?</small>'],
-      ['<b>What happened</b>? — <i>The server</i> crashed.<br><small>Que s’est-il passé ?</small>', '<b>What did</b> you <b>buy</b>? — I bought <i>a printer</i>.<br><small>Qu’as-tu acheté ?</small>'],
-      ['<b>Who sent</b> this package? — <i>Mr. Ito</i> did.<br><small>Qui a envoyé ce colis ?</small>', '<b>Who did</b> he <b>send</b> it to? — He sent it to <i>Ms. Ruiz</i>.<br><small>À qui l’a-t-il envoyé ?</small>']
+      ['<b>Who called</b>? <i>Ms. Lee</i> called.<br><small>Qui a appelé ?</small>', '<b>Who did</b> you <b>call</b>? I called <i>Ms. Lee</i>.<br><small>Qui as-tu appelé ?</small>'],
+      ['<b>What happened</b>? <i>The server</i> crashed.<br><small>Que s’est-il passé ?</small>', '<b>What did</b> you <b>buy</b>? I bought <i>a printer</i>.<br><small>Qu’as-tu acheté ?</small>'],
+      ['<b>Who sent</b> this package? <i>Mr. Ito</i> did.<br><small>Qui a envoyé ce colis ?</small>', '<b>Who did</b> he <b>send</b> it to? He sent it to <i>Ms. Ruiz</i>.<br><small>À qui l’a-t-il envoyé ?</small>']
     ] },
     { type: 'box', style: 'tip', title: 'Comment savoir ?', html: 'Imagine la réponse. Si elle <b>remplace le sujet</b> (<i><b>Ms. Lee</b> called.</i>), pas de <i>did</i>. Si elle vient <b>après le verbe</b> (<i>I called <b>Ms. Lee</b>.</i>), il faut <i>did</i>. Et retiens par cœur deux questions ultra-fréquentes : <b>Who called?</b> et <b>What happened?</b>' },
     { type: 'examples', items: [
@@ -86,8 +86,8 @@ LE.register({
     ] },
     { type: 'box', style: 'warn', title: 'Ne mélange pas « did » et « was / were »', html: "<span class=\"ko\">Did you were late?</span> → <span class=\"ok\">Were you late?</span><br><span class=\"ko\">He didn't was there.</span> → <span class=\"ok\">He wasn't there.</span><br><span class=\"ko\">Did the meeting was long?</span> → <span class=\"ok\">Was the meeting long?</span>" },
     { type: 'examples', items: [
-      { en: "Were you at the office yesterday? — No, I wasn't.", fr: 'Tu étais au bureau hier ? — Non.' },
-      { en: 'Did you work from home? — Yes, I did.', fr: 'Tu as travaillé de chez toi ? — Oui.' },
+      { en: "Were you at the office yesterday? No, I wasn't.", fr: 'Tu étais au bureau hier ? Non.' },
+      { en: 'Did you work from home? Yes, I did.', fr: 'Tu as travaillé de chez toi ? Oui.' },
       { en: 'Was the hotel expensive?', fr: 'L’hôtel était-il cher ?' },
       { en: 'Did the hotel have a gym?', fr: 'Est-ce que l’hôtel avait une salle de sport ?' }
     ] },
@@ -111,11 +111,11 @@ LE.register({
     { type: 'mcq', q: 'Je n’ai pas vu l’e-mail. → I ___ the email.', options: ["didn't see", "didn't saw", 'not saw', "don't see"], answer: 0, explain: "Négation au prétérit : <b>didn't + base verbale</b>. <i>didn't saw</i> met le passé deux fois ; <i>don't see</i> est au présent." },
     { type: 'mcq', q: '___ you finish the report yesterday?', options: ['Do', 'Did', 'Were', 'Are'], answer: 1, explain: '<i>Yesterday</i> → passé, et <i>finish</i> est un verbe « ordinaire » → question avec <b>Did</b>. <i>Were</i> ne s’emploie pas devant une base verbale (<i>Were you busy?</i>, mais pas « Were you finish »).' },
     { type: 'gap', q: 'We ___ (not / go) to the trade fair last year.', answers: ["didn't go", 'did not go'], explain: "Négation : <b>didn't</b> (ou <i>did not</i>) + base verbale <b>go</b>. Surtout pas « didn't went » !" },
-    { type: 'gap', q: '— Did you call the client? — Yes, I ___. <small>(réponse courte)</small>', answers: ['did'], explain: 'Réponse courte : on reprend l’auxiliaire de la question, <b>did</b>, sans répéter le verbe.' },
-    { type: 'gap', q: '— Did Mr. Kaya sign the contract? — No, he ___. <small>(réponse courte)</small>', answers: ["didn't", 'did not'], explain: "Réponse courte négative : <b>No, he didn't.</b> (forme pleine : <i>did not</i>)." },
+    { type: 'gap', q: 'A: Did you call the client? B: Yes, I ___. <small>(réponse courte)</small>', answers: ['did'], explain: 'Réponse courte : on reprend l’auxiliaire de la question, <b>did</b>, sans répéter le verbe.' },
+    { type: 'gap', q: 'A: Did Mr. Kaya sign the contract? B: No, he ___. <small>(réponse courte)</small>', answers: ["didn't", 'did not'], explain: "Réponse courte négative : <b>No, he didn't.</b> (forme pleine : <i>did not</i>)." },
     { type: 'mcq', q: 'Quelle question est correcte ?', options: ['Did she went to the meeting?', 'Did she go to the meeting?', 'Does she went to the meeting?', 'Went she to the meeting?'], answer: 1, explain: '<b>Did</b> + sujet + <b>base verbale</b> : <i>Did she go…?</i> Le passé est déjà dans <i>did</i> : pas de <i>went</i> après.' },
     { type: 'gap', q: 'Where ___ (you / stay) in Seoul last month?', answers: ['did you stay', 'were you staying'], explain: 'Mot interrogatif + <b>did</b> + sujet + base verbale : <i>Where <b>did you stay</b>…?</i> (<i>were you staying</i>, au past continuous, est aussi correct).' },
-    { type: 'gap', q: '— When ___ (Ms. Wong / join) the company? — Three years ago.', answers: ['did Ms. Wong join', 'did Ms Wong join'], explain: 'La réponse (<i>three years ago</i>) montre qu’on parle du passé : <i>When</i> + <b>did</b> + sujet (<i>Ms. Wong</i>) + base verbale (<b>join</b>).' },
+    { type: 'gap', q: 'A: When ___ (Ms. Wong / join) the company? B: Three years ago.', answers: ['did Ms. Wong join', 'did Ms Wong join'], explain: 'La réponse (<i>three years ago</i>) montre qu’on parle du passé : <i>When</i> + <b>did</b> + sujet (<i>Ms. Wong</i>) + base verbale (<b>join</b>).' },
     { type: 'mcq', q: 'What ___ at the meeting yesterday?', options: ['happened', 'did happened', 'happens', 'was happen'], answer: 0, explain: '<i>What</i> est ici le <b>sujet</b> (qu’est-ce qui s’est passé ?) : pas de <i>did</i>, le verbe se met directement au prétérit → <b>What happened?</b>' },
     { type: 'mcq', q: '___ you at the office yesterday afternoon?', options: ['Did', 'Were', 'Was', 'Do'], answer: 1, explain: 'Pas d’autre verbe dans la phrase : c’est le verbe <b>be</b>. Au passé avec <i>you</i> → <b>Were</b> you…? Jamais de <i>did</i> avec <i>was / were</i>.' },
     { type: 'order', answer: 'Why did they cancel the order?', fr: 'Pourquoi ont-ils annulé la commande ?', explain: 'Mot interrogatif (<i>Why</i>) + <b>did</b> + sujet (<i>they</i>) + base verbale (<i>cancel</i>) + complément.' },

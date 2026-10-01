@@ -22,7 +22,7 @@ LE.register({
     ] },
 
     { type: 'h', text: 'La formation : be + verbe-ing' },
-    { type: 'p', html: 'Le présent continu se construit avec <b>deux éléments</b> : le verbe <b>be</b> au présent (<i>am, is, are</i> — voir la leçon « Le verbe « be » au présent ») + le verbe avec la terminaison <b>-ing</b>. <b>Be</b> change selon le sujet ; le verbe en <b>-ing</b>, lui, ne change jamais.' },
+    { type: 'p', html: 'Le présent continu se construit avec <b>deux éléments</b> : le verbe <b>be</b> au présent (<i>am, is, are</i> : voir la leçon « Le verbe « be » au présent ») + le verbe avec la terminaison <b>-ing</b>. <b>Be</b> change selon le sujet ; le verbe en <b>-ing</b>, lui, ne change jamais.' },
     { type: 'table', head: ['Sujet', 'Forme pleine', 'Forme contractée', 'Français'], rows: [
       ['I', 'I <b>am</b> work<b>ing</b>', 'I<b>’m</b> work<b>ing</b>', 'je travaille'],
       ['you', 'you <b>are</b> work<b>ing</b>', 'you<b>’re</b> work<b>ing</b>', 'tu travailles / vous travaillez'],
@@ -98,13 +98,13 @@ LE.register({
       ['you', 'You <b>aren’t</b> listening.', '<b>Are you</b> listening?', 'Yes, I am. / No, I’m not.'],
       ['he / she / it', 'She <b>isn’t</b> coming.', '<b>Is she</b> coming?', 'Yes, she is. / No, she isn’t.'],
       ['we / they', 'They <b>aren’t</b> waiting.', '<b>Are they</b> waiting?', 'Yes, they are. / No, they aren’t.']
-    ], caption: 'Avec un mot interrogatif (voir « Les mots interrogatifs (wh- questions) ») : <i>What <b>are you doing</b>?</i> — <i>Where <b>is she going</b>?</i>' },
+    ], caption: 'Avec un mot interrogatif (voir « Les mots interrogatifs (wh- questions) ») : <i>What <b>are you doing</b>?</i> <i>Where <b>is she going</b>?</i>' },
     { type: 'box', style: 'warn', title: 'Piège : pas de do / does au présent continu', html: 'Au présent continu, l’auxiliaire est <b>be</b>, jamais <i>do</i> :<br><span class="ko">Do you working today?</span> → <span class="ok">Are you working today?</span><br><span class="ko">She doesn’t working.</span> → <span class="ok">She isn’t working.</span><br>Et dans la réponse courte affirmative, pas de contraction : <span class="ko">Yes, I’m.</span> → <span class="ok">Yes, I am.</span>' },
     { type: 'examples', items: [
-      { en: "What are you doing? — I'm preparing the slides.", fr: 'Qu’est-ce que tu fais ? — Je prépare les diapos.' },
+      { en: "What are you doing? I'm preparing the slides.", fr: 'Qu’est-ce que tu fais ? Je prépare les diapos.' },
       { en: 'Is Mr. Silva still waiting in the lobby?', fr: 'Est-ce que M. Silva attend toujours dans le hall ?', note: '<i>still</i> = toujours, encore.' },
       { en: "We aren't hiring at the moment.", fr: 'Nous ne recrutons pas en ce moment.' },
-      { en: 'Are you enjoying the conference? — Yes, I am.', fr: 'La conférence te plaît ? — Oui.' }
+      { en: 'Are you enjoying the conference? Yes, I am.', fr: 'La conférence te plaît ? Oui.' }
     ] },
     { type: 'dialog', title: 'Au téléphone', lines: [
       { speaker: 'W', en: "Hi Daniel, it's Priya. Are you busy?", fr: 'Salut Daniel, c’est Priya. Tu es occupé ?' },
@@ -126,7 +126,7 @@ LE.register({
     ] },
     { type: 'box', style: 'info', title: 'Aperçu : is being + participe passé', html: 'Tu entendras aussi des phrases comme <i>A car <b>is being washed</b>.</i> (Une voiture est en train d’être lavée.) C’est le présent continu à la <b>voix passive</b> : <b>is / are being</b> + participe passé (la forme en <i>-ed</i>, ou la 3ᵉ colonne des verbes irréguliers). Tu l’étudieras dans la leçon « La voix passive ». Astuce TOEIC : cette phrase n’est vraie que si l’on <b>voit quelqu’un en train de faire l’action</b> sur la photo (ici, quelqu’un qui lave la voiture).' },
     { type: 'p', html: 'En <b>Partie 5</b> (phrases à compléter), des mots comme <i>now</i>, <i>at the moment</i> ou <i>this week</i> sont de précieux indices : <i>The marketing team ------- a new advertising campaign this month.</i> → <b>is developing</b> (sujet singulier + situation temporaire).' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• Formation : <b>am / is / are + verbe-ing</b> (<i>I’m working, she’s calling, they’re waiting</i>).<br>• Orthographe : <i>make → making</i>, <i>run → running</i>, <i>lie → lying</i>, <i>stop → stopping</i>, <i>travel → traveling</i> (US).<br>• Emplois : action <b>en cours</b> (<i>now, right now, at the moment</i>), situation <b>temporaire</b> (<i>today, this week, currently</i>), <b>tendance</b> (<i>Prices are rising.</i>).<br>• Négation et question avec <b>be</b>, jamais <i>do</i> : <i>She isn’t working. Are you listening? — Yes, I am.</i><br>• TOEIC Partie 1 : écoute bien le verbe en <b>-ing</b>.' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• Formation : <b>am / is / are + verbe-ing</b> (<i>I’m working, she’s calling, they’re waiting</i>).<br>• Orthographe : <i>make → making</i>, <i>run → running</i>, <i>lie → lying</i>, <i>stop → stopping</i>, <i>travel → traveling</i> (US).<br>• Emplois : action <b>en cours</b> (<i>now, right now, at the moment</i>), situation <b>temporaire</b> (<i>today, this week, currently</i>), <b>tendance</b> (<i>Prices are rising.</i>).<br>• Négation et question avec <b>be</b>, jamais <i>do</i> : <i>She isn’t working. Are you listening? Yes, I am.</i><br>• TOEIC Partie 1 : écoute bien le verbe en <b>-ing</b>.' }
   ],
   exercises: [
     { type: 'mcq', q: 'Choisis la phrase correcte.', options: ['I working now.', "I'm working now.", 'I am work now.', "I'm workking now."], answer: 1, explain: 'Il faut les deux morceaux : <b>be</b> (<i>am</i> → <i>I’m</i>) + verbe en <b>-ing</b> bien écrit (<i>working</i>, un seul <i>k</i>).' },
@@ -135,7 +135,7 @@ LE.register({
     { type: 'gap', q: 'The bus is ___ (stop) in front of the hotel.', answers: ['stopping'], explain: '<i>stop</i> : une syllabe, consonne + une voyelle + consonne → on double le <b>p</b> : <b>stopping</b>.' },
     { type: 'gap', q: "I ___ (not / watch) TV. I'm reading.", answers: ["'m not watching", 'am not watching'], explain: 'Négation : <b>not</b> après <i>am</i> → <b>I’m not watching</b> (ou <i>I am not watching</i>).' },
     { type: 'gap', q: '___ (you / listen) to me?', answers: ['Are you listening'], explain: 'Question : on inverse <i>be</i> et le sujet → <b>Are you listening</b> to me?' },
-    { type: 'mcq', q: '— Is it raining? — No, ___.', options: ["it isn't", "it doesn't", 'it not', "isn't it"], answer: 0, explain: 'La question commence par <b>Is</b> : on reprend <b>is</b> dans la réponse courte → <i>No, it isn’t.</i> Pas de <i>do / does</i> au présent continu.' },
+    { type: 'mcq', q: 'Is it raining? No, ___.', options: ["it isn't", "it doesn't", 'it not', "isn't it"], answer: 0, explain: 'La question commence par <b>Is</b> : on reprend <b>is</b> dans la réponse courte → <i>No, it isn’t.</i> Pas de <i>do / does</i> au présent continu.' },
     { type: 'mcq', q: 'Choisis la question correcte.', options: ['Do you working today?', 'Are you work today?', 'Are you working today?', 'Is you working today?'], answer: 2, explain: 'Question au présent continu : <b>Are</b> (car <i>you</i>) + sujet + verbe en <b>-ing</b>. Jamais de <i>do</i> avec la forme en -ing.' },
     { type: 'gap', q: 'Prices ___ (rise) quickly at the moment.', answers: ['are rising'], explain: 'Une <b>tendance</b> en cours (<i>at the moment</i>) + sujet pluriel (<i>prices</i> = they) → <b>are rising</b>. <i>rise → rising</i> : le e tombe.' },
     { type: 'order', answer: 'We are not hiring new staff at the moment.', alts: ['At the moment we are not hiring new staff', 'We are not at the moment hiring new staff'], fr: 'Nous ne recrutons pas de nouveau personnel en ce moment.', explain: 'Sujet + <b>are not</b> + verbe en <b>-ing</b> + complément ; <i>at the moment</i> se place à la fin (ou au début).' },

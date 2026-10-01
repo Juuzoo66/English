@@ -16,12 +16,12 @@ LE.register({
     { type: 'p', html: 'Les <b>quantifieurs</b> sont les petits mots qu’on place devant un nom pour dire <b>quelle quantité</b> : du, des, quelques, beaucoup, peu, assez, trop, chaque, aucun… En français, on dit « beaucoup de » aussi bien pour des clients que pour de l’argent. En anglais, le choix dépend souvent du <b>type de nom</b> : <b>dénombrable</b> (qu’on peut compter : <i>one client, two clients</i>) ou <b>indénombrable</b> (qu’on ne compte pas : <i>money, time, information</i>). Si tu hésites, relis la leçon « Le pluriel, dénombrables et indénombrables ».' },
     { type: 'table', head: ['Sens', 'Dénombrable (pluriel)', 'Indénombrable', 'Les deux'], rows: [
       ['beaucoup de', '<b>many</b> clients', '<b>much</b> money', '<b>a lot of</b> clients / money'],
-      ['combien ?', '<b>How many</b> clients?', '<b>How much</b> money?', '—'],
+      ['combien ?', '<b>How many</b> clients?', '<b>How much</b> money?', '(pas de forme commune)'],
       ['quelques, un peu de', '<b>a few</b> clients', '<b>a little</b> money', '<b>some</b> clients / money'],
-      ['peu de', '<b>few</b> clients', '<b>little</b> money', '—'],
-      ['trop de', '<b>too many</b> clients', '<b>too much</b> money', '—'],
-      ['assez de', '—', '—', '<b>enough</b> clients / money'],
-      ['plusieurs', '<b>several</b> clients', '—', '—']
+      ['peu de', '<b>few</b> clients', '<b>little</b> money', '(pas de forme commune)'],
+      ['trop de', '<b>too many</b> clients', '<b>too much</b> money', '(pas de forme commune)'],
+      ['assez de', '(voir « Les deux »)', '(voir « Les deux »)', '<b>enough</b> clients / money'],
+      ['plusieurs', '<b>several</b> clients', '(impossible)', '(pas de forme commune)']
     ], caption: 'Le réflexe : <b>many, few, several</b> → dénombrables ; <b>much, little</b> → indénombrables ; <b>a lot of, some, any, enough</b> → les deux.' },
 
     { type: 'h', text: 'Some, any et no' },
@@ -38,7 +38,7 @@ LE.register({
       { en: 'Could I have some water, please?', fr: 'Pourrais-je avoir de l’eau, s’il vous plaît ?', note: 'Demande polie → <b>some</b>.' },
       { en: 'If you have any questions, please contact us.', fr: 'Si vous avez des questions, n’hésitez pas à nous contacter.', note: 'Phrase très fréquente à la fin des e-mails et des annonces du TOEIC.' },
       { en: 'You can call me at any time.', fr: 'Tu peux m’appeler à n’importe quelle heure.', note: '<b>any</b> dans une phrase affirmative = « n’importe quel ».' },
-      { en: 'How many tickets are left? — None.', fr: 'Combien de billets reste-t-il ? — Aucun.', note: '<b>None</b> = « aucun ». Il s’emploie seul ou suivi de <b>of</b> (<i>none of them</i>), jamais directement devant un nom : <i>no tickets</i>, mais <i>none</i> tout seul.' }
+      { en: 'How many tickets are left? None.', fr: 'Combien de billets reste-t-il ? Aucun.', note: '<b>None</b> = « aucun ». Il s’emploie seul ou suivi de <b>of</b> (<i>none of them</i>), jamais directement devant un nom : <i>no tickets</i>, mais <i>none</i> tout seul.' }
     ] },
 
     { type: 'h', text: 'Much, many, a lot of : « beaucoup de »' },
@@ -46,7 +46,7 @@ LE.register({
     { type: 'table', head: ['Nom', 'Affirmation', 'Négation', 'Question'], rows: [
       ['Dénombrable', 'We have <b>a lot of</b> orders.', 'We don’t have <b>many</b> orders.', 'Do you have <b>many</b> orders?'],
       ['Indénombrable', 'We have <b>a lot of</b> work.', 'We don’t have <b>much</b> work.', 'Do you have <b>much</b> work?'],
-      ['Combien ?', '—', '—', '<b>How many</b> orders? / <b>How much</b> work?']
+      ['Combien ?', '(uniquement en question)', '(uniquement en question)', '<b>How many</b> orders? / <b>How much</b> work?']
     ], caption: 'Pour un prix : <b>How much is it?</b> ou <b>How much does it cost?</b> (Combien ça coûte ?)' },
     { type: 'box', style: 'warn', title: 'Pièges : « much » et le « de » français', html: '• À l’affirmative, <i>much</i> tout seul devant un nom sonne bizarre à l’oral (sauf dans <i>too much, so much</i>) : <span class="ko">I have much work.</span> → <span class="ok">I have a lot of work.</span><br>• Pas de <b>of</b> après <i>many</i> et <i>much</i> devant un nom seul : <span class="ko">many of clients</span> → <span class="ok">many clients</span>. On ajoute <b>of</b> seulement devant <i>the, my, our, these…</i> : <i>many <b>of our</b> clients</i> (beaucoup de nos clients).<br>• <b>A lot</b> sans nom derrière s’emploie sans <b>of</b> : <i>Thanks <b>a lot</b>! She travels <b>a lot</b>.</i>' },
     { type: 'examples', items: [

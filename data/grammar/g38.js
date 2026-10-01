@@ -33,14 +33,14 @@ LE.register({
     { type: 'h', text: 'Le grand tableau : sens × nature' },
     { type: 'table', head: ['Sens', 'Conjonction + sujet + verbe', 'Préposition + nom / -ing', 'Adverbe de liaison (+ virgule)'], rows: [
       ['<b>Opposition</b><br><small>mais, bien que, malgré, cependant</small>', 'but, although, even though, though, while, whereas', 'despite, in spite of, regardless of', 'however, nevertheless'],
-      ['<b>Remplacement</b><br><small>au lieu de, à la place</small>', '—', 'instead of', 'instead'],
-      ['<b>Cause</b><br><small>parce que, à cause de</small>', 'because, since, as', 'because of, due to, owing to', '—'],
-      ['<b>Conséquence</b><br><small>donc, par conséquent</small>', 'so <small>(après une virgule)</small>', '—', 'therefore, consequently, as a result'],
+      ['<b>Remplacement</b><br><small>au lieu de, à la place</small>', '<small>(aucune)</small>', 'instead of', 'instead'],
+      ['<b>Cause</b><br><small>parce que, à cause de</small>', 'because, since, as', 'because of, due to, owing to', '<small>(aucun)</small>'],
+      ['<b>Conséquence</b><br><small>donc, par conséquent</small>', 'so <small>(après une virgule)</small>', '<small>(aucune)</small>', 'therefore, consequently, as a result'],
       ['<b>Addition</b><br><small>et, de plus, en plus de</small>', 'and', 'in addition to, as well as', 'moreover, furthermore, in addition'],
-      ['<b>But</b><br><small>pour que, afin que</small>', 'so that, in order that', '— <small>(mais <i>to / in order to</i> + base verbale)</small>', '—'],
+      ['<b>But</b><br><small>pour que, afin que</small>', 'so that, in order that', '<small>(aucune, mais <i>to / in order to</i> + base verbale)</small>', '<small>(aucun)</small>'],
       ['<b>Condition</b><br><small>si, sauf si, en cas de, sinon</small>', 'if, unless, provided that', 'in case of, in the event of', 'otherwise'],
       ['<b>Temps</b><br><small>dès que, avant, pendant ce temps</small>', 'once, as soon as, when, while, before, after, until', 'prior to, during, before, after, until', 'meanwhile, in the meantime'],
-      ['<b>Source, exemple</b><br><small>selon, par exemple</small>', '—', 'according to, such as', 'for example, for instance']
+      ['<b>Source, exemple</b><br><small>selon, par exemple</small>', '<small>(aucune)</small>', 'according to, such as', 'for example, for instance']
     ], caption: '<i>Before</i>, <i>after</i> et <i>until</i> sont à la fois conjonctions et prépositions : <i>before <b>the meeting</b></i> / <i>before <b>we meet</b></i>. <i>During</i>, lui, est seulement une préposition : <span class="ko">during we were meeting</span> → <span class="ok">while we were meeting</span>.' },
 
     { type: 'h', text: 'L’opposition : although, despite, however' },

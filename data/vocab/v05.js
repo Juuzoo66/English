@@ -33,7 +33,7 @@ LE.register({
       { en: 'dish', fr: 'plat ; assiette', pos: 'n', ex: 'This dish is very popular with our customers.', exfr: 'Ce plat est très apprécié de nos clients.', note: '<i>do the dishes</i> = faire la vaisselle' },
       { en: 'vegetarian', fr: 'végétarien, végétarienne', pos: 'adj', ex: 'Do you have any vegetarian dishes?', exfr: 'Avez-vous des plats végétariens ?', note: "aussi un nom : <i>I'm a vegetarian.</i> = Je suis végétarienne." },
       { en: 'check', fr: 'addition', pos: 'n', ex: 'Could we have the check, please?', exfr: 'Pourrions-nous avoir l’addition, s’il vous plaît ?', note: 'UK : <b>the bill</b>. Le verbe <i>check</i> veut dire « vérifier »' },
-      { en: 'tip', fr: 'pourboire', pos: 'n', ex: 'In the US, people usually leave a 15–20% tip.', exfr: 'Aux États-Unis, on laisse en général 15 à 20 % de pourboire.', note: 'autre sens : un conseil, une astuce (<i>a useful tip</i>)' },
+      { en: 'tip', fr: 'pourboire', pos: 'n', ex: 'In the US, people usually leave a 15 to 20% tip.', exfr: 'Aux États-Unis, on laisse en général 15 à 20 % de pourboire.', note: 'autre sens : un conseil, une astuce (<i>a useful tip</i>)' },
       { en: 'business lunch', fr: 'déjeuner d’affaires', pos: 'n', ex: 'I have a business lunch with a client today.', exfr: 'J’ai un déjeuner d’affaires avec un client aujourd’hui.' },
       { en: 'catering', fr: 'service traiteur, restauration', pos: 'n', ex: 'We use a catering company for our team lunches.', exfr: 'Nous faisons appel à un traiteur pour nos déjeuners d’équipe.', note: '<i>caterer</i> = traiteur (la personne ou l’entreprise). Mot très fréquent au TOEIC (séminaires, événements)' },
       { en: 'cafeteria', fr: 'cafétéria, cantine', pos: 'n', ex: 'Employees can eat lunch in the cafeteria.', exfr: 'Les employés peuvent déjeuner à la cafétéria.', note: 'accent sur <b>TE</b> : ca-fe-<b>TE</b>-ria' }
@@ -47,8 +47,8 @@ LE.register({
       { en: 'checkout', fr: 'caisse (d’un magasin)', pos: 'n', ex: "There's a long line at the checkout.", exfr: 'Il y a une longue file d’attente à la caisse.', note: 'file d’attente : <i>line</i> (US) / <i>queue</i> (UK)' },
       { en: 'receipt', fr: 'ticket de caisse, reçu', pos: 'n', ex: 'Keep your receipt for your expense report.', exfr: 'Garde ton ticket de caisse pour ta note de frais.', note: 'se prononce « ri-SSIIT » : le <b>p</b> est muet !' },
       { en: 'on sale', fr: 'en promotion, en solde', pos: 'expr', ex: 'Apples are on sale this week.', exfr: 'Les pommes sont en promotion cette semaine.', note: 'attention : <i>for sale</i> = à vendre' },
-      { en: 'pay', fr: 'payer', pos: 'v', ex: 'Can I pay by credit card?', exfr: 'Je peux payer par carte bancaire ?', note: 'irrégulier : pay – paid – paid. <i>pay in cash</i> = payer en espèces' },
-      { en: 'cost', fr: 'coûter', pos: 'v', ex: 'How much does a coffee cost here?', exfr: 'Combien coûte un café ici ?', note: 'irrégulier : cost – cost – cost. Plus simple : <i>How much is it?</i>' }
+      { en: 'pay', fr: 'payer', pos: 'v', ex: 'Can I pay by credit card?', exfr: 'Je peux payer par carte bancaire ?', note: 'irrégulier : pay, paid, paid. <i>pay in cash</i> = payer en espèces' },
+      { en: 'cost', fr: 'coûter', pos: 'v', ex: 'How much does a coffee cost here?', exfr: 'Combien coûte un café ici ?', note: 'irrégulier : cost, cost, cost. Plus simple : <i>How much is it?</i>' }
     ] },
     { title: 'Emballages et quantités', words: [
       { en: 'loaf', fr: 'pain (entier), miche', pos: 'n', ex: "I'd like a loaf of bread, please.", exfr: 'Je voudrais un pain, s’il vous plaît.', note: 'pluriel irrégulier : <i>loaves</i>' },
@@ -62,7 +62,7 @@ LE.register({
     ] },
     { title: 'Cuisiner et manger', words: [
       { en: 'cook', fr: 'cuisiner, faire cuire', pos: 'v', ex: 'I cook dinner for my family every evening.', exfr: 'Je prépare le dîner pour ma famille tous les soirs.', note: 'aussi un nom : <i>a cook</i> = un cuisinier. Piège : <i>a cooker</i> (UK) = une cuisinière (l’appareil) !' },
-      { en: 'cut', fr: 'couper', pos: 'v', ex: 'Cut the vegetables into small pieces.', exfr: 'Coupe les légumes en petits morceaux.', note: 'irrégulier : cut – cut – cut' },
+      { en: 'cut', fr: 'couper', pos: 'v', ex: 'Cut the vegetables into small pieces.', exfr: 'Coupe les légumes en petits morceaux.', note: 'irrégulier : cut, cut, cut' },
       { en: 'boil', fr: 'faire bouillir', pos: 'v', ex: 'Boil the water before you add the rice.', exfr: 'Fais bouillir l’eau avant d’ajouter le riz.', note: '<i>a boiled egg</i> = un œuf à la coque ou un œuf dur' },
       { en: 'fry', fr: 'faire frire, faire revenir', pos: 'v', ex: 'Fry the onions in a little oil.', exfr: 'Fais revenir les oignons dans un peu d’huile.', note: '<i>fried eggs</i> = des œufs au plat ; <i>French fries</i> = des frites' },
       { en: 'bake', fr: 'faire cuire au four', pos: 'v', ex: 'My colleague bakes a cake for every birthday.', exfr: 'Ma collègue fait un gâteau pour chaque anniversaire.', note: '<i>baker</i> = boulanger ; <i>bakery</i> = boulangerie' },

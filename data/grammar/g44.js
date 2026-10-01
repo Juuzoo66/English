@@ -102,7 +102,7 @@ LE.register({
     { type: 'p', html: 'Le verbe « faire » se traduit par <b>make</b> (fabriquer, créer, produire un résultat) ou par <b>do</b> (réaliser une activité, une tâche). Les associations sont fixes, il faut les apprendre par cœur. Retiens au moins : <i><b>make</b> a decision, a mistake, a phone call, an appointment, progress, money</i> et <i><b>do</b> business, a favor, research, your best, a good job, the paperwork</i>. La liste complète se trouve dans la leçon de vocabulaire « Collocations : make, do, take, have… ».' },
     { type: 'list', items: [
       'L’adverbe ne se place <b>jamais</b> entre le verbe et son complément : <span class="ko">I speak very well English.</span> → <span class="ok">I speak English very well.</span>',
-      'Pas d’article pour parler d’une chose <b>en général</b> : <span class="ko">The life is expensive in Paris.</span> → <span class="ok">Life is expensive in Paris.</span> — <span class="ko">The time is money.</span> → <span class="ok">Time is money.</span>',
+      'Pas d’article pour parler d’une chose <b>en général</b> : <span class="ko">The life is expensive in Paris.</span> → <span class="ok">Life is expensive in Paris.</span><br><span class="ko">The time is money.</span> → <span class="ok">Time is money.</span>',
       'Mais un article devant un métier : <span class="ko">She is engineer.</span> → <span class="ok">She is <b>an</b> engineer.</span>',
       'L’adjectif se place <b>avant</b> le nom et ne prend jamais de <i>-s</i> : <span class="ko">two reports importants</span> → <span class="ok">two important reports</span>'
     ] },

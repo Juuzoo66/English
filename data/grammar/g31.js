@@ -8,7 +8,7 @@ LE.register({
   goals: [
     'Former le present perfect continu : <b>have / has been + verbe en -ing</b> (<i>I’ve been waiting, Has she been working…?</i>)',
     'Traduire « depuis » + présent : <i>Je travaille ici depuis 2021</i> → <i>I’ve been working here since 2021</i>',
-    'Expliquer une situation par une activité récente : <i>You look tired. — I’ve been running.</i>',
+    'Expliquer une situation par une activité récente : <i>You look tired. I’ve been running.</i>',
     'Choisir entre present perfect <b>simple</b> et <b>continu</b> : durée ou résultat, verbes d’état'
   ],
   blocks: [
@@ -33,7 +33,7 @@ LE.register({
     { type: 'box', style: 'tip', title: 'She’s been = she has been', html: 'Ici, la contraction <b>’s</b> veut toujours dire <b>has</b> : <i>She’s been working</i> = <i>She <b>has</b> been working</i>. En effet, <i>been</i> est un participe passé, et « she is been » n’existe pas.' },
     { type: 'examples', items: [
       { en: "We've been trying to call you all morning.", fr: 'Ça fait toute la matinée qu’on essaie de t’appeler.' },
-      { en: 'Have you been waiting long? — No, I just got here.', fr: 'Tu attends depuis longtemps ? — Non, je viens d’arriver.' },
+      { en: 'Have you been waiting long? No, I just got here.', fr: 'Tu attends depuis longtemps ? Non, je viens d’arriver.' },
       { en: "He hasn't been feeling well lately.", fr: 'Il ne se sent pas bien ces derniers temps.' },
       { en: 'How long has Ms. Osei been working on this project?', fr: 'Depuis combien de temps Mme Osei travaille-t-elle sur ce projet ?' }
     ] },
@@ -45,7 +45,7 @@ LE.register({
       ['<b>since</b>', '+ un <b>point de départ</b> (depuis quand ?)', 'since 2021, since Monday, since nine o’clock, since I joined the company']
     ], caption: 'Test rapide : « depuis <b>combien de temps</b> ? » → <b>for</b> ; « depuis <b>quand</b> ? » → <b>since</b>. <i>Since</i> peut aussi être suivi d’une phrase au prétérit : <i>since I <b>joined</b> the company</i> (depuis que je suis entrée dans l’entreprise).' },
     { type: 'examples', items: [
-      { en: 'How long have you been waiting? — For about twenty minutes.', fr: 'Depuis combien de temps attends-tu ? — Depuis une vingtaine de minutes.' },
+      { en: 'How long have you been waiting? For about twenty minutes.', fr: 'Depuis combien de temps attends-tu ? Depuis une vingtaine de minutes.' },
       { en: "I've been working here since 2021.", fr: 'Je travaille ici depuis 2021.' },
       { en: "They've been negotiating the contract for two weeks.", fr: 'Ils négocient le contrat depuis deux semaines.' },
       { en: 'Mr. Adeyemi has been managing the team since January.', fr: 'M. Adeyemi dirige l’équipe depuis janvier.' },
@@ -56,8 +56,8 @@ LE.register({
     { type: 'h', text: 'Emploi 2 : une activité récente qui laisse des traces' },
     { type: 'p', html: 'On utilise aussi le present perfect continu pour une activité qui vient de s’arrêter (ou presque) et dont on voit <b>les conséquences maintenant</b> : quelqu’un est fatigué, essoufflé, sale, mouillé… Ce temps sert alors à expliquer <b>pourquoi</b>. Souvent, il n’y a aucune indication de durée.' },
     { type: 'examples', items: [
-      { en: "You look tired. — I've been running.", fr: 'Tu as l’air fatiguée. — J’ai couru.', note: 'La course est finie, mais on en voit les <b>traces</b> : la fatigue.' },
-      { en: "Why are your hands so dirty? — I've been fixing the printer.", fr: 'Pourquoi as-tu les mains si sales ? — J’étais en train de réparer l’imprimante.' },
+      { en: "You look tired. I've been running.", fr: 'Tu as l’air fatiguée. J’ai couru.', note: 'La course est finie, mais on en voit les <b>traces</b> : la fatigue.' },
+      { en: "Why are your hands so dirty? I've been fixing the printer.", fr: 'Pourquoi as-tu les mains si sales ? J’étais en train de réparer l’imprimante.' },
       { en: 'The streets are wet. Has it been raining?', fr: 'Les rues sont mouillées. Il a plu ?' },
       { en: "Sorry I'm late. I've been talking to a client.", fr: 'Désolée pour le retard. J’étais en train de parler avec un client.' }
     ] },
@@ -99,7 +99,7 @@ LE.register({
       { speaker: 'M', en: "I've been thinking about moving to a bigger company for a while.", fr: 'Je pense depuis un moment à rejoindre une entreprise plus grande.' }
     ] },
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, repère les indices de durée : <b>for</b> + durée, <b>since</b> + point de départ, <b>How long</b>, <b>all day / all morning</b>, <b>lately / recently</b>. Ils appellent un present perfect (simple ou continu). Exemple : <i>Ms. Liu ------- for the company since 2018.</i> → <b>has been working</b> (ou <i>has worked</i>, mais jamais <i>works</i> ni <i>is working</i>). Vérifie aussi l’accord : <i>The company <b>has</b> been…</i> / <i>Our clients <b>have</b> been…</i><br>Attention au piège <b>has been + participe passé</b> : c’est le <b>passif</b> (<i>The report has been <b>sent</b></i> = le rapport a été envoyé), pas le present perfect continu. Tu le verras dans la leçon « La voix passive ».<br>En <b>Partie 2</b>, à la question <i>How long have you been waiting?</i>, la bonne réponse donne une durée (<i>For about ten minutes.</i>), pas un lieu (<i>At the bus stop.</i>).' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• Forme : <b>have / has + been + verbe-ing</b> (<i>I’ve been working, she hasn’t been waiting, How long have you been…?</i>).<br>• Emploi 1 : action commencée dans le passé qui <b>dure encore</b> → <b>for</b> + durée, <b>since</b> + point de départ.<br>• « Depuis » + présent en français → present perfect (continu) en anglais : <i>I’ve been living here for two years.</i><br>• Emploi 2 : activité récente dont on voit les <b>traces</b> : <i>You look tired. — I’ve been running.</i><br>• <b>How long</b>, durée → continu ; <b>How many</b>, quantité, résultat → simple (<i>I’ve written five emails</i>).<br>• Verbes d’état (<i>know, be, have, own…</i>) → toujours le <b>simple</b> : <i>I’ve known her for years.</i>' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• Forme : <b>have / has + been + verbe-ing</b> (<i>I’ve been working, she hasn’t been waiting, How long have you been…?</i>).<br>• Emploi 1 : action commencée dans le passé qui <b>dure encore</b> → <b>for</b> + durée, <b>since</b> + point de départ.<br>• « Depuis » + présent en français → present perfect (continu) en anglais : <i>I’ve been living here for two years.</i><br>• Emploi 2 : activité récente dont on voit les <b>traces</b> : <i>You look tired. I’ve been running.</i><br>• <b>How long</b>, durée → continu ; <b>How many</b>, quantité, résultat → simple (<i>I’ve written five emails</i>).<br>• Verbes d’état (<i>know, be, have, own…</i>) → toujours le <b>simple</b> : <i>I’ve known her for years.</i>' }
   ],
   exercises: [
     { type: 'mcq', q: 'I ___ been waiting for twenty minutes.', options: ['have', 'has', 'am', 'was'], answer: 0, explain: 'Avec <b>I</b>, l’auxiliaire est <b>have</b> : <i>I have been waiting</i> (= <i>I’ve been waiting</i>). <i>Has</i> est réservé à <i>he, she, it</i>.' },
@@ -108,7 +108,7 @@ LE.register({
     { type: 'mcq', q: 'How long ___ learning English?', options: ['are you', 'do you', 'have you been', 'have you'], answer: 2, explain: 'Pour une durée qui continue jusqu’à maintenant : <b>How long have you been</b> + verbe en <b>-ing</b> ? Le présent (<i>are you, do you</i>) est impossible ici, et <i>have you learning</i> oublie <i>been</i>.' },
     { type: 'gap', q: "I've been working on this report ___ Monday morning. (for ou since ?)", answers: ['since'], explain: '<i>Monday morning</i> est un <b>point de départ</b> → <b>since</b>. <i>For</i> s’emploie avec une durée (<i>for three days</i>).' },
     { type: 'mcq', q: 'Traduis : « Je travaille ici depuis trois ans. »', options: ['I work here since three years.', 'I am working here for three years.', "I've been working here for three years.", "I've been working here since three years."], answer: 2, explain: '« Depuis » + présent français → <b>present perfect (continu)</b> en anglais. <i>Three years</i> est une durée → <b>for</b>, jamais <i>since</i>.' },
-    { type: 'mcq', q: '— You look exhausted! — I know. I ___ boxes since lunch.', options: ['carry', 'was carrying', 'have been carrying', 'am carrying'], answer: 2, explain: 'Une activité commencée après le déjeuner, qui explique la fatigue <b>maintenant</b>, avec <b>since</b> → <b>have been carrying</b>. Avec <i>since</i>, le présent et le past continuous sont impossibles.' },
+    { type: 'mcq', q: 'A: You look exhausted! B: I know. I ___ boxes since lunch.', options: ['carry', 'was carrying', 'have been carrying', 'am carrying'], answer: 2, explain: 'Une activité commencée après le déjeuner, qui explique la fatigue <b>maintenant</b>, avec <b>since</b> → <b>have been carrying</b>. Avec <i>since</i>, le présent et le past continuous sont impossibles.' },
     { type: 'gap', q: 'I ___ (know) Mr. Park for ten years. <small>(attention : verbe d’état)</small>', answers: ['have known', "'ve known"], explain: '<b>Know</b> est un verbe d’état : pas de forme en <i>-ing</i>. Pour une durée, on utilise le present perfect <b>simple</b> : <i>I have known</i> (= <i>I’ve known</i>). <i>I’ve been knowing</i> est impossible.' },
     { type: 'gap', q: 'So far today, I ___ (write) twelve emails. <small>(present perfect simple ou continu ?)</small>', answers: ['have written', "'ve written"], explain: 'On donne une <b>quantité</b> (<i>twelve emails</i>) → present perfect <b>simple</b> : <i>have written</i> (write → wrote → <b>written</b>). Le continu (<i>have been writing</i>) ne s’emploie pas avec un nombre.' },
     { type: 'mcq', q: 'Traduis : « J’ai lu ton rapport : il est excellent. » (la lecture est terminée)', options: ["I've been reading your report. It's excellent.", "I've read your report. It's excellent."], answer: 1, explain: 'La lecture est <b>terminée</b> et tu donnes ton avis sur le résultat → present perfect <b>simple</b> : <i>I’ve read</i>. <i>I’ve been reading</i> insisterait sur l’activité, et laisserait penser que tu n’as pas fini.' },

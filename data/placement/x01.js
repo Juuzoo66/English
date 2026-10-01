@@ -1,7 +1,7 @@
 LE.register({
   id: 'x01',
   kind: 'placement',
-  title: 'Test de niveau — version A',
+  title: 'Test de niveau (version A)',
   minutes: 25,
   intro: '<b>Pourquoi ce test ?</b> Il mesure ton niveau d’anglais <b>au point de départ</b> : tu sauras d’où tu pars et quel chemin il reste jusqu’à ton objectif TOEIC. Tu le referas plus tard dans le programme pour mesurer tes progrès. Il contient 48 questions de difficulté croissante : grammaire, vocabulaire, compréhension écrite et compréhension orale (mets le son ou tes écouteurs). À partir du niveau B1, certaines questions sont en anglais, comme au TOEIC.<br><br><b>Comment faire ?</b> Prends ton temps (environ 25 minutes), dans un endroit calme, sans dictionnaire ni traducteur. Ne réponds pas au hasard pour aller plus vite : lis ou écoute chaque question jusqu’au bout. Si tu n’as vraiment aucune idée, choisis la réponse qui te paraît la plus logique et passe à la suivante, sans stress. Pour les écoutes, essaie de ne pas réécouter plus de deux fois.<br><br><b>Pas de panique si la fin te paraît très difficile</b> : les dernières questions sont du niveau B2, celui que tu vises pour le TOEIC. C’est normal de ne pas les réussir aujourd’hui : c’est justement ce que tu vas apprendre !<br><br><b>Ton résultat</b> est indicatif : tu obtiens ton niveau sur l’échelle européenne CECRL (A1 → A2 → B1 → B2 ; un niveau est validé à partir de 60 % de bonnes réponses, à condition que les niveaux précédents le soient aussi), avec l’équivalent approximatif en points TOEIC. Ton objectif : <b>B1 (≈ 550 points)</b> au minimum, <b>B2 (≈ 785 points)</b> idéalement. Tu verras donc tout de suite l’écart à combler. À la fin, la correction détaillée t’explique chaque réponse.',
   questions: [
@@ -14,7 +14,7 @@ LE.register({
       explain: '<i>thirty</i> = <b>30</b> : accent sur la 1ʳᵉ syllabe (<b>THIR</b>ty) et fin courte. <i>thirteen</i> (13) se termine par un « tiin » long et accentué. Au TOEIC, ces paires (13/30, 14/40, 15/50…) sont des pièges fréquents.' },
     { level: 'A1', type: 'mcq', q: '___ you speak Spanish?', options: ['Do', 'Does', 'Are', 'Is'], answer: 0,
       explain: 'Question au présent simple avec <i>you</i> : <b>Do</b> + sujet + verbe. <i>Does</i> s’emploie avec <i>he / she / it</i>. « Are you speak » est impossible : on ne met pas <i>be</i> devant un autre verbe conjugué.' },
-    { level: 'A1', type: 'mcq', q: 'My brother is ___ engineer.', options: ['an', 'a', 'some', '— (pas de mot)'], answer: 0,
+    { level: 'A1', type: 'mcq', q: 'My brother is ___ engineer.', options: ['an', 'a', 'some', '(pas de mot)'], answer: 0,
       explain: 'Pour dire le métier d’une personne, l’anglais met toujours <b>a / an</b> devant le métier au singulier (alors que le français dit « il est ingénieur », sans article). On emploie <b>an</b> devant un son voyelle : <i>an engineer</i>, <i>an artist</i>.' },
     { level: 'A1', type: 'listen', say: 'The meeting starts at half past nine.', accent: 'en-GB', q: 'À quelle heure commence la réunion ?', options: ['8 h 30', '9 h 00', '9 h 15', '9 h 30'], answer: 3,
       explain: '<i>half past nine</i> = « la moitié après neuf » = <b>9 h 30</b>. <i>past</i> = après, <i>to</i> = avant : <i>a quarter past nine</i> = 9 h 15 ; <i>a quarter to nine</i> = 8 h 45.' },
@@ -35,7 +35,7 @@ LE.register({
 
     // ---------- A2 ----------
     { level: 'A2', type: 'mcq', q: 'Last year, we ___ to Canada for a conference.', options: ['go', 'gone', 'goed', 'went'], answer: 3,
-      explain: '<i>Last year</i> (l’année dernière) = moment passé et terminé → <b>prétérit</b> (le temps du passé en anglais : <i>worked, saw…</i>). <i>go</i> est irrégulier : <i>go – <b>went</b> – gone</i>. « goed » n’existe pas.' },
+      explain: '<i>Last year</i> (l’année dernière) = moment passé et terminé → <b>prétérit</b> (le temps du passé en anglais : <i>worked, saw…</i>). <i>go</i> est irrégulier : <i>go, <b>went</b>, gone</i>. « goed » n’existe pas.' },
     { level: 'A2', type: 'mcq', q: 'Sorry, I ___ your message yesterday. I was very busy.', options: ["didn't see", "didn't saw", "don't saw", "wasn't see"], answer: 0,
       explain: 'Négation au prétérit : <b>didn’t + verbe de base</b>. Le passé est déjà marqué par <i>did</i>, donc le verbe ne change pas : <i>I didn’t <b>see</b></i> (et pas « didn’t saw »).' },
     { level: 'A2', type: 'listen', say: 'Last week, I flew to Berlin for a meeting, and I came back on Friday.', q: 'Qu’as-tu entendu ?',
@@ -89,7 +89,7 @@ LE.register({
     { level: 'B1', type: 'mcq', q: 'Lis ce mémo :<br><i>« From: Priya Raman, HR Manager<br>To: All staff<br>The annual training day, originally scheduled for March 3, has been postponed to March 17 because the trainer is unavailable. Staff who have already registered do not need to register again. »</i><br>What is true for employees who have already registered?',
       options: ['They must register again.', 'They should contact the trainer.', 'Their registration is still valid.', 'Their training will take place on March 3.'], answer: 2,
       explain: '<i>Staff who have already registered do not need to register again</i> = les personnes déjà inscrites n’ont pas besoin de se réinscrire : leur inscription reste valable. La formation est reportée (<i>postponed</i>) au 17 mars.' },
-    { level: 'B1', type: 'listen', say: 'Excuse me, is this the right line for international transfers? — No, this line is for domestic flights. You need to go to the counter at the end of the hall.', q: 'Where does this conversation most likely take place?',
+    { level: 'B1', type: 'listen', say: 'Excuse me, is this the right line for international transfers? No, this line is for domestic flights. You need to go to the counter at the end of the hall.', q: 'Where does this conversation most likely take place?',
       options: ['At an airport', 'At a bank', 'At a train station', 'At a hotel'], answer: 0,
       explain: '<i>domestic flights</i> (vols intérieurs) indique un <b>aéroport</b>. Ici, <i>transfers</i> désigne les correspondances ; le mot fait penser à la banque (virements) : c’est le piège.' },
 
@@ -98,7 +98,7 @@ LE.register({
       explain: 'Après <b>Not only</b> en tête de phrase, on fait l’<b>inversion</b> comme dans une question : auxiliaire + sujet + verbe → <i>Not only <b>did they miss</b> the deadline…</i> (Non seulement ils ont dépassé la date limite, mais en plus…).' },
     { level: 'B2', type: 'mcq', q: 'The recruiter asked me why ___ my previous job.', options: ['I had left', 'did I leave', 'had I left', 'I have left'], answer: 0,
       explain: 'Dans une question indirecte, <b>pas d’inversion</b> : on garde l’ordre sujet + verbe. Et après <i>asked</i> (passé), le temps recule d’un cran : « Why did you leave…? » → <i>asked me why <b>I had left</b>…</i>' },
-    { level: 'B2', type: 'listen', say: "Have you finished the budget report yet? — Well, I've been in meetings since eight o'clock this morning.", accent: 'en-GB', q: 'What does the second speaker mean?',
+    { level: 'B2', type: 'listen', say: "Have you finished the budget report yet? Well, I've been in meetings since eight o'clock this morning.", accent: 'en-GB', q: 'What does the second speaker mean?',
       options: ['The report is ready.', 'The meeting starts at eight.', 'Someone else wrote the report.', 'The report is not finished yet.'], answer: 3,
       explain: 'Répondre « j’enchaîne les réunions depuis 8 h ce matin » est une façon <b>indirecte</b> de dire « non, je n’ai pas eu le temps » : le rapport n’est pas terminé. Au TOEIC, les bonnes réponses sont souvent indirectes.' },
     { level: 'B2', type: 'mcq', q: '___ you require further assistance, please contact our help desk.', options: ['Would', 'Should', 'Unless', 'Had'], answer: 1,

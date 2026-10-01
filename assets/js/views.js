@@ -27,7 +27,7 @@
         const id = 'dlg' + Math.random().toString(36).slice(2, 8);
         return `<div class="dialog" id="${id}" data-accent="${b.accent || ''}">
           <div class="dlg-head"><b>💬 ${esc(b.title || 'Dialogue')}</b><span class="row"><label class="switch" style="font-size:13px"><input type="checkbox" data-act="dlg-fr" checked> FR</label><button class="btn small" type="button" data-act="dlg-play">▶ Écouter</button></span></div>
-          ${b.lines.map((l, k) => `<div class="dlg-line" data-k="${k}" data-speaker="${l.speaker}"><span class="who ${l.speaker}">${esc(l.speaker)}</span><div class="dlg-text"><span class="en">${esc(l.en)}</span><span class="fr">${esc(l.fr)}</span></div>${LE.speakBtn(l.en, { speaker: l.speaker, accent: b.accent })}</div>`).join('')}
+          ${b.lines.map((l, k) => `<div class="dlg-line" data-k="${k}" data-speaker="${l.speaker}"><span class="who ${l.speaker}">${esc(l.speaker)}</span><div class="dlg-text"><span class="en">${esc(l.en)}</span><span class="fr">${LE.nb(esc(l.fr))}</span></div>${LE.speakBtn(l.en, { speaker: l.speaker, accent: b.accent })}</div>`).join('')}
         </div>`;
       }
       case 'pairs':

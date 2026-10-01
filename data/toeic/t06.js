@@ -2,7 +2,7 @@ LE.register({
   id: 't06',
   kind: 'toeic',
   part: 6,
-  title: 'Partie 6 — Textes à compléter',
+  title: 'Partie 6 : Textes à compléter',
   subtitle: 'Lire tout le document pour remplir ses trous : méthode, indices de contexte, insertion de phrase et 32 questions d’entraînement',
   level: 'B1',
   minutes: 45,
@@ -114,7 +114,7 @@ LE.register({
     { type: 'box', style: 'key', title: 'À retenir', html: '• 4 textes × 4 trous = <b>16 questions</b>, dont <b>1 phrase à insérer</b> par texte ; vise <b>8 à 10 min</b>.<br>• Survole d’abord le texte : <b>qui</b> écrit à <b>qui</b>, <b>pourquoi</b> et <b>quand</b> (passé ou futur ?).<br>• La phrase du trou ne suffit pas : lis <b>la phrase d’avant et celle d’après</b>.<br>• Temps → chronologie du document ; pronom → nom cité avant ; connecteur → lien logique entre deux phrases.<br>• Insertion : la bonne phrase <b>s’accroche</b> à ce qui précède (pronoms, connecteurs) et <b>prépare</b> ce qui suit.<br>• Ne laisse <b>jamais</b> de blanc.' }
   ],
   sets: [
-    { title: 'Série 1 — E-mail et avis (vers le B1)', level: 'A2', items: [
+    { title: 'Série 1 : E-mail et avis (vers le B1)', level: 'A2', items: [
       {
         title: 'E-mail',
         text: "To: Sales team\nFrom: Nadia Petrova\nSubject: Tomorrow's team meeting\n\nHi everyone,\n\nJust a quick reminder: our weekly team meeting {1} at 10:00 A.M. in Room 204, as usual. However, there is one change this week. Ms. Alvarez, our new marketing manager, will join us to present the new product catalog. {2} team has worked on it for three months. {3} Please look at it before the meeting and write down any questions you have.\n\nAlso, please bring your sales figures for February. We will {4} them together and set our goals for March. If you cannot come, please let me know by the end of the day.\n\nSee you tomorrow,\nNadia",
@@ -136,7 +136,7 @@ LE.register({
         ]
       }
     ] },
-    { title: 'Série 2 — Mémo et publicité', level: 'B1', items: [
+    { title: 'Série 2 : Mémo et publicité', level: 'B1', items: [
       {
         title: 'Memo',
         text: 'To: All employees\nFrom: Kofi Mensah, Human Resources Director\nSubject: New vacation request system\n\nStarting next Monday, all vacation requests must be submitted through our new online system, and paper forms will no longer be accepted. {1} With the new system, your manager will receive your request instantly and can approve it in just a few clicks. You will also be able to check how many vacation days you have left at any time.\n\nTo help everyone get started, a training session has been scheduled for Thursday at 2:00 P.M. in Conference Room B. The session {2} about 30 minutes. Attendance is {3} but strongly recommended. {4} you cannot attend, a recording of the session will be available on the company intranet.',
@@ -149,7 +149,7 @@ LE.register({
       },
       {
         title: 'Advertisement',
-        text: 'Are you tired of working from your kitchen table? Harbor Loft Workspace offers a quiet, comfortable place to work in the center of Millbrook. We are open from 7:00 A.M. to 10:00 P.M., seven days a week.\n\nOur members enjoy high-speed Internet, free coffee, and access to meeting rooms that can be {1} online. {2} Our friendly front-desk team will also accept your mail and packages while you are busy.\n\nMembership plans are {3}: you can pay by the day, by the week, or by the month. And for a limited time, new members will receive {4} first week free. To take advantage of this offer, sign up on our website before July 31.\n\nHarbor Loft Workspace — 45 Canal Street, Millbrook',
+        text: 'Are you tired of working from your kitchen table? Harbor Loft Workspace offers a quiet, comfortable place to work in the center of Millbrook. We are open from 7:00 A.M. to 10:00 P.M., seven days a week.\n\nOur members enjoy high-speed Internet, free coffee, and access to meeting rooms that can be {1} online. {2} Our friendly front-desk team will also accept your mail and packages while you are busy.\n\nMembership plans are {3}: you can pay by the day, by the week, or by the month. And for a limited time, new members will receive {4} first week free. To take advantage of this offer, sign up on our website before July 31.\n\nHarbor Loft Workspace, 45 Canal Street, Millbrook',
         questions: [
           { options: ['reserve', 'reservation', 'reserving', 'reserved'], answer: 3, explain: 'Après <i>can be</i>, il faut un <b>participe passé</b> : c’est le passif (les salles <b>peuvent être réservées</b> en ligne) → <b>reserved</b>. <i>reserve</i> (base verbale), <i>reservation</i> (nom) et <i>reserving</i> (forme en -ing) ne conviennent pas ici.' },
           { options: ['Each room has a large screen for video calls and presentations.', 'Coffee prices have increased by ten percent this year.', 'You will need to bring your own Internet connection.', 'They must be returned to the library by Friday.'], answer: 0, explain: 'La phrase d’avant se termine sur les <b>salles de réunion</b> ; <b>Each room</b> (chaque salle) les reprend et ajoute un avantage, puis la phrase d’après continue la liste des services (<i>will <b>also</b> accept</i>). B contredit <i>free coffee</i> (café gratuit), C contredit <i>high-speed Internet</i>, et D n’a aucun sens (<i>library</i> = bibliothèque).' },
@@ -158,7 +158,7 @@ LE.register({
         ]
       }
     ] },
-    { title: 'Série 3 — Page web et instructions (vers le B2)', level: 'B1', items: [
+    { title: 'Série 3 : Page web et instructions (vers le B2)', level: 'B1', items: [
       {
         title: 'Web page',
         text: 'About Us\n\nMaplestone Catering was founded in 2009 by chef Amara Okonkwo. At first, the company {1} only small events, such as birthday parties and family dinners. Over the years, however, our team has grown from three people to more than forty, and we now cater business lunches, conferences, and weddings of up to 500 guests.\n\nOur menus change with the seasons because we believe fresh ingredients make all the difference. {2}, we buy most of our vegetables from farms located less than 50 miles from our kitchen.\n\nEvery event is different. That is why our event planners work {3} with each client to create a menu that fits their needs and budget. {4}\n\nTo request a price quote, please complete the form on our Contact page.',
@@ -180,10 +180,10 @@ LE.register({
         ]
       }
     ] },
-    { title: 'Série 4 — Article et lettre (objectif B2)', level: 'B2', items: [
+    { title: 'Série 4 : Article et lettre (objectif B2)', level: 'B2', items: [
       {
         title: 'Article',
-        text: "LINDENPORT (May 12) — Tavora Foods, a producer of frozen meals, announced yesterday that it will open a second factory in Lindenport next spring. The new facility is expected to create about 250 jobs, most of {1} will be in production and packaging.\n\nTavora Foods has grown rapidly since its founding in 2011, and its products are now sold in more than 3,000 supermarkets across the country. {2} \"Our current factory is simply too small to keep up with demand,\" said CEO Daniel Ferreira.\n\nBefore choosing Lindenport, the company {3} several other locations in the region. According to Mr. Ferreira, the city's skilled workforce and its location near major highways made the difference. Local officials {4} the news, noting that the new factory will also bring more customers to nearby restaurants and shops.",
+        text: "LINDENPORT (May 12): Tavora Foods, a producer of frozen meals, announced yesterday that it will open a second factory in Lindenport next spring. The new facility is expected to create about 250 jobs, most of {1} will be in production and packaging.\n\nTavora Foods has grown rapidly since its founding in 2011, and its products are now sold in more than 3,000 supermarkets across the country. {2} \"Our current factory is simply too small to keep up with demand,\" said CEO Daniel Ferreira.\n\nBefore choosing Lindenport, the company {3} several other locations in the region. According to Mr. Ferreira, the city's skilled workforce and its location near major highways made the difference. Local officials {4} the news, noting that the new factory will also bring more customers to nearby restaurants and shops.",
         questions: [
           { options: ['which', 'whom', 'them', 'whose'], answer: 0, explain: 'Il faut un <b>pronom relatif</b> qui renvoie à <i>250 jobs</i> (des emplois, donc des <b>choses</b>) → <i>most of <b>which</b></i> (dont la plupart). <i>whom</i> renvoie à des personnes, <i>whose</i> doit être suivi d’un nom, et <i>them</i> n’est pas un relatif : il faudrait alors deux phrases séparées par un point.' },
           { options: ['However, demand for frozen meals has fallen sharply in recent years.', 'Sales rose by 40 percent last year alone.', 'Most of these jobs will require a university degree.', 'The company plans to close its only factory next year.'], answer: 1, explain: 'Avant le trou, on parle de la <b>croissance</b> de l’entreprise ; après, le PDG explique que l’usine actuelle est trop petite pour suivre la <b>demande</b>. B (les ventes ont augmenté de 40 % rien que l’an dernier) fait le lien entre les deux. A contredit l’idée d’une forte demande, D contredit l’ouverture d’une <b>deuxième</b> usine, et C parle d’emplois, un sujet sans lien avec les supermarchés cités juste avant.' },

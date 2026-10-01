@@ -15,8 +15,8 @@ LE.register({
     { type: 'h', text: 'This, that, these, those : montrer les choses' },
     { type: 'p', html: 'En français, on dit « ce, cet, cette, ces » et on ajoute parfois « -ci » ou « -là » (ce bureau-ci, ce bureau-là). L’anglais, lui, fait <b>toujours</b> la différence entre ce qui est <b>proche</b> (ici) et ce qui est <b>loin</b> (là-bas), et entre le <b>singulier</b> et le <b>pluriel</b>. Ces quatre mots s’appellent des <b>démonstratifs</b> (des mots qui servent à « montrer »).' },
     { type: 'table', head: ['Nombre', 'Proche (ici)', 'Loin (là-bas)'], rows: [
-      ['Singulier', '<b>this</b> desk — ce bureau(-ci)', '<b>that</b> desk — ce bureau(-là)'],
-      ['Pluriel', '<b>these</b> desks — ces bureaux(-ci)', '<b>those</b> desks — ces bureaux(-là)']
+      ['Singulier', '<b>this</b> desk : ce bureau(-ci)', '<b>that</b> desk : ce bureau(-là)'],
+      ['Pluriel', '<b>these</b> desks : ces bureaux(-ci)', '<b>those</b> desks : ces bureaux(-là)']
     ], caption: 'Prononce bien : <b>this</b> (i court, s final) ≠ <b>these</b> (i long, son z final). Et <b>those</b> se prononce avec le o de <i>go</i>.' },
     { type: 'examples', items: [
       { en: 'This coffee is very hot.', fr: 'Ce café est très chaud.' },
@@ -45,9 +45,9 @@ LE.register({
     ] },
 
     { type: 'h', text: 'This one, that one : ne pas répéter le nom' },
-    { type: 'p', html: 'Pour ne pas répéter un nom déjà cité, on le remplace par <b>one</b> : <i>Which chair? — <b>This one</b>.</i> (Laquelle ? — Celle-ci.) Au pluriel, on dit le plus souvent <b>these</b> ou <b>those</b> tout seuls (<i>I like those.</i>) ; à l’oral, on entend aussi <b>these ones / those ones</b>. <b>One</b> s’utilise aussi après un adjectif : <i>the blue one</i> (le bleu), <i>the new ones</i> (les nouveaux).' },
+    { type: 'p', html: 'Pour ne pas répéter un nom déjà cité, on le remplace par <b>one</b> : <i>Which chair? <b>This one</b>.</i> (Laquelle ? Celle-ci.) Au pluriel, on dit le plus souvent <b>these</b> ou <b>those</b> tout seuls (<i>I like those.</i>) ; à l’oral, on entend aussi <b>these ones / those ones</b>. <b>One</b> s’utilise aussi après un adjectif : <i>the blue one</i> (le bleu), <i>the new ones</i> (les nouveaux).' },
     { type: 'examples', items: [
-      { en: 'Which bag is yours? — That one, near the door.', fr: 'Quel sac est le tien ? — Celui-là, près de la porte.' },
+      { en: 'Which bag is yours? That one, near the door.', fr: 'Quel sac est le tien ? Celui-là, près de la porte.' },
       { en: 'This room is small, but that one is very big.', fr: 'Cette salle-ci est petite, mais celle-là est très grande.' },
       { en: 'These cups are dirty. Please use those ones.', fr: 'Ces tasses-ci sont sales. Utilise celles-là, s’il te plaît.', note: 'On peut aussi dire simplement <i>use those</i>.' },
       { en: 'The red folders? No, the blue ones, please.', fr: 'Les chemises rouges ? Non, les bleues, s’il te plaît.' }
@@ -96,10 +96,10 @@ LE.register({
       ['7', 'Le nom', 'car, table, bag, company']
     ], caption: 'Exemple d’école (personne ne parle comme ça, mais l’ordre est parfait) : <i>a <b>nice big old red Italian</b> car</i>.' },
     { type: 'examples', items: [
-      { en: 'a nice big old red Italian car', fr: 'une belle grande vieille voiture rouge italienne', note: 'opinion – taille – âge – couleur – origine – nom' },
-      { en: 'a beautiful old building', fr: 'un beau bâtiment ancien', note: 'opinion – âge' },
-      { en: 'a small Japanese company', fr: 'une petite entreprise japonaise', note: 'taille – origine' },
-      { en: 'a large brown wooden table', fr: 'une grande table en bois marron', note: 'taille – couleur – matière' }
+      { en: 'a nice big old red Italian car', fr: 'une belle grande vieille voiture rouge italienne', note: 'opinion, taille, âge, couleur, origine, nom' },
+      { en: 'a beautiful old building', fr: 'un beau bâtiment ancien', note: 'opinion, âge' },
+      { en: 'a small Japanese company', fr: 'une petite entreprise japonaise', note: 'taille, origine' },
+      { en: 'a large brown wooden table', fr: 'une grande table en bois marron', note: 'taille, couleur, matière' }
     ] },
     { type: 'box', style: 'tip', title: 'Si tu hésites', html: 'Mets l’<b>opinion</b> en premier (<i>nice, good, beautiful</i>) et garde l’<b>origine</b> et la <b>matière</b> tout près du nom : <i>a <b>nice</b> Italian <b>leather</b> bag</i>.' },
 

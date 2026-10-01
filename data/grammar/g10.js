@@ -8,7 +8,7 @@ LE.register({
   goals: [
     'Connaître les adverbes de fréquence, de <i>always</i> (toujours) à <i>never</i> (jamais)',
     'Les placer correctement : <b>avant</b> un verbe normal, mais <b>après</b> <i>be</i>',
-    'Demander et donner une fréquence : <i>How often…? — Twice a week.</i>',
+    'Demander et donner une fréquence : <i>How often…? Twice a week.</i>',
     'Utiliser <i>never</i> sans ajouter <i>not</i> ni <i>don’t</i>'
   ],
   blocks: [
@@ -96,9 +96,9 @@ LE.register({
     ], caption: 'Ces expressions se placent en <b>fin de phrase</b> (ou en début, pour insister) : <i>I go to the gym <b>twice a week</b>.</i>' },
     { type: 'box', style: 'tip', title: 'Once, twice, three times', html: '1 fois = <b>once</b>, 2 fois = <b>twice</b>, puis <b>three times</b>, <b>four times</b>… Et « par » se dit simplement <b>a</b> : <i>twice <b>a</b> week</i> (deux fois <b>par</b> semaine), <i>once <b>a</b> year</i> (une fois <b>par</b> an). Dans les documents officiels, tu verras aussi <b>per</b> : <i>three times per week</i>.' },
     { type: 'examples', items: [
-      { en: 'How often do you go to the gym? — Twice a week.', fr: 'Tu vas à la salle de sport tous les combien ? — Deux fois par semaine.' },
-      { en: 'How often does the shuttle run? — Every twenty minutes.', fr: 'La navette passe tous les combien ? — Toutes les vingt minutes.' },
-      { en: 'How often do you travel for work? — Three or four times a year.', fr: 'À quelle fréquence voyages-tu pour le travail ? — Trois ou quatre fois par an.' },
+      { en: 'How often do you go to the gym? Twice a week.', fr: 'Tu vas à la salle de sport tous les combien ? Deux fois par semaine.' },
+      { en: 'How often does the shuttle run? Every twenty minutes.', fr: 'La navette passe tous les combien ? Toutes les vingt minutes.' },
+      { en: 'How often do you travel for work? Three or four times a year.', fr: 'À quelle fréquence voyages-tu pour le travail ? Trois ou quatre fois par an.' },
       { en: 'We have a team meeting once a week, on Mondays.', fr: 'Nous avons une réunion d’équipe une fois par semaine, le lundi.' }
     ] },
     { type: 'box', style: 'tip', title: 'Do you ever…?', html: 'Dans une question, <b>ever</b> veut dire « parfois, à un moment ou à un autre » : <i>Do you <b>ever</b> work late?</i> = « Est-ce qu’il t’arrive de travailler tard ? ». On répond avec un adverbe : <i>Yes, sometimes.</i> / <i>No, never.</i>' },
@@ -123,7 +123,7 @@ LE.register({
     { type: 'gap', q: 'Ms. Ito ___ (never / eat) meat.', answers: ['never eats'], explain: '<i>Never</i> se place avant le verbe, sans <i>doesn’t</i>. Le verbe garde donc son <b>-s</b> : <i>she <b>never eats</b></i>.' },
     { type: 'gap', q: 'If you have a problem, you ___ (can / always / call) me.', answers: ['can always call'], explain: 'Avec un auxiliaire comme <i>can</i>, l’adverbe se glisse <b>entre l’auxiliaire et le verbe</b> : <i>can <b>always</b> call</i> (tu peux toujours m’appeler).' },
     { type: 'gap', q: 'We visit our clients ___ a year. (trois fois)', answers: ['three times', '3 times'], explain: 'Après <i>once</i> (1 fois) et <i>twice</i> (2 fois), on dit <b>three times</b>, <i>four times</i>… + <i>a year</i> (par an).' },
-    { type: 'mcq', q: '— ___ do you go to the gym? — Twice a week.', options: ['How often', 'How much', 'How long', 'What time'], answer: 0, explain: 'La réponse est une fréquence (<i>twice a week</i>) → la question est <b>How often</b> (tous les combien).' },
+    { type: 'mcq', q: 'A: ___ do you go to the gym? B: Twice a week.', options: ['How often', 'How much', 'How long', 'What time'], answer: 0, explain: 'La réponse est une fréquence (<i>twice a week</i>) → la question est <b>How often</b> (tous les combien).' },
     { type: 'mcq', q: 'Choisis la phrase correcte.', options: ["I don't never work on Sundays.", 'I never work on Sundays.', "I never don't work on Sundays.", 'I not never work on Sundays.'], answer: 1, explain: '<i>Never</i> est déjà négatif (« ne… jamais ») : on n’ajoute ni <i>don’t</i> ni <i>not</i> → <b>I never work</b>.' },
     { type: 'order', answer: 'They hardly ever take a day off.', fr: 'Ils ne prennent presque jamais de jour de congé.', explain: '<i>Hardly ever</i> (presque jamais) se place comme <i>never</i> : entre le sujet et le verbe.' },
     { type: 'order', answer: 'How often does the airport bus run?', fr: 'Le bus de l’aéroport passe tous les combien ?', explain: '<b>How often</b> + <b>does</b> + sujet (<i>the airport bus</i>) + base verbale (<i>run</i>).' },

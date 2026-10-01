@@ -94,7 +94,7 @@ LE.register({
     { type: 'p', html: '<b>let</b> someone <b>do</b> = laisser, permettre ; <b>make</b> someone <b>do</b> = obliger, faire faire. Après ces deux verbes, on met la <b>base verbale sans to</b>. Compare avec <b>allow</b>, qui a le même sens que <i>let</i> mais prend <i>to</i>. Après <b>help</b>, les deux sont corrects : <i>help me (to) prepare</i>.' },
     { type: 'examples', items: [
       { en: 'Let me help you with those boxes.', fr: 'Laisse-moi t’aider avec ces cartons.' },
-      { en: 'My boss let me leave early yesterday.', fr: 'Mon chef m’a laissée partir plus tôt hier.', note: '<i>let</i> est irrégulier : <i>let – let – let</i>.' },
+      { en: 'My boss let me leave early yesterday.', fr: 'Mon chef m’a laissée partir plus tôt hier.', note: '<i>let</i> est irrégulier : <i>let, let, let</i>.' },
       { en: 'The trainer made us repeat the exercise.', fr: 'Le formateur nous a fait refaire l’exercice.' },
       { en: 'Our manager lets us choose our hours.', fr: 'Notre responsable nous laisse choisir nos horaires.', note: 'Même sens : <i>Our manager <b>allows</b> us <b>to</b> choose our hours.</i> → <b>let</b> + base verbale, mais <b>allow</b> + <b>to</b>.' },
       { en: 'Can you help me prepare the slides?', fr: 'Tu peux m’aider à préparer les diapos ?' }

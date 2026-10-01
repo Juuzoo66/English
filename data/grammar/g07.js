@@ -50,9 +50,9 @@ LE.register({
     ], caption: 'Après <b>does</b> ou <b>doesn’t</b>, on remet <b>have</b> (jamais <i>has</i>) : <i>Does she <b>have</b>…?</i>' },
     { type: 'box', style: 'warn', title: 'Piège : ne mélange pas les deux systèmes', html: '<span class="ko">Does she has a car?</span> → <span class="ok">Does she have a car?</span><br><span class="ko">She doesn’t has a car.</span> → <span class="ok">She doesn’t have a car.</span><br><span class="ko">Do you have got a pen?</span> → <span class="ok">Do you have a pen?</span> ou <span class="ok">Have you got a pen?</span><br><span class="ko">I haven’t a car.</span> → <span class="ok">I don’t have a car.</span> ou <span class="ok">I haven’t got a car.</span><br><small>(<i>I haven’t a…</i> et <i>Have you a…?</i> existent dans de vieux textes britanniques, mais ils sont démodés.)</small>' },
     { type: 'examples', items: [
-      { en: 'Do you have a pen? — Yes, I do.', fr: 'Tu as un stylo ? — Oui.' },
-      { en: "Does the hotel have a gym? — No, it doesn't.", fr: 'Est-ce que l’hôtel a une salle de sport ? — Non.' },
-      { en: 'Have you got a minute? — Yes, I have.', fr: 'Tu as une minute ? — Oui.', accent: 'en-GB' },
+      { en: 'Do you have a pen? Yes, I do.', fr: 'Tu as un stylo ? Oui.' },
+      { en: "Does the hotel have a gym? No, it doesn't.", fr: 'Est-ce que l’hôtel a une salle de sport ? Non.' },
+      { en: 'Have you got a minute? Yes, I have.', fr: 'Tu as une minute ? Oui.', accent: 'en-GB' },
       { en: "She hasn't got a car.", fr: 'Elle n’a pas de voiture.', accent: 'en-GB' },
       { en: "We don't have any meetings today.", fr: 'Nous n’avons pas de réunion aujourd’hui.' }
     ] },
@@ -107,8 +107,8 @@ LE.register({
       { en: 'Did you have lunch?', fr: 'Tu as déjeuné ?' }
     ] },
 
-    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, on teste souvent l’accord : <i>The new building ------- a large parking garage.</i> → <b>has</b> (singulier). Et après <i>does / doesn’t / did</i>, il faut <b>have</b> : <i>The store does not ------- this item in stock.</i> → <b>have</b>. En <b>Partie 2</b>, beaucoup de questions commencent par <i>Do you have…?</i> ou <i>Does the office have…?</i> ; la bonne réponse n’est pas toujours « Yes / No » : <i>Do you have the sales report? — It’s on your desk.</i> Plus tard, tu verras que <i>have</i> sert aussi d’auxiliaire (<i>I have finished</i>) : leçon <i>Le present perfect</i>.' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>I / you / we / they have</b> — <b>he / she / it has</b>.<br>• <b>have got</b> (UK) = <b>have</b> pour la possession : <i>I’ve got, she’s got</i>.<br>• Négation et question : <i>I don’t have, Does she have…?</i> (<i>have</i> après <i>does</i>) ou <i>I haven’t got, Has she got…?</i><br>• Actions (<i>have breakfast, have a shower, have a good time</i>) → <b>have</b> seulement, jamais <i>have got</i>.<br>• Âge, faim, froid… → <b>be</b> : <i>I’m 30, I’m hungry</i>. Maladies → <b>have</b> : <i>I have a cold</i>.<br>• Passé : <b>had</b> pour toutes les personnes.' }
+    { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, on teste souvent l’accord : <i>The new building ------- a large parking garage.</i> → <b>has</b> (singulier). Et après <i>does / doesn’t / did</i>, il faut <b>have</b> : <i>The store does not ------- this item in stock.</i> → <b>have</b>. En <b>Partie 2</b>, beaucoup de questions commencent par <i>Do you have…?</i> ou <i>Does the office have…?</i> ; la bonne réponse n’est pas toujours « Yes / No » : <i>Do you have the sales report? It’s on your desk.</i> Plus tard, tu verras que <i>have</i> sert aussi d’auxiliaire (<i>I have finished</i>) : leçon <i>Le present perfect</i>.' },
+    { type: 'box', style: 'key', title: 'À retenir', html: '• <b>I / you / we / they have</b>, <b>he / she / it has</b>.<br>• <b>have got</b> (UK) = <b>have</b> pour la possession : <i>I’ve got, she’s got</i>.<br>• Négation et question : <i>I don’t have, Does she have…?</i> (<i>have</i> après <i>does</i>) ou <i>I haven’t got, Has she got…?</i><br>• Actions (<i>have breakfast, have a shower, have a good time</i>) → <b>have</b> seulement, jamais <i>have got</i>.<br>• Âge, faim, froid… → <b>be</b> : <i>I’m 30, I’m hungry</i>. Maladies → <b>have</b> : <i>I have a cold</i>.<br>• Passé : <b>had</b> pour toutes les personnes.' }
   ],
   exercises: [
     { type: 'mcq', q: 'She ___ two children.', options: ['have', 'has', 'is'], answer: 1, explain: 'Avec <b>she</b> (3ᵉ personne du singulier), <i>have</i> devient <b>has</b>.' },
@@ -118,7 +118,7 @@ LE.register({
     { type: 'gap', q: 'She ___ (not / have) a laptop, so she uses the office computer.', answers: ["doesn't have", 'does not have', "hasn't got", 'has not got'], explain: 'Avec <i>she</i> : <b>doesn’t have</b> (et pas <i>doesn’t has</i> : après <i>does</i>, on remet <i>have</i>). À l’anglaise : <b>hasn’t got</b>.' },
     { type: 'mcq', q: '___ the hotel have a swimming pool?', options: ['Do', 'Does', 'Has', 'Is'], answer: 1, explain: '<i>the hotel</i> = it → question avec <b>Does</b> + <i>have</i>. <i>Has the hotel have…?</i> est impossible (deux fois <i>have</i>).' },
     { type: 'mcq', q: '___ she got a car?', options: ['Does', 'Has', 'Have', 'Is'], answer: 1, explain: 'Avec <b>have got</b>, on inverse <i>has</i> et le sujet : <b>Has she got…?</b> (<i>she</i> → <i>has</i>, pas <i>have</i>).' },
-    { type: 'gap', q: '— Do you have any brothers? — No, I ___.', answers: ["don't", 'do not'], explain: 'La question commence par <i>Do</i> → la réponse courte reprend <b>do</b> : <b>No, I don’t.</b>' },
+    { type: 'gap', q: 'A: Do you have any brothers? B: No, I ___.', answers: ["don't", 'do not'], explain: 'La question commence par <i>Do</i> → la réponse courte reprend <b>do</b> : <b>No, I don’t.</b>' },
     { type: 'mcq', q: 'I usually ___ breakfast at 7 a.m.', options: ['have', 'have got', 'has', 'am'], answer: 0, explain: '<i>have breakfast</i> est une <b>action</b> (prendre le petit-déjeuner) : <i>have got</i> est impossible ici. Avec <i>I</i> → <b>have</b>.' },
     { type: 'gap', q: 'She ___ (have) a shower every morning.', answers: ['has'], explain: 'Action habituelle → <b>have</b> (jamais <i>have got</i>), et <i>she</i> → <b>has</b>.' },
     { type: 'order', answer: 'Does your company have a website?', fr: 'Est-ce que ton entreprise a un site web ?', explain: 'Question avec <b>Does</b> + sujet (<i>your company</i>) + <b>have</b> (et pas <i>has</i>, car <i>does</i> porte déjà la 3ᵉ personne).' },

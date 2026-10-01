@@ -3,9 +3,9 @@ LE.register({
   kind: 'mock-section',
   mock: 'm01',
   section: 'listening',
-  title: 'TOEIC blanc n°1 — Listening',
+  title: 'TOEIC blanc n°1 : Listening',
   parts: [
-    /* ---------------- Partie 1 — Photographies (3 items) ---------------- */
+    /* ---------------- Partie 1 : Photographies (3 items) ---------------- */
     { part: 1, items: [
       {
         accent: 'en-US',
@@ -30,7 +30,7 @@ LE.register({
       }
     ] },
 
-    /* ---------------- Partie 2 — Questions-réponses (12 items) ---------------- */
+    /* ---------------- Partie 2 : Questions-réponses (12 items) ---------------- */
     { part: 2, items: [
       {
         accent: 'en-US', speakers: ['W', 'M'],
@@ -118,7 +118,7 @@ LE.register({
       }
     ] },
 
-    /* ---------------- Partie 3 — Conversations (6 × 3 questions) ---------------- */
+    /* ---------------- Partie 3 : Conversations (6 × 3 questions) ---------------- */
     { part: 3, items: [
       {
         accent: 'en-US',
@@ -172,7 +172,7 @@ LE.register({
           { speaker: 'W', text: 'Perfect. And since your order is for more than twenty-five people, delivery is free.' }
         ],
         graphic: {
-          title: 'Brindlewood Catering — Lunch Packages',
+          title: 'Brindlewood Catering: Lunch Packages',
           head: ['Package', 'Includes', 'Price per person'],
           rows: [
             ['Basic', 'Sandwiches, fruit', '$12'],
@@ -252,7 +252,7 @@ LE.register({
       }
     ] },
 
-    /* ---------------- Partie 4 — Exposés (5 × 3 questions) ---------------- */
+    /* ---------------- Partie 4 : Exposés (5 × 3 questions) ---------------- */
     { part: 4, items: [
       {
         accent: 'en-US', speaker: 'W',
@@ -272,7 +272,7 @@ LE.register({
         intro: 'Questions refer to the following announcement and departure board.',
         text: 'Attention, please. Due to a signal problem just outside the station, the train departing from platform three will be delayed by approximately twenty minutes. We apologize for any inconvenience this may cause. Passengers on this service who have connecting trains at Harlow Junction should go to the information desk, where a member of staff will help them rearrange their journeys. We would also like to remind passengers that the station café is closed today for renovations. Hot drinks and snacks are available from the vending machines on platform one. Thank you for your patience.',
         graphic: {
-          title: 'Departures — Morning Trains',
+          title: 'Departures: Morning Trains',
           head: ['Destination', 'Time', 'Platform'],
           rows: [
             ['Ashbury', '9:15', '2'],

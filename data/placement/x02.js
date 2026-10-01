@@ -1,7 +1,7 @@
 LE.register({
   id: 'x02',
   kind: 'placement',
-  title: 'Test de niveau — version B',
+  title: 'Test de niveau (version B)',
   minutes: 25,
   intro: '<b>Pourquoi cette version B ?</b> Elle a <b>la même difficulté</b> que la version A, mais avec des questions toutes différentes. Utilise-la pour tes <b>bilans intermédiaires</b> (par exemple au début de la phase 2, en semaine 9) : tu mesures tes vrais progrès sans retomber sur des questions déjà vues. Comme la version A, elle contient 48 questions de difficulté croissante : grammaire, vocabulaire, compréhension écrite et compréhension orale (mets le son ou tes écouteurs). À partir du niveau B1, certaines questions sont en anglais, comme au TOEIC.<br><br><b>Comment faire ?</b> Prends ton temps (environ 25 minutes), dans un endroit calme, sans dictionnaire ni traducteur. Ne réponds pas au hasard pour aller plus vite : lis ou écoute chaque question jusqu’au bout. Si tu n’as vraiment aucune idée, choisis la réponse qui te paraît la plus logique et passe à la suivante, sans stress. Pour les écoutes, essaie de ne pas réécouter plus de deux fois.<br><br><b>Pas de panique si certaines questions te résistent</b> : les dernières sont du niveau B2, celui que tu vises pour le TOEIC. Si tu ne les réussis pas encore, c’est normal : le programme est fait pour ça.<br><br><b>Ton résultat</b> est indicatif : tu obtiens ton niveau sur l’échelle européenne CECRL (A1 → A2 → B1 → B2 ; un niveau est validé à partir de 60 % de bonnes réponses, à condition que les niveaux précédents le soient aussi), avec l’équivalent approximatif en points TOEIC. Ton objectif : <b>B1 (≈ 550 points)</b> au minimum, <b>B2 (≈ 785 points)</b> idéalement. Compare avec ton résultat précédent pour voir le chemin parcouru… et celui qui reste. À la fin, la correction détaillée t’explique chaque réponse.',
   questions: [
@@ -14,11 +14,11 @@ LE.register({
       explain: '<i>fifty</i> = <b>50</b> : accent sur la 1ʳᵉ syllabe (<b>FIF</b>ty) et fin courte. <i>fifteen</i> (15) se termine par un « tiin » long et accentué. Au TOEIC, ces paires (13/30, 14/40, 15/50…) sont des pièges fréquents.' },
     { level: 'A1', type: 'mcq', q: 'Where ___ your brother live?', options: ['do', 'does', 'is', 'are'], answer: 1,
       explain: 'Question au présent simple avec <i>he / she / it</i> (<i>your brother</i> = <i>he</i>) : <b>does</b> + sujet + verbe de base (<i>live</i>, sans -s). « is … live » est impossible : on ne met pas <i>be</i> devant un autre verbe conjugué.' },
-    { level: 'A1', type: 'mcq', q: 'Paris is ___ capital of France.', options: ['a', 'an', 'the', '— (pas de mot)'], answer: 2,
+    { level: 'A1', type: 'mcq', q: 'Paris is ___ capital of France.', options: ['a', 'an', 'the', '(pas de mot)'], answer: 2,
       explain: 'La France n’a <b>qu’une seule</b> capitale : on parle d’une chose unique et précise → <b>the</b>. <i>a / an</i> = « un(e) parmi d’autres ».' },
     { level: 'A1', type: 'listen', say: 'The bank opens at a quarter past eight.', accent: 'en-GB', q: 'À quelle heure ouvre la banque ?', options: ['7 h 45', '8 h 00', '8 h 15', '8 h 45'], answer: 2,
       explain: '<i>a quarter past eight</i> = « un quart après huit » = <b>8 h 15</b>. <i>past</i> = après, <i>to</i> = avant : <i>a quarter to eight</i> = 7 h 45.' },
-    { level: 'A1', type: 'mcq', q: "Is this Ana's bag? — No, ___ bag is red.", options: ['her', 'she', 'hers', "she's"], answer: 0,
+    { level: 'A1', type: 'mcq', q: "Is this Ana's bag? No, ___ bag is red.", options: ['her', 'she', 'hers', "she's"], answer: 0,
       explain: '<b>her</b> + nom = son / sa / ses (à elle) : <i>her bag</i> = son sac. <i>hers</i> s’emploie seul, sans nom (<i>It’s hers</i> = c’est le sien) ; <i>she’s</i> = <i>she is</i>.' },
     { level: 'A1', type: 'mcq', q: 'Two ___ are waiting for you in the lobby.', options: ['man', 'mans', 'mens', 'men'], answer: 3,
       explain: 'Pluriel irrégulier : <i>a man → two <b>men</b></i> (comme <i>woman → women</i>, <i>child → children</i>, <i>person → people</i>). « mans » et « mens » n’existent pas.' },
@@ -35,14 +35,14 @@ LE.register({
 
     // ---------- A2 ----------
     { level: 'A2', type: 'mcq', q: 'Yesterday, Ms. Adeyemi ___ the 7:30 train to work.', options: ['caught', 'catch', 'catched', 'catching'], answer: 0,
-      explain: '<i>Yesterday</i> (hier) = moment passé et terminé → <b>prétérit</b> (le temps du passé en anglais : <i>worked, went…</i>). <i>catch</i> est irrégulier : <i>catch – <b>caught</b> – caught</i> (attraper, prendre un train). « catched » n’existe pas.' },
+      explain: '<i>Yesterday</i> (hier) = moment passé et terminé → <b>prétérit</b> (le temps du passé en anglais : <i>worked, went…</i>). <i>catch</i> est irrégulier : <i>catch, <b>caught</b>, caught</i> (attraper, prendre un train). « catched » n’existe pas.' },
     { level: 'A2', type: 'mcq', q: '___ you go to the conference last week?', options: ['Do', 'Did', 'Were', 'Have'], answer: 1,
       explain: 'Question au prétérit : <b>Did</b> + sujet + verbe de base (<i>go</i>). <i>last week</i> (la semaine dernière) indique un moment terminé. « Were you go » et « Have you go » sont impossibles.' },
     { level: 'A2', type: 'listen', say: 'I started my new job in March. Before that, I worked in a hotel for five years.', q: 'Qu’as-tu entendu ?',
       options: ['La personne travaille dans un hôtel depuis cinq ans.', 'La personne a commencé un nouveau travail en mars ; avant, elle a travaillé cinq ans dans un hôtel.', 'La personne va commencer un nouveau travail en mars.'], answer: 1,
       explain: '<i>I <b>started</b> my new job in March</i> = j’ai commencé mon nouveau travail en mars (prétérit : c’est fait) ; <i>Before that, I <b>worked</b> in a hotel for five years</i> = avant, j’ai travaillé cinq ans dans un hôtel (c’est terminé).' },
     { level: 'A2', type: 'mcq', q: 'I have just ___ the e-mail to the client.', options: ['send', 'sended', 'sending', 'sent'], answer: 3,
-      explain: 'Present perfect = <b>have + participe passé</b> (la 3ᵉ colonne des verbes irréguliers). <i>send</i> est irrégulier : <i>send – sent – <b>sent</b></i>. <i>just</i> = « venir de » : <i>I have just sent</i> = je viens d’envoyer.' },
+      explain: 'Present perfect = <b>have + participe passé</b> (la 3ᵉ colonne des verbes irréguliers). <i>send</i> est irrégulier : <i>send, sent, <b>sent</b></i>. <i>just</i> = « venir de » : <i>I have just sent</i> = je viens d’envoyer.' },
     { level: 'A2', type: 'mcq', q: 'Of all the hotels in the city, this one is the ___.', options: ['most expensive', 'more expensive', 'expensivest', 'much expensive'], answer: 0,
       explain: '<i>Of all the hotels</i> (de tous les hôtels) → <b>superlatif</b>. Adjectif long (plusieurs syllabes) : <i>the <b>most</b> expensive</i> (le plus cher). « expensivest » n’existe pas : le <i>-est</i> est réservé aux adjectifs courts (<i>the cheapest</i>). <i>more expensive</i> est le comparatif (plus cher que…), pas le superlatif.' },
     { level: 'A2', type: 'listen', say: 'How long is the flight to Tokyo?', accent: 'en-GB', q: 'Choisis la meilleure réponse à la question.', options: ['It leaves at noon.', 'From Terminal 2.', 'About eleven hours.'], answer: 2,
@@ -64,7 +64,7 @@ LE.register({
       explain: '<i>The store will <b>close</b> in fifteen minutes</i> = le magasin fermera dans quinze minutes. Il rouvrira demain à 9 h (<i>We will open again tomorrow at nine a.m.</i>).' },
 
     // ---------- B1 ----------
-    { level: 'B1', type: 'mcq', q: 'How long ___ Mr. Okafor? — Since we were in college.', options: ['do you know', 'are you knowing', 'did you know', 'have you known'], answer: 3,
+    { level: 'B1', type: 'mcq', q: 'How long ___ Mr. Okafor? Since we were in college.', options: ['do you know', 'are you knowing', 'did you know', 'have you known'], answer: 3,
       explain: '« Depuis combien de temps connais-tu… ? » → <i>How long</i> + <b>present perfect</b> : <i>How long <b>have you known</b>…?</i> Le français utilise le présent (« connais-tu »), l’anglais non. Et <i>know</i> ne se met pas à la forme en -ing.' },
     { level: 'B1', type: 'mcq', q: "We don't have enough people. If we ___ more staff, we would finish the project on time.", options: ['had', 'have', 'will have', 'would have'], answer: 0,
       explain: 'Situation imaginaire (en réalité, nous n’avons pas assez de personnel) → conditionnel 2 : <i>If</i> + <b>prétérit</b> (<i>had</i>), puis <i>would</i> + verbe. On ne met ni <i>will</i> ni <i>would</i> après ce <i>if</i>.' },
@@ -89,7 +89,7 @@ LE.register({
     { level: 'B1', type: 'mcq', q: 'Lis cet avis :<br><i>« Starting June 1, employees may work from home up to two days per week. Requests must be approved by your department manager at least one week in advance. »</i><br>What must employees do before working from home?',
       options: ['Sign a new employment contract', "Get their manager's approval in advance", 'Inform the HR department on June 1', 'Work from home at least two days a week'], answer: 1,
       explain: '<i>Requests must be approved by your department manager at least one week in advance</i> = les demandes doivent être validées par votre responsable de service au moins une semaine à l’avance. <i>up to two days</i> = <b>jusqu’à</b> deux jours (maximum), pas « au moins ».' },
-    { level: 'B1', type: 'listen', say: "Excuse me, I bought this printer here last week, but it doesn't work. — I'm sorry about that. Do you have your receipt? We can exchange it or give you a refund.", q: 'Where does this conversation most likely take place?',
+    { level: 'B1', type: 'listen', say: "Excuse me, I bought this printer here last week, but it doesn't work. I'm sorry about that. Do you have your receipt? We can exchange it or give you a refund.", q: 'Where does this conversation most likely take place?',
       options: ['At a bank', 'At a printing company', 'In an electronics store', 'At a post office'], answer: 2,
       explain: 'La cliente ou le client a <b>acheté</b> une imprimante <b>ici</b> (<i>I bought this printer here</i>) et on lui propose un échange ou un remboursement (<i>exchange</i>, <i>refund</i>) : c’est un magasin d’électronique. <i>refund</i> fait penser à la banque et <i>printer</i> à une imprimerie : ce sont les pièges.' },
 
@@ -98,7 +98,7 @@ LE.register({
       explain: 'Après un adverbe négatif ou restrictif en tête de phrase (<i>Rarely, Never, Seldom, Not only…</i>), on fait l’<b>inversion</b> comme dans une question : <i>Rarely <b>have we seen</b>…</i> (Nous avons rarement vu…). Style soutenu, fréquent au TOEIC.' },
     { level: 'B2', type: 'mcq', q: 'The client wanted to know when ___.', options: ['will the goods arrive', 'would the goods arrive', 'the goods would arrive', 'did the goods arrive'], answer: 2,
       explain: 'Question indirecte : <b>pas d’inversion</b>, on garde l’ordre sujet + verbe. Et après <i>wanted to know</i> (passé), <i>will</i> recule en <b>would</b> : « When will the goods arrive? » → <i>The client wanted to know when <b>the goods would arrive</b></i>.' },
-    { level: 'B2', type: 'listen', say: "Do you think we'll finish the renovation by June? — Honestly, I wouldn't count on it.", accent: 'en-GB', q: 'What does the second speaker mean?',
+    { level: 'B2', type: 'listen', say: "Do you think we'll finish the renovation by June? Honestly, I wouldn't count on it.", accent: 'en-GB', q: 'What does the second speaker mean?',
       options: ['The renovation will probably not be finished by June.', 'The renovation is already finished.', 'The costs will be counted in June.', 'June is a good time to start the work.'], answer: 0,
       explain: '<i>I wouldn’t count on it</i> = « je n’y compterais pas » : la personne pense que les travaux ne seront <b>probablement pas</b> finis en juin. L’option avec <i>counted</i> reprend un mot entendu : c’est le piège.' },
     { level: 'B2', type: 'mcq', q: '___ I known about the traffic, I would have left earlier.', options: ['If', 'Had', 'Have', 'Should'], answer: 1,

@@ -84,7 +84,7 @@ LE.register({
     { type: 'examples', items: [
       { en: 'You should rest. You look tired.', fr: 'Tu devrais te reposer. Tu as l’air fatiguée.' },
       { en: "You shouldn't drink coffee so late.", fr: 'Tu ne devrais pas boire de café si tard.' },
-      { en: 'Should I call the client now? — Yes, I think you should.', fr: 'Est-ce que je devrais appeler le client maintenant ? — Oui, je pense que tu devrais.' },
+      { en: 'Should I call the client now? Yes, I think you should.', fr: 'Est-ce que je devrais appeler le client maintenant ? Oui, je pense que tu devrais.' },
       { en: 'I think you should apply for the job.', fr: 'Je pense que tu devrais postuler à ce poste.', note: 'Pour donner un conseil de façon douce : <b>I think you should…</b>' },
       { en: 'We ought to leave now if we want to catch the train.', fr: 'Nous devrions partir maintenant si nous voulons attraper le train.', accent: 'en-AU' },
       { en: "You'd better hurry. The store closes in ten minutes.", fr: 'Tu ferais mieux de te dépêcher. Le magasin ferme dans dix minutes.', note: '<b>’d better</b> = <i>had better</i> : un conseil fort, presque un avertissement.' }

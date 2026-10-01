@@ -3,7 +3,7 @@ LE.register({
   kind: 'mock-section',
   mock: 'm02',
   section: 'reading',
-  title: 'TOEIC blanc n°2 — Reading',
+  title: 'TOEIC blanc n°2 : Reading',
   minutes: 38,
   parts: [
     /* ---------------- Partie 5 : 15 phrases à compléter ---------------- */
@@ -95,9 +95,9 @@ LE.register({
 
     /* ---------------- Partie 7 : compréhension écrite ---------------- */
     { part: 7, items: [
-      /* 1 — Avis (2 q) */
+      /* 1 : Avis (2 q) */
       { docs: [
-          { kind: 'Notice', title: 'Alderton Plaza — Notice to All Tenants',
+          { kind: 'Notice', title: 'Alderton Plaza: Notice to All Tenants',
             text: "Please be advised that the two passenger elevators on the east side of the building will be replaced beginning Monday, May 5. The work is expected to take approximately three weeks. During this period, tenants and visitors should use the west elevators, located next to the security desk in the main lobby.\n\nThe freight elevator at the back of the building will remain in service. However, it will be reserved for the construction crew from 8:00 to 10:00 A.M. every weekday. If you are expecting a delivery, please ask your supplier to arrive outside of these hours.\n\nWe apologize for any inconvenience. Questions may be directed to the building management office in Suite 110 or by phone at 555-0138." }
         ],
         questions: [
@@ -106,10 +106,10 @@ LE.register({
             explain: "Dès la 1ʳᵉ phrase : les deux ascenseurs du côté est <i><b>will be replaced</b></i> (seront remplacés) pendant environ trois semaines. <i>equipment</i> (équipement) reformule <i>elevators</i>. Le poste de sécurité n’est cité que pour indiquer où se trouvent les autres ascenseurs." },
           { q: 'What are tenants asked to do?',
             options: ['Take the stairs during the work', 'Register their visitors at the security desk', 'Contact the management office before May 5', 'Arrange for deliveries outside certain hours'], answer: 3,
-            explain: "<i>If you are expecting a delivery, please ask your supplier to arrive <b>outside of these hours</b></i> (en dehors de la plage 8 h – 10 h). Les escaliers ne sont pas mentionnés (il faut prendre les ascenseurs ouest), rien n’est dit sur l’enregistrement des visiteurs, et le bureau de gestion n’est à contacter qu’en cas de question : ce n’est pas une demande." }
+            explain: "<i>If you are expecting a delivery, please ask your supplier to arrive <b>outside of these hours</b></i> (en dehors de la plage de 8 h à 10 h). Les escaliers ne sont pas mentionnés (il faut prendre les ascenseurs ouest), rien n’est dit sur l’enregistrement des visiteurs, et le bureau de gestion n’est à contacter qu’en cas de question : ce n’est pas une demande." }
         ] },
 
-      /* 2 — Discussion en ligne (4 q, dont 1 question d'intention) */
+      /* 2 : Discussion en ligne (4 q, dont 1 question d'intention) */
       { docs: [
           { kind: 'Online chat',
             text: "Sofia Marchetti (2:14 P.M.): Quick update from the convention center: our booth is ready, but the boxes of product samples still haven't arrived.\nJamal Whitaker (2:15 P.M.): That's strange. The shipping company confirmed delivery for this morning.\nSofia Marchetti (2:17 P.M.): I've checked with the loading dock twice. There's nothing with our name on it.\nMei-Ling Zhou (2:18 P.M.): I have the tracking number here. I'll call the carrier.\nJamal Whitaker (2:19 P.M.): The fair opens at 9 tomorrow morning. Without the samples, all we'll have are brochures.\nMei-Ling Zhou (2:31 P.M.): OK, I just got off the phone. The boxes were delivered to Hall C by mistake. Our booth is in Hall A.\nSofia Marchetti (2:32 P.M.): You're kidding! Hall C is on the other side of the building.\nMei-Ling Zhou (2:33 P.M.): The driver will pick them up and bring them to Hall A before 5 P.M.\nOscar Lindqvist (2:35 P.M.): Glad that's sorted out. Sofia, do you need someone to help you unpack tonight?\nSofia Marchetti (2:36 P.M.): Thanks, but I think I can manage. There are only six boxes." }
@@ -129,7 +129,7 @@ LE.register({
             explain: "<i>The driver will pick them up and bring them <b>to Hall A before 5 P.M.</b></i> : les cartons seront déplacés du hall C au hall A. Le salon n’ouvre que le lendemain à 9 h, et Mme Marchetti refuse l’aide de M. Lindqvist (<i>I think I can manage</i> = je pense pouvoir me débrouiller)." }
         ] },
 
-      /* 3 — Offre d'emploi (3 q, dont 1 question NOT) */
+      /* 3 : Offre d'emploi (3 q, dont 1 question NOT) */
       { docs: [
           { kind: 'Advertisement', title: 'Now Hiring: Customer Support Specialist (Full-Time)',
             text: "Ostrander Home Appliances, a manufacturer of kitchen appliances for more than 40 years, is looking for a friendly and well-organized Customer Support Specialist to join our team in Millbrook.\n\n<b>Responsibilities</b>\n• Answer customer questions by phone, e-mail, and online chat\n• Help customers register their products and arrange repairs with our certified technicians\n• Keep accurate records of all customer contacts\n\n<b>Requirements</b>\n• At least one year of customer service experience\n• Excellent communication skills\n• Knowledge of Spanish is an advantage but not required\n\nWe offer a competitive salary, health insurance, and 15 days of paid vacation per year. After six months, employees may work from home up to two days a week.\n\nTo apply, send your résumé and a short cover letter to Nadia Rahimi, Human Resources Manager, by March 15. Interviews will take place during the last week of March." }
@@ -146,7 +146,7 @@ LE.register({
             explain: "<i>Knowledge of Spanish is <b>an advantage but not required</b></i> : parler espagnol est un atout, sans être obligatoire. Rien n’est dit sur un salaire plus élevé, l’ordre des entretiens ou davantage de télétravail." }
         ] },
 
-      /* 4 — E-mail (4 q, dont 1 question de vocabulaire) */
+      /* 4 : E-mail (4 q, dont 1 question de vocabulaire) */
       { docs: [
           { kind: 'E-mail',
             text: "To: Aylin Demir\nFrom: Callum Reid, Quillmark Printing\nDate: September 3\nSubject: Your order No. 5823\n\nDear Ms. Demir,\n\nThank you for your order of 2,000 copies of your agency's winter travel catalog. I am writing to let you know about a problem with the paper you selected.\n\nOur supplier has just informed us that the glossy recycled paper you chose is out of stock and will not be available again until September 24. Since you need the catalogs for the tourism fair on September 20, I would like to suggest two options.\n\nFirst, we could print all 2,000 catalogs on our standard glossy paper, which is very similar in weight and quality but is not made from recycled materials. Your order would be ready on September 12, as originally planned, and the price would not change.\n\nSecond, we could print a first run of 500 catalogs on recycled matte paper, which we have in stock, and print the remaining 1,500 on your original choice of paper once it arrives. This option would cost about $85 more because of the additional setup work, and the second part of the order would not be ready until September 29.\n\nPlease let me know which option you prefer by Friday so that we can keep to our production schedule. I apologize for the inconvenience.\n\nBest regards,\nCallum Reid\nCustomer Accounts Manager" }
@@ -166,10 +166,10 @@ LE.register({
             explain: "Option 1 : <i>Your order would be ready on September 12, <b>as originally planned</b>, and the price would not change.</i> → commande prête à la date prévue. Les 85 $ de plus et les 500 exemplaires concernent l’<b>option 2</b>, et le papier standard de l’option 1 n’est justement <b>pas</b> recyclé (<i>not made from recycled materials</i>)." }
         ] },
 
-      /* 5 — Article (4 q, dont 1 insertion de phrase) */
+      /* 5 : Article (4 q, dont 1 insertion de phrase) */
       { docs: [
           { kind: 'Article', title: 'Small Furniture Maker Finds a Big Market Online',
-            text: "GREYSTONE (July 8) — Ten years ago, Henrik Dahl was building tables and chairs in his garage and selling them at weekend markets. Today, his company, Dahl and Nwosu Woodworks, ships handmade furniture to customers in 14 countries. — [1] —\n\nThe turning point came in 2019, when Mr. Dahl's business partner, Amara Nwosu, persuaded him to open an online store. \"Henrik was worried that people wouldn't buy furniture they couldn't touch,\" Ms. Nwosu recalled. \"So we offered free returns for 60 days. Almost nobody sent anything back.\" — [2] —\n\nOnline orders now account for about 80 percent of the company's sales. To keep up with demand, the company moved last year into a former textile factory on Mill Road, where 35 people now work. — [3] — A small showroom on the ground floor is open to the public on Saturdays.\n\nGrowth has not always been easy, however. Shipping large items overseas is expensive, and the price of high-quality wood has risen sharply. — [4] — Still, Mr. Dahl remains optimistic. \"Our customers are willing to pay a little more for a piece that will last for generations,\" he said." }
+            text: "GREYSTONE (July 8): Ten years ago, Henrik Dahl was building tables and chairs in his garage and selling them at weekend markets. Today, his company, Dahl and Nwosu Woodworks, ships handmade furniture to customers in 14 countries. [1]\n\nThe turning point came in 2019, when Mr. Dahl's business partner, Amara Nwosu, persuaded him to open an online store. \"Henrik was worried that people wouldn't buy furniture they couldn't touch,\" Ms. Nwosu recalled. \"So we offered free returns for 60 days. Almost nobody sent anything back.\" [2]\n\nOnline orders now account for about 80 percent of the company's sales. To keep up with demand, the company moved last year into a former textile factory on Mill Road, where 35 people now work. [3] A small showroom on the ground floor is open to the public on Saturdays.\n\nGrowth has not always been easy, however. Shipping large items overseas is expensive, and the price of high-quality wood has risen sharply. [4] Still, Mr. Dahl remains optimistic. \"Our customers are willing to pay a little more for a piece that will last for generations,\" he said." }
         ],
         questions: [
           { q: 'What is the article mainly about?',
@@ -186,12 +186,12 @@ LE.register({
             explain: "<i>these higher costs</i> (ces coûts plus élevés) doit renvoyer à des coûts cités juste avant. En [4], la phrase précédente parle du transport <b>cher</b> (<i>expensive</i>) et du prix du bois qui a <b>fortement augmenté</b>, et la suite s’enchaîne parfaitement : <i>Our customers are willing to pay a little more</i> (nos clients sont prêts à payer un peu plus). Aux autres positions, aucun coût n’a encore été mentionné." }
         ] },
 
-      /* 6 — Double document (5 q, dont 2 questions de croisement) */
+      /* 6 : Double document (5 q, dont 2 questions de croisement) */
       { docs: [
-          { kind: 'Web page', title: 'Voltaro Electronics — Return Policy',
+          { kind: 'Web page', title: 'Voltaro Electronics: Return Policy',
             text: "We want you to be completely satisfied with your purchase. If you are not, you may return most items under the following conditions:\n\n• Within 30 days of delivery: full refund to your original method of payment\n• 31 to 60 days after delivery: store credit only\n• More than 60 days after delivery: returns are not accepted\n\nAll items must be returned in their original packaging with all accessories and instruction manuals. For hygiene reasons, headphones and earbuds that have been opened can be returned only if they are defective.\n\nTo start a return, log in to your account and click \"Return an Item.\" A prepaid shipping label will be sent to you by e-mail. Members of our Voltaro Plus program may also drop off returns at any of our partner pickup points.\n\nRefunds and store credit are issued within seven business days after we receive the item." },
           { kind: 'E-mail',
-            text: "To: Customer Service, Voltaro Electronics\nFrom: Dmitri Volkov\nDate: November 18\nSubject: Return request — Order No. VE-20471\n\nHello,\n\nOn October 3, I received a wireless speaker and a pair of headphones that I had ordered from your Web site. The headphones are excellent, but I am disappointed with the speaker. The sound is not as clear as I expected, especially at high volume.\n\nI would like to return the speaker. However, I threw away its box shortly after it arrived. Would it still be possible to send it back? I could use the headphones' box, which is almost the same size.\n\nAlso, when I log in to my account, I cannot find the \"Return an Item\" button. Could you please e-mail me a shipping label directly?\n\nThank you for your help.\n\nDmitri Volkov" }
+            text: "To: Customer Service, Voltaro Electronics\nFrom: Dmitri Volkov\nDate: November 18\nSubject: Return request (Order No. VE-20471)\n\nHello,\n\nOn October 3, I received a wireless speaker and a pair of headphones that I had ordered from your Web site. The headphones are excellent, but I am disappointed with the speaker. The sound is not as clear as I expected, especially at high volume.\n\nI would like to return the speaker. However, I threw away its box shortly after it arrived. Would it still be possible to send it back? I could use the headphones' box, which is almost the same size.\n\nAlso, when I log in to my account, I cannot find the \"Return an Item\" button. Could you please e-mail me a shipping label directly?\n\nThank you for your help.\n\nDmitri Volkov" }
         ],
         questions: [
           { q: 'According to the Web page, how can Voltaro Plus members return items?',
@@ -211,9 +211,9 @@ LE.register({
             explain: "<b>Croisement</b> : la page Web exige que les articles soient renvoyés <i>in their <b>original packaging</b></i> (dans leur emballage d’origine), or M. Volkov a jeté la boîte de l’enceinte (<i>I threw away its box</i>). Il n’a pas dépassé 60 jours (46 jours), l’adhésion à Voltaro Plus n’est pas obligatoire pour faire un retour, et il a commandé sur le site Web." }
         ] },
 
-      /* 7 — Triple document (5 q, dont 3 questions de croisement) */
+      /* 7 : Triple document (5 q, dont 3 questions de croisement) */
       { docs: [
-          { kind: 'Schedule', title: 'Merrow Valley Rail — Weekday Trains from Bayford to Northam',
+          { kind: 'Schedule', title: 'Merrow Valley Rail: Weekday Trains from Bayford to Northam',
             text: "Train | Departs Bayford | Arrives Northam | Service\n401 | 6:20 A.M. | 8:15 A.M. | Café car\n405 | 7:05 A.M. | 8:40 A.M. | Express, café car\n409 | 7:45 A.M. | 9:50 A.M. | No café car\n413 | 8:30 A.M. | 10:05 A.M. | Express, café car\n\n<b>Ticket types</b>\nFlex: valid on any train on the day of travel.\nSaver: valid only on the train printed on the ticket. Changes cost $20." },
           { kind: 'E-mail',
             text: "To: Inês Carvalho\nFrom: Raymond Tsai\nDate: March 9\nSubject: Thursday's visit to Vantro Packaging\n\nHi Inês,\n\nThanks again for agreeing to present our new inventory software to Vantro Packaging this Thursday, March 12. The meeting will begin at 10:00 A.M. at their head office, which is about a 20-minute taxi ride from Northam Station. Please try to get there by 9:30 so that you have enough time to set up the demonstration.\n\nI have booked you a seat on the first express train of the morning. Because it was much cheaper, I chose a Saver ticket, so please make sure you don't miss that train! Your ticket and the address of Vantro's office are attached.\n\nGood luck, and let me know how it goes.\n\nRaymond" },

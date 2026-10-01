@@ -27,7 +27,7 @@ LE.register({
     { type: 'table', head: ['Sujet', 'Affirmation', 'Négation', 'Question'], rows: [
       ['I / you / we / they', 'I <b>have</b> started.<br>I<b>’ve</b> started.', 'I <b>have not</b> started.<br>I <b>haven’t</b> started.', '<b>Have</b> you started?'],
       ['he / she / it', 'She <b>has</b> started.<br>She<b>’s</b> started.', 'She <b>has not</b> started.<br>She <b>hasn’t</b> started.', '<b>Has</b> she started?']
-    ], caption: 'Réponses courtes : <i>Yes, I <b>have</b>. / No, I <b>haven’t</b>.</i> — <i>Yes, she <b>has</b>. / No, she <b>hasn’t</b>.</i> Comme avec <i>be</i>, on ne contracte jamais la réponse courte affirmative (<i>Yes, I’ve.</i> est faux).' },
+    ], caption: 'Réponses courtes : <i>Yes, I <b>have</b>. / No, I <b>haven’t</b>.</i> et <i>Yes, she <b>has</b>. / No, she <b>hasn’t</b>.</i> Comme avec <i>be</i>, on ne contracte jamais la réponse courte affirmative (<i>Yes, I’ve.</i> est faux).' },
     { type: 'table', head: ['Base verbale', 'Prétérit (2ᵉ colonne)', 'Participe passé (3ᵉ colonne)', 'Français'], rows: [
       ['work', 'worked', '<b>worked</b>', 'travailler (régulier : -ed)'],
       ['be', 'was / were', '<b>been</b>', 'être'],
@@ -43,7 +43,7 @@ LE.register({
     { type: 'examples', items: [
       { en: "I've finished the report.", fr: 'J’ai fini le rapport.' },
       { en: "We haven't received your payment.", fr: 'Nous n’avons pas reçu votre paiement.' },
-      { en: 'Has the package arrived? — Yes, it has.', fr: 'Le colis est-il arrivé ? — Oui.' },
+      { en: 'Has the package arrived? Yes, it has.', fr: 'Le colis est-il arrivé ? Oui.' },
       { en: "They've hired three new engineers.", fr: 'Ils ont embauché trois nouveaux ingénieurs.' },
       { en: 'What have you done with the keys?', fr: 'Qu’as-tu fait des clés ?' }
     ] },
@@ -57,7 +57,7 @@ LE.register({
       { en: "I've never used this software.", fr: 'Je n’ai jamais utilisé ce logiciel.', note: 'Une seule négation : <i>I’ve never…</i> ou <i>I haven’t ever…</i>, jamais <i>I haven’t never…</i>' },
       { en: 'She has visited our factory twice.', fr: 'Elle a visité notre usine deux fois.' },
       { en: "We've never had a problem with this supplier.", fr: 'Nous n’avons jamais eu de problème avec ce fournisseur.' },
-      { en: 'Have you ever been to Japan? — Yes, I went there last year.', fr: 'Es-tu déjà allée au Japon ? — Oui, j’y suis allée l’année dernière.', note: 'Dès qu’on donne le moment (<i>last year</i>), on passe au <b>prétérit</b> (<i>went</i>).' }
+      { en: 'Have you ever been to Japan? Yes, I went there last year.', fr: 'Es-tu déjà allée au Japon ? Oui, j’y suis allée l’année dernière.', note: 'Dès qu’on donne le moment (<i>last year</i>), on passe au <b>prétérit</b> (<i>went</i>).' }
     ] },
 
     { type: 'h', text: 'Emploi 2 : une nouvelle, un résultat visible maintenant' },
@@ -87,10 +87,10 @@ LE.register({
       { en: 'The meeting has just started.', fr: 'La réunion vient de commencer.' },
       { en: "I've already paid the invoice.", fr: 'J’ai déjà payé la facture.' },
       { en: "The new printer hasn't arrived yet.", fr: 'La nouvelle imprimante n’est pas encore arrivée.' },
-      { en: 'Have you read the report yet? — No, not yet.', fr: 'Tu as déjà lu le rapport ? — Non, pas encore.' },
+      { en: 'Have you read the report yet? No, not yet.', fr: 'Tu as déjà lu le rapport ? Non, pas encore.' },
       { en: 'Has Mr. Tanaka called back yet?', fr: 'Est-ce que M. Tanaka a rappelé ?' }
     ] },
-    { type: 'box', style: 'warn', title: 'Pièges : « venir de » et « déjà »', html: '• « Je viens de… » ne se traduit pas avec <i>come</i> : <span class="ko">I come from sending the email.</span> → <span class="ok">I’ve just sent the email.</span><br>• « Déjà » a trois traductions :<br>— une expérience de vie (question) → <b>ever</b> : « Tu es déjà allée à Rome ? » → <i>Have you <b>ever</b> been to Rome?</i><br>— plus tôt que prévu → <b>already</b> : « J’ai déjà payé. » → <i>I’ve <b>already</b> paid.</i><br>— une question sur une chose attendue → <b>yet</b> : « Tu as déjà fini ? » → <i>Have you finished <b>yet</b>?</i>' },
+    { type: 'box', style: 'warn', title: 'Pièges : « venir de » et « déjà »', html: '• « Je viens de… » ne se traduit pas avec <i>come</i> : <span class="ko">I come from sending the email.</span> → <span class="ok">I’ve just sent the email.</span><br>• « Déjà » a trois traductions :<br>◦ une expérience de vie (question) → <b>ever</b> : « Tu es déjà allée à Rome ? » → <i>Have you <b>ever</b> been to Rome?</i><br>◦ plus tôt que prévu → <b>already</b> : « J’ai déjà payé. » → <i>I’ve <b>already</b> paid.</i><br>◦ une question sur une chose attendue → <b>yet</b> : « Tu as déjà fini ? » → <i>Have you finished <b>yet</b>?</i>' },
     { type: 'box', style: 'tip', title: 'En anglais américain', html: 'Aux États-Unis, on entend souvent le prétérit avec <i>just, already</i> et <i>yet</i> : <i>I <b>just sent</b> it. <b>Did</b> you <b>eat</b> yet?</i> C’est courant à l’oral. Mais à l’écrit et au TOEIC, le present perfect reste la valeur sûre : <i>I<b>’ve just sent</b> it. <b>Have</b> you <b>eaten</b> yet?</i>' },
 
     { type: 'h', text: 'Emploi 4 : une situation qui dure encore (for, since)' },
@@ -132,7 +132,7 @@ LE.register({
     { type: 'gap', q: 'We ___ (receive) your payment. Thank you! <small>(present perfect)</small>', answers: ['have received', "'ve received"], explain: 'Present perfect : <b>have</b> + participe passé (<i>received</i>). Avec <i>we</i>, on peut contracter : <i>we’ve received</i>.' },
     { type: 'gap', q: 'Mr. Kim ___ (not / reply) to my email. <small>(present perfect)</small>', answers: ["hasn't replied", 'has not replied'], explain: '<i>Mr. Kim</i> = he → <b>has</b>. Négation : <b>hasn’t</b> (= <i>has not</i>) + participe passé <i>replied</i> (reply → replied : le <b>y</b> devient <b>i</b>).' },
     { type: 'mcq', q: '« She’s sent the invoice. » Ici, <b>she’s</b> = …', options: ['she is', 'she has', 'she was'], answer: 1, explain: '<b>’s + participe passé</b> (<i>sent</i>) = <b>has</b> : « Elle a envoyé la facture. » Avec <i>she is</i>, on aurait un verbe en -ing (<i>she’s sending</i>).' },
-    { type: 'gap', q: '— Have you ever been to Canada? — No, I ___.', answers: ["haven't", 'have not', 'never have'], explain: 'Réponse courte : on reprend l’auxiliaire <b>have</b> : <i>Yes, I have. / No, I haven’t.</i> (<i>No, I never have.</i> est aussi possible.)' },
+    { type: 'gap', q: 'A: Have you ever been to Canada? B: No, I ___.', answers: ["haven't", 'have not', 'never have'], explain: 'Réponse courte : on reprend l’auxiliaire <b>have</b> : <i>Yes, I have. / No, I haven’t.</i> (<i>No, I never have.</i> est aussi possible.)' },
     { type: 'gap', q: 'I ___ (never / work) in a bank. <small>(present perfect)</small>', answers: ['have never worked', "'ve never worked"], explain: '<b>Never</b> se place entre <i>have</i> et le participe passé : <i>I have never worked</i> (= <i>I’ve never worked</i>). Une seule négation : pas de <i>haven’t</i> avec <i>never</i>.' },
     { type: 'mcq', q: '« La nouvelle imprimante n’est pas encore arrivée. » → The new printer hasn’t arrived ___.', options: ['already', 'yet', 'just', 'ever'], answer: 1, explain: '« Pas encore » = <b>not … yet</b>, avec <i>yet</i> en fin de phrase.' },
     { type: 'gap', q: '« Je viens d’envoyer le devis. » → I have ___ the quote. (just / send)', answers: ['just sent'], explain: '« Venir de » = <b>just</b> + participe passé, entre <i>have</i> et le participe : <i>I have just sent</i>. <i>Send</i> est irrégulier : send → sent → <b>sent</b>.' },

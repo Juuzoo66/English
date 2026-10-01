@@ -97,18 +97,18 @@ LE.register({
     { type: 'h', text: 'Les familles de mots à connaître' },
     { type: 'table', head: ['Verbe', 'Nom (chose, idée)', 'Nom (personne)', 'Adjectif', 'Adverbe'], rows: [
       ['produce', 'product, production, productivity', 'producer', 'productive', 'productively'],
-      ['decide', 'decision', '—', 'decisive', 'decisively'],
+      ['decide', 'decision', '<small>(aucun)</small>', 'decisive', 'decisively'],
       ['compete', 'competition', 'competitor', 'competitive', 'competitively'],
-      ['succeed', 'success', '—', 'successful', 'successfully'],
+      ['succeed', 'success', '<small>(aucun)</small>', 'successful', 'successfully'],
       ['create', 'creation, creativity', 'creator', 'creative', 'creatively'],
-      ['rely', 'reliability', '—', 'reliable', 'reliably'],
+      ['rely', 'reliability', '<small>(aucun)</small>', 'reliable', 'reliably'],
       ['analyze', 'analysis', 'analyst', 'analytical', 'analytically'],
-      ['satisfy', 'satisfaction', '—', 'satisfied, satisfactory', 'satisfactorily'],
-      ['employ', 'employment', 'employer, employee', 'employed, unemployed', '—'],
-      ['apply', 'application', 'applicant', 'applicable', '—'],
-      ['—', 'efficiency', '—', 'efficient', 'efficiently'],
-      ['—', 'responsibility', '—', 'responsible', 'responsibly']
-    ], caption: '— = pas de mot courant. Attention : <i>satisfied</i> = satisfait (une personne) ; <i>satisfactory</i> = satisfaisant, correct (un résultat). Et <i>successor</i> ne veut pas dire « personne qui réussit », mais « successeur ».' },
+      ['satisfy', 'satisfaction', '<small>(aucun)</small>', 'satisfied, satisfactory', 'satisfactorily'],
+      ['employ', 'employment', 'employer, employee', 'employed, unemployed', '<small>(aucun)</small>'],
+      ['apply', 'application', 'applicant', 'applicable', '<small>(aucun)</small>'],
+      ['<small>(aucun)</small>', 'efficiency', '<small>(aucun)</small>', 'efficient', 'efficiently'],
+      ['<small>(aucun)</small>', 'responsibility', '<small>(aucun)</small>', 'responsible', 'responsibly']
+    ], caption: '« (aucun) » = pas de mot courant. Attention : <i>satisfied</i> = satisfait (une personne) ; <i>satisfactory</i> = satisfaisant, correct (un résultat). Et <i>successor</i> ne veut pas dire « personne qui réussit », mais « successeur ».' },
     { type: 'examples', items: [
       { en: 'Our factory produces 5,000 units a day.', fr: 'Notre usine produit 5 000 unités par jour.' },
       { en: 'Productivity increased by 12 percent last year.', fr: 'La productivité a augmenté de 12 % l’an dernier.' },

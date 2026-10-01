@@ -13,7 +13,7 @@ LE.register({
   ],
   blocks: [
     { type: 'h', text: 'Pourquoi « irréguliers » ?' },
-    { type: 'p', html: 'La plupart des verbes forment leur prétérit avec <b>-ed</b> (<i>work → worked</i> : voir la leçon « Le prétérit des verbes réguliers »). Mais une partie des verbes — souvent <b>les plus courants</b> — ont une forme à eux : <i>go → <b>went</b></i>, <i>buy → <b>bought</b></i>. Ce sont les <b>verbes irréguliers</b>. Il n’y a pas de règle unique : il faut les apprendre. Mais pas n’importe comment !' },
+    { type: 'p', html: 'La plupart des verbes forment leur prétérit avec <b>-ed</b> (<i>work → worked</i> : voir la leçon « Le prétérit des verbes réguliers »). Mais une partie des verbes, souvent <b>les plus courants</b>, ont une forme à eux : <i>go → <b>went</b></i>, <i>buy → <b>bought</b></i>. Ce sont les <b>verbes irréguliers</b>. Il n’y a pas de règle unique : il faut les apprendre. Mais pas n’importe comment !' },
     { type: 'examples', items: [
       { en: 'I went to Singapore last week.', fr: 'Je suis allée à Singapour la semaine dernière.', note: 'go → <b>went</b>' },
       { en: 'She sent the invoice yesterday.', fr: 'Elle a envoyé la facture hier.', note: 'send → <b>sent</b>' },
@@ -34,20 +34,20 @@ LE.register({
     { type: 'h', text: 'Apprendre par familles de sons' },
     { type: 'p', html: 'Apprendre une liste de A à Z, c’est long et décourageant. Beaucoup plus efficace : regrouper les verbes qui <b>se ressemblent</b>. Ton cerveau retient un modèle, puis l’applique aux autres verbes de la même famille.' },
     { type: 'table', head: ['Famille', 'Modèle', 'Même famille'], rows: [
-      ['Trois formes identiques', 'cut – cut – cut (couper)', 'put (mettre), set (fixer), cost (coûter), let (laisser), hit (frapper), shut (fermer)'],
-      ['Même son : -ought / -aught', 'buy – bought – bought (acheter)', 'bring – brought (apporter), think – thought (penser), teach – taught (enseigner), catch – caught (attraper)'],
-      ['d → t', 'send – sent – sent (envoyer)', 'spend – spent (dépenser), lend – lent (prêter), build – built (construire)'],
-      ['« ii » long → « è » court', 'keep – kept – kept (garder)', 'sleep – slept (dormir), feel – felt (ressentir), meet – met (rencontrer), leave – left (partir), mean – meant (signifier), lead – led (diriger), read – read (lire, prononcé « red » au passé)'],
-      ['-ay → -aid', 'pay – paid – paid (payer)', 'say – said (dire ; attention, <i>said</i> se prononce « sèd »), lay – laid (poser)'],
-      ['-ell → -old', 'sell – sold – sold (vendre)', 'tell – told (dire, raconter)'],
-      ['-and → -ood', 'stand – stood – stood (être debout)', 'understand – understood (comprendre)'],
-      ['i – a – u', 'begin – began – begun (commencer)', 'sing – sang – sung (chanter), drink – drank – drunk (boire), swim – swam – swum (nager), ring – rang – rung (sonner)'],
-      ['o au prétérit, -en au participe', 'write – wrote – written (écrire)', 'drive – drove – driven (conduire), speak – spoke – spoken (parler), choose – chose – chosen (choisir), break – broke – broken (casser), forget – forgot – forgotten (oublier)'],
-      ['-ew / -own', 'know – knew – known (savoir, connaître)', 'grow – grew – grown (grandir), throw – threw – thrown (lancer), fly – flew – flown (prendre l’avion)'],
-      ['Participe passé = base', 'come – came – come (venir)', 'become – became – become (devenir), run – ran – run (courir, diriger)'],
-      ['Les inclassables', 'go – went – gone (aller)', 'be – was / were – been (être), do – did – done (faire), see – saw – seen (voir), have – had – had (avoir), make – made – made (faire), get – got – gotten (obtenir), take – took – taken (prendre), give – gave – given (donner)']
-    ], caption: 'Dans la colonne de droite, on ne répète pas les formes identiques : <i>put</i> = put – put – put ; <i>bring – brought</i> = bring – brought – brought.' },
-    { type: 'box', style: 'tip', title: 'Le truc du rythme', html: 'Dis toujours les trois formes <b>ensemble</b>, à voix haute, comme une petite chanson : <i>buy, bought, bought — bring, brought, brought — think, thought, thought</i>. Au bout de quelques jours, quand tu entendras <i>thought</i>, ton cerveau pensera tout seul « think ». C’est exactement ce qu’il te faut au TOEIC : <b>reconnaître vite</b> le verbe.' },
+      ['Trois formes identiques', 'cut, cut, cut (couper)', 'put (mettre), set (fixer), cost (coûter), let (laisser), hit (frapper), shut (fermer)'],
+      ['Même son : -ought / -aught', 'buy, bought, bought (acheter)', 'bring → brought (apporter), think → thought (penser), teach → taught (enseigner), catch → caught (attraper)'],
+      ['d → t', 'send, sent, sent (envoyer)', 'spend → spent (dépenser), lend → lent (prêter), build → built (construire)'],
+      ['« ii » long → « è » court', 'keep, kept, kept (garder)', 'sleep → slept (dormir), feel → felt (ressentir), meet → met (rencontrer), leave → left (partir), mean → meant (signifier), lead → led (diriger), read → read (lire, prononcé « red » au passé)'],
+      ['-ay → -aid', 'pay, paid, paid (payer)', 'say → said (dire ; attention, <i>said</i> se prononce « sèd »), lay → laid (poser)'],
+      ['-ell → -old', 'sell, sold, sold (vendre)', 'tell → told (dire, raconter)'],
+      ['-and → -ood', 'stand, stood, stood (être debout)', 'understand → understood (comprendre)'],
+      ['i → a → u', 'begin, began, begun (commencer)', 'sing, sang, sung (chanter), drink, drank, drunk (boire), swim, swam, swum (nager), ring, rang, rung (sonner)'],
+      ['o au prétérit, -en au participe', 'write, wrote, written (écrire)', 'drive, drove, driven (conduire), speak, spoke, spoken (parler), choose, chose, chosen (choisir), break, broke, broken (casser), forget, forgot, forgotten (oublier)'],
+      ['-ew / -own', 'know, knew, known (savoir, connaître)', 'grow, grew, grown (grandir), throw, threw, thrown (lancer), fly, flew, flown (prendre l’avion)'],
+      ['Participe passé = base', 'come, came, come (venir)', 'become, became, become (devenir), run, ran, run (courir, diriger)'],
+      ['Les inclassables', 'go, went, gone (aller)', 'be, was / were, been (être), do, did, done (faire), see, saw, seen (voir), have, had, had (avoir), make, made, made (faire), get, got, gotten (obtenir), take, took, taken (prendre), give, gave, given (donner)']
+    ], caption: 'Dans la colonne de droite, on ne répète pas les formes identiques : <i>put</i> = put, put, put ; <i>bring → brought</i> = bring, brought, brought.' },
+    { type: 'box', style: 'tip', title: 'Le truc du rythme', html: 'Dis toujours les trois formes <b>ensemble</b>, à voix haute, comme une petite chanson : <i>buy, bought, bought / bring, brought, brought / think, thought, thought</i>. Au bout de quelques jours, quand tu entendras <i>thought</i>, ton cerveau pensera tout seul « think ». C’est exactement ce qu’il te faut au TOEIC : <b>reconnaître vite</b> le verbe.' },
     { type: 'examples', items: [
       { en: 'The client paid the invoice on time.', fr: 'Le client a payé la facture à temps.', note: 'pay → <b>paid</b> (famille -ay → -aid)' },
       { en: 'I thought the meeting was at ten.', fr: 'Je pensais que la réunion était à dix heures.', note: 'think → <b>thought</b>' },
@@ -128,16 +128,16 @@ LE.register({
     ] },
 
     { type: 'box', style: 'info', title: 'Et au TOEIC ?', html: 'En <b>Partie 5</b>, on te propose souvent plusieurs formes du même verbe : <i>Mr. Obi ------- a speech at the conference last year.</i> (give / gives / gave / giving) → <b>gave</b>, grâce à <i>last year</i>. En <b>Parties 3 et 4</b>, les verbes irréguliers sont partout : <i>I left my laptop in the meeting room</i>, <i>We sent the invoice on Monday</i>. Si tu ne reconnais pas <i>left</i> comme le passé de <i>leave</i>, tu perds le sens de la phrase.' },
-    { type: 'box', style: 'key', title: 'À retenir', html: '• Trois formes : <b>base</b> (<i>write</i>) – <b>prétérit</b> (<i>wrote</i>) – <b>participe passé</b> (<i>written</i>). Au prétérit, on prend la <b>2ᵉ colonne</b>.<br>• Même forme à toutes les personnes (sauf <i>was / were</i>), et <b>jamais de -ed</b> : <i>went</i>, pas <i>goed</i>.<br>• Apprends par <b>familles de sons</b> : <i>buy – bought, think – thought, send – sent, keep – kept…</i><br>• Priorité : les 41 verbes du tableau (rang 1 de la liste « Les verbes irréguliers »).<br>• 5 verbes par jour, à voix haute, avec des révisions espacées.' }
+    { type: 'box', style: 'key', title: 'À retenir', html: '• Trois formes : <b>base</b> (<i>write</i>), <b>prétérit</b> (<i>wrote</i>), <b>participe passé</b> (<i>written</i>). Au prétérit, on prend la <b>2ᵉ colonne</b>.<br>• Même forme à toutes les personnes (sauf <i>was / were</i>), et <b>jamais de -ed</b> : <i>went</i>, pas <i>goed</i>.<br>• Apprends par <b>familles de sons</b> : <i>buy → bought, think → thought, send → sent, keep → kept…</i><br>• Priorité : les 41 verbes du tableau (rang 1 de la liste « Les verbes irréguliers »).<br>• 5 verbes par jour, à voix haute, avec des révisions espacées.' }
   ],
   exercises: [
     { type: 'mcq', q: 'Last week, we ___ to Chicago for a conference.', options: ['goed', 'went', 'gone', 'go'], answer: 1, explain: 'Prétérit de <i>go</i> : <b>went</b>. <i>Gone</i> est le participe passé (3ᵉ colonne) et « goed » n’existe pas.' },
-    { type: 'gap', q: 'I ___ (buy) a new phone yesterday.', answers: ['bought'], explain: '<i>Buy</i> → <b>bought</b> (famille -ought / -aught : <i>buy – bought – bought</i>).' },
+    { type: 'gap', q: 'I ___ (buy) a new phone yesterday.', answers: ['bought'], explain: '<i>Buy</i> → <b>bought</b> (famille -ought / -aught : <i>buy, bought, bought</i>).' },
     { type: 'gap', q: 'She ___ (send) the documents an hour ago.', answers: ['sent'], explain: '<i>Send</i> → <b>sent</b> (famille d → t : <i>send, spend, lend</i>).' },
     { type: 'mcq', q: 'Quel est le prétérit de <b>think</b> (penser) ?', options: ['thinked', 'taught', 'thought', 'thank'], answer: 2, explain: '<i>Think</i> → <b>thought</b>. Attention : <i>taught</i> est le prétérit de <i>teach</i> (enseigner).' },
     { type: 'gap', q: 'We ___ (meet) the new director last Tuesday.', answers: ['met'], explain: '<i>Meet</i> → <b>met</b> : le « ii » long devient un « è » court.' },
     { type: 'mcq', q: 'Yesterday, Ana ___ her keys at the gym.', options: ['lose', 'losed', 'lost', 'loses'], answer: 2, explain: '<i>Lose</i> → <b>lost</b>. <i>Yesterday</i> impose le prétérit ; « losed » n’existe pas.' },
-    { type: 'gap', q: 'The meeting ___ (begin) at 9 a.m. and ended at noon.', answers: ['began'], explain: '<i>Begin</i> → <b>began</b> (famille i – a – u : <i>begin, began, begun</i>). <i>Begun</i> est le participe passé.' },
+    { type: 'gap', q: 'The meeting ___ (begin) at 9 a.m. and ended at noon.', answers: ['began'], explain: '<i>Begin</i> → <b>began</b> (famille i → a → u : <i>begin, began, begun</i>). <i>Begun</i> est le participe passé.' },
     { type: 'mcq', q: 'Quelle phrase est correcte ? (« J’ai apporté mon ordinateur portable à la réunion. »)', options: ['I bringed my laptop to the meeting.', 'I bought my laptop to the meeting.', 'I brought my laptop to the meeting.', 'I brang my laptop to the meeting.'], answer: 2, explain: '<i>Bring</i> (apporter) → <b>brought</b>. Ne confonds pas avec <i>bought</i>, le prétérit de <i>buy</i> (acheter).' },
     { type: 'gap', q: 'Ms. Diallo ___ (write) the sales report last night.', answers: ['wrote'], explain: '<i>Write</i> → <b>wrote</b> (2ᵉ colonne). <i>Written</i> est le participe passé.' },
     { type: 'gap', q: 'Our company ___ (spend) $5,000 on advertising last month.', answers: ['spent'], explain: '<i>Spend</i> → <b>spent</b> (famille d → t).' },

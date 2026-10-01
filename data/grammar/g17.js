@@ -61,9 +61,9 @@ LE.register({
     { type: 'h', text: 'La prononciation de -ed : trois sons' },
     { type: 'p', html: 'Attention : la terminaison <b>-ed</b> ne se prononce jamais « èd » comme on pourrait le croire, et le plus souvent elle n’ajoute même <b>pas de syllabe</b>. Il y a trois possibilités, selon le dernier son du verbe. Les détails et l’entraînement sont dans la leçon « Les terminaisons -s et -ed à l’oral ».' },
     { type: 'table', head: ['Son', 'Quand ?', 'Exemples'], rows: [
-      ['/ɪd/ — « id », une syllabe en plus', 'après les sons <b>t</b> et <b>d</b>', 'want<b>ed</b>, need<b>ed</b>, start<b>ed</b>, decid<b>ed</b>'],
-      ['/t/ — pas de syllabe en plus', 'après un son « sourd » (la gorge ne vibre pas) : <b>p, k, s, x, f, ch, sh</b>', 'work<b>ed</b> (« workt »), stopp<b>ed</b>, fix<b>ed</b>, finish<b>ed</b>'],
-      ['/d/ — pas de syllabe en plus', 'après tous les autres sons (voyelles, <b>l, m, n, r, v</b>…)', 'call<b>ed</b> (« calld »), play<b>ed</b>, open<b>ed</b>, arriv<b>ed</b>']
+      ['/ɪd/ : « id », une syllabe en plus', 'après les sons <b>t</b> et <b>d</b>', 'want<b>ed</b>, need<b>ed</b>, start<b>ed</b>, decid<b>ed</b>'],
+      ['/t/ : pas de syllabe en plus', 'après un son « sourd » (la gorge ne vibre pas) : <b>p, k, s, x, f, ch, sh</b>', 'work<b>ed</b> (« workt »), stopp<b>ed</b>, fix<b>ed</b>, finish<b>ed</b>'],
+      ['/d/ : pas de syllabe en plus', 'après tous les autres sons (voyelles, <b>l, m, n, r, v</b>…)', 'call<b>ed</b> (« calld »), play<b>ed</b>, open<b>ed</b>, arriv<b>ed</b>']
     ] },
     { type: 'p', html: 'Écoute et compare : au TOEIC, ce petit <b>-ed</b> est souvent la seule chose qui distingue le présent du passé.' },
     { type: 'pairs', items: [
@@ -91,7 +91,7 @@ LE.register({
       { en: 'We launched the new app in 2021.', fr: 'Nous avons lancé la nouvelle application en 2021.' },
       { en: 'When I was a student, I worked in a hotel.', fr: 'Quand j’étais étudiante, je travaillais dans un hôtel.', note: 'Le prétérit traduit aussi l’<b>imparfait</b> quand il s’agit d’une situation ou d’une habitude passée.' }
     ] },
-    { type: 'box', style: 'tip', title: 'Passé composé, imparfait… un seul temps en anglais', html: 'Le prétérit anglais correspond à <b>plusieurs</b> temps français : <i>She lived in Nairobi.</i> = « Elle a vécu à Nairobi. » ou « Elle vivait à Nairobi. » Retiens la règle simple : <b>action ou situation terminée + moment passé</b> → prétérit. (Deux autres cas, que tu verras plus tard : pour une action <b>en cours</b> à un moment du passé — « je travaillais quand il a appelé » —, l’anglais utilise le <i>past continuous</i> ; et sans moment précis, il utilise parfois le <i>present perfect</i>.)' },
+    { type: 'box', style: 'tip', title: 'Passé composé, imparfait… un seul temps en anglais', html: 'Le prétérit anglais correspond à <b>plusieurs</b> temps français : <i>She lived in Nairobi.</i> = « Elle a vécu à Nairobi. » ou « Elle vivait à Nairobi. » Retiens la règle simple : <b>action ou situation terminée + moment passé</b> → prétérit. (Deux autres cas, que tu verras plus tard : pour une action <b>en cours</b> à un moment du passé, comme « je travaillais quand il a appelé », l’anglais utilise le <i>past continuous</i> ; et sans moment précis, il utilise parfois le <i>present perfect</i>.)' },
     { type: 'dialog', title: 'Lundi matin au bureau', lines: [
       { speaker: 'M', en: 'Good morning, Priya! How was your weekend?', fr: 'Bonjour, Priya ! C’était comment, ton week-end ?' },
       { speaker: 'W', en: 'It was great, thanks. I visited my sister in Boston.', fr: 'Super, merci. Je suis allée voir ma sœur à Boston.' },

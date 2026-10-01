@@ -29,7 +29,7 @@ LE.register({
     { type: 'examples', items: [
       { en: 'We signed the contract last Tuesday.', fr: 'Nous avons signé le contrat mardi dernier.' },
       { en: 'Ms. Ferreira joined the company three years ago.', fr: 'Mme Ferreira est entrée dans l’entreprise il y a trois ans.', note: '<b>ago</b> = « il y a » : toujours avec le prétérit.' },
-      { en: 'When did you arrive? — I arrived at 8:30.', fr: 'Quand es-tu arrivée ? — Je suis arrivée à 8 h 30.' },
+      { en: 'When did you arrive? I arrived at 8:30.', fr: 'Quand es-tu arrivée ? Je suis arrivée à 8 h 30.' },
       { en: 'I worked in London when I was younger.', fr: 'J’ai travaillé à Londres quand j’étais plus jeune.' }
     ] },
     { type: 'box', style: 'warn', title: 'Piège : jamais de moment précis avec le present perfect', html: '<span class="ko">I have met him yesterday.</span> → <span class="ok">I met him yesterday.</span><br><span class="ko">She has left two days ago.</span> → <span class="ok">She left two days ago.</span><br><span class="ko">When have you arrived?</span> → <span class="ok">When did you arrive?</span><br>Même si le français dit « j’ai rencontré », « elle est partie », « es-tu arrivée », l’anglais veut le <b>prétérit</b> dès qu’il y a un moment passé précis.' },
@@ -58,7 +58,7 @@ LE.register({
     { type: 'p', html: 'Dans une conversation ou un e-mail, on commence souvent par une <b>nouvelle</b> au present perfect (pas de moment), puis on donne les <b>détails</b> au prétérit : quand, où, comment. Dès que le moment est connu, on passe au prétérit.' },
     { type: 'examples', items: [
       { en: "We've hired a new sales manager. She started on Monday.", fr: 'Nous avons embauché une nouvelle directrice commerciale. Elle a commencé lundi.' },
-      { en: 'Have you ever been to Mexico? — Yes, I went there last year.', fr: 'Es-tu déjà allée au Mexique ? — Oui, j’y suis allée l’année dernière.' },
+      { en: 'Have you ever been to Mexico? Yes, I went there last year.', fr: 'Es-tu déjà allée au Mexique ? Oui, j’y suis allée l’année dernière.' },
       { en: "I've lost my badge. I think I dropped it in the parking lot.", fr: 'J’ai perdu mon badge. Je crois que je l’ai fait tomber sur le parking.' },
       { en: 'There has been an accident on Highway 9. It happened at 7 a.m.', fr: 'Il y a eu un accident sur l’autoroute 9. C’est arrivé à 7 h.' }
     ] },
@@ -92,11 +92,11 @@ LE.register({
     { type: 'h', text: 'How long…? et It’s the first time…' },
     { type: 'p', html: 'Pour demander « depuis combien de temps ? », on dit <b>How long</b> + present perfect : <i>How long <b>have</b> you <b>worked</b> here?</i> On répond avec <b>for</b> ou <b>since</b>. Après <b>It’s the first time</b> (c’est la première fois que…), l’anglais utilise aussi le present perfect, alors que le français met le présent.' },
     { type: 'examples', items: [
-      { en: 'How long have you worked for Veloria Logistics? — For five years.', fr: 'Depuis combien de temps travailles-tu chez Veloria Logistics ? — Depuis cinq ans.' },
-      { en: 'How long has she been the team leader? — Since March.', fr: 'Depuis quand est-elle responsable d’équipe ? — Depuis mars.' },
+      { en: 'How long have you worked for Veloria Logistics? For five years.', fr: 'Depuis combien de temps travailles-tu chez Veloria Logistics ? Depuis cinq ans.' },
+      { en: 'How long has she been the team leader? Since March.', fr: 'Depuis quand est-elle responsable d’équipe ? Depuis mars.' },
       { en: "It's the first time I've given a presentation in English.", fr: 'C’est la première fois que je fais une présentation en anglais.' },
       { en: 'This is the second time the delivery has been late this month.', fr: 'C’est la deuxième fois ce mois-ci que la livraison est en retard.' },
-      { en: 'How long ago did you move here? — Two years ago.', fr: 'Il y a combien de temps que tu as emménagé ici ? — Il y a deux ans.', note: '<b>How long ago…?</b> (il y a combien de temps ?) → prétérit.' }
+      { en: 'How long ago did you move here? Two years ago.', fr: 'Il y a combien de temps que tu as emménagé ici ? Il y a deux ans.', note: '<b>How long ago…?</b> (il y a combien de temps ?) → prétérit.' }
     ] },
     { type: 'box', style: 'warn', title: 'Pièges : « Depuis combien de temps… ? » et « C’est la première fois que… »', html: '<span class="ko">How long do you work here?</span> → <span class="ok">How long have you worked here?</span><br><span class="ko">Since how long…?</span> n’existe pas : on dit <b>How long…?</b><br><span class="ko">It’s the first time I come here.</span> → <span class="ok">It’s the first time I’ve come here.</span> / <span class="ok">It’s the first time I’ve been here.</span>' },
     { type: 'dialog', title: 'Un entretien d’embauche', lines: [
@@ -119,9 +119,9 @@ LE.register({
     { type: 'gap', q: "We've had this printer ___ ten years. (for / since)", answers: ['for'], explain: '<i>Ten years</i> est une <b>durée</b> → <b>for</b>. <i>Since</i> est suivi d’un point de départ (<i>since 2016</i>).' },
     { type: 'mcq', q: 'Quelle est la bonne traduction de « Je travaille ici depuis 2019 » ?', options: ['I work here since 2019.', "I've worked here since 2019.", 'I worked here since 2019.', "I'm working here since 2019."], answer: 1, explain: 'Situation commencée dans le passé qui continue → <b>present perfect</b> + <b>since</b> (point de départ). Le présent (<i>I work, I’m working</i>) et le prétérit sont impossibles ici. <i>I’ve been working here since 2019</i> serait aussi correct.' },
     { type: 'mcq', q: 'Quelle est la bonne traduction de « Je l’ai rencontrée il y a dix ans » ?', options: ['I met her ten years ago.', "I've met her ten years ago.", "I've met her for ten years.", 'I met her since ten years.'], answer: 0, explain: '« Il y a » = <b>ago</b>, toujours avec le <b>prétérit</b> : <i>I met her ten years ago</i>. Le present perfect ne s’emploie jamais avec <i>ago</i>.' },
-    { type: 'gap', q: 'When ___ (you / arrive) in Chicago? — Last night.', answers: ['did you arrive'], explain: '<b>When…?</b> demande un moment précis (ici dans le passé : <i>last night</i>) → <b>prétérit</b> : <i>When did you arrive?</i> On ne dit jamais <i>When have you arrived?</i>' },
+    { type: 'gap', q: 'A: When ___ (you / arrive) in Chicago? B: Last night.', answers: ['did you arrive'], explain: '<b>When…?</b> demande un moment précis (ici dans le passé : <i>last night</i>) → <b>prétérit</b> : <i>When did you arrive?</i> On ne dit jamais <i>When have you arrived?</i>' },
     { type: 'mcq', q: "I've lost my badge. I think I ___ it in the cafeteria at lunchtime.", options: ['have left', 'left', 'leave', 'am leaving'], answer: 1, explain: 'On annonce la nouvelle au present perfect (<i>I’ve lost</i>), puis on donne un détail avec un moment précis (<i>at lunchtime</i>) → <b>prétérit</b> : <i>left</i>.' },
-    { type: 'gap', q: 'How long ___ (you / know) Mr. Petrov? — Since we were in college.', answers: ['have you known'], explain: '<b>How long</b> + present perfect pour une situation qui dure encore (la réponse commence par <i>since</i>). <i>Know</i> est un verbe d’état : pas de forme en -ing. Participe passé : <b>known</b>.' },
+    { type: 'gap', q: 'A: How long ___ (you / know) Mr. Petrov? B: Since we were in college.', answers: ['have you known'], explain: '<b>How long</b> + present perfect pour une situation qui dure encore (la réponse commence par <i>since</i>). <i>Know</i> est un verbe d’état : pas de forme en -ing. Participe passé : <b>known</b>.' },
     { type: 'gap', q: "It's the first time I ___ (be) to this conference center.", answers: ["'ve been", 'have been', "'ve ever been", 'have ever been'], explain: 'Après <b>It’s the first time</b>, on met le <b>present perfect</b> (alors que le français dit « c’est la première fois que je viens »). Participe passé de <i>be</i> : <b>been</b>.' },
     { type: 'listen', accent: 'en-CA', say: "I've lived in Montreal since 2015, but I've only worked for this company for two years.", q: 'Qu’as-tu compris ?', options: ['La personne habite à Montréal depuis deux ans.', 'La personne travaille dans cette entreprise depuis deux ans.', 'La personne a travaillé deux ans à Montréal, puis elle est partie.'], answer: 1, explain: '<i>I’ve only worked for this company <b>for two years</b></i> = elle travaille dans cette entreprise depuis deux ans (et elle y travaille toujours). Elle habite à Montréal <b>depuis 2015</b>.' },
     { type: 'order', answer: 'How long have you worked for this company?', fr: 'Depuis combien de temps travailles-tu pour cette entreprise ?', explain: 'Question : <b>How long</b> + <b>have</b> + sujet + participe passé. Jamais <i>How long do you work…?</i> pour dire « depuis combien de temps ».' },

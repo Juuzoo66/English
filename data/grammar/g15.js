@@ -7,7 +7,7 @@ LE.register({
   minutes: 35,
   goals: [
     'Utiliser <b>can</b> et <b>can’t</b> + verbe pour la capacité, la possibilité et la permission',
-    'Demander un service et répondre : <i>Can you help me? — Sure. / Sorry, I can’t.</i>',
+    'Demander un service et répondre : <i>Can you help me? Sure. / Sorry, I can’t.</i>',
     'Donner une consigne avec l’<b>impératif</b> (<i>Sign here. Don’t forget.</i>) et proposer avec <b>Let’s</b>',
     'Entendre la différence entre <i>can</i> et <i>can’t</i> à l’oral'
   ],
@@ -37,7 +37,7 @@ LE.register({
     { type: 'table', head: ['Emploi', 'Exemple', 'Français'], rows: [
       ['<b>capacité</b> (savoir faire)', 'I can use this software.', 'Je sais utiliser ce logiciel.'],
       ['<b>possibilité</b>', 'You can pay by card.', 'Vous pouvez payer par carte.'],
-      ['<b>permission</b>', 'Can I sit here? — Yes, you can.', 'Je peux m’asseoir ici ? — Oui, tu peux.'],
+      ['<b>permission</b>', 'Can I sit here? Yes, you can.', 'Je peux m’asseoir ici ? Oui, tu peux.'],
       ['<b>demande</b> (un service)', 'Can you help me?', 'Tu peux m’aider ?'],
       ['<b>interdiction</b> (can’t)', 'You can’t park here.', 'Tu ne peux pas te garer ici. (C’est interdit.)']
     ] },
@@ -120,13 +120,13 @@ LE.register({
     { type: 'mcq', q: 'Comment dit-on « Je sais nager » ?', options: ['I know swim.', 'I can swim.', 'I can to swim.', 'I know to swim.'], answer: 1, explain: 'Pour une compétence, l’anglais utilise <b>can</b> + base verbale : <i>I can swim.</i> « Savoir » ne se traduit pas par <i>know</i> ici.' },
     { type: 'gap', q: 'Sorry, I ___ (can, forme négative) come to the meeting today.', answers: ["can't", 'cannot'], explain: 'Négation de <b>can</b> : <b>can’t</b> ou <b>cannot</b> (en un seul mot), suivi de la base verbale <i>come</i>.' },
     { type: 'mcq', q: 'Quelle question est correcte ?', options: ['Do you can help me?', 'Can you help me?', 'Can you to help me?', 'Can you helping me?'], answer: 1, explain: 'Avec <b>can</b>, on n’utilise pas <i>do</i> : on inverse <b>can</b> et le sujet, puis on met la base verbale → <i>Can you help me?</i>' },
-    { type: 'gap', q: '— Can you help me with this box? — Yes, I ___. (réponse courte)', answers: ['can'], explain: 'Réponse courte : on reprend seulement <b>can</b>, sans le verbe principal → <i>Yes, I can.</i> (ou <i>No, I can’t.</i>).' },
+    { type: 'gap', q: 'Can you help me with this box? Yes, I ___. (réponse courte)', answers: ['can'], explain: 'Réponse courte : on reprend seulement <b>can</b>, sans le verbe principal → <i>Yes, I can.</i> (ou <i>No, I can’t.</i>).' },
     { type: 'mcq', q: 'Quelle consigne est correcte ?', options: ['To sign here, please.', 'Please sign here.', 'Please to sign here.', 'Please signs here.'], answer: 1, explain: 'L’impératif = la <b>base verbale seule</b>, sans <i>to</i> et sans -s : <i>Please sign here.</i> (Merci de signer ici.)' },
     { type: 'gap', q: '___ (négatif : forget) your badge tomorrow!', answers: ["Don't forget", 'Do not forget'], explain: 'Impératif négatif : <b>Don’t</b> (= <i>do not</i>) + base verbale → <i>Don’t forget</i> (N’oublie pas).' },
     { type: 'gap', q: "___ (let's + take) a break. We are all tired.", answers: ["Let's take", 'Let us take'], explain: 'Pour proposer de faire quelque chose ensemble : <b>Let’s</b> + base verbale → <i>Let’s take a break.</i> (Faisons une pause.)' },
     { type: 'order', answer: 'Can you help me with this report?', fr: 'Tu peux m’aider avec ce rapport ?', explain: 'Question avec <b>can</b> : <b>Can</b> + sujet (<i>you</i>) + base verbale (<i>help</i>) + complément.' },
     { type: 'order', answer: "Let's meet in the lobby at noon.", alts: ["Let's meet at noon in the lobby."], fr: 'Retrouvons-nous dans le hall à midi.', explain: '<b>Let’s</b> + base verbale (<i>meet</i>) + lieu + moment. On peut aussi placer <i>at noon</i> avant <i>in the lobby</i>.' },
-    { type: 'mcq', q: '— Can you call Mr. Tran this afternoon?<br>— ___', options: ['Yes, he can.', 'Sure, no problem.', "It's a nice afternoon."], answer: 1, explain: 'On te demande un service (<i>Can <b>you</b>…?</i>) : <i>Sure, no problem.</i> accepte. <i>Yes, <b>he</b> can</i> parle d’une autre personne, et la 3ᵉ réponse répète le mot <i>afternoon</i> : piège typique de la Partie 2.' },
+    { type: 'mcq', q: 'A : Can you call Mr. Tran this afternoon?<br>B : ___', options: ['Yes, he can.', 'Sure, no problem.', "It's a nice afternoon."], answer: 1, explain: 'On te demande un service (<i>Can <b>you</b>…?</i>) : <i>Sure, no problem.</i> accepte. <i>Yes, <b>he</b> can</i> parle d’une autre personne, et la 3ᵉ réponse répète le mot <i>afternoon</i> : piège typique de la Partie 2.' },
     { type: 'listen', accent: 'en-GB', say: "Hi, it's Paolo. Sorry, I can't come to the meeting this afternoon.", q: 'Paolo peut-il venir à la réunion ?', options: ['Oui, cet après-midi.', 'Non, il ne peut pas.', 'Oui, mais il sera en retard.'], answer: 1, explain: 'Paolo dit <i>Sorry, I <b>can’t</b> come</i>. En britannique, <i>can’t</i> se prononce /kɑːnt/ « kaannt », avec une voyelle longue et forte. <i>Sorry</i> annonce aussi une réponse négative.' },
     { type: 'dictation', say: 'Please call back after three.', answers: ['Please call back after three', 'Please call back after 3'], explain: 'Impératif poli : <b>Please</b> + base verbale (<i>call back</i> = rappeler). « Merci de rappeler après trois heures. »' },
     { type: 'mcq', q: 'Customers can ------- their orders online. <small>(style TOEIC)</small>', options: ['track', 'tracks', 'tracking', 'to track'], answer: 0, explain: 'Après <b>can</b>, toujours la <b>base verbale</b> : <i>can track</i> (peuvent suivre). Pas de -s, pas de -ing, pas de <i>to</i>.' },

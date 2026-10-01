@@ -33,8 +33,8 @@ LE.register({
       ['/s/ : cla<b>ss</b>, offi<b>ce</b>', '/z/ : si<b>ze</b>, clo<b>se</b> (fermer)'],
       ['/ʃ/ (le ch de « chat ») : fini<b>sh</b>, wa<b>sh</b>', '/ʒ/ (le j de « je ») : gara<b>ge</b>'],
       ['/tʃ/ (« tch ») : wa<b>tch</b>, lun<b>ch</b>', '/dʒ/ (« dj ») : pa<b>ge</b>, chan<b>ge</b>'],
-      ['—', '/l/, /m/, /n/, /r/ : ca<b>ll</b>, roo<b>m</b>, pla<b>n</b>, orde<b>r</b>'],
-      ['—', 'toutes les voyelles : pl<b>ay</b>, g<b>o</b>, f<b>ee</b>, b<b>uy</b>']
+      ['(pas d’équivalent sourd)', '/l/, /m/, /n/, /r/ : ca<b>ll</b>, roo<b>m</b>, pla<b>n</b>, orde<b>r</b>'],
+      ['(pas d’équivalent sourd)', 'toutes les voyelles : pl<b>ay</b>, g<b>o</b>, f<b>ee</b>, b<b>uy</b>']
     ], caption: 'Ce qui compte, c’est le dernier <b>son</b>, pas la dernière lettre : <i>make</i> finit par la lettre e, mais par le son /k/.' },
 
     { type: 'h', text: 'Le -s final : /s/, /z/ ou /ɪz/' },
