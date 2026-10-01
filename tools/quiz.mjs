@@ -21,7 +21,7 @@ for (const file of files) {
   }
 }
 if (asJson) { console.log(JSON.stringify(out, null, 1)); process.exit(0); }
-console.log(`# ${out.length} questions — réponds avec un JSON { "clé": "A" } (choix) ou { "clé": "texte" } (réponse écrite)\n`);
+console.log(`# ${out.length} questions. Réponds avec un JSON { "clé": "A" } (choix) ou { "clé": "texte" } (réponse écrite)\n`);
 for (const q of out) {
   console.log(`## ${q.key}`);
   console.log(q.prompt.replace(/<[^>]+>/g, ''));

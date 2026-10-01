@@ -240,7 +240,7 @@
       .replace(/\s+/g, ' ')
       .trim();
   };
-  LE.loose = (s) => LE.expand(s).replace(/[,;:"()\-–—]/g, ' ').replace(/[.!?]/g, '').replace(/\s+/g, ' ').trim();
+  LE.loose = (s) => LE.expand(s).replace(/[,;:"()\-\u2013\u2014]/g, ' ').replace(/[.!?]/g, '').replace(/\s+/g, ' ').trim();
   // « she's » peut valoir « she is » ou « she has » : on compare toutes les lectures possibles.
   const S_CONTRACTION = /\b(he|she|it|that|there|here|what|where|who|how|when|why|everyone|everybody|someone|somebody|no one|nobody|everything|something|nothing)'s\b/g;
   const HAS_S = new RegExp(S_CONTRACTION.source);
@@ -249,7 +249,7 @@
   const hyphenForms = (s) => [s, s.replace(/-/g, ' ').replace(/\s+/g, ' '), s.replace(/-/g, '')];
   const forms = (s) => hyphenForms(s).flatMap(readings);
   LE.matches = function (given, accepted, loose) {
-    const f = loose ? (x) => LE.expand(x).replace(/[,;:"()–—]/g, ' ').replace(/[.!?]/g, '').replace(/\s+/g, ' ').trim() : LE.expand;
+    const f = loose ? (x) => LE.expand(x).replace(/[,;:"()\u2013\u2014]/g, ' ').replace(/[.!?]/g, '').replace(/\s+/g, ' ').trim() : LE.expand;
     const g = f(given);
     if (!g) return false;
     const gs = forms(g);

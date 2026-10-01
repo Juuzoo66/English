@@ -40,7 +40,7 @@ console.log(`Score : ${ok}/${total}`);
 if (mismatches.length) {
   console.log(`\n${mismatches.length} divergence(s) à examiner :\n`);
   for (const m of mismatches) {
-    console.log(`## ${m.key} — ${m.problem}`);
+    console.log(`## ${m.key} : ${m.problem}`);
     if (m.prompt) console.log(m.prompt.replace(/<[^>]+>/g, '').split('\n').slice(-6).join('\n'));
     if (m.options) m.options.forEach((o, i) => console.log(`   ${LETTERS[i]}) ${o.replace(/<[^>]+>/g, '')}`));
     if (m.accepted) console.log(`   acceptées : ${JSON.stringify(m.accepted)}`);

@@ -1,4 +1,4 @@
-# Contrat de contenu — Learn English, objectif TOEIC
+# Contrat de contenu : Learn English, objectif TOEIC
 
 Ce document définit **exactement** le format des fichiers de `data/`. Le moteur (`assets/js/app.js`)
 et le validateur (`tools/validate.mjs`) s'appuient dessus. Tout écart casse le site.
@@ -6,7 +6,7 @@ et le validateur (`tools/validate.mjs`) s'appuient dessus. Tout écart casse le 
 ## Public visé
 
 - Une adulte **francophone, débutante (A1)** qui doit atteindre **B1 / B2 au TOEIC Listening & Reading**
-  (B1 ≈ 550 pts, B2 ≈ 785 pts) en **7 mois** (≈ 30 semaines, 45–60 min par jour).
+  (B1 ≈ 550 pts, B2 ≈ 785 pts) en **7 mois** (≈ 30 semaines, 45-60 min par jour).
 - Toutes les **explications sont en français**, claires, chaleureuses, tutoiement (« tu »), sans jargon inutile.
   Chaque terme technique est expliqué la première fois (ex. « le participe passé (la 3ᵉ colonne des verbes irréguliers) »).
 - Les **exemples sont en anglais** avec leur traduction française.
@@ -32,8 +32,15 @@ LE.register({
 - Utiliser des chaînes entre apostrophes simples `'...'` et échapper les apostrophes internes (`\'`),
   **ou** des guillemets doubles `"..."` quand la chaîne contient beaucoup d'apostrophes. Pas de template literals.
 - Apostrophe typographique `’` autorisée en français. En anglais, utiliser l'apostrophe droite `'`
-  (don't, it's) — le moteur normalise de toute façon ’ → ' pour corriger les réponses.
+  (don't, it's) : le moteur normalise de toute façon ’ → ' pour corriger les réponses.
 - Le champ `title` doit être **identique** au titre du catalogue `data/catalog.js`.
+
+### Typographie
+
+**Aucun tiret long** : ni cadratin (U+2014) ni demi-cadratin (U+2013), nulle part (le validateur les refuse).
+Selon le contexte : deux-points ou virgule pour une incise, parenthèses, point ; « Série 1 : Nature des mots » pour un titre ;
+« 10-12 » (trait d'union) ou « de 10 à 12 » pour un intervalle ; « go, went, gone » pour les formes d'un verbe ;
+deux répliques d'un dialogue séparées par un simple espace (« Are you ready? Yes, I am. ») ou par « A : … B : … ».
 
 ### HTML autorisé
 
@@ -52,7 +59,7 @@ LE.register({
   title: 'Le présent simple : la forme affirmative',   // = catalogue
   subtitle: 'Parler de ses habitudes et de faits généraux',  // 1 phrase
   level: 'A1',               // 'A1' | 'A2' | 'B1' | 'B2' (= catalogue)
-  minutes: 30,               // durée estimée leçon + exercices (15–60)
+  minutes: 30,               // durée estimée leçon + exercices (15-60)
   goals: ['Conjuguer un verbe au présent simple', '…'],   // 2 à 4 objectifs « Tu sauras… »
   blocks: [ /* contenu de la leçon, voir ci-dessous */ ],
   exercises: [ /* 12 à 16 exercices, voir §2 (0 autorisé pour kind 'guide') */ ]
@@ -87,13 +94,13 @@ pourquoi le piège principal est faux). 1 à 3 phrases.
 
 | type | champs | notes |
 |---|---|---|
-| `mcq` | `q`, `options: [2–4 strings]`, `answer: index (0-based)`, `explain` | QCM. **Une seule** option défendable. Options distinctes. |
+| `mcq` | `q`, `options: [2-4 strings]`, `answer: index (0-based)`, `explain` | QCM. **Une seule** option défendable. Options distinctes. |
 | `gap` | `q` (contient **exactement une fois** `___`), `answers: [strings]`, `explain`, `hint?` | texte à trous (1 trou). `answers` = **toutes** les réponses acceptables (formes contractées ET pleines : `"doesn't work"`, `"does not work"`). Mettre les indices dans `q` entre parenthèses, ex. `'She ___ (work) in a bank.'`. Le trou peut contenir plusieurs mots. |
 | `order` | `answer` (phrase anglaise), `alts?: [strings]`, `fr`, `explain` | remettre les mots dans l'ordre. Le moteur découpe `answer` sur les espaces (4 à 10 mots, ponctuation finale ignorée, majuscules ignorées). `alts` = autres ordres **corrects** avec exactement les mêmes mots. `fr` = traduction affichée comme consigne. |
 | `listen` | `say` (texte anglais lu par la synthèse vocale), `q` (question en FR ou EN), `options`, `answer`, `explain` | compréhension orale : l'apprenante n'entend que `say`. |
-| `dictation` | `say`, `answers: [strings]`, `explain` | écrire ce qu'on entend (3–12 mots). Comparaison sans casse ni ponctuation. Mettre les variantes (chiffres/lettres : `"13"`, `"thirteen"`). |
+| `dictation` | `say`, `answers: [strings]`, `explain` | écrire ce qu'on entend (3-12 mots). Comparaison sans casse ni ponctuation. Mettre les variantes (chiffres/lettres : `"13"`, `"thirteen"`). |
 
-Répartition conseillée pour une leçon de grammaire (12–16 exercices) : ~6 `mcq`, ~5 `gap`, 2–3 `order`, 1–2 `listen`
+Répartition conseillée pour une leçon de grammaire (12-16 exercices) : ~6 `mcq`, ~5 `gap`, 2-3 `order`, 1-2 `listen`
 ou `dictation`. Progressifs : du plus facile au plus difficile. Les derniers dans le style TOEIC Partie 5.
 
 **Accent (optionnel)** : `examples.items[]`, `dialog` (au niveau du bloc), `listen`, `dictation` et les items TOEIC des
@@ -111,7 +118,7 @@ LE.register({
   id: 'v11', kind: 'vocab',
   title: 'Le bureau : lieux, matériel et tâches',   // = catalogue
   subtitle: '…', level: 'A2',
-  intro: 'html court (1–3 phrases) : pourquoi ce thème compte pour le TOEIC',
+  intro: 'html court (1-3 phrases) : pourquoi ce thème compte pour le TOEIC',
   groups: [
     { title: 'Le matériel de bureau', words: [
       { en: 'stapler', fr: 'agrafeuse', pos: 'n', ex: 'Can I borrow your stapler?', exfr: 'Je peux emprunter ton agrafeuse ?' },
@@ -144,34 +151,34 @@ Plusieurs formes possibles séparées par ` / ` (`'learned / learnt'`), forme US
 ```js
 LE.register({
   id: 't05', kind: 'toeic', part: 5,
-  title: 'Partie 5 — Phrases à compléter', subtitle: '…', level: 'B1',
+  title: 'Partie 5 : Phrases à compléter', subtitle: '…', level: 'B1',
   minutes: 40,
   goals: ['…'],
   blocks: [ /* leçon de stratégie : mêmes blocs qu'une leçon (§1) */ ],
-  sets: [ { title: 'Série 1 — Nature des mots', level: 'A2', items: [ /* items de la partie */ ] }, … ]
+  sets: [ { title: 'Série 1 : Nature des mots', level: 'A2', items: [ /* items de la partie */ ] }, … ]
 });
 ```
 
 Items selon la partie (toutes les réponses : `answer` = index 0-based ; `explain` en français) :
 
-- **Partie 1** (photo) — on n'affiche pas d'image : on décrit la photo en français.
-  `{ scene: 'Description FR précise de la photo (2–3 phrases)', statements: ['4 phrases EN'], answer, explain }`
+- **Partie 1** (photo) : on n'affiche pas d'image : on décrit la photo en français.
+  `{ scene: 'Description FR précise de la photo (2-3 phrases)', statements: ['4 phrases EN'], answer, explain }`
   Les 4 phrases sont lues à l'oral. Pièges classiques : mauvais verbe, mot entendu mais hors sujet, sons proches.
-- **Partie 2** (question-réponse) — `{ question: 'EN', responses: ['3 réponses EN'], answer, explain, speakers?: ['W','M'] }`
+- **Partie 2** (question-réponse) : `{ question: 'EN', responses: ['3 réponses EN'], answer, explain, speakers?: ['W','M'] }`
   **3 réponses** (A, B, C). Pièges : répétition d'un mot de la question, son similaire, réponse à une autre question wh-.
-- **Partie 3** (conversation) — `{ lines: [{speaker: 'M'|'W'|'M2'|'W2', text}], graphic?: {title, head, rows}, questions: [ {q, options: [4], answer, explain} ×3 ] }`
-  6–12 répliques. Au moins 2 conversations à 3 personnes par fichier, 2 avec `graphic` (tableau à consulter),
+- **Partie 3** (conversation) : `{ lines: [{speaker: 'M'|'W'|'M2'|'W2', text}], graphic?: {title, head, rows}, questions: [ {q, options: [4], answer, explain} ×3 ] }`
+  6-12 répliques. Au moins 2 conversations à 3 personnes par fichier, 2 avec `graphic` (tableau à consulter),
   2 avec une question « What does the man mean when he says, "…"? ».
-- **Partie 4** (exposé) — `{ intro: 'Questions refer to the following telephone message.', speaker: 'M'|'W', text, graphic?, questions: [3] }`
+- **Partie 4** (exposé) : `{ intro: 'Questions refer to the following telephone message.', speaker: 'M'|'W', text, graphic?, questions: [3] }`
   Types : message téléphonique, annonce, publicité, bulletin radio, visite guidée, discours de réunion…
-- **Partie 5** (phrase à compléter) — `{ q: 'Phrase avec ------- pour le trou', options: [4], answer, explain, skill }`
+- **Partie 5** (phrase à compléter) : `{ q: 'Phrase avec ------- pour le trou', options: [4], answer, explain, skill }`
   `skill` ∈ `'word-form'` (nature du mot), `'verb'` (temps/voix), `'preposition'`, `'connector'`, `'pronoun'`,
   `'vocabulary'`, `'comparison'`, `'other'`. Le trou est **exactement** `-------` (7 tirets), une fois.
-- **Partie 6** (texte à compléter) — `{ title: 'Type de document (E-mail, Notice, Article…)', text, questions: [ {options: [4], answer, explain} ×4 ] }`
+- **Partie 6** (texte à compléter) : `{ title: 'Type de document (E-mail, Notice, Article…)', text, questions: [ {options: [4], answer, explain} ×4 ] }`
   `text` contient `{1}`, `{2}`, `{3}`, `{4}` (dans l'ordre) aux emplacements des trous. Une des 4 questions est
   une **insertion de phrase** (options = 4 phrases complètes). `text` peut contenir `\n` pour les retours à la ligne.
-- **Partie 7** (lecture) — `{ docs: [ {kind: 'E-mail'|'Article'|'Advertisement'|'Notice'|'Text-message chain'|'Online chat'|'Form'|'Invoice'|'Letter'|'Web page'|'Memo'|'Schedule'|'Review', title?, text} ], questions: [ {q, options: [4], answer, explain} ] }`
-  1 document = 2–4 questions ; 2 ou 3 documents = 5 questions. `text` : texte brut avec `\n` (html autorisé limité).
+- **Partie 7** (lecture) : `{ docs: [ {kind: 'E-mail'|'Article'|'Advertisement'|'Notice'|'Text-message chain'|'Online chat'|'Form'|'Invoice'|'Letter'|'Web page'|'Memo'|'Schedule'|'Review', title?, text} ], questions: [ {q, options: [4], answer, explain} ] }`
+  1 document = 2-4 questions ; 2 ou 3 documents = 5 questions. `text` : texte brut avec `\n` (html autorisé limité).
   Pour les chats, écrire chaque message sur une ligne `Name (10:02 A.M.): message`.
   Pour une question d'insertion, marquer `[1] [2] [3] [4]` dans le texte.
 
@@ -190,7 +197,7 @@ Format réduit (≈ moitié d'un vrai TOEIC). Listening : P1 = 3 items, P2 = 12,
 ## 7. Tests de niveau : `kind: 'placement'`
 
 ```js
-LE.register({ id: 'x01', kind: 'placement', title: 'Test de niveau — version A', minutes: 25,
+LE.register({ id: 'x01', kind: 'placement', title: 'Test de niveau (version A)', minutes: 25,
   intro: 'html',
   questions: [ { level: 'A1', type: 'mcq', q, options, answer, explain }, { level: 'B2', type: 'listen', say, q, options, answer, explain }, … ] });
 ```

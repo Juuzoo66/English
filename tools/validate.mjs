@@ -386,6 +386,11 @@ function validateFile(file, entry, group) {
   try { regs = loadDataFile(file); } catch (e) { check(file, [`erreur de syntaxe/exécution : ${e.message}`], []); return; }
   if (regs.length !== 1) { check(file, [`LE.register doit être appelé exactement 1 fois (${regs.length})`], []); return; }
   const { errors, warnings } = validateObject(regs[0], entry, group, file);
+  // Pas de tirets longs (cadratin U+2014, demi-cadratin U+2013) dans le contenu.
+  const raw = fs.readFileSync(abs, 'utf8');
+  raw.split('\n').forEach((line, i) => {
+    if (/[\u2013\u2014]/.test(line)) errors.push(`ligne ${i + 1} : tiret long interdit (« ${line.trim().slice(0, 70)}… »)`);
+  });
   check(file, errors, strict ? [] : warnings);
   if (strict) { errorCount += warnings.length; warnings.forEach((w) => console.log(`   ERREUR(strict)  ${w}`)); }
 }
@@ -410,5 +415,5 @@ if (targets.length) {
   if (dup.length) { console.log(`Ids en double dans le catalogue : ${dup}`); errorCount++; }
 }
 for (const { file, entry, group } of list) validateFile(file, entry, group);
-console.log(`\n${list.length} fichier(s) — ${errorCount} erreur(s), ${warnCount} avertissement(s)`);
+console.log(`\n${list.length} fichier(s), ${errorCount} erreur(s), ${warnCount} avertissement(s)`);
 if (errorCount) process.exitCode = 1;

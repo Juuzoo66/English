@@ -276,7 +276,7 @@
     else if (part === 2) ctx = `💬 <i>${esc(it.question)}</i>`;
     else if (part === 3) ctx = `👥 ${esc(it.lines[0].text.slice(0, 80))}…`;
     else if (part === 4) ctx = `📢 ${esc(it.intro)}`;
-    else if (part === 6) ctx = `📝 ${esc(it.title)} — ${esc(q.q || '')}`;
+    else if (part === 6) ctx = `📝 ${esc(it.title)} : ${esc(q.q || '')}`;
     else if (part === 7) ctx = `📄 ${esc(it.docs.map((d) => d.kind).join(' + '))}`;
     const qText = part === 5 ? rich(q.q) : part === 6 ? '' : q.q ? rich(q.q) : '';
     return `<div class="review-item">
@@ -392,9 +392,9 @@
             <button class="btn small secondary" data-act="quit" type="button" aria-label="Abandonner">✕</button>
             <div class="progress"><span style="width:${Math.round((sc.q0 / qCount) * 100)}%"></span></div>
             ${isR ? '<span class="timer">⏱</span>' : ''}
-            <div class="count">Q${sc.q0 + 1}${sc.n > 1 ? '–' + (sc.q0 + sc.n) : ''}/${qCount}</div>
+            <div class="count">Q${sc.q0 + 1}${sc.n > 1 ? '-' + (sc.q0 + sc.n) : ''}/${qCount}</div>
           </div>
-          <div class="muted" style="margin-bottom:8px;font-weight:600">${PART_INFO[sc.part].icon} Partie ${sc.part} — ${PART_INFO[sc.part].name} · ${answeredCount} réponses</div>
+          <div class="muted" style="margin-bottom:8px;font-weight:600">${PART_INFO[sc.part].icon} Partie ${sc.part} : ${PART_INFO[sc.part].name} · ${answeredCount} réponses</div>
           <div class="q-card"><div class="item-zone"></div>
             <div class="btn-row q-actions">
               ${isR && s > firstR ? '<button class="btn secondary" type="button" data-act="prev">← Précédent</button>' : ''}
@@ -456,7 +456,7 @@
     }
 
     function renderResults(r, review) {
-      const target = r.total >= 785 ? '🎉 Objectif B2 atteint !' : r.total >= 550 ? '✅ Niveau B1 atteint — cap sur le B2 !' : `Encore ${550 - r.total} points pour le B1 : tu vas y arriver.`;
+      const target = r.total >= 785 ? '🎉 Objectif B2 atteint !' : r.total >= 550 ? '✅ Niveau B1 atteint, cap sur le B2 !' : `Encore ${550 - r.total} points pour le B1 : tu vas y arriver.`;
       root.innerHTML = `
         <div class="runner">
           <div class="card result">
@@ -470,9 +470,9 @@
             <h3 class="mt0">Détail</h3>
             <div class="table-wrap"><table class="t score-table"><thead><tr><th>Section / partie</th><th>Bonnes réponses</th><th>Score estimé</th></tr></thead><tbody>
               <tr><td><b>Listening</b></td><td>${r.L[0]} / ${r.L[1]}</td><td><b>${r.scoreL}</b> / 495 (${LE.cefrFor('L', r.scoreL)})</td></tr>
-              ${[1, 2, 3, 4].filter((p) => r.parts[p]).map((p) => `<tr><td>Partie ${p} — ${PART_INFO[p].name}</td><td>${r.parts[p][0]} / ${r.parts[p][1]}</td><td>${LE.pct(r.parts[p][0] / r.parts[p][1])}</td></tr>`).join('')}
+              ${[1, 2, 3, 4].filter((p) => r.parts[p]).map((p) => `<tr><td>Partie ${p} : ${PART_INFO[p].name}</td><td>${r.parts[p][0]} / ${r.parts[p][1]}</td><td>${LE.pct(r.parts[p][0] / r.parts[p][1])}</td></tr>`).join('')}
               <tr><td><b>Reading</b></td><td>${r.R[0]} / ${r.R[1]}</td><td><b>${r.scoreR}</b> / 495 (${LE.cefrFor('R', r.scoreR)})</td></tr>
-              ${[5, 6, 7].filter((p) => r.parts[p]).map((p) => `<tr><td>Partie ${p} — ${PART_INFO[p].name}</td><td>${r.parts[p][0]} / ${r.parts[p][1]}</td><td>${LE.pct(r.parts[p][0] / r.parts[p][1])}</td></tr>`).join('')}
+              ${[5, 6, 7].filter((p) => r.parts[p]).map((p) => `<tr><td>Partie ${p} : ${PART_INFO[p].name}</td><td>${r.parts[p][0]} / ${r.parts[p][1]}</td><td>${LE.pct(r.parts[p][0] / r.parts[p][1])}</td></tr>`).join('')}
             </tbody></table></div>
             <p class="muted" style="font-size:14px">Repère ta partie la plus faible et refais les séries d’entraînement correspondantes dans l’onglet TOEIC.</p>
             <div class="btn-row"><button class="btn" type="button" data-act="back">Terminer</button><button class="btn secondary" type="button" data-act="toggle">Voir la correction détaillée</button></div>
@@ -482,7 +482,7 @@
             ${[1, 2, 3, 4, 5, 6, 7].map((p) => {
               const rows = review.filter((x) => x.sc.part === p);
               if (!rows.length) return '';
-              return `<details class="week"><summary><span class="part-chip">${p}</span><span class="wtitle"><b>Partie ${p} — ${PART_INFO[p].name}</b><small>${rows.filter((x) => x.ok).length} / ${rows.length} bonnes réponses</small></span></summary><div class="wbody">
+              return `<details class="week"><summary><span class="part-chip">${p}</span><span class="wtitle"><b>Partie ${p} : ${PART_INFO[p].name}</b><small>${rows.filter((x) => x.ok).length} / ${rows.length} bonnes réponses</small></span></summary><div class="wbody">
                 ${rows.map((x) => reviewRow(x)).join('')}
               </div></details>`;
             }).join('')}

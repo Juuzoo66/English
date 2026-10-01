@@ -1,4 +1,4 @@
-# Learn English — Objectif TOEIC 🎯
+# Learn English, objectif TOEIC 🎯
 
 Un site complet pour **apprendre l'anglais de A à Z** et passer de **débutante (A1)** à **B1 / B2 au TOEIC** en **7 mois**.
 
@@ -9,7 +9,7 @@ Tout est expliqué **en français**, pensé pour le téléphone, gratuit, sans c
 | Rubrique | Contenu |
 |---|---|
 | 🗓️ **Programme** | 30 semaines en 4 phases (Fondations → Construire → Accélérer → Sprint final), 149 tâches qui se cochent automatiquement |
-| 📘 **Cours** | 47 leçons de grammaire (du verbe *be* aux inversions du TOEIC), 7 leçons de prononciation, 147 verbes irréguliers — chaque leçon a 12 à 16 exercices corrigés et expliqués |
+| 📘 **Cours** | 47 leçons de grammaire (du verbe *be* aux inversions du TOEIC), 7 leçons de prononciation, 147 verbes irréguliers. Chaque leçon a 12 à 16 exercices corrigés et expliqués |
 | 🧠 **Vocabulaire** | 24 thèmes (≈ 1 300 mots et expressions), flashcards à **répétition espacée**, quiz QCM, écoute et écriture |
 | 🎯 **TOEIC** | Méthode et pièges des 7 parties, séries d'entraînement corrigées (photos, questions-réponses, conversations, exposés, phrases et textes à compléter, compréhension écrite) |
 | 🏁 **TOEIC blancs** | 2 tests réduits (≈ 100 questions, ≈ 1 h) en conditions réelles, avec **score estimé sur 990** et niveau CECRL |

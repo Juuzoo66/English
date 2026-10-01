@@ -209,7 +209,7 @@
     const all = LE.allWords(theme);
     const distract = (w, field) => LE.shuffle(all.filter((x) => x[field] !== w[field] && x.en !== w.en)).slice(0, 3).map((x) => x[field]);
     return words.map((w) => {
-      const exp = `<b>${esc(w.en)}</b> = ${esc(w.fr)}<br><i>${esc(w.ex)}</i> — ${esc(w.exfr)}`;
+      const exp = `<b>${esc(w.en)}</b> = ${esc(w.fr)}<br><i>${esc(w.ex)}</i><br>${esc(w.exfr)}`;
       if (mode === 'fr-en') {
         const opts = LE.shuffle([w.en].concat(distract(w, 'en')));
         return { type: 'mcq', q: `Comment dit-on « <b>${esc(w.fr)}</b> » en anglais ?`, options: opts.map(esc), answer: opts.indexOf(w.en), explain: exp };
@@ -309,7 +309,7 @@
         form.past.classList.add(okPast ? 'correct' : 'wrong');
         form.pp.classList.add(okPp ? 'correct' : 'wrong');
         form.querySelectorAll('input,button').forEach((x) => (x.disabled = true));
-        root.querySelector('.q-feedback').innerHTML = `<div class="feedback ${ok ? 'ok' : 'ko'}"><div class="fb-title">${ok ? '✅ Parfait !' : '❌ Presque…'}</div><div><b>${esc(v.base)} – ${esc(v.past)} – ${esc(v.pp)}</b> ${LE.speakBtn(`${v.base}, ${LE.verbForms(v.past).join(' or ')}, ${LE.verbForms(v.pp).join(' or ')}`)}</div></div>
+        root.querySelector('.q-feedback').innerHTML = `<div class="feedback ${ok ? 'ok' : 'ko'}"><div class="fb-title">${ok ? '✅ Parfait !' : '❌ Presque…'}</div><div><b>${esc(v.base)}, ${esc(v.past)}, ${esc(v.pp)}</b> ${LE.speakBtn(`${v.base}, ${LE.verbForms(v.past).join(' or ')}, ${LE.verbForms(v.pp).join(' or ')}`)}</div></div>
           <div class="btn-row"><button class="btn" type="button" data-act="next">${i + 1 < list.length ? 'Suivant →' : 'Voir mon score'}</button></div>`;
         const nx = root.querySelector('[data-act="next"]');
         nx.onclick = () => { i++; render(); };
@@ -323,7 +323,7 @@
       root.innerHTML = `<div class="runner"><div class="card result">
         <div class="score-big">${correct}<small> / ${list.length}</small></div>
         <p>${correct === list.length ? 'Sans faute ! 🎉' : 'Revois les verbes ci-dessous puis recommence.'}</p>
-        ${mistakes.length ? `<div class="review-list">${mistakes.map((m) => `<div class="review-item"><b>${esc(m.v.base)} – ${esc(m.v.past)} – ${esc(m.v.pp)}</b> <span class="muted">(${esc(m.v.fr)})</span><div class="ri-a muted">Ta réponse : ${esc(m.past || '—')} / ${esc(m.pp || '—')}</div></div>`).join('')}</div>` : ''}
+        ${mistakes.length ? `<div class="review-list">${mistakes.map((m) => `<div class="review-item"><b>${esc(m.v.base)}, ${esc(m.v.past)}, ${esc(m.v.pp)}</b> <span class="muted">(${esc(m.v.fr)})</span><div class="ri-a muted">Ta réponse : ${esc(m.past || '(vide)')} / ${esc(m.pp || '(vide)')}</div></div>`).join('')}</div>` : ''}
         <div class="btn-row" style="justify-content:center"><button class="btn" type="button" data-act="retry">↻ 10 autres verbes</button><button class="btn secondary" type="button" data-act="back">Retour à la liste</button></div>
       </div></div>`;
       root.querySelector('[data-act="retry"]').onclick = () => LE.runVerbQuiz(root, ref, rank, onDone);
@@ -338,7 +338,7 @@
     const due = [], fresh = [];
     pool.forEach((v) => {
       const s = LE.state.verbs[v.base];
-      const card = { key: 'verb|' + v.base, verb: v, w: { en: `${v.base} – ${v.past} – ${v.pp}`, fr: v.fr, pos: 'v', ex: `${v.base} → ${v.past} → ${v.pp}`, exfr: v.fr } };
+      const card = { key: 'verb|' + v.base, verb: v, w: { en: `${v.base}, ${v.past}, ${v.pp}`, fr: v.fr, pos: 'v', ex: `${v.base} → ${v.past} → ${v.pp}`, exfr: v.fr } };
       if (!s) fresh.push(card); else if (s.due <= t) due.push(card);
     });
     return LE.shuffle(due).concat(fresh.slice(0, Math.max(0, (max || 15) - due.length)));

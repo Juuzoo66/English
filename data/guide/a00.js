@@ -32,10 +32,10 @@ LE.register({
 
     { type: 'h', text: 'Ta séance quotidienne (45 à 60 minutes)' },
     { type: 'list', ordered: true, items: [
-      '<b>10 min — Flashcards</b> : fais tes « Révisions du jour » (onglet Vocabulaire). Le site te montre chaque mot juste avant que tu l’oublies : c’est la <b>répétition espacée</b>.',
-      '<b>20 min — La leçon du jour</b> : lis la leçon, écoute chaque exemple (bouton 🔊) et <b>répète à voix haute</b>.',
-      '<b>10 min — Exercices</b> : fais les exercices de la leçon. Lis bien les explications quand tu te trompes : c’est là que tu apprends le plus.',
-      '<b>10 min — Immersion</b> : une vidéo, un podcast ou une série en anglais. Même si tu ne comprends pas tout, ton oreille s’habitue.'
+      '<b>Flashcards (10 min)</b> : fais tes « Révisions du jour » (onglet Vocabulaire). Le site te montre chaque mot juste avant que tu l’oublies : c’est la <b>répétition espacée</b>.',
+      '<b>La leçon du jour (20 min)</b> : lis la leçon, écoute chaque exemple (bouton 🔊) et <b>répète à voix haute</b>.',
+      '<b>Exercices (10 min)</b> : fais les exercices de la leçon. Lis bien les explications quand tu te trompes : c’est là que tu apprends le plus.',
+      '<b>Immersion (10 min)</b> : une vidéo, un podcast ou une série en anglais. Même si tu ne comprends pas tout, ton oreille s’habitue.'
     ] },
     { type: 'box', style: 'tip', title: 'Astuce motivation', html: 'Fais ta séance <b>à la même heure</b> chaque jour (par exemple dans les transports ou après le dîner). Mieux vaut 30 minutes tous les jours que 3 heures le dimanche. La série de jours 🔥 sur l’accueil est là pour t’encourager !' },
 
@@ -65,7 +65,7 @@ LE.register({
     { type: 'h', text: 'Pour aller plus loin (gratuit)' },
     { type: 'list', items: [
       '<b>BBC Learning English</b> : vidéos et podcasts pour apprenants, dont « 6 Minute English » (avec transcription).',
-      '<b>British Council – LearnEnglish</b> : exercices de grammaire et d’écoute classés par niveau.',
+      '<b>British Council (LearnEnglish)</b> : exercices de grammaire et d’écoute classés par niveau.',
       '<b>Les séries que tu connais déjà</b> : regarde-les en VO, d’abord avec les sous-titres français, puis anglais.',
       '<b>Le site officiel du TOEIC (ETS Global)</b> : exemples de questions officielles, inscription et dates des sessions.'
     ] },

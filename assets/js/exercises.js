@@ -191,7 +191,7 @@
   function reviewItem(r) {
     const ex = r.ex;
     const q = ex.type === 'listen' || ex.type === 'dictation'
-      ? `🔊 <i>${esc(ex.say)}</i>${ex.q ? ' — ' + rich(ex.q) : ''}`
+      ? `🔊 <i>${esc(ex.say)}</i>${ex.q ? ' : ' + rich(ex.q) : ''}`
       : ex.type === 'order' ? `Ordre : « ${esc(ex.fr)} »` : rich(ex.q);
     return `<div class="review-item">
       <div class="ri-q">${q}</div>
@@ -242,7 +242,7 @@
     },
     dictation(ex, body, actions, done) {
       body.innerHTML = `
-        <div class="listen-zone">${LE.speakBtn(ex.say, { big: true, accent: ex.accent })}<span class="hint">Appuie pour (ré)écouter — autant de fois que tu veux</span></div>
+        <div class="listen-zone">${LE.speakBtn(ex.say, { big: true, accent: ex.accent })}<span class="hint">Appuie pour (ré)écouter, autant de fois que tu veux</span></div>
         <div class="q-text">${questionHtml(ex)}</div>
         <form class="gap-input" autocomplete="off">
           <input type="text" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Ce que tu entends" placeholder="Écris ce que tu entends…">

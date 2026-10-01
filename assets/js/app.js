@@ -18,7 +18,7 @@
     const parts = decodeURIComponent(location.hash.replace(/^#\/?/, '')).split('/').filter(Boolean);
     const [page = '', a, b, c] = parts;
     LE.speech && LE.speech.stop();
-    document.title = 'Learn English — Objectif TOEIC';
+    document.title = 'Learn English · Objectif TOEIC';
 
     let nav = NAV_OF[page] || '';
     if (page === 'lecon' && a === 't00') nav = 'toeic';

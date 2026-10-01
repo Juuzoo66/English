@@ -103,7 +103,7 @@ export function flatten(obj) {
         qs.push({ key: `${key}.q${i + 1}`, type: 'choice', prompt: (i === 0 ? `TEXTE (${it.title}) :\n${it.text}\n---\n` : '(même texte)\n') + `Trou {${i + 1}}`, options: q.options, answer: q.answer });
       });
     } else if (part === 7) {
-      const docs = it.docs.map((d, j) => `DOCUMENT ${j + 1} (${d.kind}${d.title ? ' — ' + d.title : ''}) :\n${d.text}`).join('\n\n');
+      const docs = it.docs.map((d, j) => `DOCUMENT ${j + 1} (${d.kind}${d.title ? ' : ' + d.title : ''}) :\n${d.text}`).join('\n\n');
       it.questions.forEach((q, i) => {
         qs.push({ key: `${key}.q${i + 1}`, type: 'choice', prompt: (i === 0 ? `${docs}\n---\n` : '(mêmes documents)\n') + q.q, options: q.options, answer: q.answer });
       });

@@ -189,8 +189,8 @@
       </div>
 
       <div class="stat-tiles">
-        <div class="tile"><b>${lastTest ? esc(lastTest.level) : '—'}</b><span>Dernier test de niveau</span></div>
-        <div class="tile"><b>${lastMock ? lastMock.total : '—'}</b><span>Dernier TOEIC blanc /990</span></div>
+        <div class="tile"><b>${lastTest ? esc(lastTest.level) : 'Pas encore'}</b><span>Dernier test de niveau</span></div>
+        <div class="tile"><b>${lastMock ? lastMock.total : 'Pas encore'}</b><span>Dernier TOEIC blanc /990</span></div>
         <div class="tile"><b>${Object.keys(S.sets).length}</b><span>Séries TOEIC faites</span></div>
         <div class="tile"><b>${Object.values(S.activity).reduce((a, b) => a + b, 0)}</b><span>Réponses données</span></div>
       </div>`;
@@ -225,7 +225,7 @@
         <p class="muted" style="margin:8px 0 0;font-size:14px">Tu peux modifier tes dates dans <a href="#/progres">Progrès › Réglages</a>.</p>
       </div>
       ${LE.plan.phases.map((p) => `
-        <div class="phase-head"><span class="dot" style="background:${p.color}"></span><h2>Phase ${p.id} · ${esc(p.name)} <small class="muted">(semaines ${p.weeks[0]}–${p.weeks[1]} · ${esc(p.goal)})</small></h2></div>
+        <div class="phase-head"><span class="dot" style="background:${p.color}"></span><h2>Phase ${p.id} · ${esc(p.name)} <small class="muted">(semaines ${p.weeks[0]} à ${p.weeks[1]} · ${esc(p.goal)})</small></h2></div>
         <p class="muted">${esc(p.desc)}</p>
         ${LE.plan.weeks.filter((w) => w.n >= p.weeks[0] && w.n <= p.weeks[1]).map((w) => {
           const pr = LE.weekProgress(w);
@@ -331,7 +331,7 @@
     const [backHref, backLabel] = id === 't00' ? ['#/toeic', 'TOEIC'] : GROUP_BACK[e.group] || ['#/cours', 'Cours'];
     const nb = neighbors(id);
     const nextHref = nb.next ? `#/lecon/${nb.next.id}` : null;
-    document.title = `${L.title} — Learn English`;
+    document.title = `${L.title} · Learn English`;
 
     if (sub === 'exercices' && L.exercises && L.exercises.length) {
       const run = () => LE.runExercises(root, L.exercises, {
@@ -423,7 +423,7 @@
     if (!e) return V.notFound(root);
     let T;
     try { T = await LE.load(id); } catch (err) { return V.missing(root, e); }
-    document.title = `${T.title} — Learn English`;
+    document.title = `${T.title} · Learn English`;
     if (sub === 'cartes') {
       return LE.runFlashcards(root, LE.themeCards(T), { title: T.title, onDone: () => (location.hash = `#/vocab/${id}`) });
     }
@@ -501,7 +501,7 @@
         const last = res[res.length - 1];
         return `<a class="item${last ? ' done' : ''}" href="#/test/${m.id}"><span class="num">${last ? '✓' : '📏'}</span><span class="it-main"><span class="it-title">${esc(m.title)}</span><span class="it-sub">${last ? `Dernier résultat : ${esc(last.level)} (${LE.fmtDate(last.date)})` : '48 questions · 25 min'}</span></span></a>`;
       }).join('')}</div>
-      ${lastMock ? `<div class="card mt"><b>Ton dernier TOEIC blanc :</b> ${lastMock.total}/990 (Listening ${lastMock.scoreL}, Reading ${lastMock.scoreR}) — niveau estimé ${lastMock.level}.</div>` : ''}`;
+      ${lastMock ? `<div class="card mt"><b>Ton dernier TOEIC blanc :</b> ${lastMock.total}/990 (Listening ${lastMock.scoreL}, Reading ${lastMock.scoreR}), niveau estimé ${lastMock.level}.</div>` : ''}`;
   };
   function partCard(e) {
     const S = LE.state;
@@ -515,7 +515,7 @@
     if (!e || e.group !== 'toeic') return id === 't00' ? (location.hash = '#/lecon/t00') : V.notFound(root);
     let P;
     try { P = await LE.load(id); } catch (err) { return V.missing(root, e); }
-    document.title = `${P.title} — Learn English`;
+    document.title = `${P.title} · Learn English`;
     if (sub === 'serie') {
       const k = Number(n);
       const set = P.sets[k - 1];
@@ -602,7 +602,7 @@
           <p class="muted">${T.questions.length} questions · environ ${T.minutes} minutes · pas de correction avant la fin.</p>
           <div class="btn-row"><a class="btn" href="#/test/${id}/go">Commencer</a>${cat().placement.filter((x) => x.id !== id).map((x) => `<a class="btn secondary" href="#/test/${x.id}">${esc(x.title)}</a>`).join('')}</div>
         </div>
-        ${past.length ? `<div class="card"><h3 class="mt0">Tes résultats</h3><div class="table-wrap"><table class="t"><thead><tr><th>Date</th>${LEVELS.map((l) => `<th>${l}</th>`).join('')}<th>Niveau</th></tr></thead><tbody>${past.map((t) => `<tr><td>${LE.fmtDate(t.date)}</td>${LEVELS.map((l) => `<td>${t.byLevel[l] ? `${t.byLevel[l][0]}/${t.byLevel[l][1]}` : '—'}</td>`).join('')}<td><b>${esc(t.level)}</b></td></tr>`).join('')}</tbody></table></div></div>` : ''}`;
+        ${past.length ? `<div class="card"><h3 class="mt0">Tes résultats</h3><div class="table-wrap"><table class="t"><thead><tr><th>Date</th>${LEVELS.map((l) => `<th>${l}</th>`).join('')}<th>Niveau</th></tr></thead><tbody>${past.map((t) => `<tr><td>${LE.fmtDate(t.date)}</td>${LEVELS.map((l) => `<td>${t.byLevel[l] ? `${t.byLevel[l][0]}/${t.byLevel[l][1]}` : '-'}</td>`).join('')}<td><b>${esc(t.level)}</b></td></tr>`).join('')}</tbody></table></div></div>` : ''}`;
       return;
     }
     LE.runExercises(root, T.questions, {
@@ -685,8 +685,8 @@
       <div class="stat-tiles">
         <div class="tile"><b>🔥 ${LE.streak()}</b><span>jours de suite</span></div>
         <div class="tile"><b>${LE.learnedCount()}</b><span>mots appris</span></div>
-        <div class="tile"><b>${S.tests.length ? esc(S.tests[S.tests.length - 1].level) : '—'}</b><span>niveau (dernier test)</span></div>
-        <div class="tile"><b>${S.mocks.length ? S.mocks[S.mocks.length - 1].total : '—'}</b><span>dernier TOEIC blanc</span></div>
+        <div class="tile"><b>${S.tests.length ? esc(S.tests[S.tests.length - 1].level) : 'Pas encore'}</b><span>niveau (dernier test)</span></div>
+        <div class="tile"><b>${S.mocks.length ? S.mocks[S.mocks.length - 1].total : 'Pas encore'}</b><span>dernier TOEIC blanc</span></div>
       </div>
       <div class="card mt">
         <h2 class="mt0">Avancement</h2>

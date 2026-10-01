@@ -9,7 +9,7 @@ LE.catalog = {
   ],
 
   grammar: [
-    // Phase 1 — Fondations (A1)
+    // Phase 1 : Fondations (A1)
     { id: 'g01', title: 'Le verbe « be » au présent', level: 'A1', file: 'data/grammar/g01.js' },
     { id: 'g02', title: 'Pronoms, possessifs et génitif (’s)', level: 'A1', file: 'data/grammar/g02.js' },
     { id: 'g03', title: 'Les articles : a, an, the ou rien', level: 'A1', file: 'data/grammar/g03.js' },
@@ -25,7 +25,7 @@ LE.catalog = {
     { id: 'g13', title: 'Présent simple ou présent continu ?', level: 'A2', file: 'data/grammar/g13.js' },
     { id: 'g14', title: 'In, on, at : le lieu et le temps', level: 'A2', file: 'data/grammar/g14.js' },
     { id: 'g15', title: 'Can, can’t et l’impératif', level: 'A1', file: 'data/grammar/g15.js' },
-    // Phase 2 — Construire (A2)
+    // Phase 2 : Construire (A2)
     { id: 'g16', title: 'Le prétérit de « be » : was et were', level: 'A2', file: 'data/grammar/g16.js' },
     { id: 'g17', title: 'Le prétérit des verbes réguliers', level: 'A2', file: 'data/grammar/g17.js' },
     { id: 'g18', title: 'Les verbes irréguliers essentiels', level: 'A2', file: 'data/grammar/g18.js' },
@@ -41,7 +41,7 @@ LE.catalog = {
     { id: 'g28', title: 'Verbe + -ing ou verbe + to ?', level: 'B1', file: 'data/grammar/g28.js' },
     { id: 'g29', title: 'Les pronoms : compléments, réfléchis et indéfinis', level: 'A2', file: 'data/grammar/g29.js' },
     { id: 'g30', title: 'Les adverbes et les adjectifs en -ed / -ing', level: 'A2', file: 'data/grammar/g30.js' },
-    // Phase 3 — Accélérer (B1 → B2)
+    // Phase 3 : Accélérer (B1 → B2)
     { id: 'g31', title: 'Le present perfect continu', level: 'B1', file: 'data/grammar/g31.js' },
     { id: 'g32', title: 'Le past perfect (plus-que-parfait)', level: 'B1', file: 'data/grammar/g32.js' },
     { id: 'g33', title: 'Les conditionnels 0 et 1 (if, unless, when…)', level: 'B1', file: 'data/grammar/g33.js' },
@@ -103,13 +103,13 @@ LE.catalog = {
   ],
 
   toeic: [
-    { id: 't01', part: 1, title: 'Partie 1 — Photographies', level: 'A2', file: 'data/toeic/t01.js' },
-    { id: 't02', part: 2, title: 'Partie 2 — Questions-réponses', level: 'A2', file: 'data/toeic/t02.js' },
-    { id: 't03', part: 3, title: 'Partie 3 — Conversations', level: 'B1', file: 'data/toeic/t03.js' },
-    { id: 't04', part: 4, title: 'Partie 4 — Exposés', level: 'B1', file: 'data/toeic/t04.js' },
-    { id: 't05', part: 5, title: 'Partie 5 — Phrases à compléter', level: 'B1', file: 'data/toeic/t05.js' },
-    { id: 't06', part: 6, title: 'Partie 6 — Textes à compléter', level: 'B1', file: 'data/toeic/t06.js' },
-    { id: 't07', part: 7, title: 'Partie 7 — Compréhension écrite', level: 'B1', file: 'data/toeic/t07.js' }
+    { id: 't01', part: 1, title: 'Partie 1 : Photographies', level: 'A2', file: 'data/toeic/t01.js' },
+    { id: 't02', part: 2, title: 'Partie 2 : Questions-réponses', level: 'A2', file: 'data/toeic/t02.js' },
+    { id: 't03', part: 3, title: 'Partie 3 : Conversations', level: 'B1', file: 'data/toeic/t03.js' },
+    { id: 't04', part: 4, title: 'Partie 4 : Exposés', level: 'B1', file: 'data/toeic/t04.js' },
+    { id: 't05', part: 5, title: 'Partie 5 : Phrases à compléter', level: 'B1', file: 'data/toeic/t05.js' },
+    { id: 't06', part: 6, title: 'Partie 6 : Textes à compléter', level: 'B1', file: 'data/toeic/t06.js' },
+    { id: 't07', part: 7, title: 'Partie 7 : Compréhension écrite', level: 'B1', file: 'data/toeic/t07.js' }
   ],
 
   mock: [
@@ -118,7 +118,7 @@ LE.catalog = {
   ],
 
   placement: [
-    { id: 'x01', title: 'Test de niveau — version A', file: 'data/placement/x01.js' },
-    { id: 'x02', title: 'Test de niveau — version B', file: 'data/placement/x02.js' }
+    { id: 'x01', title: 'Test de niveau (version A)', file: 'data/placement/x01.js' },
+    { id: 'x02', title: 'Test de niveau (version B)', file: 'data/placement/x02.js' }
   ]
 };
